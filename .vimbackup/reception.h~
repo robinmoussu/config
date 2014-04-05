@@ -1,0 +1,80 @@
+#ifndef RECEPTION_H
+#define RECEPTION_H
+
+#include "common.h"
+
+/*
+ * fonctionnement d'un capteur sous forme d'une machine à état
+ *
+ * Attente du bit de start.
+ * Initialisation de trois booléens (un par tourelle) à vrai. Cela veux dire que la trame en cours de réception peux correspondre à la l'identifiant de la tourelle.
+ * Pour chacun des bits
+ *     Attente du bit suivant.
+ *     Pour chaque tourelle
+ *         Si le bit correspond, on ne fait rien.
+ *         Sinon, on met le booléen correspondant à la tourelle à faux et on signale que la trame reçu est fausse.
+ *     Fin pour
+ *     On recommence la boucle, si au moins un des booléens correspondant aux tourelles est encore à vrai.
+ *     Sinon, on recommence au début.
+ * Fin pour
+ * On vérifie la présence du bit de stop.
+ * Si toutes les étapes précédantes sont validées, alors on signale que la trame reçu est valide pour la tourelle correspondate (celle ou le booléen est encore à vrai).
+ *
+ * Il faut également s'assurer après la reception d'une trame + le temps inter trame que l'on reçoit une nouvelle trame. En cas de non reception, il faut signaler que la trame reçu est fausse.
+ *
+ */
+
+enum Next_op {
+    OP_START,
+    OP_BIT,
+    OP_STOP
+}
+
+// Etat interne des capteurs
+typedef struct {
+    bool t1,t2,t3;
+    int bit_num;
+    const int id_capteur;
+
+    Next_op next_op;
+} Capteur_state;
+
+// De manière à simplifier le code, et vu que le nombre de tourelle ne changera pas, l'état des capteur est défini de manière globale
+const int NB_CAPTEUR = 16;
+typedef bool Etat_capteur[NB_CAPTEUR];
+Etat_capteur tourelle_1, tourelle_2, tourelle_3;
+
+/*!
+ * \abstract Teste si un bit de start est présent. Si oui, initialise l'état du capteur.
+ * \param Capteur_state Etat interne du capteur.
+ * \param b Bit reçu sur le capteur.
+ * \return true si le bit est un bit de start.
+ */
+bool is_bit_start(Capteur_state *c, Bit b);
+
+/*!
+ * \abstract Test la validité d'un bit pour chacune des tourelle, et met à jour l'état interne du capteur en conséquence, ainsi que les tableau Etat_capteur en cas de non validité.
+ * \param Capteur_state Etat interne du capteur.
+ * \param b Bit reçu sur le capteur.
+ * \return vrai si le bit est valide pour au moins une des tourelle.
+ */
+bool is_bit_valid(Capteur_state *c, Bit b);
+
+/*!
+ * \abstract Verifie que le bit de stop est bien présent. Si c'est le cas, met à jour les tableaux Etat_capteur.
+ * \param Capteur_state Etat interne du capteur.
+ * \param b Bit reçu sur le capteur.
+ * \return true si le bit était un bit de stop.
+ */
+bool is_bit_stop(Capteur_state *c, Bit b);
+
+/*!
+ * \abstract "Lisse les capteur"
+ * Si plusieurs bit d'un capteur sont actif en même temps (ce qui signifie que la même tourelle est détecté plusieurs fois), alors, il faut qu'il n'en reste plus qu'un.
+ * \param e Le tableau de bits correspondant aux capteurs actifs
+ * \param position Position de la tourelle (la moyenne de la position des capteurs
+ */
+void lissage(Etat_capteur e, int position);
+
+
+#endif

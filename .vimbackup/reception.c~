@@ -1,0 +1,71 @@
+#include "reception.h"
+
+bool is_bit_start(Capteur_state *c, Bit b)
+{
+    if (b == BIT_START) {
+        c->t1 = true;
+        c->t2 = true;
+        c->t3 = true;
+        c->bit_num = 0;
+        // instruction suivante = is_bit_valid
+        // interuption suivante = interuption + (3*DUREE_BIT_MS)/2;
+        return true;
+    } else {
+        // instruction suivante = is_bit_start
+        // interuption suivante = TIMER + DUREE_ATTENTE_MS;
+        return false;
+    }
+}
+
+bool is_bit_valid(Capteur_state *c, Bit b)
+{
+    c->bit_num++;
+
+    if (trame1[c->bit_num] != b) {
+        c->t1 = false;
+        tourelle_1[c->id_capteur] = false;
+    }
+    if (trame2[c->bit_num] != b) {
+        c->t2 = false;
+        tourelle_2[c->id_capteur] = false;
+    }
+    if (trame3[c->bit_num] != b) {
+        c->t3 = false;
+        tourelle_3[c->id_capteur] = false;
+    }
+
+    if (t1 || t2 || t3) {
+        // interuption suivante = interuption + (3*DUREE_BIT_MS)/2;
+        if (c->bit_num < NB_BIT) {
+            // instruction suivante = is_bit_valid
+        } else {
+            // instruction suivante = is_bit_stop
+        }
+    } else {
+        // instruction suivante = is_bit_start
+        // interuption suivante = TIMER + DUREE_ATTENTE_MS;
+        return false;
+    }
+}
+
+bool is_bit_stop(Capteur_state *c, Bit b)
+{
+    c->bit_num++;
+
+    if (b == BIT_STOP) {
+        tourelle_1[c->id_capteur] = c->t1;
+        tourelle_2[c->id_capteur] = c->t2;
+        tourelle_3[c->id_capteur] = c->t3;
+        // instruction suivante = is_bit_valid
+        // interuption suivante = interuption + (3*DUREE_BIT_MS)/2;
+        return true;
+    } else {
+        tourelle_1[c->id_capteur] = false;
+        tourelle_2[c->id_capteur] = false;
+        tourelle_3[c->id_capteur] = false;
+        // instruction suivante = is_bit_start
+        // interuption suivante = TIMER + DUREE_ATTENTE_MS;
+        return false;
+    }
+}
+

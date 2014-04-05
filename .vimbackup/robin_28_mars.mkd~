@@ -1,0 +1,31 @@
+<!--
+# AUTHOR:   robin_arch
+# FILE:     robin_28_mars.mkd
+# ROLE:     TODO (some explanation)
+# CREATED:  2014-03-28 14:48:59
+# MODIFIED: 2014-03-28 15:10:41
+-->
+
+# Schéma général #
+Le schéma d'émission est le suivant :
+
+\begin{equation}
+    \begin{array}{r c c c c c c c c c c c c c c c}
+    \text{tourelle 1 : } & x &   &   &   & x &   &   &   & x &   & x &   & & x \\
+    \text{tourelle 2 : } & x &   &   &   & x &   & x &   &   &   &   &   & & x \\
+    \text{tourelle 3 : } & x &   & x &   &   &   &   &   & x &   &   &   & & x \\
+    \end{array}
+\end{equation}
+
+Ce motif est répété 2 fois par secondes, ce qui fait qu'une tourelle sera la seule à emmetre 2 fois par secondes, et que chaque tourelle emmettent 8 bits par secondes. Ainsi un bit durera environ 3,4 ms.
+
+# Réception #
+
+Un bit dure 3,4ms. De manière à ce que ce bit soit correctement détecté, il faudrais faire un test tout les 500µs, soit à une fréquence de 2kHz. Il sera donc analysé 7 fois par période. Avec une horloge à 32kHz, cela necessite d'utiliser un préscaleur à 16 (soit $2^4$). En utilisant l'horloge du PIC, cadencé à 1Mhz, il faut un préscaleur de 500, qui peut être arrondis à un préscaleur de 512 (soit $2^9$).
+
+En ayant un TIC tout les 500µs, le timer débordera au bout de $65535 * 0,0005 = 32$ secondes ce qui est insufisant.
+
+## timer ##
+
+Le timer 1 semble pouvoir être utilisé avec un oscilateur à 32kHz. Dans le cas ou l'on doive utiliser l'oscilateur interne, le prédiviseur ne peut pas aller au dela de 256.
+

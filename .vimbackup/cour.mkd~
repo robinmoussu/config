@@ -1,0 +1,353 @@
+<!--
+# AUTHOR:   robin_arch
+# FILE:     /home/common/cour/1ere_annee_phelma/ondes/cour.mkd
+# ROLE:     TODO (some explanation)
+# CREATED:  2014-03-24 15:50:22
+# MODIFIED: 2014-03-31 17:12:08
+# PROFESOR: ane.vilcot@phelma.grenoble-inp.fr
+-->
+
+\newcommand \grad[1]{%
+  \overrightarrow{\mathit{grad}} #1
+  %
+}
+\newcommand \rot[1]{%
+  \overrightarrow{\mathit{rot}} #1
+  %
+}
+\newcommand \rote[1]{%
+  \overrightarrow{\mathit{rot}}\overrightarrow{#1}
+  %
+}
+\newcommand \vecs[1]{%
+  \overrightarrow{\mathcal{#1}}
+  %
+}
+\newcommand \xxc [1] {
+    \mathit{#1} (u,v,z)
+}
+
+\newcommand \dd {
+    \mathit{d}
+}
+
+ELECTROMAGNÉTISME GUIDÉ
+=======================
+
+\newpage
+
+\part{Rappels d'électromagnétique}
+
+
+
+
+
+
+# Introduction #
+
+Maxwell : propagation guidé
+
+## Préliminaire ##
+ 
+
+\begin{tabular}{r l}
+Champ électrique & $\overrightarrow{E} (V \cdot m^-1)$ \\
+Induction électrique & $\overrightarrow{D} (As.m^{-1})$ \\
+    \hline
+Dans les milieux linéaires : & $\overrightarrow{D} = \epsilon\cdot\overrightarrow{E}$ \\
+    \hline
+Permitivité absolue du milieu ( $AsV^{-1}m^{-1}$) & $\epsilon$ \\
+Permitivité absolue de l'air ou du vide & $\epsilon_0$ \\
+Permittivité relative du milieu & $\epsilon_r$  \\
+& $\epsilon_0 = \frac{1}{36 \pi 10^9}$ \\
+& $\epsilon = \epsilon_r \epsilon_0$ \\
+\\
+Le champ magnétique &  $\overrightarrow{H} (A.m^{-1}) $ \\
+Induction magnétique & $\overrightarrow{B} (V s m^{-2}$ ou T) \\
+\hline
+$\overrightarrow{B} = \mu \overrightarrow{H}\text{ dans les milieux linéaires}$ \\
+\hline
+\\
+Perméabilité absolue du milieu & $\mu$ \\
+Perméabilité absolue du vide ou de l'air & $\mu_0$ \\
+& $\mu4 \pi 10^{-7} (V s A^{-1} m^{-1})$    \\
+& $\mu_0\mu_r \mu_0$    \\
+Perméabilité relative du milieu & $\mu_r$ \\
+La plupart du temps, $\mu_r = 1 $ (sauf & \\
+dans les milieux magnétiques)  & \\
+\\
+Densité de charges volumiques & $\rho ( C m^{-3})$ \\
+Densité de charges surfaciques & $\rho_S (C m^{-2})$ \\
+Densité de courant & $\overrightarrow{j} (A m^{-2})$ \\
+\hline
+& $\overrightarrow{j} = \overrightarrow{j_c} + \overrightarrow{j_d} \text{ (ondulution + déplacement)}$ \\
+\hline
+& $\overrightarrow{j_c} = \sigma \overrightarrow{E}$ (loi d'ohm) \\
+& $\overrightarrow{j_d} = \frac{\partial\overrightarrow{D}}{\partial t}$ \\
+& $\sigma =$ conductivité du milieu $(S.m^{-1})$ \\
+\end{tabular}
+
+\underline{Définitions :}
+\begin{tabular}{r l}
+\emph{homogènes :} & invariant dans l'espace \\
+\emph{isotropes :} & identique dans toutes les directions – coordonées – de l'espace. \\
+\end{tabular}
+
+Dans ce cour, on considère :   
+- Milieux linéaires, homogènes, isotropes.   
+- Régime harmonique du temps $\hookrightarrow$ notation complexes
+
+## Plan du cour ##
+ 
+
+Chap 1 : Intro   
+Chap 2 : Ondes guidées   
+chap 3 : Guides métalliques   
+chap 4 : Guides diélectriques   
+chap 5 : Cavités électromagnétiques
+
+# Rappel des équations de Maxwell en régime harmonique du temps #
+
+## Conditions de travail ##
+ 
+
+\begin{tabular}{r l}
+Milieux considérés : & \boxed{\epsilon, \mu, \sigma} \\
+Les pertes diélectriques : & $\epsilon_c = \epsilon' - j \epsilon''$ \\
+& $\epsilon', \epsilon'' > 0$ \\
+& $\overrightarrow{\mathcal D} = \epsilon_c \vecs{E}$ \\
+\end{tabular}
+
+\begin{tabular}{r l}
+$\delta_e $&$=$ angle de perte diélectriques \\
+$\tan \delta_e $&$= \frac{\epsilon''}{\epsilon'}$ \\
+$\epsilon_c $&$= \epsilon_r \epsilon_0 (1-j \tan \delta_e)$ \\
+\end{tabular}
+
+\begin{tabular}{r l}
+pertes magnétiques : & \boxed{\mu_c = \mu' -j \mu''} \\
+& $\mu', \mu'' > 0$ \\
+& $\vecs B = \mu_c \vecs H $ \\
+angle de pertes magnétiques & $\delta_m$ \\
+& $\tan\delta_m = \frac{\mu''}{\mu'}$ \\
+& $\mu_c = \mu_r \mu_0 (1 - j \tan \delta_m)$ \\
+\end{tabular}
+
+Pertes par conduction : $\sigma \ne 0$   
+
+Pemitivité complexe apparente : 
+
+- $\epsilon_{co} = \epsilon_c - j \frac{\sigma}{\omega} = \epsilon' - j (\epsilon'' + \frac{\sigma}{\omega})$
+- $\delta_{co} =$ angle de pertes diélectriques apparentes
+- $\tan \delta_{co} = \frac{\epsilon'' + \frac{\sigma}{\omega}}{\epsilon'}$
+
+$$\overrightarrow{E} (x,y,z,t) = \Re [\vecs{E} (x,y,z) \cdot e^{j\omega t}]$$
+$$\overrightarrow{H} (x,y,z,t) = \Re [\overrightarrow{\mathcal{H}} (x,y,z) \cdot e^{j\omega t}]$$
+
+En régime permanant, $\rho = 0$
+
+## Équation de Maxwell en régime harmonique du temps ##
+
+\begin{equation}
+\left \{
+    \begin{array}{r l l}
+    \rot{\vecs E} &= -j \omega \mu_c \vecs H &(1) \\
+    \rot{\vecs H} &= j \omega \epsilon_c \vecs E + \sigma \vecs E &(2) \\
+    div \vecs D &= 0 &(3) \\
+    div \vecs B &= 0 &(4) \\
+    \end{array}
+\right .
+\end{equation}
+
+\begin{equation}
+\left \{
+    \begin{array}{r l}
+    \rot{\vecs H} &= j \omega \vecs E (\epsilon_c + \frac{\sigma}{j \omega}) \\
+    \rot{\vecs H} &= j \omega \epsilon_{co} \vecs E \\
+    \end{array}
+\right .
+\end{equation}
+
+Avec $\vecs{D} = \epsilon_c \vecs{E}$ et $\vecs{B} = \mu_c \vecs{H}$. De plus $\epsilon_{co} = \epsilon_c - j \frac{\sigma}{\omega}$
+
+# Equation de continuité #
+
+## Interface entre 2 milieux ##
+
+\begin{equation}
+\left \{
+    \begin{array}{l l}
+    \overrightarrow{e t_2} - \overrightarrow{e t_1} &= \overrightarrow{0} \\
+    \overrightarrow{b t_2} - \overrightarrow{b t_1} &= \overrightarrow{0} \\
+    \overrightarrow{d m_2} - \overrightarrow{d m_1} &= \rho_s \overrightarrow{n_{1 2}} \\
+    \overrightarrow{n_{1 2}} \wedge (\overrightarrow{h t_1} - \overrightarrow{h t_1}) &= \overrightarrow{j_s} \\
+    \end{array}
+\right .
+\end{equation}
+
+- indice "t" $\rightarrow$ tangeantiel
+- indice "n" $\rightarrow$ normal
+- $\overrightarrow{n_{1 2}} =$ normale unitaire $(1) \rightarrow (2)$
+- $\rho_s$ : peut exister si l'un des deux milieux présente des pertes
+- $\overrightarrow{j_s}$ densité surfacique de courant. Peut exister uniquement si l'un des deux milieux est un *conducteur parfait* ($\sigma \rightarrow \infty$).
+
+## Comportement à l'infini ##
+
+Les champs décroissant et tendent vers zéro, quand on s'étend transversalement vers l'infini.
+
+# Équation d'onde #
+- $(1)\ \rot{\vecs E } = -j \omega \mu_c \vecs{ H }$
+- $(2)\ \rot{ ( \rot{ \vecs E })} = \rot{(-j \omega \mu_c \vecs H )}$
+- $(3)\ \grad{ \cdot div{\vecs{E} }} - \overrightarrow{\Delta \mathcal E} = -j \omega \mu_c \cdot \rot{\vecs H } $
+- $(4)\ \overrightarrow{\Delta \mathcal E} = -j \omega \mu_c \cdot j \omega \epsilon_{co} \overrightarrow{\mathcal E}$
+
+$\boxed{\overrightarrow{\Delta \mathcal E } + \omega^2 \epsilon_{co} \mu_c \overrightarrow{\mathcal E } = \overrightarrow{0}}$
+
+De même : $\boxed{\overrightarrow{\Delta \mathcal H } + \omega^2 \epsilon_{co} \mu_c \overrightarrow{\mathcal{H}} = \overrightarrow{0}}$
+
+\newpage
+
+\part{ Ondes guidées par un système de transmission rectiligne et uniforme }
+
+
+
+
+
+# Introduction #
+
+## Préliminaires ##
+
+Direction longitudinale sur $O_z$ (= direction de propagation)
+
+## Principaux systèmes de transmission ##
+
+- ligne bifilaire :
+    + Structure ouverte.
+    + Deux conducteur parallèles
+
+-cable coaxial
+    + ame + gaine
+    + conducteur externe suffisament fin pour que l'effet de peau entre en jeu.
+
+- guide circulaire
+    + uniquement pour les fréquenecs hautes
+    + utilisé pour des propagatinos asymétriques circulaires
+    + cf schéma 1
+
+- guide métallique rectangulaire
+    + idem guide circulaire mais pour les ondes circulaires
+    + grandes puissances
+    + très robustes
+    + non minuaturisable
+
+## Étude de la propagation le long de 0z ##
+
+### Préliminaires ###
+
+On se place dans une section uniforme. L'axe de propagation choisi est l'axe 0z.
+$$\vecs{E} = \vecs{E_\tau} + \overrightarrow{n} \mathrm{E}_z$$
+$$\vecs{H} = \vecs{H_\tau} + \overrightarrow{n} \mathrm{H}_z$$
+
+indice $\tau$ : transversal
+$$\overrightarrow{n} = \overrightarrow{ez}$$
+
+### Évolution du cham avec z ###
+
+#### Étude dans un milieu de la section transverse ####
+ 
+
+Dans le milieu i, les coordonnées sont (u,v,z). L'équation de propagation est vérifié si $\xxc{V}$ : une des 6 composantes du champ electromagnétique.
+
+$$\Delta \xxc{V} + + \omega^2\epsilon_{co}\mu_c \xxc{N} = 0 (a)$$
+\begin{tabular}{rl}
+$\mu_c = \mu' - j \mu''$ & $\mu', \mu'' \geq 0$ \\
+$\epsilon_c = \epsilon' - j \epsilon''$ & $\epsilon', \epsilon'' \geq 0$ \\
+\end{tabular}
+<!--$\epsilon_{co} = \epsilon_c - j \frac{}{}$ kkkkkkkkkkkkkkkkk-->
+
+<!--$$ \xxc{V} = f(u,v)\cdot g(z)$$-->
+<!--kkkkkkkkkkkkkkk-->
+
+
+$$ \frac{\Delta f(u.v)}{f(u,v)} + \frac{B}{g(z)} \frac{\dd^2g(z)}{\dd z^2} + \omega^2 \epsilon_{co} \mu_c = 0, \forall u,v,z (b) $$
+Les trois membre des gauche dépendent respectivement de (u,v), de z et est constant.
+
+$$\frac{1}{g(z)} \frac{\dd^2 g(z)}{\dd z^2} = \text{constante} = \rho^2$$
+$$\frac{\dd^2 g(z)}{\dd z^2} = (\pm) kkkkkkkkkkkkkkkkkkkkkk$$
+
+\begin{displaymath}
+\left \{
+\begin{tabular}{rl}
+$\xxc{H_x}$ &= $h_x(x,y) e^{\pm \rho_1 z}$ \\
+$\xxc{H_y}$ &= $h_y(x,y) e^{\pm \rho_2 z}$ \\
+$\xxc{H_z}$ &= $h_z(x,y) e^{\pm \rho_3 z}$ \\
+\end{tabular}
+\right .
+\end{displaymath}
+
+or div $\vecs{H} = \overrightarrow{0} \forall x,y,z \hookrightarrow \rho_1 = \rho_2 = \rho_3$
+$\rote{H} = j kkkkkkkkkkkkkkkkk$
+
+#### Extension à l'ensemble des milieux ####
+ 
+
+2 milieux i ($\rho_i$) et i+1 ($\rho_{i+1}$) accolés.
+$\mathit{E}_z$ tangeantiel à l'enterfac entre i et i+1.
+
+Les conditions de continuités sont :
+$$\mathit{E}_z (v_0,v_0,z) = \mathit{E}_{z_{i+1}} (u_0,v_0,z) \forall z$$
+$$e_{zi} (vo,vo) e^{-i} kkkkkkkkkkkkkkk$$
+
+\begin{tabular}{rl}
+$\Gamma$ &= $\alpha_g + j \beta_g , \alpha_g, \beta_g \leq 0$ \\
+$\alpha_g$ &= constante de perte (Np$m^-1$) \\
+$\beta_g$ &= constante de phase (rad.$m^{-1}$) \\
+\end{tabular}
+
+#### Résumé ####
+
+On défini dans chaque milieu i, 
+\begin{displaymath}
+\text{Pour les z croissant, en } 0^+
+\left \{
+\vecs{E_i^+} = \vecs{E_{\tau i}^+ + \overrightarrow{n} \mathit{E}_{z i}^+} = (\overrightarrow{e_{zi}}(u_i,r) + \overrightarrow{n}e_{zi}(u_i,r))e^{-\rho z} \\
+\vecs{H_i^+} = \vecs{H_{\tau i}^+ + \overrightarrow{n} \mathit{H}_{z i}^+} = (\overrightarrow{h_{zi}}(u_i,r) + \overrightarrow{n}h_{zi}(u_i,r))e^{-\rho z} \\
+\right .
+\text{Pour les z décroissant, en } 0^-
+\left \{
+\vecs{E_i^+} = \vecs{E_{\tau i}^+ + \overrightarrow{n} \mathit{E}_{z i}^+} = (\overrightarrow{e_{zi}}(u_i,r) + \overrightarrow{n}e_{zi}(u_i,r))e^{+\rho z} \\
+\vecs{H_i^+} = \vecs{H_{\tau i}^+ + \overrightarrow{n} \mathit{H}_{z i}^+} = (\overrightarrow{h_{zi}}(u_i,r) + \overrightarrow{n}h_{zi}(u_i,r))e^{+\rho z} \\
+\right .
+\end{displaymath}
+
+\begin{tabular}{rcl}
+Modes TEM & Ez = 0 & Hz = 0 (Transversal ElectroMagnétique) \\
+Mode TE & Ez = 0 & Hz $\neq$ 0 \\
+Mode TM & Ez $\neq$ 0 & Hz = 0 \\
+\end{tabular}
+
+## Relations entre les composantes transversales et langitudinales du champ.
+
+### Préliminaires ###
+ 
+
+$$\Delta_{e_z} (u,v) + K_c^2 e_z(u,v) = 0$$
+$$\Delta_{h_z} (u,v) + K_c^2 h_z(u,v) = 0$$
+
+\begin{displaymath}
+\left \{
+\rote{E} = -j \omega \mu_c \vecs{H} \\
+\rote{H} = j \omega \epsilon_{co} \vecs{E}
+\text{div }\overrightarrow{E} = 0
+\text{div }\overrightarrow{H} = 0
+\right .
+\end{displaymath}
+
+### Equation génératrices ###
+ 
+
+$$(ez,hz_i) \rightarrow (\overrightarrow{e_{\tau i}}, \overrightarrow{h_{\tau i}})$$
+$$\vecs{E_i} (u,v,z) = [\overrightarrow{e_{zi}}]
+
+kkkkkkkkkkkkkkkkkkk
+

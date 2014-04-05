@@ -1,0 +1,37 @@
+<!--
+# AUTHOR:   robin_arch
+# FILE:     exo.mkd
+# ROLE:     TODO (some explanation)
+# CREATED:  2014-03-31 10:42:19
+# MODIFIED: 2014-03-31 11:38:26
+-->
+
+#TD1
+
+| instruction    | mode d'adressage source, 1er opérande | mode d'adressage 2eme opérande et/ou destination |
+-------------------------------------------------------------------------------------------------------------
+|MOV #1234, r4   | immédiat                              | registre                                         |
+-------------------------------------------------------------------------------------------------------------
+|MOV &200, r6    | absolu                                | registre                                         |
+-------------------------------------------------------------------------------------------------------------
+|MOV r4, r6      | registre                              | registre                                         |
+-------------------------------------------------------------------------------------------------------------
+|MOV @r5, r6     | indirect registre                     | registre                                         |
+-------------------------------------------------------------------------------------------------------------
+|ADD @r5+, 2(r6) | indirect registre post incrémenté     | registre + déplacement                           |
+-------------------------------------------------------------------------------------------------------------
+
+# directive d'assemblage #
+
+NAME : nom du programme
+PUBLIC : rend le label visible de l'exterieur
+RSEG : segment relogeable
+ASEGN : segment absolu avec nom et adresse
+EQU : défini la valeur d'une étiquette
+DS8 n, DS16 n : allocation de n entiers sur 8 et 16 bits
+DS8 data, DC16 data : code la donnée data (constante) sur 8, 16 bits;
+END : fin du programme à assembler
+
+# Nom du microprocesseur #
+
+MSP430G 2452

@@ -1,0 +1,9 @@
+# Text File
+# AUTHOR:   robin_arch
+# FILE:     .vimrc.mkd
+# ROLE:     TODO (some explanation)
+# CREATED:  2014-03-31 13:29:35
+# MODIFIED: 2014-03-31 13:31:53
+
+            "export"
+            autocmd Filetype txt nnoremap <F3> :wa <CR> :!pandoc -s expand('%:t') -o 

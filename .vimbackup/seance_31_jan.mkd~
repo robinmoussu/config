@@ -1,0 +1,49 @@
+# Compte Rendu 31 janvier #
+
+## travail fait ##
+discussion technologie à choisir, rôle de chacun
+
+## solutions ##
+
+- laser
+    méca trop dure -> NON
+
+- ultrason
+    RSB mauvais
+
+- IR
+    réflexion
+    RSB à traiter
+    pas cher
+    simple
+    -> robin
+
+- traitement d'image
+    précision ?
+    Pas d'électronique
+    Programmation complexe.
+    -> wafa et ojeme
+
+- Wifi/Bluetooth
+    émetteur, récepteur, prix, acquisition, traitement ?
+    -> nicolas et rania
+
+
+## question à poser ##
+
+Cahier des charges :
+- Précision de la position
+- Fréquence d'envoi
+
+## Séance prochaine ##
+
+- Présentation de toutes les solutions + choix.
+    - prix
+    - matériel
+    - avantages / inconvénients
+- Lire rapport.
+- Familiarisation avec svn.
+- Gantt et budget.
+
+
+

@@ -1,0 +1,8 @@
+
+let g:spf13_no_fastTabs = 1
+set wrap
+set showbreak=>\ \ \ 
+
+
+let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'misc', 'latex']
+

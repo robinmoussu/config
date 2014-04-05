@@ -1,0 +1,33 @@
+# Seance du 14 fev #
+
+Il y a eu deux groupe de travail : un s'est occupé de l'électronique, l'autre à découvert les pics
+
+## pics ##
+
+### Resumé de la seance ###
+Compte rendu : séance de 14/02/2014
+
+Partie traitée :
+initiation à la partie programmation du projet.
+
+Membres engagés : 
+- Wafa BEN HADJ SGHAIER
+- Ojeme
+- Robin Moussu
+
+Taches réalisées : 
+Coder en C quelques fonctions préliminaires qui seront utiles pour l'écriture des suites des algorithmes:
+- allumer une Led particulière.
+- allumer deux Led de façon croisée ( Lorsque une Led s’allume la deuxième s’éteint et inversement) pendant un intervalle de temps précis.
+- fonction Timer : qui permet de compter une période donnée à partir de la période  de l’horloge interne du pic et des coefficient qu’on adaptera en fonction du besoin.
+
+Difficultés rencontrées :
+- Identifier les différents registres sur le DATASHEET ( qui fait plus que 400 pages )
+- Trouver la période de l’oscillateur du pic ( Tosc )
+
+## electronique ##
+Membre :
+- rania et nicolas
+
+Resumé de la seance 
+- voir fichier odt joint (pour les images)

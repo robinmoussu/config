@@ -1,0 +1,64 @@
+"3.8.1 (created: 2013/11/21 23:49:14)
+
+cmapc
+
+let mapleader = ","
+
+inoremap <C-e> i_<C-i>
+noremap c h
+noremap r l
+noremap t j
+noremap s k
+noremap C H
+noremap R L
+noremap zs zj
+noremap zt zk
+noremap l c
+noremap L C
+noremap h r
+noremap H R
+noremap k s
+noremap [k [s
+noremap gs gt
+noremap gt gT
+noremap <PageDown> gt
+noremap <PageUp> gT
+noremap gJ :exe<Space>"silent!<Space>tabfirst"<Return>
+noremap gÉ :exe<Space>"silent!<Space>tablast"<Return>
+noremap t <C-w>j
+noremap s <C-w>k
+noremap c <C-w>h
+noremap r <C-w>l
+noremap d <C-w>c
+noremap o <C-w>s
+noremap p <C-w>o
+noremap <Space> :split<Return>
+noremap <Return> :vsplit<Return>
+noremap <F2> <C-/>
+noremap a a<Space>-tags<Space>
+noremap v <C-k>
+noremap V T<Space><Space><Space><Space><Space><Space><Space><Space>
+noremap T <C-d><Space><Space><Space><Space>
+noremap S <C-u><Space><Space><Space><Space>
+noremap j :bmarks!<Space>-tags=
+noremap J :bmarks!<Space>
+noremap d D
+noremap D d
+noremap <F4> <C-S-E>
+noremap <F5> <C-`>
+noremap <C-p> :winopen<Space>-private<CR>
+noremap x :tabgroups<Space>switch<Space>
+noremap X :tabgroups<Space>pushtab<Space>
+set editor="terminology -e 'vim -f' "
+set hintchars=auietsrn
+set hintmatching=contains
+set followhints=0
+set defsearch=duckduckgo
+source! /home/robin_arch/.vimperatorrc.local
+
+noremap §r :source ~/.vimperatorrc<Return>
+noremap gq <C-^>
+noremap k HyLtp
+
+
+" vim: set ft=vimperator:

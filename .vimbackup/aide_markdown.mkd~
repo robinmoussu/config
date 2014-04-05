@@ -1,0 +1,7 @@
+# Petit conseil pour le markdown #
+
+Le markdown est un langage très simple à utiliser. Voici le [site officiel](http://daringfireball.net/projects/markdown/syntax), et un lien sur [stackoverflow](http://stackoverflow.com/editing-help) plus simple d'utilisation.
+
+Pour convertir des fichier markdown en pdf, le plus simple est d'installer pandoc et de l'utiliser de la manière suivante :
+
+    pandoc -s source.mkd -o destination.pdf

@@ -1,0 +1,11 @@
+" Vim File
+" AUTHOR:   robin_arch
+" FILE:     .vimrcmkd
+" ROLE:     TODO (some explanation)
+" CREATED:  2014-03-31 13:30:12
+" MODIFIED: 2014-03-31 17:13:05
+
+"export"
+nnoremap <F4> :wa <CR> :!pandoc -s cour.mkd -o cour.pdf --latex-engine=xelatex && zathura cour.pdf <CR>
+nnoremap <F10> /\$([^$]*\$ <CR>
+nnoremap <F11> /\$\$[^$]*\$\$ <CR>

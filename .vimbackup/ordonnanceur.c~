@@ -1,0 +1,128 @@
+// C/C++ File
+// AUTHOR:   robin_arch
+// FILE:     ordonnanceur.c
+// ROLE:     TODO (some explanation)
+// CREATED:  2014-03-31 09:49:19
+// MODIFIED: 2014-04-03 08:36:22
+
+typedef union {
+    false,
+    true
+} bool;
+
+#define NULL 0
+
+
+
+#define NB_TIMED_INSTRUCTIONS       16
+#define NB_NOT_TIMED_INSTRUCTIONS   20
+
+#define T_MAX 0xFFFFFFFF
+
+
+
+typedef int     Time;
+typedef void*   Args;
+void (Op*) (Args args);    /// < Pointeur vers une fonction à exécuter. Prend un paramètre un pointeur sur les vrais paramètres de la fonction.
+
+/// Les informations utilisés par l'ordonnanceur pour chacune des fonctions
+typedef struct {
+    Op          op;     // < la prochaine fonction à exécuter
+    Arg         args;   // < un pointeur vers les arguments à passer à la fonction
+    Time        t_next; // < le moment auquel l'instruction doit être réveillé si necessaire
+} Op_context;
+
+Time        TIMER;
+
+// Abréviations
+// opnt = operation not timed
+// opt  = operation timed
+
+/** Pointeur sur les fonctions à exécuter
+ * \param ops Tableau contenant les différentes fonctions 
+ */
+Op_context* opt_next_op (Op_context **ops, int nb_ops);
+
+/** \brief Exécute les fonctions dans l'ordre prévu, les opérations devant être exécuté à un moment donné en premier, puis les autres opérations.
+ *  À chaque tour de boucle, on cherche à exécuter une opération timé, et uniquement si il n'y en a pas, on exécute la prochaine opération non timé.
+ */
+void ordonnanceur()
+{
+    Op_context  *opt_context  [NB_TIMED_INSTRUCTIONS];      /// < La liste des opérations devant avoir lieu à un moment donné (t = time)
+    Op_context  *opnt_context [NB_NOT_TIMED_INSTRUCTIONS];  /// < Les autres opérations (nt = not timed)
+    Op_context  *opt_next;  /// < La prochaine opération ayant lieu à un moment donné (celle ayant le champ t_next le plus petit dans opt_context)
+    int         opnt_next;  /// < L'indice de la prochaine opération non timé à exécuter
+
+    opt_init();
+    opt_next_time();
+
+    opt_next = opt_next_op(opt_context, NB_TIMED_INSTRUCTIONS);
+    opt_next = 0;
+
+    while(1){
+        if ((opt_next != NULL) && (t_min > TIMER)) {
+            opt_next->op(opt_next->args);
+            opt_next = opt_next_op(opt_context, NB_TIMED_INSTRUCTIONS);
+        } else {
+            // les opérations ne devant pas avoir lieu à un temps donné sont non prioritaires
+            if (opnt_context[opnt_next]) {
+                opnt_context[opnt_next]->op(opnt_context[opnt_next]->args);
+                opnt_next ++;
+            } else {
+                opnt_next = 0;
+            }
+        }
+    }
+}
+
+Op_context* opt_next_op (Op_context **ops, int nb_ops)
+{
+    int        i;
+    Time       t_min;
+    Op_context *op_next = NULL;
+
+    for (t_min = T_MAX, i=0; i < nb_ops; i++>) {
+        if ((ops[i]) && (t_min > ops[i]->t_next)) {
+            t_min = ops[i]->t_next;
+            op_next = opt[i];
+        }
+    }
+
+    return op_next;
+}
+
+// Regroupe toutes les opérations non timé dans le début du tableau (pour optimisation)
+void op_sort (Op_context **ops, int nb_ops)
+{
+    int i;
+    int i_free = 0;
+
+    for (i = 0; i < nb_ops; i++) {
+        if (ops[i]) {
+            ops[i_free++] = ops[i];
+        }
+    }
+}
+
+/** \abstract Ajoute une opération au tableau d'opération
+ * \return true si l'opération s'est bien passé, false si il n'y a plus de place
+ */
+bool op_add (Op_context **ops, int nb_ops, Op_context *op_new)
+{
+    int i;
+
+    for (i = 0; i < op_new; i++) {
+        if (!(ops[i])) {
+            ops[i] = op_new;
+            return true;
+        }
+    }
+
+    return false;
+}
+
+void op_delete (Op_context **ops, Op_context **op)
+{
+    *op = NULL;
+    op_sort (ops, nb_ops);
+}

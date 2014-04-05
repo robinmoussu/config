@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+#include <math.h>
+#include "reception.h"
+#include "calcul_position.h"
+#define Pi 3,14
+#define l 2
+#define d 3
+
+int main()
+{ 
+int i ;
+tourelle_1={1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0};
+
+    printf("donner l'état des capteurs pour la tourelle 1");
+    for(i=0;i<NB_CAPTEUR;i++)
+        scanf ("%d",&tourelle_1[i]);
+    printf("donner l'état des capteurs pour la tourelle 2");
+    for(i=0;i<NB_CAPTEUR;i++)
+        scanf ("%d",&tourelle_2[i]);
+    printf("donner l'état des capteurs pour la tourelle 2");
+    for(i=0;i<NB_CAPTEUR;i++)
+        scanf ("%d",&tourelle_3[i]);
+    calcul_angle(tourelle_1,tourelle_2,tourelle_3,d,l);
+	}

@@ -1,0 +1,15 @@
+noremap v t
+noremap V T
+noremap b b
+noremap B B
+
+noremap T <C-d>
+noremap S <C-u>
+
+vnoremap c h
+vnoremap t j
+vnoremap s k
+vnoremap r l
+
+
+

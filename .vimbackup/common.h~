@@ -1,0 +1,32 @@
+#ifndef COMMON_H
+#define COMMON_H
+
+enum {
+    false = 0,
+    true =1
+} bool;
+
+
+/*
+ * Une trame est constitué d'un bit de start à 1
+ * De 8 bits
+ * D'un bit de stop à zéro
+ */
+
+enum Bit {
+    START = 1;
+    STOP = 0;
+    BIT_1 = 1;
+    BIT_0 = 0;
+};
+
+const int NB_BIT = 8;
+typedef Bit[NB_BIT + 2] Trame;
+
+Trame trame1 = {START, BIT_1, BIT_0, BIT_0, BIT_1, BIT_1, BIT_1, BIT_0, BIT_1, STOP};
+Trame trame2 = {START, BIT_0, BIT_0, BIT_1, BIT_1, BIT_1, BIT_1, BIT_0, BIT_1, STOP};
+Trame trame3 = {START, BIT_1, BIT_1, BIT_0, BIT_1, BIT_0, BIT_1, BIT_1, BIT_1, STOP};
+
+const int DUREE_BIT_MS = 10;
+
+#endif

@@ -1,0 +1,2999 @@
+# Ce fichier viminfo a été généré par Vim 7.4.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0/easymot
+
+# Dernier motif de recherche Substitue  :
+~MSle0~&*
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+:q
+:map <F1>
+:bn
+:nb
+:e main.h
+:'<,'>s/*//g
+:bp
+:e graphe12.txt
+:bd
+:+
+:e main.c
+:map ,,f
+:<Plug>(easymotion-prefix)o
+:map è
+:map è ,,f
+:map dd
+:unmap ;bc
+:map ;bc
+:unmap ;
+:map ;
+:q!
+:e Doxyfile
+:bd!
+:%s/«/"/g
+:%s/»/"/g
+:%s/«/"
+:e use_case_petit_robot.c
+:!pandoc -s cour.mkd -o cour.pdf --latex-engine=xelatex && zathura cour.pdf <CR>
+:unmap <F4>
+:map <F4>
+:s/E/H/g
+:imap è è
+:imap è \
+:imap 
+:s/>/k/g
+:s/>/k
+:map <F5> :source ~/.vimrcmkd<cr>
+:e ~/.vimrcmkd
+:e ~/.vimrc.mkd
+:%s/\\rbar/|/g
+:%s/\\lbar/|/g
+:%s/\lbar/|/g
+:%s/\
+:%s/lbar/|
+:map <F5> :source ~/.vimrcmkd <cr>
+:source ~/.vimrcmkd
+:!!
+:map O*
+:map O
+:map <F10>
+:e ~/svn/projet_de_groupe/informatique/ordonnanceur.c
+:e ~/cour/
+:e ~
+:s
+:!pandoc -s cour.mkd -o cour.pdf
+:map <F10> /\$[^$]*\$
+:map <F10> /\$\[^$\]*\$/
+:map <F5> <F1><F1>:!pandoc -s cour.mkd -o cour.pdf
+:map 
+:map <F11> <F10>
+:map <F10> /\$.*\$
+:imap  
+:unmap 
+:unmap
+:unmap 
+:nmap  
+:map 
+:map  
+:map 
+:imap <F4> <F4>
+:map <F4> :w <cr> :!pandoc -s cour.mkd -o cour.pdf --latex-engine=xelatex <cr> 
+:map <F5> <F4> <cr> :!zathura cour.pdf <cr> <cr>
+:map <F5> <F5>
+:!zathura cour.pdf
+:map <F5> <F4> :!zathura cour.pdf
+:!zatura cour.pdf
+:map <F5> <F4>  :!zatura cour.pdf
+:map <F5> <F4> <Esc> :!zatura cour.pdf <CR><CR>
+:'<,'>s/&/$&$/
+:'<,'>s/ = //
+:map <F10> /\$.*\$<cr>
+:map <F10> /\\$.*\\$
+:%s/
+:map <F4> :w :!pandoc -s cour.mkd -o cour.pdf --latex-engine=xelatex 
+:umap <F4>
+:!pandoc -s cour.mkd -o cour.pdf --latex-engine=xelatex
+:map <F5>
+:map <F4> :w<cr> :!pandoc -s cour.mkd -o cour.pdf <cr>
+:map <F10> <F1><F1>:!pandoc -s cour.mkd -o cour.pdf
+:map <F5> <F4>
+:imap  <Right>
+:map  
+:map  <Right>
+:m
+:map <F4> :w <CR> :!pandoc -s cour.mkd -o cour.pdf <CR>
+:map <F4> !pandoc -s cour.mkd -o cour.pdf <CR>
+:map <F4> !pandoc -s cour.mkd -o cour.pdf
+:cd cour/1ere_annee_phelma/ondes/
+:map <F4> :!pandoc ~/cour
+:e auie.c
+:map <F7> <F1><F1><F6>
+:map <F6> <F5>
+:cd cour/1ere_annee_phelma/probabilites_et_statistiques/
+:pwd
+:e ../ondes/cour.mkd
+:map <F5> :!clear &&  pandoc -s cour.mkd -o cour.pdf && zathura cour.pdf 
+:e ~/cour/1ere_annee_phelma/ondes/cour.mkd
+:qa
+:au BufDelete
+:e interrupt.c
+:vs
+:h BufUnload
+:au BufUnloadn'
+:h BufFilePre
+:au BufFilePre
+:h BufDelete
+:.!
+:'<,'>!
+:%s/strcmp/strcasecmp/g
+:map  
+:à
+:t t
+:cm à t
+:im à t
+:smap à t
+:sn
+:xmap à t
+:h map
+:map
+:à 
+:imap à t
+::
+:402
+:387
+:371
+:367
+:352
+:map 
+:h vs
+:h <C-w>
+:A
+:map   
+:b arbre.c
+:b Makefile
+:map  <c-w>
+:h <C-b>
+:b arbre.h
+:%s/\\overrightarrow\\mathcal/\\vecs/gc
+:map <F4> :!clear && pandoc -s cour.mkd -o cour.pdf && zathura cour.pdf <CR>
+:%s/script/mathcal/g
+:%s/{2}/2/g
+:%s/\\vec/\\overrightarrow/g
+:%s/\\mathcal{\(.\)}/\\mathcal \1/g
+:%s/\mathcal{\(.\)}/
+:%s/\\H/\\script{H}/g
+:81
+:%s/\\mathcal{H}/\\H/gc
+:114
+:%s/mathcal/\\mathcal/gc
+:%s/\\grad{/\\overrightarrow
+:%s/grad/over
+:187
+:%s/[^\\]mathcal/\\mathcal/g
+:%s/\\E/\mathcal{E}/g
+:%s/\\H/\\mathcal{H}/g
+:185
+:%s/\\rot/\\overrightarrow{rot}\\overrightarrow/g
+:%s/\\grad{\([^}]*\)}/\\overrightarrow{grad(\1)}/gc
+:%s/\\grad{([^}]*)}/\\overrightarrow{grad(\1)/gc
+:map <F4> :!clear && pandoc -s cour.mkd -o cour.pdf <CR>
+:!clear && pandoc -s cour.mkd -o cour.pdf 
+:map <F4> :!clear && pandoc -s cour.mkd -o cour.pdf 
+:map <F4> !clear
+:map <F4> !clear && pandoc -s cour.mkd -o cour.pdf 
+:50
+:100
+:wa
+:match equation /\$[^$]*\$/
+:/
+:match equation 
+:h :match
+:match equation
+:hi equation
+:hi equation ctermfg=green
+:h match
+:BundleList
+:<F1>
+:sy spell
+:sy match equation
+:sy match
+:sy list
+:sy enable
+:sy clear
+:sy case
+:sy sync
+:syn enable equatino
+:hi equation 
+:h sy
+:h syn
+:bf
+:sy match equation '\$[^$]\$'
+:sy list equation
+:sy equation
+:sy Comment
+:syn 
+:bl
+:hi
+:hi def link equation Constant
+:hi equation ctermfg=blue
+:hi 
+:h 
+:b .vimrc
+:syn match equation '\$[^$]\$'
+:! cat .vimrc.markdown_equation.vim
+:! echo .vimrc.markdown_equation.vim
+:hi equ
+:put =&runtimepath
+:set runtimepath?
+:source ~/.vimrc.markdown_equation.vim
+:e ~/.vimrc.markdown_equation.vim
+:e ~/.vim/markdown_equation.vim
+:map k k
+:e .vim/bundle/
+:e .vim/bundle/vim-colorschemes/colors/256-grayvim.vim
+:e ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim
+:e ~/.vimrc
+:e ~/.vimrc.bundles
+:%s/\$/\$/g
+:174
+:%s/\\D/\\mathcal{D}/gc
+:161
+:%s/\\second/''/g
+:%s/\second/''/g
+:%s/\\prime/'/g
+:%s/\\prime/''/g
+:%s/\prime/''/g
+:imap ^ ^{}<left>
+:imap <F11> \overrightarrow{
+:115
+:'<,'>!V
+:107
+:99
+:s/times/cdot/gc
+:s/\times/\\
+:s/}/\\}/gc
+:s/{/\\{/gc
+:s/{//c
+:s/\{/\\\{/gc
+:s/\/\\{/gc
+:'<,'>s/#/##/g
+:e auietrn
+:e auieauie
+:e a.c
+:e!
+:e
+:e auie.h
+:e .vim/bundle/header.vim/plugin/header.vim
+:e .vim/bundle/vim-headerguard/plugin/headerguard.vim
+:call HeaderG
+:h call
+:h autocmd
+:HeaderguardAdd
+:echo HeaderguardAdd
+:i HeaderguardAdd
+:iHeaderguardAdd
+:e 
+:BundleClean
+:e .vimrc.bundles
+:BundleInstall
+:e .vim/bundle/header.vim/
+:e .vimrc:q
+:ve
+:h +python
+:CoVim quit
+:CoVim start 
+:pip install twisted argparse
+:http://irc.codingame.com
+://irc.codingame.com
+:a
+:h find
+:imap <F7> test
+:imap [18~ <F7>
+:source .vimrc
+:set term
+:set term=$TERM
+:set term =
+:h set
+:set term=ansi
+:set nocompatible
+:set term=cons25
+:set 
+:get term
+:term
+:h <A-t>
+:h <C-t>
+:BP
+:source ~/.vimrc
+:'<,'>s/:/:/
+:ls
+
+# Historique chaîne de recherche (chronologie décroissante) :
+? *
+?/easymot
+?/<leader><leader>f
+?/<leader
+?/<coma[
+?/,,f
+?/bepo
+?/bépo
+?/-
+?/informatique
+?/PATH
+?/INPUT
+?/inpuit
+?/*.c
+?/obt
+?/être
+?/«
+? «
+? »
+? E
+?/displ
+? >
+?/\$[^$]*\$ 
+?/seq
+?/xxx
+?/xx
+?/mathit
+?/
+?/<right>
+?/tel 
+?/frac
+?/displa
+? \\rbar
+? \\lbar
+? \lbar
+? lbar
+?/\\in
+?/\in
+?/^\$.*\$$
+?/\$\$[^$]*\$\$ 
+?/\$\$\+[^$]*\$\$ 
+?/\\in 
+?/\$\+[^$]*\$ 
+?/\$*\+[^$]\$* 
+?/\$\$\?[^$]*\$\$\? 
+?/\$\$\?[<F5><F10>
+?/\$\+[^$]*\$\+ 
+?/\$[^$]\+\$ 
+?/\$[^$]+\$ 
+?/F_x(b) - F_x(
+?/[
+?/[F_x(b) - F_x()
+?/\[F_x(b) - F_x()\] \$\${]}-\infty
+?/\m\[F_x(b) - F_x()\] \$\${]}-\infty
+?/\hoo
+?/\$[^$]\$ 
+?/\$[^$]\$
+? \m<|2|>
+?/\$[^$]*\$
+?/\$[^A]
+?/\$\[^A\]
+?/\$\[^$]*\$
+?/\$\[^$\]*\$/
+?/\$.*\$
+?/\$.*\$ss
+?/left
+?/-----------------
+?/ome
+? &
+?/&
+?  = 
+?/\\$.*\\$
+?/\$.*\$/g
+?/\\def
+?/\def
+?/box
+? \<recule\>
+? strcmp
+? (\/);
+? \<creernoeud\>
+?/deri
+? \<overrightarrow\>
+?/|
+?/\re
+?/re
+?/sec
+?/$
+?/div
+? \\overrightarrow\\mathcal
+?/puor
+? script
+?/script
+?/{H}
+? {2}
+? \\vec
+? \\mathcal{\(.\)}
+? \<0\>
+? \\H
+?/\\H
+?/\\new
+?/\\par
+? \\mathcal{H}
+?/over
+? mathcal
+?/grad
+? [^\\]mathcal
+?/[^\\]mathcal
+? \\E
+?/mathcal
+?/H
+?/\\vec
+? \\rot
+?/\\rot{
+?/rot
+? \\grad{\([^}]*\)}
+?/\\grad{\([^}]*\)}
+? \\grad{([^}]*)}
+?/\$ \\mu
+?/\\\$ \\mu
+?/\$
+? \<électromagnétiques\>
+?/multipl
+?/color
+?/hi
+?/vim-col
+?/bundle
+?/late
+? \$
+?/\\mu 
+?/ \\mu
+?/ \mu
+?/\$ \mu
+?/\\$ \mu
+?/\\\$ \mu
+? \\D
+?/recent
+?/\gt
+? \\second
+? \second
+? \\prime
+? \prime
+? \<Comportement\>
+?/}
+?/\left
+?/\left[
+?/arrow
+?/"
+? times
+?/{
+? }
+? {
+? \{
+? \/\\{
+?/bar
+?/une é
+? \<Probabilités\>
+? #
+?/jvm
+?/java
+?/<F2><F1>
+?/au
+?/header
+?/<F4>
+?/head
+?/headerg
+? \<file\>
+?/progr
+?/general
+?/.vimrc
+?/plugin
+? \<SwitchSourceHeader\>
+?/programm
+?/a.vim'
+?/a.vim
+?/bun
+?/<F1>
+?/mapping
+?/mapp
+?/term
+?/gui
+?/OA
+?/^[OA
+?/compat
+?/nocompat
+?/fix
+?/<F2>
+?/<C-t>
+?/<C-k>
+?/neocom
+?/copie
+? \<sqrt\>
+?/eval
+?/VAR
+? :
+?/affiche
+?/affi
+?/<Tab>
+?/
+? \<neocomplcache\>
+? \<programming\>
+?/ne<F1>
+?/map 
+?/<ctrl>k
+?/ map 
+?/map
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+@Y
+@y
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	LINE	0
+	///////////
+""1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	    + meilleur parcourt
+"4	LINE	0
+	        * évaporation
+"5	LINE	0
+	    + Mise à jour des phéromones sur le graphe
+	        * nouveau phéromones
+"6	LINE	0
+	        * importances de la visibilité
+	        * importances de la phéromones
+"7	LINE	0
+	- Parcourt
+	    + Choix de la prochaine ville
+"8	LINE	0
+	- Initialisation (ville de départ + paramètres)
+"9	LINE	0
+	 *
+"a@	CHAR	0
+	yype  
+"d	CHAR	0
+	dvtttttVd/\defn/\\def  lceemph             a} At^i\emph{              llla}�k1�k1�k4:map �k4
+"f	CHAR	0
+	xu/xx  k{V}llicttllllllllllllllllllllllllllllllllllax{V} x                                          ssA \xxc{N} = 0 ("a)$$vv^$^i$
+"g	CHAR	0
+	ggg/
+"i	CHAR	0
+	A  t
+"l	CHAR	0
+	lit�k4
+"q	CHAR	0
+	t
+"s	CHAR	0
+	sssssssttA$$�k4�k4�k4
+"t	CHAR	0
+	359
+<ttt/seqrgsnrqrg�k4ti"$s�k;ttossso$\esps_{co} = \eps{c - j \frac{A$ >>>>>>>>>>>>>>>>>to$$$ \xxc{V} = f(u,v),�kb\cdot^^xA g(z)$$d>>>>>>>>>>>>$$ \De f f(u.v) llllllllllllifrac{\A}{f(u,vA + \frac{B}{g(z)} \frac{d^2ggtttttttttttttttttttttttttVttytttp                 xxxllllxxxxidtlxrd  d$GssssA $$llllllll  i\OS�k4
+"u	CHAR	0
+	uuuuuuuuuuGsssssssssssstttttttsddssssttotkkkkkkkkkkkkkkk,ccsss:s/>/k
+"y	LINE	0
+	#include <stdio.h>
+	#include "carte.h"
+	
+	void init_carte (CARTE * e) {
+	    e->rang = 0;
+	    e->visible = 0;
+	    e->couleur = 0;
+	}
+	
+	void affiche (CARTE * e) {
+	    static char *mesc[] = { "trefle", "carreau", "coeur", "pique" };
+	    static char *mesval[] =
+	    { "as", "2", "3", "4", "5", "6", "7", "8", "9", "dix", "valet", "dame", "roi" };
+	    printf ("%s de %s ; ", mesval[e->rang - 1], mesc[e->couleur]);
+	}
+	
+	void affichevisible (CARTE * e) {
+	    static char *mesc[] = { "trefle", "carreau", "coeur", "pique" };
+	    static char *mesval[] =
+	    { "as", "2", "3", "4", "5", "6", "7", "8", "9", "dix", "valet", "dame", "roi" };
+	    if (e->visible)
+	        printf ("%s de %s ; ", mesval[e->rang - 1], mesc[e->couleur]);
+	}
+	
+"-	BLOCK	8
+	, Graph g
+
+# Marques dans le fichier :
+'0  3  8  /home/common/Documents/git/voyageur_de_commerce/.git/MERGE_MSG
+'1  1  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+'2  76  43  /home/common/Documents/git/voyageur_de_commerce/main.h
+'3  65  32  /home/common/Documents/git/voyageur_de_commerce/main.h
+'4  1  16  /home/common/Documents/git/voyageur_de_commerce/.git/COMMIT_EDITMSG
+'5  92  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+'6  354  13  ~/.vimrc
+'7  1  5  /home/common/svn/robotronik/Projet de Groupe/svn-commit.tmp
+'8  63  0  /home/common/svn/robotronik/Projet de Groupe/informatique/test_calcul.c
+'9  32  95  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+
+# Liste de sauts (le plus récent en premier) :
+-'  3  8  /home/common/Documents/git/voyageur_de_commerce/.git/MERGE_MSG
+-'  2  0  /home/common/Documents/git/voyageur_de_commerce/.git/MERGE_MSG
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  75  3  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  83  19  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  81  29  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  77  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  45  0  /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/main.c
+-'  76  43  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  65  32  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  40  6  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  67  21  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  55  16  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  25  4  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  56  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  13  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  14  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  17  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  58  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  41  17  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  21  16  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  43  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  91  13  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  92  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  5  0  /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+-'  2  0  /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+-'  63  0  /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+-'  1  16  /home/common/Documents/git/voyageur_de_commerce/.git/COMMIT_EDITMSG
+-'  37  13  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  32  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  11  0  /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+-'  354  13  ~/.vimrc
+-'  352  15  ~/.vimrc
+-'  353  0  ~/.vimrc
+-'  424  17  ~/.vimrc
+-'  178  0  ~/.vimrc
+-'  212  5  ~/.vimrc
+-'  1  5  /home/common/svn/robotronik/Projet de Groupe/svn-commit.tmp
+-'  63  0  /home/common/svn/robotronik/Projet de Groupe/informatique/test_calcul.c
+-'  48  13  /home/common/svn/robotronik/Projet de Groupe/informatique/test_calcul.c
+-'  32  13  /home/common/svn/robotronik/Projet de Groupe/informatique/test_calcul.c
+-'  1  0  /home/common/svn/robotronik/Projet de Groupe/informatique/test_calcul.c
+-'  32  95  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  52  18  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  49  4  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  57  34  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  56  26  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  51  3  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  41  42  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  31  28  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  75  29  /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+-'  2017  11  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1933  8  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1928  14  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1922  10  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1446  11  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1439  13  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1436  40  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1419  29  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  847  6  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  843  12  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  829  30  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  827  8  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  823  14  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  166  15  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  159  21  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  157  11  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  155  38  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  147  17  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  145  5  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  140  14  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1  0  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  353  0  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  182  27  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  1  0  /usr/share/vim/vim74/doc/help.txt
+-'  756  0  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  750  6  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  962  18  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  876  2  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  871  32  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  869  34  /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+-'  13  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  14  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  17  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  58  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  74  43  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  63  32  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  38  6  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  53  16  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  54  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  13  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+-'  1  0  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  75  3  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  83  19  /home/common/Documents/git/voyageur_de_commerce/main.h
+-'  81  29  /home/common/Documents/git/voyageur_de_commerce/main.h
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> /home/common/Documents/git/voyageur_de_commerce/.git/MERGE_MSG
+	"	3	8
+	^	3	9
+	.	3	8
+	+	2	73
+	+	3	8
+
+> /home/common/Documents/git/voyageur_de_commerce/main.c
+	"	1	0
+
+> /home/common/Documents/git/voyageur_de_commerce/seance1.mkd
+	"	45	0
+
+> /home/common/Documents/git/voyageur_de_commerce/main.h
+	"	1	0
+	^	83	71
+	.	92	0
+	+	91	84
+	+	23	30
+	+	21	12
+	+	91	0
+	+	11	0
+	+	92	0
+	+	37	18
+	+	41	102
+	+	92	0
+	+	44	0
+	+	51	0
+	+	21	15
+	+	51	34
+	+	27	0
+	+	40	0
+	+	39	16
+	+	43	0
+	+	40	0
+	+	42	9
+	+	13	0
+	+	12	23
+	+	13	24
+	+	41	16
+	+	41	0
+	+	51	45
+	+	92	0
+	+	92	0
+	+	55	16
+	+	51	43
+	+	55	87
+	+	51	0
+	+	49	93
+	+	50	2
+	+	54	2
+	+	24	16
+	+	25	0
+	+	32	13
+	+	55	9
+	+	59	36
+	+	58	2
+	+	60	0
+	+	62	0
+	+	45	0
+	+	47	2
+	+	44	10
+	+	46	0
+	+	47	0
+	+	45	10
+	+	61	0
+	+	63	0
+	+	62	12
+	+	61	12
+	+	63	12
+	+	67	8
+	+	42	8
+	+	67	19
+	+	66	2
+	+	68	0
+	+	69	44
+	+	18	44
+	+	76	33
+	+	59	25
+	+	76	51
+	+	40	4
+	+	76	53
+	+	70	52
+	+	74	36
+	+	74	94
+	+	73	11
+	+	74	12
+	+	71	9
+	+	92	0
+	+	72	0
+	+	76	43
+	+	92	0
+	+	89	35
+	+	87	2
+	+	81	44
+	+	86	1
+	+	86	0
+	+	86	0
+	+	81	44
+	+	80	2
+	+	89	0
+	+	88	2
+	+	90	0
+	+	91	0
+	+	69	104
+	+	91	0
+	+	83	19
+	+	34	23
+	+	85	40
+	+	89	36
+	+	91	0
+	+	83	70
+	+	92	0
+	+	92	0
+	+	92	0
+	+	92	0
+	+	92	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	1	0
+
+> /home/common/Documents/git/voyageur_de_commerce/graphe12.txt
+	"	13	0
+
+> /home/common/Documents/git/voyageur_de_commerce/.git/COMMIT_EDITMSG
+	"	1	16
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/.vimrc
+	"	354	13
+	^	352	18
+	.	352	0
+	+	207	21
+	+	207	21
+	+	207	17
+	+	210	6
+	+	207	35
+	+	207	0
+	+	208	11
+	+	207	9
+	+	209	9
+	+	210	10
+	+	209	10
+	+	207	10
+	+	212	0
+	+	224	0
+	+	212	20
+	+	213	0
+	+	214	0
+	+	215	0
+	+	216	0
+	+	217	0
+	+	218	0
+	+	219	0
+	+	220	0
+	+	221	0
+	+	213	20
+	+	214	20
+	+	215	20
+	+	216	20
+	+	217	20
+	+	218	20
+	+	219	20
+	+	220	20
+	+	221	21
+	+	222	21
+	+	223	21
+	+	213	11
+	+	214	9
+	+	214	12
+	+	215	11
+	+	216	13
+	+	224	21
+	+	224	21
+	+	224	21
+	+	224	0
+	+	216	10
+	+	217	10
+	+	218	10
+	+	219	10
+	+	220	13
+	+	221	10
+	+	222	10
+	+	224	0
+	+	211	22
+	+	215	10
+	+	212	73
+	+	224	0
+	+	212	13
+	+	216	15
+	+	288	0
+	+	284	12
+	+	285	12
+	+	286	12
+	+	287	0
+	+	290	0
+	+	178	0
+	+	307	0
+	+	298	0
+	+	306	29
+	+	305	0
+	+	306	44
+	+	285	25
+	+	339	20
+	+	340	20
+	+	339	0
+	+	341	0
+	+	340	0
+	+	346	0
+	+	346	8
+	+	348	8
+	+	346	15
+	+	348	8
+	+	346	0
+	+	348	0
+	+	346	12
+	+	346	15
+	+	346	0
+	+	347	8
+	+	368	0
+	+	312	53
+	+	313	0
+	+	313	0
+	+	312	50
+	+	313	0
+	+	295	0
+	+	312	0
+	+	207	5
+	+	207	8
+	+	208	0
+	+	213	0
+	+	352	0
+
+> ~/.gitconfig
+	"	14	13
+	.	14	13
+	+	15	7
+	+	15	239
+	+	15	237
+	+	15	0
+	+	12	0
+	+	14	13
+
+> /home/common/Documents/git/voyageur_de_commerce/.git/config
+	"	13	0
+	^	15	15
+	.	15	0
+	+	15	0
+
+> /home/common/Documents/git/voyageur_de_commerce/auieauiet
+	"	8	13
+	^	8	14
+	.	6	0
+	+	6	0
+	+	8	13
+	+	6	0
+
+> /home/common/Documents/git/voyageur_de_commerce/test
+	"	8	5
+	^	8	6
+	.	6	0
+	+	13	0
+	+	6	0
+	+	8	5
+	+	6	0
+
+> /home/common/cour/1ere_annee_phelma/.git/COMMIT_EDITMSG
+	"	1	27
+	^	1	28
+	.	1	27
+	+	1	27
+
+> /home/common/cour/1ere_annee_phelma/info/projet_graph/seance1.mkd
+	"	65	0
+	^	67	56
+	.	6	0
+	+	30	57
+	+	30	60
+	+	30	68
+	+	30	72
+	+	30	74
+	+	30	82
+	+	30	89
+	+	30	95
+	+	30	98
+	+	30	104
+	+	30	108
+	+	30	121
+	+	30	124
+	+	30	126
+	+	30	131
+	+	30	138
+	+	30	140
+	+	30	143
+	+	30	146
+	+	30	152
+	+	30	162
+	+	30	164
+	+	30	166
+	+	30	179
+	+	30	183
+	+	30	185
+	+	30	190
+	+	30	195
+	+	30	198
+	+	30	207
+	+	30	210
+	+	30	213
+	+	30	219
+	+	30	221
+	+	30	241
+	+	30	246
+	+	30	274
+	+	30	276
+	+	30	280
+	+	30	313
+	+	30	366
+	+	30	367
+	+	30	373
+	+	30	406
+	+	30	431
+	+	30	506
+	+	30	591
+	+	30	592
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	264
+	+	30	1
+	+	30	33
+	+	30	25
+	+	30	0
+	+	30	74
+	+	30	88
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	13
+	+	30	26
+	+	30	117
+	+	6	0
+	+	30	260
+	+	28	9
+	+	30	0
+	+	32	0
+	+	29	0
+	+	54	0
+	+	52	48
+	+	61	0
+	+	53	9
+	+	54	4
+	+	61	0
+	+	60	22
+	+	62	0
+	+	59	21
+	+	62	0
+	+	56	52
+	+	62	0
+	+	49	27
+	+	6	0
+	+	55	39
+	+	56	39
+	+	57	0
+	+	56	28
+	+	6	0
+	+	68	0
+	+	68	0
+	+	67	55
+	+	6	0
+	+	64	0
+	+	65	0
+	+	6	0
+
+> ~/auie.c
+	"	3	4
+	^	7	4
+	.	14	0
+	+	117	36
+	+	118	39
+	+	121	40
+	+	120	4
+	+	119	4
+	+	115	36
+	+	116	39
+	+	2	70
+	+	3	7
+	+	114	6
+	+	112	0
+	+	113	6
+	+	108	0
+	+	109	19
+	+	110	25
+	+	111	6
+	+	19	8
+	+	28	7
+	+	44	7
+	+	45	10
+	+	106	6
+	+	103	8
+	+	104	6
+	+	105	8
+	+	102	40
+	+	88	0
+	+	89	8
+	+	94	24
+	+	95	37
+	+	100	28
+	+	99	25
+	+	98	25
+	+	97	25
+	+	96	25
+	+	85	6
+	+	85	34
+	+	84	0
+	+	80	13
+	+	77	33
+	+	73	0
+	+	74	11
+	+	75	13
+	+	68	6
+	+	72	7
+	+	71	4
+	+	70	0
+	+	67	0
+	+	66	4
+	+	65	4
+	+	64	4
+	+	63	4
+	+	62	4
+	+	61	4
+	+	60	4
+	+	56	6
+	+	59	0
+	+	58	4
+	+	57	4
+	+	55	0
+	+	54	4
+	+	53	4
+	+	52	4
+	+	51	4
+	+	50	4
+	+	48	0
+	+	47	4
+	+	43	0
+	+	42	4
+	+	38	4
+	+	29	4
+	+	48	0
+	+	49	0
+	+	46	0
+	+	39	33
+	+	40	8
+	+	30	0
+	+	37	0
+	+	35	4
+	+	32	4
+	+	31	4
+	+	36	0
+	+	33	0
+	+	34	4
+	+	27	0
+	+	20	4
+	+	26	0
+	+	25	4
+	+	24	4
+	+	21	4
+	+	23	0
+	+	22	4
+	+	18	0
+	+	5	4
+	+	4	0
+	+	17	0
+	+	16	4
+	+	15	4
+	+	7	6
+	+	6	0
+	+	14	0
+	j	1	0
+
+> /home/common/svn/robotronik/Projet de Groupe/svn-commit.tmp
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/test_calcul.c
+	"	63	0
+	^	29	0
+	.	63	0
+	+	47	21
+	+	48	15
+	+	49	15
+	+	50	15
+	+	51	15
+	+	52	15
+	+	62	15
+	+	46	0
+	+	30	0
+	+	29	0
+	+	13	0
+	+	30	13
+	+	47	13
+	+	63	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/ordonnanceur.c
+	"	32	95
+	^	63	7
+	.	63	6
+	+	62	0
+	+	74	16
+	+	71	51
+	+	74	24
+	+	70	95
+	+	71	16
+	+	32	0
+	+	88	29
+	+	71	42
+	+	74	12
+	+	74	0
+	+	78	0
+	+	77	0
+	+	6	0
+	+	72	0
+	+	98	45
+	+	99	1
+	+	103	6
+	+	103	0
+	+	104	0
+	+	101	18
+	+	104	21
+	+	105	35
+	+	97	89
+	+	113	61
+	+	114	1
+	+	116	0
+	+	113	3
+	+	117	34
+	+	118	24
+	+	120	23
+	+	124	16
+	+	110	68
+	+	113	7
+	+	110	37
+	+	111	81
+	+	112	2
+	+	6	0
+	+	127	47
+	+	113	54
+	+	128	1
+	+	129	10
+	+	127	45
+	+	129	14
+	+	130	27
+	+	98	7
+	+	130	6
+	+	88	22
+	+	88	22
+	+	88	18
+	+	88	18
+	+	89	0
+	+	88	41
+	+	88	0
+	+	88	0
+	+	77	0
+	+	73	0
+	+	74	20
+	+	75	29
+	+	6	0
+	+	52	4
+	+	54	28
+	+	55	29
+	+	32	92
+	+	30	60
+	+	31	82
+	+	6	0
+	+	31	0
+	+	37	15
+	+	41	2
+	+	43	2
+	+	26	147
+	+	25	19
+	+	26	16
+	+	25	21
+	+	28	2
+	+	51	2
+	+	54	126
+	+	55	87
+	+	54	139
+	+	55	104
+	+	56	148
+	+	56	26
+	+	57	0
+	+	57	45
+	+	49	10
+	+	50	0
+	+	50	155
+	+	66	28
+	+	6	0
+	+	59	20
+	+	61	0
+	+	47	15
+	+	53	0
+	+	47	66
+	+	46	43
+	+	60	23
+	+	6	0
+	+	62	0
+	+	63	6
+
+> /home/common/svn/robotronik/svn-commit.2.tmp
+	"	1	9
+	^	1	10
+	.	2	0
+	+	1	10
+	+	2	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/reception.X/nbproject/configurations.xml
+	"	51	57
+	^	29	58
+	.	29	16
+	+	21	16
+	+	22	0
+	+	21	20
+	+	29	16
+
+> /home/common/svn/robotronik/Projet de Groupe/svn-commit.2.tmp
+	"	1	27
+	^	1	28
+	.	1	27
+	+	2	0
+	+	1	27
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/main.c
+	"	12	24
+	^	12	25
+	.	6	0
+	+	6	0
+	+	8	17
+	+	10	15
+	+	11	1
+	+	12	17
+	+	12	19
+	+	14	0
+	+	12	24
+	+	6	0
+
+> /home/common/Documents/git/cour/info/projet_graph/Doxyfile
+	"	2017	11
+	^	182	28
+	.	182	27
+	+	777	0
+	+	778	0
+	+	780	0
+	+	145	26
+	+	157	0
+	+	157	0
+	+	157	0
+	+	166	0
+	+	173	27
+	+	182	27
+
+> /home/common/Documents/git/cour/info/projet_graph/main.c
+	"	9	2
+	^	9	3
+	.	6	0
+	+	6	0
+	+	14	31
+	+	15	1
+	+	16	12
+	+	6	0
+	+	12	5
+	+	11	8
+	+	12	44
+	+	6	0
+	+	14	37
+	+	6	0
+	+	9	7
+	+	6	0
+	+	8	17
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	8	0
+	+	9	3
+	+	6	0
+
+> /home/common/Documents/git/cour/info/projet_graph/test.c
+	"	24	2
+	^	24	3
+	.	6	0
+	+	32	0
+	+	34	7
+	+	6	0
+	+	11	27
+	+	12	1
+	+	9	2
+	+	8	22
+	+	10	2
+	+	19	15
+	+	20	1
+	+	17	17
+	+	6	0
+	+	18	2
+	+	6	0
+	+	16	2
+	+	18	2
+	+	6	0
+	+	16	10
+	+	6	0
+	+	17	0
+	+	18	0
+	+	18	0
+	+	6	0
+	+	15	0
+	+	15	2
+	+	6	0
+	+	25	31
+	+	26	1
+	+	24	2
+	+	6	0
+
+> /home/common/Documents/git/cour/info/projet_graph/doxygen_log.txt
+	"	359	0
+
+> /home/common/Documents/git/cour/info/projet_graph/Makefile
+	"	7	0
+	.	6	0
+	+	6	0
+
+> /home/common/Documents/git/cour/.git/COMMIT_EDITMSG
+	"	1	25
+	^	1	26
+	.	1	25
+	+	2	0
+	+	1	25
+
+> /home/common/Documents/linux.mkd
+	"	47	174
+	^	35	0
+	.	47	174
+	+	7	0
+	+	24	26
+	+	28	20
+	+	7	31
+	+	7	142
+	+	18	190
+	+	47	92
+	+	44	36
+	+	44	35
+	+	36	140
+	+	36	0
+	+	36	86
+	+	36	226
+	+	36	86
+	+	36	0
+	+	19	12
+	+	11	12
+	+	19	90
+	+	47	624
+	+	50	122
+	+	36	223
+	+	47	190
+	+	36	127
+	+	16	0
+	+	22	0
+	+	27	0
+	+	28	1
+	+	11	164
+	+	12	109
+	+	17	97
+	+	18	192
+	+	23	87
+	+	11	165
+	+	12	110
+	+	17	98
+	+	18	193
+	+	11	0
+	+	15	0
+	+	16	0
+	+	21	0
+	+	26	0
+	+	44	0
+	+	32	0
+	+	35	0
+	+	47	174
+
+> /home/common/Documents/linux.
+	"	7	0
+	.	6	0
+	+	6	0
+
+> /home/common/Documents/linux.txt
+	"	33	0
+	.	33	0
+	+	35	0
+	+	35	0
+	+	11	123
+	+	12	62
+	+	11	160
+	+	13	58
+	+	10	0
+	+	5	0
+	+	3	16
+	+	7	163
+	+	7	84
+	+	7	227
+	+	6	0
+	+	7	299
+	+	12	81
+	+	15	46
+	+	11	14
+	+	12	34
+	+	13	14
+	+	15	179
+	+	34	0
+	+	15	49
+	+	16	45
+	+	15	44
+	+	16	47
+	+	13	9
+	+	16	97
+	+	15	96
+	+	16	98
+	+	23	2
+	+	18	86
+	+	19	131
+	+	23	2
+	+	33	0
+	+	10	0
+	+	21	181
+	+	29	63
+	+	33	0
+
+> /home/common/svn/robotronik/coupe_2014/progra_petit_robot/petit_robot.mkd
+	"	132	286
+	^	132	287
+	.	132	286
+	+	49	0
+	+	43	27
+	+	46	30
+	+	47	29
+	+	93	13
+	+	105	104
+	+	59	17
+	+	101	14
+	+	112	0
+	+	113	43
+	+	102	16
+	+	111	60
+	+	113	57
+	+	112	61
+	+	113	47
+	+	94	0
+	+	95	6
+	+	100	6
+	+	103	15
+	+	108	58
+	+	110	55
+	+	103	20
+	+	101	15
+	+	96	5
+	+	108	44
+	+	114	60
+	+	115	20
+	+	110	14
+	+	116	39
+	+	105	0
+	+	111	44
+	+	116	0
+	+	117	31
+	+	104	28
+	+	117	63
+	+	117	62
+	+	117	0
+	+	79	13
+	+	104	4
+	+	117	60
+	+	88	0
+	+	81	0
+	+	82	0
+	+	81	0
+	+	88	19
+	+	89	21
+	+	92	16
+	+	93	13
+	+	93	13
+	+	93	17
+	+	92	15
+	+	94	10
+	+	94	10
+	+	94	17
+	+	94	0
+	+	90	0
+	+	91	12
+	+	92	13
+	+	91	11
+	+	92	11
+	+	91	10
+	+	92	0
+	+	97	13
+	+	96	10
+	+	102	0
+	+	104	8
+	+	101	16
+	+	103	22
+	+	105	0
+	+	83	9
+	+	119	0
+	+	133	0
+	+	119	14
+	+	122	0
+	+	122	0
+	+	123	33
+	+	128	34
+	+	129	32
+	+	130	32
+	+	129	36
+	+	130	36
+	+	128	40
+	+	126	41
+	+	125	40
+	+	124	39
+	+	122	39
+	+	121	40
+	+	127	40
+	+	130	0
+	+	129	0
+	+	129	0
+	+	110	37
+	+	123	41
+	+	114	37
+	+	127	0
+	+	109	0
+	+	108	0
+	+	129	38
+	+	121	38
+	+	132	286
+
+> /home/common/svn/robotronik/coupe_2014/progra_petit_robot/use_case_petit_robot.c
+	"	20	16
+	^	20	17
+	.	6	0
+	+	6	0
+	+	47	1
+	+	48	8
+	+	46	22
+	+	10	14
+	+	12	9
+	+	12	0
+	+	13	1
+	+	14	0
+	+	48	25
+	+	49	8
+	+	50	0
+	+	50	0
+	+	49	16
+	+	50	0
+	+	48	21
+	+	50	0
+	+	48	21
+	+	22	25
+	+	23	1
+	+	43	0
+	+	24	0
+	+	15	21
+	+	16	13
+	+	17	0
+	+	22	4
+	+	24	21
+	+	25	26
+	+	29	16
+	+	26	12
+	+	27	28
+	+	35	28
+	+	36	1
+	+	37	21
+	+	39	12
+	+	41	0
+	+	57	19
+	+	58	0
+	+	49	0
+	+	57	42
+	+	58	42
+	+	6	0
+	+	48	11
+	+	32	60
+	+	34	2
+	+	45	2
+	+	9	2
+	+	8	13
+	+	21	2
+	+	18	13
+	+	20	16
+	+	6	0
+
+> /home/common/Documents/git/ergonomic_keyboard/use_case2.cpp
+	"	112	0
+	^	1	0
+	.	94	77
+	+	113	0
+	+	113	15
+	+	113	0
+	+	113	31
+	+	113	0
+	+	113	6
+	+	113	0
+	+	113	0
+	+	113	22
+	+	113	4
+	+	113	4
+	+	113	0
+	+	113	0
+	+	113	20
+	+	113	32
+	+	113	21
+	+	113	37
+	+	113	0
+	+	113	15
+	+	113	0
+	+	113	0
+	+	113	0
+	+	113	18
+	+	113	0
+	+	113	0
+	+	113	9
+	+	113	10
+	+	113	0
+	+	113	10
+	+	113	36
+	+	113	9
+	+	113	46
+	+	113	0
+	+	113	0
+	+	113	0
+	+	113	0
+	+	113	39
+	+	113	39
+	+	113	39
+	+	113	40
+	+	113	40
+	+	113	40
+	+	113	0
+	+	113	61
+	+	113	7
+	+	113	0
+	+	113	63
+	+	113	87
+	+	113	58
+	+	113	0
+	+	113	82
+	+	113	86
+	+	113	77
+	+	62	11
+	+	62	0
+	+	62	2
+	+	62	10
+	+	113	13
+	+	68	56
+	+	68	0
+	+	68	45
+	+	68	0
+	+	68	0
+	+	78	0
+	+	82	0
+	+	68	0
+	+	79	0
+	+	78	0
+	+	66	0
+	+	53	0
+	+	66	82
+	+	62	0
+	+	57	17
+	+	60	2
+	+	58	0
+	+	68	0
+	+	60	0
+	+	68	0
+	+	59	0
+	+	60	0
+	+	67	21
+	+	79	0
+	+	81	27
+	+	79	0
+	+	113	0
+	+	112	0
+	+	80	0
+	+	81	28
+	+	80	0
+	+	111	15
+	+	111	0
+	+	94	47
+	+	94	0
+	+	94	0
+	+	94	54
+	+	94	54
+	+	94	0
+	+	94	54
+	+	95	0
+	+	94	77
+
+> /home/common/cour/1ere_annee_phelma/ondes/cour.mkd
+	"	354	0
+	^	354	0
+	.	6	0
+	+	275	72
+	+	276	58
+	+	278	19
+	+	279	8
+	+	280	0
+	+	327	0
+	+	286	16
+	+	280	17
+	+	281	4
+	+	6	0
+	+	276	60
+	+	6	0
+	+	280	17
+	+	6	0
+	+	281	7
+	+	6	0
+	+	284	13
+	+	285	0
+	+	6	0
+	+	281	41
+	+	284	0
+	+	284	0
+	+	282	0
+	+	283	0
+	+	282	8
+	+	283	8
+	+	282	18
+	+	283	18
+	+	282	37
+	+	283	37
+	+	288	93
+	+	289	32
+	+	294	53
+	+	295	55
+	+	298	73
+	+	299	21
+	+	302	2
+	+	306	1
+	+	302	12
+	+	301	18
+	+	301	0
+	+	301	0
+	+	303	0
+	+	302	60
+	+	303	46
+	+	303	0
+	+	304	45
+	+	303	43
+	+	305	12
+	+	6	0
+	+	299	0
+	+	300	0
+	+	309	33
+	+	309	33
+	+	309	117
+	+	309	33
+	+	317	0
+	+	310	18
+	+	320	7
+	+	320	0
+	+	317	8
+	+	318	0
+	+	321	16
+	+	318	156
+	+	319	0
+	+	316	35
+	+	319	0
+	+	319	129
+	+	311	0
+	+	316	38
+	+	318	146
+	+	319	146
+	+	324	0
+	+	323	19
+	+	327	12
+	+	324	63
+	+	325	33
+	+	326	27
+	+	334	42
+	+	336	1
+	+	335	10
+	+	334	11
+	+	335	29
+	+	336	0
+	+	337	0
+	+	338	0
+	+	344	0
+	+	343	0
+	+	341	32
+	+	342	27
+	+	349	81
+	+	350	0
+	+	349	81
+	+	349	0
+	+	349	83
+	+	350	45
+	+	352	18
+	+	6	0
+	+	354	0
+	+	6	0
+
+> ~/.vimrcmkd
+	"	9	98
+	^	9	104
+	.	6	0
+	+	6	0
+	+	8	0
+	+	9	117
+	+	6	0
+	+	9	120
+	+	12	0
+	+	9	0
+	+	12	0
+	+	6	0
+	+	10	23
+	+	6	0
+	+	10	27
+	+	6	0
+	+	9	24
+	+	6	0
+	+	10	22
+	+	6	0
+	+	10	22
+	+	6	0
+	+	10	22
+	+	6	0
+	+	10	24
+	+	6	0
+	+	10	32
+	+	10	27
+	+	6	0
+	+	10	27
+	+	6	0
+	+	11	28
+	+	6	0
+	+	10	18
+	+	11	20
+	+	6	0
+	+	10	0
+	+	9	0
+	+	9	99
+	+	9	0
+	+	6	0
+
+> ~/.vimrc.mkd
+	"	1	0
+	.	6	0
+	+	6	0
+	+	8	0
+	+	6	0
+
+> /home/common/cour/1ere_annee_phelma/probabilites_et_statistiques/cour.mkd
+	"	325	27
+	^	325	27
+	.	6	0
+	+	209	0
+	+	205	53
+	+	6	0
+	+	206	3
+	+	205	0
+	+	6	0
+	+	217	0
+	+	6	0
+	+	249	0
+	+	6	0
+	+	245	8
+	+	246	8
+	+	245	44
+	+	246	47
+	+	6	0
+	+	277	0
+	+	6	0
+	+	252	34
+	+	253	3
+	+	255	0
+	+	253	28
+	+	254	32
+	+	255	20
+	+	260	45
+	+	261	13
+	+	262	84
+	+	6	0
+	+	259	13
+	+	263	11
+	+	6	0
+	+	271	32
+	+	272	35
+	+	271	11
+	+	272	6
+	+	271	0
+	+	272	0
+	+	6	0
+	+	276	0
+	+	274	0
+	+	270	13
+	+	269	0
+	+	273	11
+	+	6	0
+	+	244	18
+	+	259	18
+	+	270	18
+	+	298	0
+	+	298	0
+	+	291	24
+	+	292	3
+	+	293	18
+	+	294	8
+	+	295	4
+	+	296	38
+	+	295	66
+	+	6	0
+	+	317	0
+	+	6	0
+	+	304	42
+	+	305	3
+	+	306	56
+	+	6	0
+	+	311	0
+	+	311	0
+	+	317	0
+	+	311	0
+	+	6	0
+	+	317	32
+	+	6	0
+	+	317	0
+	+	6	0
+	+	359	0
+	+	6	0
+	+	319	63
+	+	6	0
+	+	319	0
+	+	6	0
+	+	334	0
+	+	6	0
+	+	319	0
+	+	6	0
+	+	326	0
+	+	6	0
+	+	328	0
+	+	329	0
+	+	6	0
+	+	329	81
+	+	330	0
+	+	331	0
+	+	332	0
+	+	6	0
+	+	317	0
+	+	6	0
+	+	317	31
+	+	6	0
+	+	317	15
+	+	6	0
+	+	6	0
+	+	325	26
+	+	6	0
+
+> /home/common/cour/1ere_annee_phelma/micropro/exo.mkd
+	"	32	1
+	^	29	42
+	.	6	0
+	+	6	0
+	+	9	3
+	+	1	4
+	+	7	0
+	+	8	0
+	+	11	105
+	+	11	1
+	+	13	16
+	+	11	15
+	+	15	4
+	+	13	6
+	+	21	17
+	+	15	0
+	+	11	15
+	+	12	108
+	+	14	0
+	+	16	0
+	+	18	0
+	+	20	0
+	+	22	0
+	+	13	109
+	+	15	18
+	+	17	18
+	+	19	18
+	+	21	18
+	+	15	26
+	+	17	26
+	+	19	36
+	+	21	83
+	+	6	0
+	+	32	70
+	+	33	34
+	+	6	0
+	+	37	0
+	+	35	25
+	+	6	0
+	+	27	44
+	+	6	0
+	+	29	41
+	+	6	0
+	+	32	1
+	+	6	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/NERD_tree_1
+	"	13	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/auie.mkd
+	"	8	21
+	^	8	22
+	.	6	0
+	+	6	0
+	+	6	0
+
+> /home/common/cour/1ere_annee_phelma/ondes/cour.
+	"	7	0
+	.	6	0
+	+	6	0
+
+> /home/common/Documents/git/ergonomic_keyboard/auie.c
+	"	17	4
+	^	19	11
+	.	8	10
+	+	6	0
+	+	8	23
+	+	21	0
+	+	15	7
+	+	13	1
+	+	20	0
+	+	8	23
+	+	19	11
+	+	17	0
+	+	19	0
+	+	8	10
+
+> /run/media/robin_arch/jeux/temp/lcd.c
+	"	16	0
+
+> /home/common/svn/robotronik/Projet de Groupe/organisation/seance/robin_28_mars.mkd
+	"	30	175
+	^	30	176
+	.	6	0
+	+	6	0
+	+	22	0
+	+	10	39
+	+	21	12
+	+	21	1
+	+	12	0
+	+	21	0
+	+	13	0
+	+	18	0
+	+	14	22
+	+	13	20
+	+	14	61
+	+	13	48
+	+	14	80
+	+	15	0
+	+	16	0
+	+	17	0
+	+	15	19
+	+	16	43
+	+	15	67
+	+	16	67
+	+	20	206
+	+	22	0
+	+	6	0
+	+	10	18
+	+	6	0
+	+	22	0
+	+	9	1
+	+	7	0
+	+	1	4
+	+	7	0
+	+	7	0
+	+	8	0
+	+	24	343
+	+	24	194
+	+	24	425
+	+	30	106
+	+	26	116
+	+	31	0
+	+	30	175
+	+	6	0
+
+> /home/common/svn/robotronik/Projet de Groupe/organisation/svn-commit.tmp
+	"	1	33
+	^	1	34
+	.	2	0
+	+	1	34
+	+	2	0
+
+> /home/common/svn/robotronik/Projet de Groupe/organisation/seance/robin_28_mars.
+	"	7	0
+	.	6	0
+	+	6	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/coding_style.c
+	"	1	0
+	^	1	3
+	.	1	0
+	+	1	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/interrupt.c
+	"	11	11
+	^	11	16
+	.	6	0
+	+	6	0
+	+	13	27
+	+	14	1
+	+	20	28
+	+	21	1
+	+	27	25
+	+	28	1
+	+	51	18
+	+	6	0
+	+	15	0
+	+	6	0
+	+	64	54
+	+	65	1
+	+	70	54
+	+	71	1
+	+	76	54
+	+	77	1
+	+	82	54
+	+	83	1
+	+	88	54
+	+	89	1
+	+	93	0
+	+	66	0
+	+	6	0
+	+	9	1
+	+	12	0
+	+	11	0
+	+	6	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/tets.c
+	"	11	14
+	^	11	15
+	.	11	14
+	+	6	0
+	+	8	13
+	+	10	15
+	+	11	14
+
+> /home/common/.spf13-vim-3/.vim/bundle/header.vim/plugin/header.vim
+	"	98	0
+	^	134	16
+	.	134	0
+	+	134	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/header.vim/plugin/auie.c
+	"	15	0
+	^	15	0
+	.	14	7
+	+	6	0
+	+	8	14
+	+	9	7
+	+	11	9
+	+	6	0
+	+	13	13
+	+	14	7
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/reception.c
+	"	85	0
+	^	1	0
+	.	85	0
+	+	20	9
+	+	20	115
+	+	20	66
+	+	20	2
+	+	51	0
+	+	51	91
+	+	51	3
+	+	51	115
+	+	20	147
+	+	3	0
+	+	20	160
+	+	20	47
+	+	20	36
+	+	20	67
+	+	3	89
+	+	3	48
+	+	3	36
+	+	3	45
+	+	51	47
+	+	51	37
+	+	51	67
+	+	20	182
+	+	26	0
+	+	30	0
+	+	34	0
+	+	30	17
+	+	34	17
+	+	61	19
+	+	68	20
+	+	51	47
+	+	51	102
+	+	3	0
+	+	20	0
+	+	51	0
+	+	3	0
+	+	72	4
+	+	72	1
+	+	72	41
+	+	72	34
+	+	72	38
+	+	72	38
+	+	72	0
+	+	72	38
+	+	72	42
+	+	72	38
+	+	72	53
+	+	72	0
+	+	72	38
+	+	72	1
+	+	72	6
+	+	72	21
+	+	72	56
+	+	72	0
+	+	72	45
+	+	72	51
+	+	72	54
+	+	72	12
+	+	72	0
+	+	72	0
+	+	72	0
+	+	72	0
+	+	9	0
+	+	72	39
+	+	72	1
+	+	72	23
+	+	72	23
+	+	72	0
+	+	72	0
+	+	72	0
+	+	72	25
+	+	72	0
+	+	72	0
+	+	72	30
+	+	72	31
+	+	72	16
+	+	72	49
+	+	72	0
+	+	72	0
+	+	72	21
+	+	72	19
+	+	72	0
+	+	10	0
+	+	72	0
+	+	14	0
+	+	72	0
+	+	38	0
+	+	37	25
+	+	44	12
+	+	47	20
+	+	47	0
+	+	72	0
+	+	61	0
+	+	61	0
+	+	61	0
+	+	66	0
+	+	61	0
+	+	59	0
+	+	61	0
+	+	1	0
+	+	85	0
+
+> /home/common/svn/robotronik/Projet de Groupe/informatique/reception.h
+	"	39	20
+	.	80	0
+	+	79	3
+	+	79	2
+	+	79	0
+	+	79	4
+	+	79	37
+	+	79	45
+	+	79	0
+	+	79	2
+	+	26	3
+	+	26	6
+	+	6	3
+	+	26	0
+	+	25	2
+	+	10	62
+	+	12	2
+	+	10	3
+	+	12	2
+	+	10	0
+	+	12	24
+	+	10	35
+	+	24	2
+	+	10	166
+	+	12	25
+	+	9	26
+	+	10	99
+	+	24	0
+	+	24	11
+	+	24	0
+	+	11	22
+	+	12	6
+	+	24	0
+	+	24	2
+	+	15	116
+	+	14	49
+	+	21	10
+	+	17	107
+	+	18	37
+	+	21	71
+	+	15	86
+	+	21	133
+	+	21	175
+	+	23	196
+	+	24	0
+	+	79	0
+	+	6	0
+	+	79	0
+	+	77	18
+	+	4	17
+	+	5	0
+	+	77	21
+	+	26	0
+	+	72	31
+	+	77	13
+	+	78	0
+	+	72	7
+	+	72	25
+	+	72	37
+	+	73	172
+	+	75	10
+	+	74	10
+	+	77	41
+	+	74	11
+	+	77	2
+	+	72	17
+	+	72	1
+	+	72	10
+	+	72	0
+	+	72	0
+	+	72	14
+	+	33	0
+	+	33	0
+	+	76	0
+	+	33	12
+	+	80	0
+	+	54	0
+	+	47	0
+	+	55	0
+	+	53	42
+	+	55	0
+	+	61	42
+	+	71	0
+	+	71	0
+	+	63	0
+	+	69	42
+	+	34	0
+	+	42	137
+	+	33	0
+	+	43	0
+	+	33	27
+	+	39	0
+	+	27	14
+	+	30	12
+	+	30	11
+	+	30	0
+	+	32	0
+	+	39	19
+	+	38	0
+	+	40	0
+	+	46	0
+	+	80	0
+
+> /usr/share/vim/vim74/doc/autocmd.txt
+	"	405	7
+
+> /home/common/.spf13-vim-3/.vim/bundle/header.vim/README
+	"	1	0
+
+> /home/common/Documents/git/cour/info/td13/arbre.c
+	"	380	12
+	^	380	13
+	.	380	12
+	+	362	28
+	+	362	35
+	+	362	20
+	+	362	0
+	+	362	0
+	+	362	0
+	+	355	19
+	+	364	34
+	+	365	30
+	+	366	37
+	+	367	36
+	+	366	0
+	+	369	0
+	+	379	0
+	+	380	0
+	+	387	0
+	+	390	48
+	+	391	0
+	+	392	12
+	+	379	22
+	+	371	0
+	+	386	0
+	+	379	0
+	+	373	36
+	+	374	36
+	+	375	39
+	+	376	26
+	+	371	24
+	+	373	0
+	+	376	39
+	+	377	23
+	+	386	64
+	+	386	95
+	+	386	121
+	+	386	0
+	+	381	0
+	+	386	0
+	+	381	39
+	+	383	39
+	+	384	39
+	+	385	37
+	+	386	0
+	+	350	21
+	+	350	0
+	+	362	29
+	+	362	15
+	+	353	23
+	+	362	0
+	+	377	0
+	+	391	37
+	+	385	34
+	+	376	35
+	+	377	35
+	+	365	31
+	+	372	0
+	+	366	0
+	+	364	25
+	+	365	38
+	+	362	0
+	+	356	0
+	+	355	25
+	+	356	43
+	+	357	43
+	+	358	28
+	+	357	16
+	+	358	40
+	+	359	42
+	+	358	32
+	+	360	16
+	+	361	0
+	+	360	38
+	+	354	18
+	+	363	19
+	+	370	19
+	+	380	19
+	+	317	12
+	+	325	0
+	+	317	40
+	+	318	40
+	+	319	37
+	+	321	40
+	+	322	16
+	+	320	32
+	+	322	32
+	+	320	38
+	+	323	38
+	+	350	40
+	+	350	40
+	+	350	0
+	+	350	0
+	+	327	0
+	+	210	0
+	+	304	12
+	+	310	12
+	+	316	12
+	+	326	12
+	+	354	12
+	+	363	12
+	+	370	12
+	+	380	12
+
+> /usr/share/vim/vim74/doc/map.txt
+	"	50	34
+
+> /home/common/Documents/git/cour/info/td13/arbre.h
+	"	33	0
+	.	34	0
+	+	16	0
+	+	19	26
+	+	20	0
+	+	22	0
+	+	14	0
+	+	32	0
+	+	33	0
+	+	33	0
+	+	33	0
+	+	33	0
+	+	33	0
+	+	34	15
+	+	33	0
+	+	34	0
+	+	33	0
+	+	34	29
+	+	34	0
+	+	34	24
+	+	34	13
+	+	34	12
+	+	33	0
+	+	34	0
+
+> /home/common/Documents/git/cour/info/td13/Makefile
+	"	26	22
+	.	5	0
+	+	7	0
+	+	6	0
+	+	3	65
+	+	7	0
+	+	6	0
+	+	7	0
+	+	7	0
+	+	3	0
+	+	7	0
+	+	6	0
+	+	5	0
+
+> /usr/share/vim/vim74/doc/cmdline.txt
+	"	177	35
+
+> /usr/share/vim/vim74/doc/windows.txt
+	"	338	49
+
+> /home/common/Documents/git/cour/info/td13/expression1.c
+	"	1	0
+	.	7	0
+	+	7	0
+
+> ~/.vimrc.bundles
+	"	150	12
+	^	150	48
+	.	150	0
+	+	159	0
+	+	165	0
+	+	166	0
+	+	168	0
+	+	169	0
+	+	170	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	159	0
+	+	156	0
+	+	158	0
+	+	156	0
+	+	165	0
+	+	166	0
+	+	170	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	159	0
+	+	174	0
+	+	1	0
+	+	265	0
+	+	266	10
+	+	267	45
+	+	268	25
+	+	269	32
+	+	266	6
+	+	268	30
+	+	147	50
+	+	147	0
+	+	108	12
+	+	148	37
+	+	151	0
+	+	148	37
+	+	135	36
+	+	278	0
+	+	278	0
+	+	135	0
+	+	151	0
+	+	149	0
+	+	150	0
+	+	153	0
+	+	150	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-colors-solarized/colors/solarized.vim
+	"	992	0
+	.	226	0
+	+	226	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-colorschemes/colors/256-grayvim.vim
+	"	1	0
+
+> ~/NERD_tree_1
+	"	160	17
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_2
+	"	7	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-colors-solarized/bitmaps/togglebg.png
+	"	1	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-colors-solarized/README.mkd
+	"	1	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-colors-solarized/doc/tags
+	"	1	0
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-colors/colors/molokai.vim
+	"	211	0
+
+> ~/.vimrc.markdown_equation.vim
+	"	15	29
+	^	15	32
+	.	6	0
+	+	6	0
+	+	16	1
+	+	7	18
+	+	4	12
+	+	4	12
+	+	5	0
+	+	4	50
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	12	30
+	+	13	44
+	+	6	0
+	+	15	28
+	+	6	0
+	+	15	31
+	+	6	0
+	+	10	0
+	+	6	0
+	+	15	29
+	+	6	0
+
+> /usr/share/vim/vim74/doc/syntax.txt
+	"	4497	33
+
+> ~/[Vundle] list
+	"	2	0
+	.	1	0
+	+	460	0
+	+	422	0
+	+	381	0
+	+	338	0
+	+	295	0
+	+	252	0
+	+	209	0
+	+	166	0
+	+	165	0
+	+	114	0
+	+	107	0
+	+	54	0
+	+	53	0
+	+	1	0
+
+> /usr/share/vim/vim74/doc/pattern.txt
+	"	1300	0
+
+> /home/common/cour/.git/COMMIT_EDITMSG
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	28
+
+> /opt/microchip/mplabx/mplab_ide/bin/mplab_ide
+	"	89	0
+
+> ~/auieauie.h
+	"	1	0
+	.	11	0
+	+	11	0
+
+> ~/auietrn
+	"	7	0
+	.	6	0
+	+	6	0
+
+> ~/auieauie
+	"	7	0
+	.	6	0
+	+	6	0
+
+> ~/auie.h
+	"	1	0
+	^	29	15
+	.	12	0
+	+	37	0
+	+	39	0
+	+	29	11
+	+	30	11
+	+	40	0
+	+	29	0
+	+	40	0
+	+	28	0
+	+	21	0
+	+	21	0
+	+	20	0
+	+	22	0
+	+	11	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+
+> ~/a.c
+	"	7	0
+	.	6	0
+	+	6	0
+
+> /usr/share/vim/vim74/doc/eval.txt
+	"	6882	55
+
+> /home/common/.spf13-vim-3/.vim/bundle/vim-headerguard/plugin/headerguard.vim
+	"	45	12
+
+> ~/[Vundle] clean
+	"	5	0
+	.	1	0
+	+	41	0
+	+	40	0
+	+	36	0
+	+	34	0
+	+	31	0
+	+	30	0
+	+	28	0
+	+	26	0
+	+	24	0
+	+	23	0
+	+	21	0
+	+	14	0
+	+	8	0
+	+	7	0
+	+	1	0
+
+> ~/[Vundle] Installer
+	"	56	0
+	.	1	0
+	+	1136	0
+	+	1094	0
+	+	1055	0
+	+	1014	0
+	+	972	0
+	+	931	0
+	+	890	0
+	+	849	0
+	+	807	0
+	+	765	0
+	+	723	0
+	+	681	0
+	+	637	0
+	+	593	0
+	+	549	0
+	+	504	0
+	+	459	0
+	+	414	0
+	+	370	0
+	+	326	0
+	+	282	0
+	+	238	0
+	+	194	0
+	+	149	0
+	+	103	0
+	+	56	0
+	+	55	0
+	+	1	0
+
+> /opt/microchip/xc8/v1.30/include/[Vundle] list
+	"	2	0
+	.	1	0
+	+	1	0
+
+> /tmp/packerbuild-1000/microchip-mplabc18_bin/microchip-mplabc18_bin/microchip-mplabc18_bin.install
+	"	1	0
+
+> /opt/microchip/xc8/v1.30/bin/xclm
+	"	1	0
+
+> /tmp/packerbuild-1000/microchip-mplabxc8-bin/microchip-mplabxc8-bin/PKGBUILD
+	"	35	0
+	^	33	0
+	.	35	0
+	+	2	0
+	+	33	0
+	+	35	26
+	+	33	0
+	+	35	0
+
+> /tmp/packerbuild-1000/microchip-mplabxc8-bin/microchip-mplabxc8-bin/microchip-mplabxc8-bin.install
+	"	1	0
+
+> /usr/share/vim/vim74/doc/various.txt
+	"	285	0
+
+> /tmp/packerbuild-1000/pip/pip/PKGBUILD
+	"	34	23
+
+> ~/.zshrc
+	"	98	0
+	^	96	28
+	.	96	27
+	+	46	8
+	+	80	14
+	+	80	0
+	+	95	0
+	+	103	0
+	+	88	0
+	+	87	0
+	+	53	0
+	+	47	6
+	+	89	0
+	+	96	27
+
+> /home/common/Documents/git/cour/info/td10/liste.h
+	"	1	0
+
+> /home/common/Documents/git/cour/info/td10/liste.c
+	"	1	0
+
+> /home/test/.vimrc
+	"	95	0
+	.	66	0
+	+	64	0
+	+	64	19
+	+	64	0
+	+	64	0
+	+	66	0
+
+> /usr/share/vim/vim74/doc/editing.txt
+	"	250	14
+
+> /usr/share/vim/vim74/doc/options.txt
+	"	24	13

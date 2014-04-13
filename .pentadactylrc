@@ -1,0 +1,10 @@
+"1.1
+
+loadplugins '\.(js|penta)$'
+group user
+map -count -modes=n,v t -builtin <count>j
+set defsearch=duckduckgo
+set editor='terminology -e ''vim -f'' '
+set hintkeys=auietsrn
+
+" vim: set ft=pentadactyl:

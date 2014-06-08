@@ -1,1 +1,7 @@
-/home/common/.vimrc.before.local
+
+set wrap
+set showbreak=>\ \ \ 
+
+
+let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'misc', 'latex']
+

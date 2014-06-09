@@ -18,6 +18,3 @@ for CURRENT_USER_ in $USER_; do
 		ln -sb $COMMON_DIR_/$CURRENT_LINK_ $CURRENT_USER_/$CURRENT_LINK_
 	done
 done
-
-vim +BundleInstall +wqa
-

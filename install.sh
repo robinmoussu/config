@@ -4,17 +4,19 @@ INSTALL_PACMAN=1
 
 if [ $UID -eq 0 ]
 then
-    PACMAN="pacman"
+    PACMAN="packer"
 else
-    PACMAN="sudo pacman"
+    PACMAN="sudo packer"
 fi
 
 declare -a INSTALL=(
-"base base-devel"
+"base base-devel wget"
 "git"
 "zsh vim"
 "dialog wpa_supplicant"
 "grub-efi-x86_64 os-prober mtools libisoburn efibootmgr dosfstools fuse freetype2"
+"xorg-server xorg-server-utils xorg-apps xf86-video-intel"
+"mdm"
 "i3-wm i3status dmenu synapse"
 "libreoffice firefox chromium"
 )
@@ -83,9 +85,9 @@ then
     wget https://aur.archlinux.org/packages/pa/packer/packer.tar.gz
     tar -zxf packer.tar.gz
     cd packer
-    makepkg -sf
-    $PACMAN -U packer*.tar.xz --noconfirm
-    packer -Suya --noconfirm
-    cd ..
+    makepkg -sf --asroot --noconfirm
+    pacman -U packer*.tar.xz --noconfirm
+    packer -Syu --noconfirm
+    cd ../..
     rm -rf tmp_install
 fi

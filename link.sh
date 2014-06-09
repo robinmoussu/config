@@ -19,5 +19,5 @@ for CURRENT_USER_ in $USER_; do
 	done
 done
 
-
+vim +BundleInstall +wqa
 

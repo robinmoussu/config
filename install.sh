@@ -1,6 +1,7 @@
 
 INSTALL_PACKER=1
 INSTALL_PACMAN=1
+INSTALL_PACKER=1
 
 if [ $UID -eq 0 ]
 then
@@ -19,6 +20,12 @@ declare -a INSTALL=(
 "mdm"
 "i3-wm i3status dmenu synapse"
 "libreoffice firefox chromium"
+"elinks links"
+)
+
+declare -a INSTALL_PACKER_PAQUET=(
+"gdm"
+"oh-my-zsh-git"
 )
 
 INSTALL_ALL=0
@@ -45,10 +52,38 @@ do
     fi
 done
 
+INSTALL_ALL_PACKER=0
+for i in ${!INSTALL_PACKER_PAQUET[*]}
+do
+    if [ $INSTALL_ALL_PACKER -eq 0 ] && [ $INSTALL_PACMAN -eq 1 ]
+    then
+        echo "Installer : ${INSTALL_PACKER_PAQUET[i]} ? (y/n/a/c)"
+        unset rep
+        while [ -z "$rep" ]; do
+            read rep
+        done
+        if [ $rep == "a" ]
+        then
+            INSTALL_ALL_PACKER=1
+        elif [ $rep == "c" ]
+        then
+            unset INSTALL_PACKER_PAQUET
+            INSTALL_PACKER=0
+        elif [ $rep != "y" ]
+        then
+            unset INSTALL_PACKER_PAQUET[i]
+        fi
+    fi
+done
+
 echo "Les pacquets suivant sont selectionnés :"
 for i in ${!INSTALL[*]}
 do
     echo " ${INSTALL[i]}"
+done
+for i in ${!INSTALL_PACKER_PAQUET[*]}
+do
+    echo " ${INSTALL_PACKER_PAQUET[i]}"
 done
 echo "Continuer ? (y/n)"
 unset rep
@@ -91,3 +126,9 @@ then
     cd ../..
     rm -rf tmp_install
 fi
+
+if [[ $INSTALL_PACKER ]]
+then
+    packer -S --noconfirm $INSTALL
+fi
+

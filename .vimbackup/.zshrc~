@@ -102,6 +102,75 @@ if [ -f "/home/common/tmp_alias.sh" ]; then
    source /home/common/tmp_alias.sh
 fi
 
-ponysay `fortune`
+#ponysay `fortune`
+
+
+alias :q="exit"
+alias :wq="exit"
+alias mountusb="sudo mkdir /media/robin/usb && sudo mount /dev/sdb1 /media/robin/usb && cd /media/robin/usb"
+
+#programmes divers
+alias vims="vim -S"
+alias o="xdg-open"
+alias m="mplayer"
+alias calcurse="LC_ALL=utf8 calcurse"
+alias i3-error="less /run/user/robin/i3/errorlog.5959 "
+
+if [ $HOST = "arch_robin" ];  then
+
+    #raccourcis
+    alias -g _win=/mnt/win/
+    alias -g _doc=/home/robin/Document
+    alias -g _git=/home/robin/Document/git/
+    alias -g _svn=/home/robin/svn/
+    alias -g _music=/home/robin/Musique/
+    alias -g _videos=/mnt/documents/Videos/
+    alias -g _img=/home/robin/Images/
+    alias -g _cour=/home/robin/cour/1ere_annee_phelma/
+    alias -g _robotronik=/home/robin_arch/svn/robotronik/
+
+    alias auie="setxkbmap -layout \"fr\" ; pkill xsane"
+    alias auei="setxkbmap -layout \"fr\""
+    alias qsdf="setxkbmap -layout \"fr(bepo)\" ;xcape -e 'Shift_L=space;ISO_Level3_Shift=Escape;ISO_Level5_Shift=comma'"
+    alias bepo="setxkbmap -layout \"fr(bepo)\""
+    alias azer="setxkbmap -layout \"fr(bepo)\""
+
+    alias get_ip="wget http://ipecho.net/plain -O - -q  >>! ~/.last_ip.txt && echo '' >>! ~/.last_ip.txt;tail -n 1 ~/.last_ip.txt"
+    alias sshpi='ssh robin@`tail -n 1 ~/.last_ip.txt`'
+
+
+    #clavier
+    alias rmfr="sudo rm /var/lib/xkb/*"
+    alias vimfr="sudo vim /usr/share/X11/xkb/symbols/fr"
+    alias cpfr="sudo cp /usr/share/X11/xkb/symbols/fr /home/robin/bépo/svg_fr/xkb_\`date +%d-%m-%y-%Hh%M\`"
+    alias lessfr=" less /usr/include/X11/keysymdef.h "
+    alias compfr="xkbcomp /usr/share/X11/xkb/symbols/fr"
+    alias cdfr="cd /usr/share/X11/xkb/symbols/"
+    alias conffr="vim ~/bépo/dispo_perso"
+    alias frfr="cpfr ; compfr && rmfr ; setxkbmap -layout \"fr(jeop_actual)\"  "
+    alias Xfr="vim ~/.XCompose && cp ~/.XCompose /home/robin/bépo/svg_fr/XCompose_\`date +%d-%m-%y-%Hh%M\`"
+
+    if ps -u robin_arch | grep xcape > /dev/null  ; then 
+    else
+        xcape -e 'Shift_L=space;ISO_Level3_Shift=Escape;ISO_Level5_Shift=comma'
+        #xcape -e 'ISO_Level5_Latch=r'
+    fi
+
+fi
+
+#screen -x -R
+#if  screen -ls | grep Attached > /dev/null ; then 
+    #echo 1
+    #screen -x -a #> /dev/null
+#elif  screen -ls | grep Detached > /dev/null ; then 
+    #screen -R -a
+    #echo 2
+#else
+    #screen -a
+    #echo 3
+#fi
+
+#twget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//''>'
+# curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'>'
 
 # blkid

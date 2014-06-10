@@ -75,6 +75,7 @@ setlocal iskeyword=@,48-57,_,192-255,-
 setlocal keywordprg=
 setlocal nolinebreak
 setlocal nolisp
+setlocal lispwords=
 setlocal list
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:],<:>
@@ -101,7 +102,7 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en_us,fr
-setlocal statusline=
+setlocal statusline=%!airline#statusline(1)
 setlocal suffixesadd=
 setlocal swapfile
 setlocal synmaxcol=3000
@@ -119,11 +120,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 98 - ((29 * winheight(0) + 19) / 38)
+let s:l = 90 - ((27 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-98
+90
 normal! 0
 lcd ~/
 let &so = s:so_save | let &siso = s:siso_save

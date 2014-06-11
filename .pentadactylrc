@@ -3,6 +3,13 @@
 loadplugins '\.(js|penta)$'
 group user
 map -count -modes=n,v t -builtin <count>j
+map -count -modes=n,v j -builtin <count>t
+map -count -modes=n,v s -builtin <count>k
+map -count -modes=n,v k -builtin <count>s
+map -count -modes=n,v c -builtin <count>h
+map -count -modes=n,v h -builtin <count>c
+map -count -modes=n,v r -builtin <count>l
+map -count -modes=n,v l -builtin <count>r
 set defsearch=duckduckgo
 set editor='terminology -e ''vim -f'' '
 set hintkeys=auietsrn

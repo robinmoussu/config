@@ -221,7 +221,7 @@ bindsym $mod+m mode "ecran"
 bar {
         status_command i3status
         #status_command candybar
-        mode hide
+        #mode hide
         #mode invisible
         hidden_state hide
         #position top

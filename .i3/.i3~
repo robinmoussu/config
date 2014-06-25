@@ -1,1 +1,0 @@
-/home/config/.i3

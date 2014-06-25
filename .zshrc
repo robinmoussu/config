@@ -152,6 +152,8 @@ if [ $HOST = "arch_robin" ];  then
         #xcape -e 'ISO_Level5_Latch=r'
     fi
 
+elif [ $HOST = "alarmpi" ];  then
+    prompt adam1
 fi
 
 #screen -x -R

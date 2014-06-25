@@ -72,10 +72,12 @@ bindkey '^r' history-incremental-search-backward
 #zle -N zle-keymap-select
 #export KEYTIMEOUT=1
 
+# Un petit prompt sympa
+autoload -U promptinit
+promptinit
+
 ## les commandes spécifiques à root et aux users
 if [ $UID = 0 ]; then
-   # Un petit prompt sympa
-   autoload -U promptinit
    prompt fire
 
    # pour arduino serial usb
@@ -86,15 +88,9 @@ if [ $UID = 0 ]; then
    alias netjedi="netctl stop-all && netctl start wlp3s0-le_retour_du_jedi"
 
    alias àà=wifi-menu
-
 else
-
-   # Un petit prompt sympa
-   autoload -U promptinit
-   promptinit
    prompt fade
    alias pacman='sudo pacman'
-
 fi
 
 # alias temporaire
@@ -156,6 +152,8 @@ if [ $HOST = "arch_robin" ];  then
         #xcape -e 'ISO_Level5_Latch=r'
     fi
 
+elif [ $HOST = "robin" ];  then
+    prompt adam1
 fi
 
 #screen -x -R

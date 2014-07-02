@@ -72,6 +72,11 @@ bindkey '^r' history-incremental-search-backward
 #zle -N zle-keymap-select
 #export KEYTIMEOUT=1
 
+#historique
+export HISTFILE=~/.zsh_history
+export HISTSIZE=5000
+export SAVEHIST=5000
+
 # Un petit prompt sympa
 autoload -U promptinit
 promptinit
@@ -112,6 +117,12 @@ alias m="mplayer"
 alias calcurse="LC_ALL=utf8 calcurse"
 alias i3-error="less /run/user/robin/i3/errorlog.5959 "
 
+alias auie="setxkbmap -layout \"fr\""
+alias auei="setxkbmap -layout \"fr\""
+alias qsdf="setxkbmap -layout \"fr(bepo)\""
+alias bepo="setxkbmap -layout \"fr(bepo)\""
+alias azer="setxkbmap -layout \"fr(bepo)\""
+
 if [ $HOST = "arch_robin" ];  then
 
     #raccourcis
@@ -124,12 +135,6 @@ if [ $HOST = "arch_robin" ];  then
     alias -g _img=/home/robin/Images/
     alias -g _cour=/home/robin/cour/1ere_annee_phelma/
     alias -g _robotronik=/home/robin_arch/svn/robotronik/
-
-    alias auie="setxkbmap -layout \"fr\" ; pkill xsane"
-    alias auei="setxkbmap -layout \"fr\""
-    alias qsdf="setxkbmap -layout \"fr(bepo)\" ;xcape -e 'Shift_L=space;ISO_Level3_Shift=Escape;ISO_Level5_Shift=comma'"
-    alias bepo="setxkbmap -layout \"fr(bepo)\""
-    alias azer="setxkbmap -layout \"fr(bepo)\""
 
     alias get_ip="wget http://ipecho.net/plain -O - -q  >>! ~/.last_ip.txt && echo '' >>! ~/.last_ip.txt;tail -n 1 ~/.last_ip.txt"
     alias sshpi='ssh robin@`tail -n 1 ~/.last_ip.txt`'

@@ -32,6 +32,8 @@ setopt correctall
 
 # Les alias marchent comme sous bash
 alias ls='ls --color=auto'
+alias la='ls -a'
+alias lla='ls -la'
 alias ll='ls --color=auto -lh'
 alias lll='ls --color=auto -lh | less'
 # marre de se faire corriger par zsh ;)

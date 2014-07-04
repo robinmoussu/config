@@ -104,9 +104,10 @@
         let g:solarized_degrade=1
         let g:solarized_contrast="hight"
         let g:solarized_visibility="normal"
-        color solarized             " Load a colorscheme
+        "color solarized             " Load a colorscheme
     endif
     "color solarized             " Load a colorscheme
+    "colorscheme dark-ruby
     set cursorline                  " Highlight current line
     highlight clear SignColumn      " SignColumn should match background
     highlight clear LineNr          " Current line number row will have same background color in relative mode
@@ -319,17 +320,13 @@
     " bepo {
         noremap t gj
         noremap T J
+        noremap j t
+        noremap J T
 
         noremap s gk
         noremap S K
         noremap k s
         noremap K S
-
-        noremap h t
-        noremap H T
-
-        noremap l h
-        noremap L H
 
         "espace correspond à "l"
         noremap   L
@@ -341,6 +338,9 @@
         noremap dt dj
         noremap ds dk
 
+        " Corollaire copy
+        noremap yt yj
+
         "Easier access
         "w
         map é w
@@ -350,16 +350,13 @@
         map àt j
         map às k
         map àr l
-        cmap à %
         map è ,,f
         " ————————————————
         " Corollaire : correction orthographique
         noremap ]k ]s
         noremap [k [s
 
-        "tab change
-        noremap gt gT
-        noremap gs gt
+        map ê :w:!clear && ruby %
     " }
 
     " ————————————————

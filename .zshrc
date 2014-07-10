@@ -118,7 +118,7 @@ alias calcurse="LC_ALL=utf8 calcurse"
 alias i3-error="less /run/user/robin/i3/errorlog.5959 "
 alias xte='nohup xterm &' # xte lancera un xterm qui ne se fermera pas si on ferme le terminal
 alias vim='vimx'
-alias view=vim +"set ro"
+alias view='vim +"set ro" +"setlocal nomodifiable"'
 
 alias auie="setxkbmap -layout \"us\""
 alias qsdf="setxkbmap -layout \"fr(bepo)\""

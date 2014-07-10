@@ -929,6 +929,10 @@
     endfunction
     " }
 
+    "Forbid modification on read-only file {
+    autocmd BufReadPost * if &readonly | setlocal nomodifiable | else | setlocal modifiable | endif
+    " }
+
     " Shell command {
     function! s:RunShellCommand(cmdline)
         botright new

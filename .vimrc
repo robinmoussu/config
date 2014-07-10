@@ -274,6 +274,10 @@
     " and ask which one to jump to
     nnoremap <Leader>ff [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 
+    "v
+    noremap <C-V> v
+    noremap  v <C-V>
+
     " Fx keys {
         "F1 : save
         "F2 : quit
@@ -930,7 +934,7 @@
     " }
 
     "Forbid modification on read-only file {
-    autocmd BufReadPost * if &readonly | setlocal nomodifiable | else | setlocal modifiable | endif
+    autocmd BufReadPosts* if &readonly | setlocal nomodifiable | else | setlocal modifiable | endif
     " }
 
     " Shell command {

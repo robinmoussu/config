@@ -205,19 +205,19 @@
     endif
 
     " Stupid arrow fix
-    imap OA <ESC>ki
-    imap OB <ESC>ji
-    imap OC <ESC>li
-    imap OD <ESC>hi
+    inoremap OA <Up>
+    inoremap OB <Down>
+    inoremap OC <Right>
+    inoremap OD <Left>
     " Stupid Fx key fix
-    imap OP <F1>
-    imap OQ <F2>
-    imap OR <F3>
-    imap OS <F4>
-    imap [15~ <F5>
-    imap [17~ <F6>
-    imap [18~ <F7>
-    imap [19~ <F8>
+    inoremap OP <F1>
+    inoremap OQ <F2>
+    inoremap OR <F3>
+    inoremap OS <F4>
+    inoremap [15~ <F5>
+    inoremap [17~ <F6>
+    inoremap [18~ <F7>
+    inoremap [19~ <F8>
     imap [20~ <F9>
     imap [21~ <F10>
     imap [23~ <F11>
@@ -274,11 +274,6 @@
     " and ask which one to jump to
     nnoremap <Leader>ff [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 
-
-    "v
-    noremap <C-V> v
-    noremap  v <C-V>
-
     " Fx keys {
         "F1 : save
         "F2 : quit
@@ -296,6 +291,8 @@
         imap <F5> <F5>
 
         map <F10> :cd %:p:h
+        map <F11> :hi Normal ctermbg=black
+        map <F12> :hi Normal ctermbg=none
 
         " F3 and F4 depends of filetype {
         augroup robin_c
@@ -332,8 +329,10 @@
         noremap   L
 
         " Corollaire : repli suivant / précédent
-        noremap zs zj
-        noremap zt zk
+        noremap zt zj
+        noremap zs zk
+        noremap zj zt
+        noremap zk zs
         " Corollaire : delete ligne
         noremap dt dj
         noremap ds dk
@@ -350,13 +349,17 @@
         map àt j
         map às k
         map àr l
+        map àh c
+        map àj t
+        map àk s
+        map àl r
         map è ,,f
         " ————————————————
         " Corollaire : correction orthographique
         noremap ]k ]s
         noremap [k [s
 
-        map ê :w:!clear && ruby %
+        map ê :w:!clear && echo -e '\E[41m                                                  ' && echo -e '\e[0m' && ruby %
     " }
 
     " ————————————————

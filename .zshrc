@@ -44,13 +44,12 @@ alias mplayerfb='mplayer -vo fbdev -vf scale=1024:768'
 # Un grep avec des couleurs :
 export GREP_COLOR=31
 alias grep='grep --color=auto'
-alias xte='nohup xterm &' # xte lancera un xterm qui ne se fermera pas si on ferme le terminal
-alias o='xdg-open'
+
 # Pareil pour les variables d'environement :
 #export http_proxy="http://hostname:8080/"
 #export HTTP_PROXY=$http_proxy
 # un VRAI éditeur de texte ;)
-export EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/vimx
 
 alias smount="source /home/common/smount.sh"
 
@@ -113,15 +112,17 @@ alias :wq="exit"
 alias mountusb="sudo mkdir /media/robin/usb && sudo mount /dev/sdb1 /media/robin/usb && cd /media/robin/usb"
 
 #programmes divers
-alias vims="vim -S"
 alias o="xdg-open"
 alias m="mplayer"
 alias calcurse="LC_ALL=utf8 calcurse"
 alias i3-error="less /run/user/robin/i3/errorlog.5959 "
+alias xte='nohup xterm &' # xte lancera un xterm qui ne se fermera pas si on ferme le terminal
+alias vim='vimx'
+alias view=vim +"set ro"
 
-alias auie="setxkbmap -layout \"fr\""
-alias auei="setxkbmap -layout \"fr\""
+alias auie="setxkbmap -layout \"us\""
 alias qsdf="setxkbmap -layout \"fr(bepo)\""
+alias asdf="setxkbmap -layout \"fr(bepo)\""
 alias bepo="setxkbmap -layout \"fr(bepo)\""
 alias azer="setxkbmap -layout \"fr(bepo)\""
 
@@ -161,6 +162,8 @@ if [ $HOST = "arch_robin" ];  then
 
 elif [ $HOST = "alarmpi" ];  then
     prompt adam1
+elif [ $HOST = "minos" ];  then
+    alias -g wk='/work1/rmoussu/tools/machine/registers/'
 fi
 
 #screen -x -R

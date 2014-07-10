@@ -934,7 +934,7 @@
     " }
 
     "Forbid modification on read-only file {
-    autocmd BufReadPosts* if &readonly | setlocal nomodifiable | else | setlocal modifiable | endif
+    autocmd BufReadPost * if &readonly | setlocal nomodifiable | else | setlocal modifiable | endif
     " }
 
     " Shell command {

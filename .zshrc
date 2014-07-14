@@ -112,7 +112,7 @@ alias m="mplayer"
 alias calcurse="LC_ALL=utf8 calcurse"
 alias i3-error="less /run/user/robin/i3/errorlog.5959 "
 
-if [ $HOST = "arch_robin" ];  then
+if [ $HOST = "arch_robin" ] || [ $HOST = "flower_power" ];  then
 
     #raccourcis
     alias -g _win=/mnt/win/

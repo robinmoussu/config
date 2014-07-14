@@ -220,8 +220,9 @@ bindsym $mod+m mode "ecran"
 # finds out, if available)
 bar {
         status_command i3status
+        #status_command i3status | dzen2 -fg white -bg black -ta r -y 1065 -w 1366 -fn "-*-terminus-*-*-*-*-13-*-*-*-*-*-*-*" -dock
         #status_command candybar
-        #mode hide
+        mode hide
         #mode invisible
         hidden_state hide
         #position top
@@ -232,14 +233,18 @@ bar {
 new_window 1pixel
 # class                 border  backgr. text    indicator
 client.focused          #000000 #0000ff #111111 #000000
-client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.focused_inactive #333333 #5f676a #ffffff #484e50c
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
 #for_window [class="Firefox"] hide_edge_borders both
 font pango:DejaVu Sans Mono 0
 
-exec-always setxkbmap fr bepo
-exec-always xcape -e 'Shift_L=space'
+exec setxkbmap fr bepo
+#exec-always xcape -e 'Shift_L=space'
+exec syndaemon -i 0.5 -K -t -d
+#exec export $TERMINAL=terminology
+exec dhcpcd
+
 
 
 #exec-always candybar

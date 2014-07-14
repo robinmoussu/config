@@ -2,6 +2,7 @@
 
 loadplugins '\.(js|penta)$'
 group user
+highlight FontFixed font-family: monospace !important; font-size: 9pt !important;
 map -count -modes=n,v t -builtin <count>j
 map -count -modes=n,v j -builtin <count>t
 map -count -modes=n,v s -builtin <count>k

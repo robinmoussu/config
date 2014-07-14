@@ -32,6 +32,8 @@ setopt correctall
 
 # Les alias marchent comme sous bash
 alias ls='ls --color=auto'
+alias la='ls -a'
+alias lla='ls -la'
 alias ll='ls --color=auto -lh'
 alias lll='ls --color=auto -lh | less'
 # marre de se faire corriger par zsh ;)
@@ -42,13 +44,12 @@ alias mplayerfb='mplayer -vo fbdev -vf scale=1024:768'
 # Un grep avec des couleurs :
 export GREP_COLOR=31
 alias grep='grep --color=auto'
-alias xte='nohup xterm &' # xte lancera un xterm qui ne se fermera pas si on ferme le terminal
-alias o='xdg-open'
+
 # Pareil pour les variables d'environement :
 #export http_proxy="http://hostname:8080/"
 #export HTTP_PROXY=$http_proxy
 # un VRAI éditeur de texte ;)
-export EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/vimx
 
 alias smount="source /home/common/smount.sh"
 
@@ -71,6 +72,11 @@ bindkey '^r' history-incremental-search-backward
 #zle -N zle-line-init
 #zle -N zle-keymap-select
 #export KEYTIMEOUT=1
+
+#historique
+export HISTFILE=~/.zsh_history
+export HISTSIZE=5000
+export SAVEHIST=5000
 
 # Un petit prompt sympa
 autoload -U promptinit
@@ -106,11 +112,19 @@ alias :wq="exit"
 alias mountusb="sudo mkdir /media/robin/usb && sudo mount /dev/sdb1 /media/robin/usb && cd /media/robin/usb"
 
 #programmes divers
-alias vims="vim -S"
 alias o="xdg-open"
 alias m="mplayer"
 alias calcurse="LC_ALL=utf8 calcurse"
 alias i3-error="less /run/user/robin/i3/errorlog.5959 "
+alias xte='nohup xterm &' # xte lancera un xterm qui ne se fermera pas si on ferme le terminal
+alias vim='vimx'
+alias view='vim +"set ro" +"setlocal nomodifiable"'
+
+alias auie="setxkbmap -layout \"us\""
+alias qsdf="setxkbmap -layout \"fr(bepo)\""
+alias asdf="setxkbmap -layout \"fr(bepo)\""
+alias bepo="setxkbmap -layout \"fr(bepo)\""
+alias azer="setxkbmap -layout \"fr(bepo)\""
 
 if [ $HOST = "arch_robin" ] || [ $HOST = "flower_power" ];  then
 
@@ -124,12 +138,6 @@ if [ $HOST = "arch_robin" ] || [ $HOST = "flower_power" ];  then
     alias -g _img=/home/robin/Images/
     alias -g _cour=/home/robin/cour/1ere_annee_phelma/
     alias -g _robotronik=/home/robin_arch/svn/robotronik/
-
-    alias auie="setxkbmap -layout \"fr\" ; pkill xsane"
-    alias auei="setxkbmap -layout \"fr\""
-    alias qsdf="setxkbmap -layout \"fr(bepo)\" ;xcape -e 'Shift_L=space;ISO_Level3_Shift=Escape;ISO_Level5_Shift=comma'"
-    alias bepo="setxkbmap -layout \"fr(bepo)\""
-    alias azer="setxkbmap -layout \"fr(bepo)\""
 
     alias get_ip="wget http://ipecho.net/plain -O - -q  >>! ~/.last_ip.txt && echo '' >>! ~/.last_ip.txt;tail -n 1 ~/.last_ip.txt"
     alias sshpi='ssh robin@`tail -n 1 ~/.last_ip.txt`'
@@ -152,6 +160,10 @@ if [ $HOST = "arch_robin" ] || [ $HOST = "flower_power" ];  then
         #xcape -e 'ISO_Level5_Latch=r'
     fi
 
+elif [ $HOST = "alarmpi" ];  then
+    prompt adam1
+elif [ $HOST = "minos" ];  then
+    alias -g wk='/work1/rmoussu/tools/machine/registers/'
 fi
 
 #screen -x -R

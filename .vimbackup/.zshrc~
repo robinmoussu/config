@@ -154,6 +154,8 @@ if [ $HOST = "arch_robin" ] || [ $HOST = "flower_power" ];  then
         #xcape -e 'ISO_Level5_Latch=r'
     fi
 
+elif [ $HOST = "robin" ];  then
+    prompt adam1
 fi
 
 #screen -x -R

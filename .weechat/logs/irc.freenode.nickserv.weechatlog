@@ -1,0 +1,214 @@
+2014-05-13 21:07:38	robin_m	autentify
+2014-05-13 21:07:38	--	NickServ: Invalid command. Use /msg NickServ help for a command listing.
+2014-05-13 21:07:47	robin_m	help
+2014-05-13 21:07:47	--	NickServ: ***** NickServ Help *****
+2014-05-13 21:07:47	--	NickServ: NickServ allows users to 'register' a nickname, and stop
+2014-05-13 21:07:47	--	NickServ: others from using that nick. NickServ allows the owner of a
+2014-05-13 21:07:47	--	NickServ: nickname to disconnect a user from the network that is using
+2014-05-13 21:07:47	--	NickServ: their nickname.
+2014-05-13 21:07:47	--	NickServ:  
+2014-05-13 21:07:47	--	NickServ: For more information on a command, type:
+2014-05-13 21:07:47	--	NickServ: /msg NickServ help <command>
+2014-05-13 21:07:47	--	NickServ: For a verbose listing of all commands, type:
+2014-05-13 21:07:47	--	NickServ: /msg NickServ help commands
+2014-05-13 21:07:47	--	NickServ:  
+2014-05-13 21:07:47	--	NickServ: The following commands are available:
+2014-05-13 21:07:47	--	NickServ: GHOST           Reclaims use of a nickname.
+2014-05-13 21:07:47	--	NickServ: IDENTIFY        Identifies to services for a nickname.
+2014-05-13 21:07:47	--	NickServ: INFO            Displays information on registrations.
+2014-05-13 21:07:47	--	NickServ: LISTCHANS       Lists channels that you have access to.
+2014-05-13 21:07:47	--	NickServ: REGISTER        Registers a nickname.
+2014-05-13 21:07:48	--	NickServ: RELEASE         Releases a services enforcer.
+2014-05-13 21:07:48	--	NickServ:  
+2014-05-13 21:07:48	--	NickServ: Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
+2014-05-13 21:07:48	--	NickServ:                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
+2014-05-13 21:07:48	--	NickServ: ***** End of Help *****
+2014-05-13 21:08:21	robin_m	help
+2014-05-13 21:08:21	--	NickServ: ***** NickServ Help *****
+2014-05-13 21:08:21	--	NickServ: NickServ allows users to 'register' a nickname, and stop
+2014-05-13 21:08:21	--	NickServ: others from using that nick. NickServ allows the owner of a
+2014-05-13 21:08:21	--	NickServ: nickname to disconnect a user from the network that is using
+2014-05-13 21:08:21	--	NickServ: their nickname.
+2014-05-13 21:08:21	--	NickServ:  
+2014-05-13 21:08:21	--	NickServ: For more information on a command, type:
+2014-05-13 21:08:21	--	NickServ: /msg NickServ help <command>
+2014-05-13 21:08:21	--	NickServ: For a verbose listing of all commands, type:
+2014-05-13 21:08:21	--	NickServ: /msg NickServ help commands
+2014-05-13 21:08:21	--	NickServ:  
+2014-05-13 21:08:21	--	NickServ: The following commands are available:
+2014-05-13 21:08:21	--	NickServ: GHOST           Reclaims use of a nickname.
+2014-05-13 21:08:21	--	NickServ: IDENTIFY        Identifies to services for a nickname.
+2014-05-13 21:08:21	--	NickServ: INFO            Displays information on registrations.
+2014-05-13 21:08:21	--	NickServ: LISTCHANS       Lists channels that you have access to.
+2014-05-13 21:08:21	--	NickServ: REGISTER        Registers a nickname.
+2014-05-13 21:08:21	--	NickServ: RELEASE         Releases a services enforcer.
+2014-05-13 21:08:21	--	NickServ:  
+2014-05-13 21:08:21	--	NickServ: Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
+2014-05-13 21:08:21	--	NickServ:                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
+2014-05-13 21:08:21	--	NickServ: ***** End of Help *****
+2014-05-13 21:08:31	robin_m	identify
+2014-05-13 21:08:41	robin_m	identify auie
+2014-05-13 21:08:42	--	NickServ: Insufficient parameters for IDENTIFY.
+2014-05-13 21:08:43	--	NickServ: Syntax: IDENTIFY [nick] <password>
+2014-05-13 21:08:43	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:08:55	robin_m	identify eserece1
+2014-05-13 21:08:55	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:00	robin_m	identify eserece1
+2014-05-13 21:09:00	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:02	robin_m	identify eserece1
+2014-05-13 21:09:02	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:04	robin_m	identify eserece1
+2014-05-13 21:09:04	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:05	robin_m	identify eserece1
+2014-05-13 21:09:06	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:08	robin_m	identify eserece1
+2014-05-13 21:09:08	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:10	robin_m	identify eserece1
+2014-05-13 21:09:10	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:11	robin_m	identify eserece1
+2014-05-13 21:09:12	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:14	robin_m	identify eserece1
+2014-05-13 21:09:14	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:16	robin_m	identify eserece1
+2014-05-13 21:09:16	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:18	robin_m	identify eserece1
+2014-05-13 21:09:18	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:19	robin_m	identify eserece1
+2014-05-13 21:09:20	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:21	robin_m	identify eserece1
+2014-05-13 21:09:22	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:23	robin_m	identify eserece1
+2014-05-13 21:09:24	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:26	robin_m	identify eserece1
+2014-05-13 21:09:26	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:33	robin_m	identify eserece1
+2014-05-13 21:09:33	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:37	robin_m	identify eserece1
+2014-05-13 21:09:37	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:09:51	robin_m	register 
+2014-05-13 21:09:51	--	NickServ: Insufficient parameters for REGISTER.
+2014-05-13 21:09:51	--	NickServ: Syntax: REGISTER <password> <email>
+2014-05-13 21:10:11	robin_m	register eserece1 robin.moussu+irc@gmail.com
+2014-05-13 21:10:12	--	NickServ: robin_m is already registered.
+2014-05-13 21:13:35	robin_m	VERIFY REGISTER robin_m dutlmptjwpuv
+2014-05-13 21:13:43	--	NickServ: Please log in before attempting to verify your registration.
+2014-05-13 21:14:13	robin_m	VERIFY REGISTER robin_m dutlmptjwpuv
+2014-05-13 21:14:13	--	NickServ: Please log in before attempting to verify your registration.
+2014-05-13 21:14:17	robin_m	identify eserece1
+2014-05-13 21:14:17	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:14:32	robin_m	setpass
+2014-05-13 21:14:32	--	NickServ: Insufficient parameters for SETPASS.
+2014-05-13 21:14:32	--	NickServ: Syntax: SETPASS <account> <key> <newpass>
+2014-05-13 21:14:44	robin_m	help
+2014-05-13 21:14:44	--	NickServ: ***** NickServ Help *****
+2014-05-13 21:14:44	--	NickServ: NickServ allows users to 'register' a nickname, and stop
+2014-05-13 21:14:44	--	NickServ: others from using that nick. NickServ allows the owner of a
+2014-05-13 21:14:44	--	NickServ: nickname to disconnect a user from the network that is using
+2014-05-13 21:14:44	--	NickServ: their nickname.
+2014-05-13 21:14:44	--	NickServ:  
+2014-05-13 21:14:44	--	NickServ: For more information on a command, type:
+2014-05-13 21:14:44	--	NickServ: /msg NickServ help <command>
+2014-05-13 21:14:44	--	NickServ: For a verbose listing of all commands, type:
+2014-05-13 21:14:44	--	NickServ: /msg NickServ help commands
+2014-05-13 21:14:44	--	NickServ:  
+2014-05-13 21:14:44	--	NickServ: The following commands are available:
+2014-05-13 21:14:44	--	NickServ: GHOST           Reclaims use of a nickname.
+2014-05-13 21:14:44	--	NickServ: IDENTIFY        Identifies to services for a nickname.
+2014-05-13 21:14:44	--	NickServ: INFO            Displays information on registrations.
+2014-05-13 21:14:44	--	NickServ: LISTCHANS       Lists channels that you have access to.
+2014-05-13 21:14:44	--	NickServ: REGISTER        Registers a nickname.
+2014-05-13 21:14:44	--	NickServ: RELEASE         Releases a services enforcer.
+2014-05-13 21:14:44	--	NickServ:  
+2014-05-13 21:14:44	--	NickServ: Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
+2014-05-13 21:14:44	--	NickServ:                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
+2014-05-13 21:14:44	--	NickServ: ***** End of Help *****
+2014-05-13 21:15:06	robin_m	SETPASS
+2014-05-13 21:15:06	--	NickServ: Insufficient parameters for SETPASS.
+2014-05-13 21:15:06	--	NickServ: Syntax: SETPASS <account> <key> <newpass>
+2014-05-13 21:15:13	robin_m	help SETPASS
+2014-05-13 21:15:13	--	NickServ: ***** NickServ Help *****
+2014-05-13 21:15:13	--	NickServ: Help for SETPASS:
+2014-05-13 21:15:13	--	NickServ:  
+2014-05-13 21:15:13	--	NickServ: SETPASS allows you to set a new password
+2014-05-13 21:15:13	--	NickServ: using a key emailed to you. The key is
+2014-05-13 21:15:13	--	NickServ: valid for one time only, and also becomes
+2014-05-13 21:15:13	--	NickServ: invalid if you identify with your old password.
+2014-05-13 21:15:13	--	NickServ:  
+2014-05-13 21:15:13	--	NickServ: To set a new password if you know the current
+2014-05-13 21:15:13	--	NickServ: password, use SET PASSWORD instead of SETPASS.
+2014-05-13 21:15:13	--	NickServ:  
+2014-05-13 21:15:13	--	NickServ: Syntax: SETPASS <nickname> <key> <password>
+2014-05-13 21:15:13	--	NickServ: ***** End of Help *****
+2014-05-13 21:16:39	robin_m	SETPASS robin_m dutlmptjwpuv eserece1
+2014-05-13 21:16:39	--	NickServ: Verification failed. Invalid key for robin_m.
+2014-05-13 21:17:11	robin_m	help REGAIN
+2014-05-13 21:17:11	--	NickServ: ***** NickServ Help *****
+2014-05-13 21:17:11	--	NickServ: Help for REGAIN:
+2014-05-13 21:17:11	--	NickServ:  
+2014-05-13 21:17:11	--	NickServ: REGAIN disconnects an old user session, or somebody
+2014-05-13 21:17:11	--	NickServ: attempting to use your nickname without authorization,
+2014-05-13 21:17:11	--	NickServ: then changes your nickname to the given nickname.
+2014-05-13 21:17:11	--	NickServ: This may not work, disconnecting you, if the target
+2014-05-13 21:17:11	--	NickServ: client reconnects automatically.
+2014-05-13 21:17:11	--	NickServ:  
+2014-05-13 21:17:11	--	NickServ: If you are logged in to the nick's account, you need
+2014-05-13 21:17:11	--	NickServ: not specify a password, otherwise you have to. In the
+2014-05-13 21:17:11	--	NickServ: latter case, you will still have to identify later.
+2014-05-13 21:17:11	--	NickServ:  
+2014-05-13 21:17:11	--	NickServ: Syntax: REGAIN <nick> [password]
+2014-05-13 21:17:11	--	NickServ:  
+2014-05-13 21:17:11	--	NickServ: Example:
+2014-05-13 21:17:11	--	NickServ:     /msg NickServ REGAIN foo bar
+2014-05-13 21:17:11	--	NickServ: ***** End of Help *****
+2014-05-13 21:17:33	robin_m	ACC
+2014-05-13 21:17:34	--	NickServ: robin_m ACC 1
+2014-05-13 21:17:39	robin_m	ACCESS
+2014-05-13 21:17:39	--	NickServ: Insufficient parameters for ACCESS.
+2014-05-13 21:17:39	--	NickServ: Syntax: ACCESS ADD|DEL|LIST [mask]
+2014-05-13 21:17:46	robin_m	CERT
+2014-05-13 21:17:46	--	NickServ: Insufficient parameters for CERT.
+2014-05-13 21:17:46	--	NickServ: Syntax: CERT ADD|DEL|LIST [fingerprint]
+2014-05-13 21:17:51	robin_m	LOGOUT
+2014-05-13 21:17:51	--	NickServ: You are not logged in.
+2014-05-13 21:18:06	robin_m	help
+2014-05-13 21:18:06	--	NickServ: ***** NickServ Help *****
+2014-05-13 21:18:06	--	NickServ: NickServ allows users to 'register' a nickname, and stop
+2014-05-13 21:18:06	--	NickServ: others from using that nick. NickServ allows the owner of a
+2014-05-13 21:18:06	--	NickServ: nickname to disconnect a user from the network that is using
+2014-05-13 21:18:06	--	NickServ: their nickname.
+2014-05-13 21:18:06	--	NickServ:  
+2014-05-13 21:18:06	--	NickServ: For more information on a command, type:
+2014-05-13 21:18:06	--	NickServ: /msg NickServ help <command>
+2014-05-13 21:18:06	--	NickServ: For a verbose listing of all commands, type:
+2014-05-13 21:18:06	--	NickServ: /msg NickServ help commands
+2014-05-13 21:18:06	--	NickServ:  
+2014-05-13 21:18:06	--	NickServ: The following commands are available:
+2014-05-13 21:18:06	--	NickServ: GHOST           Reclaims use of a nickname.
+2014-05-13 21:18:06	--	NickServ: IDENTIFY        Identifies to services for a nickname.
+2014-05-13 21:18:06	--	NickServ: INFO            Displays information on registrations.
+2014-05-13 21:18:06	--	NickServ: LISTCHANS       Lists channels that you have access to.
+2014-05-13 21:18:06	--	NickServ: REGISTER        Registers a nickname.
+2014-05-13 21:18:06	--	NickServ: RELEASE         Releases a services enforcer.
+2014-05-13 21:18:06	--	NickServ:  
+2014-05-13 21:18:06	--	NickServ: Other commands: ACC, ACCESS, CERT, DROP, HELP, LOGOUT, 
+2014-05-13 21:18:06	--	NickServ:                 REGAIN, SETPASS, STATUS, TAXONOMY, VERIFY
+2014-05-13 21:18:06	--	NickServ: ***** End of Help *****
+2014-05-13 21:18:12	robin_m	IDENTIFY
+2014-05-13 21:18:12	--	NickServ: Insufficient parameters for IDENTIFY.
+2014-05-13 21:18:12	--	NickServ: Syntax: IDENTIFY [nick] <password>
+2014-05-13 21:18:25	robin_m	IDENTIFY robin_m eserece1
+2014-05-13 21:18:25	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:18:34	robin_m	LISTCHANS
+2014-05-13 21:18:41	robin_m	REGISTER
+2014-05-13 21:18:43	--	NickServ: You are not logged in.
+2014-05-13 21:18:43	--	NickServ: Insufficient parameters for REGISTER.
+2014-05-13 21:18:43	--	NickServ: Syntax: REGISTER <password> <email>
+2014-05-13 21:20:29	robin_m	LOGOUT
+2014-05-13 21:20:29	--	NickServ: You are not logged in.
+2014-05-13 21:20:55	robin_m	identify eserece1
+2014-05-13 21:20:55	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:21:00	robin_m	identify ********
+2014-05-13 21:21:00	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:21:10	robin_m	identify ********
+2014-05-13 21:21:10	--	NickServ: Invalid password for robin_m.
+2014-05-13 21:29:27	--	irc: disconnected from server

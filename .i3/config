@@ -131,7 +131,7 @@ bindsym $mod+h workspace 2
 bindsym $mod+g workspace 3
 bindsym $mod+q workspace 4
 bindsym $mod+rightsinglequotemark workspace 5
-bindsym $mod+quote workspace 5
+bindsym $mod+apostrophe workspace 5
 bindsym $mod+k workspace 6
 bindsym $mod+period workspace 7
 bindsym $mod+x workspace 8

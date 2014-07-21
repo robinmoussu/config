@@ -120,12 +120,21 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
+<<<<<<< HEAD
+let s:l = 64 - ((6 * winheight(0) + 8) / 17)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+64
+normal! 0
+=======
 let s:l = 155 - ((39 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 155
 normal! 023|
+>>>>>>> 7ae14755030b06e766eb1092114383e5bfee2c63
 lcd ~/
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost

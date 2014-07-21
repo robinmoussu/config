@@ -1,13 +1,18 @@
-// C/C++ File
-// AUTHOR:   robin_arch
-// FILE:     auie.c
-// ROLE:     TODO (some explanation)
-// CREATED:  2014-03-28 11:40:38
-// MODIFIED: 2014-03-28 11:40:38
+int 
+main(void)
+    {
+  int a;
+int b;
 
-uaisretsnuiraet
-tauinet
+    if (a == b)
+    	int c = a;
 
-utaiernst
+    else       {
+	  int d = b;
+      }
+    return c;
+}
 
-stuasietuaient
+void function(int f) {
+    int c = 4; int d; 
+    d = c - 3; }

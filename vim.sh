@@ -1,5 +1,5 @@
 
-COMMON="/home/config"
+COMMON="/nfs/home/rmoussu"
 
 rm -rf $COMMON/.vim/bundle/Vundle.vim
 git clone https://github.com/gmarik/Vundle.vim.git $COMMON/.vim/bundle/Vundle.vim

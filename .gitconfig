@@ -1,0 +1,9 @@
+[user]
+	name = robin moussu
+	email = robin.moussu+git@gmail.com
+[push]
+	default = simple
+[webui]
+	autoupdate = true
+[alias]
+	webui = !/home/robin_arch/.git-webui/release/libexec/git-core/git-webui

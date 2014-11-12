@@ -5,9 +5,9 @@ INSTALL_PACKER=1
 
 if [ $UID -eq 0 ]
 then
-    PACMAN="packer"
+    PACMAN="pacman"
 else
-    PACMAN="sudo packer"
+    PACMAN="pacman"
 fi
 
 declare -a INSTALL=(

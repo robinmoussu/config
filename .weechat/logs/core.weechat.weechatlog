@@ -1210,3 +1210,159 @@
 2014-06-25 13:36:51	=!=	Erreur: impossible de charger l'extension "/usr/lib/weechat/plugins/aspell.so": libaspell.so.15: Ne peut ouvrir le fichier d'objet partagé: Aucun fichier ou dossier de ce type
 2014-06-25 13:36:51	=!=	Si vous essayez de charger un script et non une extension C, essayez la commande pour charger les scripts (/perl, /python, ...)
 2014-06-25 13:36:51		Extensions chargées: alias, charset, fifo, guile, irc, logger, perl, python, relay, rmodifier, script, xfer
+2014-09-16 18:46:43	=!=	Attention : /home/robin_arch/.weechat/irc.conf, ligne 29 : option inconnue pour la section "look" : item_channel_modes_hide_key = off
+2014-09-16 18:46:43		Extensions chargées : alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-16 18:46:54	=!=	irc : une connexion vers le serveur "freenode" est en cours !
+2014-09-16 18:46:54	=!=	Erreur avec la commande "/connect freenode" (aide sur la commande : /help connect)
+2014-09-16 18:47:07		[core]
+2014-09-16 18:47:07		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2014-09-16 18:47:07		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2014-09-16 18:47:07		[tcl]
+2014-09-16 18:47:07		  tcl
+2014-09-16 18:47:07		[trigger]
+2014-09-16 18:47:07		  trigger
+2014-09-16 18:47:07		[python]
+2014-09-16 18:47:07		  python
+2014-09-16 18:47:07		[exec]
+2014-09-16 18:47:07		  exec
+2014-09-16 18:47:07		[ruby]
+2014-09-16 18:47:07		  ruby
+2014-09-16 18:47:07		[lua]
+2014-09-16 18:47:07		  lua
+2014-09-16 18:47:07		[script]
+2014-09-16 18:47:07		  script
+2014-09-16 18:47:07		[logger]
+2014-09-16 18:47:07		  logger
+2014-09-16 18:47:07		[alias]
+2014-09-16 18:47:07		  AAWAY    AMSG     BYE      CL       IG       KB       MUB      REDRAW   T        unalias  WC       WW     
+2014-09-16 18:47:07		  alias    ANICK    C        CLOSE    J        LEAVE    N        SAY      UB       V        WI     
+2014-09-16 18:47:07		  AME      BEEP     CHAT     EXIT     K        M        Q        SIGNOFF  UMODE    W        WII    
+2014-09-16 18:47:07		[xfer]
+2014-09-16 18:47:07		  me  xfer
+2014-09-16 18:47:07		[perl]
+2014-09-16 18:47:07		  perl
+2014-09-16 18:47:07		[guile]
+2014-09-16 18:47:07		  guile
+2014-09-16 18:47:07		[charset]
+2014-09-16 18:47:07		  charset
+2014-09-16 18:47:07		[aspell]
+2014-09-16 18:47:07		  aspell
+2014-09-16 18:47:07		[irc]
+2014-09-16 18:47:07		  admin       cycle       halfop      kickban     mode        op          quote       sanick      squit       unquiet     who       
+2014-09-16 18:47:07		  allchan     dcc         ignore      kill        motd        oper        reconnect   sapart      stats       userhost    whois     
+2014-09-16 18:47:07		  allpv       dehalfop    info        links       msg         part        rehash      saquit      summon      users       whowas    
+2014-09-16 18:47:07		  allserv     deop        invite      list        names       ping        remove      server      time        version   
+2014-09-16 18:47:07		  ban         devoice     ison        lusers      nick        pong        restart     service     topic       voice     
+2014-09-16 18:47:07		  connect     die         join        map         notice      query       sajoin      servlist    trace       wallchops 
+2014-09-16 18:47:07		  ctcp        disconnect  kick        me          notify      quiet       samode      squery      unban       wallops   
+2014-09-16 18:47:07		[relay]
+2014-09-16 18:47:07		  relay
+2014-09-16 18:47:19	=!=	irc : la commande "join" doit être exécutée sur un serveur irc connecté
+2014-09-16 18:47:39		irc : serveur help créé (serveur temporaire, NON SAUVÉ !)
+2014-09-16 18:47:51		[irc]  /connect  [<serveur> [<serveur>...] [-<option>[=<valeur>]] [-no<option>] [-nojoin] [-switch]
+2014-09-16 18:47:51		                 -all|-auto|-open [-nojoin] [-switch]
+2014-09-16 18:47:51		se connecter à un/plusieurs serveur(s) IRC
+2014-09-16 18:47:51		 serveur : nom du serveur, qui peut être :
+2014-09-16 18:47:51		           - nom interne de serveur (créé par /server add, usage recommandé)
+2014-09-16 18:47:51		           - nom/port ou IP/port (ceci créera un serveur TEMPORAIRE), le port par défaut est 6667
+2014-09-16 18:47:51		           - URL avec le format : irc[6][s]://[pseudo[:mot_passe]@]irc.example.org[:port][/#canal1][,#canal2[...]]
+2014-09-16 18:47:51		  option : définir l'option pour le serveur (pour une option booléenne, la valeur peut être omise)
+2014-09-16 18:47:51		nooption : définir l'option booléenne à 'off' (par exemple : -nossl)
+2014-09-16 18:47:51		    -all : se connecter à tous les serveurs définis dans la configuration
+2014-09-16 18:47:51		   -auto : se connecter aux serveurs qui ont "autoconnect" activé
+2014-09-16 18:47:51		   -open : se connecter à tous les serveurs ouverts qui ne sont pas actuellement connectés
+2014-09-16 18:47:51		 -nojoin : ne rejoindre aucun canal (même si l'autojoin est activé pour le serveur)
+2014-09-16 18:47:51		 -switch : basculer vers l'adresse suivante du serveur
+2014-09-16 18:47:51		Pour se déconnecter du serveur ou stopper toute tentative de connexion, utilisez la commande /disconnect.
+2014-09-16 18:47:51		Exemples :
+2014-09-16 18:47:51		  /connect freenode
+2014-09-16 18:47:51		  /connect irc.oftc.net/6667
+2014-09-16 18:47:51		  /connect irc6.oftc.net/6667 -ipv6
+2014-09-16 18:47:51		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2014-09-16 18:47:51		  /connect my.server.org/6697 -ssl -password=test
+2014-09-16 18:47:51		  /connect irc://nick@irc.oftc.net/#channel
+2014-09-16 18:47:51		  /connect -switch
+2014-09-16 18:47:57	=!=	irc : une connexion vers le serveur "freenode" est en cours !
+2014-09-16 18:47:57	=!=	Erreur avec la commande "/connect freenode" (aide sur la commande : /help connect)
+2014-09-16 18:48:14	=!=	irc : la commande "join" doit être exécutée sur un serveur irc connecté
+2014-09-16 20:12:25		fifo : suppression du vieux tube "/home/config/.weechat/weechat_fifo_25533"
+2014-09-16 20:12:26	=!=	Attention : /home/robin_arch/.weechat/irc.conf, ligne 29 : option inconnue pour la section "look" : item_channel_modes_hide_key = off
+2014-09-16 20:12:26		Extensions chargées : alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-16 21:53:20		script : téléchargement de la liste des scripts...
+2014-09-16 21:53:20		script : 280 scripts pour WeeChat 1.0
+2014-09-16 21:53:27		Nouvelle touche (contexte "mouse") : @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2014-09-16 21:53:27		Nouvelle touche (contexte "mouse") : @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2014-09-16 21:53:27		Nouvelle touche (contexte "mouse") : @item(buffers):button2* => hsignal:buffers_mouse
+2014-09-16 21:53:27		Nouvelle touche (contexte "mouse") : @item(buffers):button1* => hsignal:buffers_mouse
+2014-09-16 22:01:28		[color] (aspell.conf)
+2014-09-16 22:01:28		  aspell.color.misspelled = lightred
+2014-09-16 22:01:28		  aspell.color.suggestions = default
+2014-09-16 22:01:28		[check] (aspell.conf)
+2014-09-16 22:01:28		  aspell.check.commands = "ame,amsg,away,command,cycle,kick,kickban,me,msg,notice,part,query,quit,topic"
+2014-09-16 22:01:28		  aspell.check.default_dict = ""
+2014-09-16 22:01:28		  aspell.check.during_search = off
+2014-09-16 22:01:28		  aspell.check.enabled = off
+2014-09-16 22:01:28		  aspell.check.real_time = off
+2014-09-16 22:01:28		  aspell.check.suggestions = -1
+2014-09-16 22:01:28		  aspell.check.word_min_length = 2
+2014-09-16 22:01:28		9 options (correspondant à "*aspell*")
+2014-09-16 22:01:39		[color] (aspell.conf)
+2014-09-16 22:01:39		  aspell.color.misspelled = lightred
+2014-09-16 22:01:39		  aspell.color.suggestions = default
+2014-09-16 22:01:39		[check] (aspell.conf)
+2014-09-16 22:01:39		  aspell.check.commands = "ame,amsg,away,command,cycle,kick,kickban,me,msg,notice,part,query,quit,topic"
+2014-09-16 22:01:39		  aspell.check.default_dict = ""
+2014-09-16 22:01:39		  aspell.check.during_search = off
+2014-09-16 22:01:39		  aspell.check.enabled = off
+2014-09-16 22:01:39		  aspell.check.real_time = off
+2014-09-16 22:01:39		  aspell.check.suggestions = -1
+2014-09-16 22:01:39		  aspell.check.word_min_length = 2
+2014-09-16 22:01:39		9 options (correspondant à "*aspell*")
+2014-09-16 22:02:12		Option modifiée : aspell.check.default_dict = "= "fr,en""  (défaut : "")
+2014-09-16 22:02:18		Option modifiée : aspell.check.default_dict = "= "fr,en""  (défaut : "")
+2014-09-16 22:02:40	=!=	Erreur : impossible de modifier l'option "aspell.check.during_search"
+2014-09-16 22:02:44	=!=	Erreur : impossible de modifier l'option "aspell.check.during_search"
+2014-09-16 22:02:48	=!=	Erreur : impossible de modifier l'option "aspell.check.during_search"
+2014-09-16 22:02:54		Option modifiée : aspell.check.during_search = on  (défaut : off)
+2014-09-16 22:03:08		Option modifiée : aspell.check.enabled = on  (défaut : off)
+2014-09-16 22:03:08	=!=	aspell: error: No word lists can be found for the language "".
+2014-09-16 22:03:08	=!=	aspell: error: No word lists can be found for the language "en".
+2014-09-16 22:03:26		Option modifiée : aspell.check.real_time = on  (défaut : off)
+2014-09-16 22:03:32		[color] (aspell.conf)
+2014-09-16 22:03:32		  aspell.color.misspelled = lightred
+2014-09-16 22:03:32		  aspell.color.suggestions = default
+2014-09-16 22:03:32		[check] (aspell.conf)
+2014-09-16 22:03:32		  aspell.check.commands = "ame,amsg,away,command,cycle,kick,kickban,me,msg,notice,part,query,quit,topic"
+2014-09-16 22:03:32		  aspell.check.default_dict = "= "fr,en""  (défaut : "")
+2014-09-16 22:03:32		  aspell.check.during_search = on  (défaut : off)
+2014-09-16 22:03:32		  aspell.check.enabled = on  (défaut : off)
+2014-09-16 22:03:32		  aspell.check.real_time = on  (défaut : off)
+2014-09-16 22:03:32		  aspell.check.suggestions = -1
+2014-09-16 22:03:32		  aspell.check.word_min_length = 2
+2014-09-16 22:03:32		9 options (correspondant à "*aspell*")
+2014-09-16 22:03:47	=!=	Erreur : impossible de modifier l'option "aspell.check.suggestions"
+2014-09-16 22:03:51		Option modifiée : aspell.check.suggestions = 5  (défaut : -1)
+2014-09-17 00:31:06	=!=	aspell: error: No word lists can be found for the language "".
+2014-09-17 00:31:06	=!=	aspell: error: No word lists can be found for the language "en".
+2014-09-17 00:31:10	=!=	aspell: error: No word lists can be found for the language "".
+2014-09-17 00:31:10	=!=	aspell: error: No word lists can be found for the language "en".
+2014-09-17 00:31:11	=!=	aspell: error: No word lists can be found for the language "".
+2014-09-17 00:31:11	=!=	aspell: error: No word lists can be found for the language "en".
+2014-09-23 21:31:36		fifo : suppression du vieux tube "/home/config/.weechat/weechat_fifo_2050"
+2014-09-23 21:31:36		Nouvelle touche (contexte "mouse") : @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2014-09-23 21:31:36		Nouvelle touche (contexte "mouse") : @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2014-09-23 21:31:36		Nouvelle touche (contexte "mouse") : @item(buffers):button2* => hsignal:buffers_mouse
+2014-09-23 21:31:36		Nouvelle touche (contexte "mouse") : @item(buffers):button1* => hsignal:buffers_mouse
+2014-09-23 21:31:36		Scripts perl chargés : buffers
+2014-09-23 21:31:36	=!=	Attention : /home/robin_arch/.weechat/irc.conf, ligne 29 : option inconnue pour la section "look" : item_channel_modes_hide_key = off
+2014-09-23 21:31:37		Extensions chargées : alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-23 21:31:37	=!=	script : la liste des scripts est vide (le fichier du dépôt est cassé, ou bien le téléchargement a échoué)
+2014-09-30 21:03:30		fifo : suppression du vieux tube "/home/config/.weechat/weechat_fifo_19700"
+2014-09-30 21:03:30		Nouvelle touche (contexte "mouse") : @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2014-09-30 21:03:30		Nouvelle touche (contexte "mouse") : @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2014-09-30 21:03:30		Nouvelle touche (contexte "mouse") : @item(buffers):button2* => hsignal:buffers_mouse
+2014-09-30 21:03:30		Nouvelle touche (contexte "mouse") : @item(buffers):button1* => hsignal:buffers_mouse
+2014-09-30 21:03:30		Scripts perl chargés : buffers
+2014-09-30 21:03:31	=!=	Attention : /home/robin_arch/.weechat/irc.conf, ligne 29 : option inconnue pour la section "look" : item_channel_modes_hide_key = off
+2014-09-30 21:03:31		Extensions chargées : alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-30 21:03:31		script : 280 scripts pour WeeChat 1.0

@@ -25,7 +25,9 @@ floating_modifier $mod
 focus_follows_mouse no
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh
+#bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh
+bindsym $mod+Return exec urxvt
+bindsym $mod+Shift+Return exec urxvt -e ranger
 
 # kill focused window
 bindsym $mod+d kill
@@ -154,11 +156,27 @@ bindsym $mod+Shift+Agrave move container to workspace 10; workspace 10
 bindsym $mod+Shift+O reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+V restart
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+J exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# exit
+set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (Shift+s)
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+bindsym $mod+Shift+J mode "$mode_system"
 
 # resize window (you can also use the mouse for that)
-mode "resize" {
+set $resize RESIZE : shrink (c/s), grow (t/r)
+mode "$resize" {
         # These bindings trigger as soon as you enter the resize mode
 
         # Pressing left will shrink the window’s width.
@@ -181,53 +199,62 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym space mode "default"
 }
-bindsym $mod+z mode "resize"
+bindsym $mod+z mode "$resize"
 
-mode "son" {
+set $sound VOLUME : volume down (c and t), volume up(s and r), mute (m), pacmixer (p)
+mode "$sound" {
    bindsym c exec pulseaudio-ctl down 1
    bindsym t exec pulseaudio-ctl down 50
    bindsym s exec pulseaudio-ctl up   50
    bindsym r exec pulseaudio-ctl up   1
    bindsym m exec pulseaudio-ctl mute
 
-   bindsym p exec pavucontrol; mode "default"
-   bindsym $mod+p exec pavucontrol; mode "default"
+   bindsym p exec i3-sensible-terminal -e pacmixer; mode "default"
+   bindsym $mod+p exec i3-sensible-terminal -e pacmixer; mode "default"
 
 # back to normal: Enter or Escape
    bindsym Return mode "default"
    bindsym Escape mode "default"
    bindsym space  mode "default"
 }
-bindsym $mod+j mode "son"
+bindsym $mod+j mode "$sound"
 
-mode "ecran" {
-#luminosité
-   bindsym c exec xbacklight -dec 1
-   bindsym t exec xbacklight -dec 10
-   bindsym s exec xbacklight -inc 10
-   bindsym r exec xbacklight -inc 1
-   bindsym m exec i3lock -c 000000 -b; mode "default"
+bindsym XF86MonBrightnessUp   exec xbacklight -set $( echo "$(xbacklight)  / 0.7" | bc )
+bindsym XF86MonBrightnessDown exec xbacklight -set $( echo "$(xbacklight)  * 0.7" | bc )
 
-   bindsym a exec arandr; mode "default"
-   bindsym $mod+a exec arandr; mode "default"
+set $screen SCREEN : osd down (c and t), osd up(s and r), arandr (a), TapButton1 on (u) / off (i)
+mode "$screen" {
+    bindsym c exec xbacklight -set $( echo "$(xbacklight)  * 0.7" | bc)
+    bindsym t exec xbacklight -set $( echo "$(xbacklight)  * 0.8" | bc)
+    bindsym s exec xbacklight -set $( echo "$(xbacklight)  / 0.7" | bc | awk '{if($1 <= 2) {print 3} else {print $1}}')
+    bindsym r exec xbacklight -set $( echo "$(xbacklight)  / 0.8" | bc | awk '{if($1 <= 2) {print 5} else {print $1}}')
 
-# back to normal: Enter or Escape
-   bindsym Return mode "default"
-   bindsym Escape mode "default"
-   bindsym space  mode "default"
+    bindsym m exec xbacklight -set 0; mode "default"
+
+    bindsym a exec arandr; mode "default"
+    bindsym $mod+a exec arandr; mode "default"
+
+    bindsym u exec synclient TapButton1=0; mode "default"
+    bindsym i exec synclient TapButton1=1; mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space  mode "default"
 }
-bindsym $mod+m mode "ecran"
+bindsym $mod+m mode "$screen"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
-        #status_command candybar
-        mode hide
-        #mode invisible
-        #hidden_state hide
-        #position top
-        #workspace_buttons no
+    status_command i3status
+    #status_command i3status | dzen2 -fg white -bg black -ta r -y 1065 -w 1366 -fn "-*-terminus-*-*-*-*-13-*-*-*-*-*-*-*" -dock
+    #status_command candybar
+    mode hide
+    #mode invisible
+    hidden_state hide
+    #position top
+    #workspace_buttons no
 }
 
 #color and border
@@ -245,4 +272,7 @@ exec setxkbmap fr bepo
 
 
 #exec-always candybar
-exec feh --bg-center ~/Pictures/steampunk_gears_clockwork_widescreen_watch_cogs_1920x1200_66731.jpg
+exec feh --bg-center ~/Images/wallpaper/Best-Dark-Wallpapers-in-HD-Black-1920x1080-3.jpg
+exec synclient TapButton1=0
+exec synclient HorizTwoFingerScroll=1
+exec xrdb -merge ~/.Xresources

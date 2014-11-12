@@ -3676,4 +3676,350 @@
 2014-06-25 16:02:09	@sinma	TWal: ah ouais.
 2014-06-25 16:02:11	+TWal	Car la souris sait pas où t'as cliqué (un seul bouton)
 2014-06-25 16:02:20	+TWal	Du coup, tu reste tout le temps les doigts en l'air
-2014-06-25 16:02:26	+TWal	
+2014-06-25 16:02:26	+TWal	2014-09-16 20:12:38	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-16 20:12:38	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-16 20:12:38	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-16 20:12:38	--	Canal #bepo : 41 pseudos (8 ops, 5 voices, 28 normaux)
+2014-09-16 20:12:38	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-16 20:12:38	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-16 20:12:38	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-16 20:25:16	@sinma	robin_m: hey, ça faisait longtemsp!
+2014-09-16 20:26:15	robin_m	coucou
+2014-09-16 20:26:31	@sinma	robin_m: quoi de neuf?
+2014-09-16 20:26:34	robin_m	je pense pas à démarrer irc avec mon pc, c'est pas bien !
+2014-09-16 20:27:21	robin_m	je suis en train de rédiger un plugin pour vim
+2014-09-16 20:27:44	robin_m	mon stage cet été c'est bien passé, et mon école s'annonce pas mal
+2014-09-16 20:29:01	robin_m	pour mon plugin, y'a tout qui marche si je source les fichiers manuellement, et je suis en train de comprendre comment faire pour le transformer en un vrai plugin
+2014-09-16 20:32:15	<--	Asclepias (b8a081c3@gateway/web/freenode/ip.184.160.129.195) a quitté (Ping timeout: 246 seconds)
+2014-09-16 20:34:18	@sinma	robin_m: ah ça va bien alors :)
+2014-09-16 20:35:13	robin_m	^^
+2014-09-16 20:35:51	robin_m	le but est d'ajouter automatiquement à la crétion un header et un footer, puis de le mettre à jour automatiquement lors des enregistrements
+2014-09-16 20:36:08	robin_m	par exemple : date, nom de l'auteur, copyright …
+2014-09-16 20:40:08	+Fauve	robin_m: O9
+2014-09-16 20:40:28	+Fauve	Es-tu revenu, robin_m , du Québec ?
+2014-09-16 20:40:45	galex-713	sinma: toi tu pouvais pas demander à venir à l’AN ?
+2014-09-16 20:40:50	galex-713	Tu mattera ça en streaming au moins ?
+2014-09-16 20:40:57	@Iiiak	robin_m → Bah tu peux l’inclure (le sourcing) dans le vimrc. 
+2014-09-16 20:41:06	@sinma	galex-713: je pense pas non
+2014-09-16 20:41:21	@Iiiak	Par contre……… Copyright <- 
+2014-09-16 20:41:30	@Iiiak	↑ WTF ?
+2014-09-16 20:41:49	galex-713	Fauve: est-ce qu’au Maroc le gouvernement craint autant qu’ici ?
+2014-09-16 20:41:56	galex-713	sinma: mais… pourquoi ?
+2014-09-16 20:42:00	+Fauve	galex-713: craint quoi ?
+2014-09-16 20:42:08	galex-713	craint
+2014-09-16 20:42:12	galex-713	c’est-à-dire est nul
+2014-09-16 20:42:12	galex-713	Pourri
+2014-09-16 20:42:20	galex-713	Comme dans « Ah, ça craint» 
+2014-09-16 20:42:22	galex-713	* »
+2014-09-16 20:42:53	@sinma	galex-713: parce que j’ai pas envie
+2014-09-16 20:43:00	galex-713	sinma: ohhhhhhhhh :(
+2014-09-16 20:43:05	galex-713	Mais ça va être bien !
+2014-09-16 20:43:11	galex-713	Ils vont radoter pleins de conneries !
+2014-09-16 20:43:19	galex-713	Ils sont 15 sur 300 !
+2014-09-16 20:43:44	galex-713	Non, 600
+2014-09-16 20:44:53	galex-713	38% ça fait
+2014-09-16 20:44:57	galex-713	Mais waat
+2014-09-16 20:45:07	galex-713	15 sur 577 ça fait 38% ?
+2014-09-16 20:45:09	galex-713	Quoiiii ?
+2014-09-16 20:45:45	galex-713	Ah non
+2014-09-16 20:45:53	galex-713	Confondu diviseur et divisé
+2014-09-16 20:45:57	galex-713	Ça fait 2% :}
+2014-09-16 20:46:01	galex-713	:')
+2014-09-16 20:46:44	+Fauve	https://www.youtube.com/watch?v=Xbs6eMxa5ds ’faut qu’on en fasse des brigades.
+2014-09-16 20:46:55	+Fauve	Le terrorisme de la propreté.
+2014-09-16 20:47:04	@sinma	ah les salauds ils viennent même pas aux débats?
+2014-09-16 20:48:03	robin_m	galex-713: il me semble que le copyright utilisé de manière général englobe les licences libre. Par copyright, je voulais dire licence du fichier
+2014-09-16 20:48:50	+Fauve	robin_m: tu as raison, en fait.
+2014-09-16 20:49:17	+Fauve	http://lesjoiesducode.fr/post/97650112376/quand-on-decouvre-une-librairie-qui-fait-tout-notre#_=_
+2014-09-16 20:50:13	@sinma	Fauve: haha, génial
+2014-09-16 20:50:29	+Fauve	galex-713: http://ultimex.over-blog.com/article-ultimex-222-124585904.html
+2014-09-16 20:50:37	galex-713	sinma: nan
+2014-09-16 20:51:01	galex-713	sinma: même pour une loi qui (une fois de plus) viole la séparation des trois pouvoirs et la présomption d’innocence
+2014-09-16 20:51:19	galex-713	Bon bah moi après mes études je me barre au Brésil
+2014-09-16 20:51:23	galex-713	Qui me rejoint ?
+2014-09-16 20:51:35	galex-713	Non, sinon je rejoins AL ou la FA
+2014-09-16 20:51:42	galex-713	Et le PP ce sera pas en France…
+2014-09-16 20:51:44	galex-713	Enfin…
+2014-09-16 20:51:45	galex-713	Chépa
+2014-09-16 20:51:48	galex-713	J’hésite toujours
+2014-09-16 20:51:51	galex-713	PP, AL, FA…
+2014-09-16 20:52:46	galex-713	Fauve: haha excellent
+2014-09-16 20:53:46	 *	Fauve a l’impression d’avoir un style oratoire si peut contradictoire qu’il laisse peut de place à la contre-argumentation.
+2014-09-16 20:54:02	@sinma	galex-713: je parle pas le brésilien :P
+2014-09-16 20:54:36	galex-713	sinma: portugai
+2014-09-16 20:55:16	@sinma	galex-713: bah voui, je parle la langue :)
+2014-09-16 20:56:38	+Fauve	En gros, j’ai une argumentation péremptoire.
+2014-09-16 20:57:25	robin_m	@v
+2014-09-16 20:57:28	robin_m	@+
+2014-09-16 20:57:51	@sinma	galex-713: *pas
+2014-09-16 20:57:58	@sinma	Fauve: comme les dates de péremption?
+2014-09-16 20:58:19	+Fauve	sinma: c’est ça.
+2014-09-16 20:58:48	+Fauve	Qu’elles poussent sur des palmiers ou non, d’ailleurs.
+2014-09-16 21:44:26	--	irc : déconnecté du serveur
+2014-09-16 21:44:49	-->	robin_m (~robin@85-171-165-42.rev.numericable.fr) a rejoint #bepo
+2014-09-16 21:44:49	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-16 21:44:49	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-16 21:44:49	--	Canal #bepo : 40 pseudos (8 ops, 5 voices, 27 normaux)
+2014-09-16 21:44:49	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-16 21:44:49	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-16 21:44:50	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-16 21:53:14	robin_m	:q
+2014-09-16 21:55:34	@sinma	robin_m: re :)
+2014-09-16 21:58:09	<--	asr` (~ASR@greedo.ryckeboer.org) a quitté (Ping timeout: 245 seconds)
+2014-09-16 21:58:39	-->	Jafura (~Jean-Fran@2a02:2788:114:11ce:ad94:14e8:c4ca:17e) a rejoint #bepo
+2014-09-16 21:58:39	--	Mode #bepo [+o Jafura] par ChanServ
+2014-09-16 21:58:47	@sinma	en fait je viens d’apprendre que l’histoire de l’ABCD de l’égalité avait été abandonné je suis débgouté
+2014-09-16 21:59:19	-->	asr` (~ASR@greedo.ryckeboer.org) a rejoint #bepo
+2014-09-16 21:59:19	--	Mode #bepo [+o asr`] par ChanServ
+2014-09-16 22:09:45	<--	yekcim (~yekcim@lif35-1-78-232-186-80.fbx.proxad.net) a quitté (Quit: Ex-Chat)
+2014-09-16 22:12:54	@sinma	galex-713: c’est normal que quand j’essaie de m’inscrire sur la liste de discussion de EFiGiES j’ai pas de courriel de confirmation?
+2014-09-16 22:33:53	@sinma	OMG
+2014-09-16 22:34:04	@sinma	Les gens, mise à jour d’ibus qui corrige le problème de touches mortes!
+2014-09-16 22:34:07	@sinma	allélouia!
+2014-09-16 22:37:24	<--	spider-mario (~spidermar@37.160.129.51) a quitté (Read error: Connection reset by peer)
+2014-09-16 22:41:58	@sinma	est-ce qu’un bépoète pourrait m’expliquer ceci: http://bepo.fr/wiki/X.Org_:_installation_du_fichier_.XCompose
+2014-09-16 22:42:15	@sinma	parce que bon moi ça marche sans rien faire, alors j’imagine qu’avant non, du coup depuis quand?
+2014-09-16 22:42:24	@sinma	En fait c’est rapport à la touche morte grecque?
+2014-09-17 07:16:17	--	irc : déconnecté du serveur
+2014-09-17 07:16:40	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-17 07:16:40	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-17 07:16:40	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-17 07:16:40	--	Canal #bepo : 33 pseudos (7 ops, 4 voices, 22 normaux)
+2014-09-17 07:16:40	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-17 07:16:40	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-17 07:16:40	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-17 07:41:27	-->	Jafura (~Jean-Fran@ptr-178-50-74-163.dyn.mobistar.be) a rejoint #bepo
+2014-09-17 07:41:27	--	Mode #bepo [+o Jafura] par ChanServ
+2014-09-17 07:42:37	-->	fclove (~kitsune@105.216.97.84.rev.sfr.net) a rejoint #bepo
+2014-09-17 09:51:07	--	irc : déconnecté du serveur
+2014-09-17 14:21:37	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-17 14:21:37	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-17 14:21:37	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-17 14:21:37	--	Canal #bepo : 35 pseudos (8 ops, 4 voices, 23 normaux)
+2014-09-17 14:21:37	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-17 14:21:37	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-17 14:21:37	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-17 14:31:12	Minos`	Zluglu: ça colle pas, poisseux
+2014-09-17 14:46:30	-->	Fauve (~Fauve@unaffiliated/fauve) a rejoint #bepo
+2014-09-17 14:46:30	--	Mode #bepo [+v Fauve] par ChanServ
+2014-09-17 14:53:35	<--	Jafura (~Jean-Fran@ptr-178-50-78-24.dyn.mobistar.be) a quitté (Ping timeout: 255 seconds)
+2014-09-17 15:03:55	<--	Fauve (~Fauve@unaffiliated/fauve) a quitté (Ping timeout: 240 seconds)
+2014-09-17 15:09:19	-->	Fauve (~Fauve@unaffiliated/fauve) a rejoint #bepo
+2014-09-17 15:09:19	--	Mode #bepo [+v Fauve] par ChanServ
+2014-09-17 15:09:38	simpleuser	Je suis à 94 mots/min. à 98% sur le dactylotest.
+2014-09-17 15:09:53	simpleuser	C’est cool ! Bientôt 100 ! Comme quoi, selon le clavier, ça change du tout au tout.
+2014-09-17 15:14:25	-->	Jafura (~Jean-Fran@2a02:2788:114:11ce:e5fb:ea6b:7616:6c87) a rejoint #bepo
+2014-09-17 15:14:25	--	Mode #bepo [+o Jafura] par ChanServ
+2014-09-17 15:46:28	--	irc : déconnecté du serveur
+2014-09-17 15:46:53	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-17 15:46:53	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-17 15:46:53	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-17 15:46:53	--	Canal #bepo : 36 pseudos (8 ops, 5 voices, 23 normaux)
+2014-09-17 15:46:54	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-17 15:46:54	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-17 15:46:54	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-17 15:58:10	<--	Minos` (~Minos@2a01:e34:ef0d:8ae0:201:c0ff:fe06:8ba9) a quitté (Ping timeout: 260 seconds)
+2014-09-17 16:00:25	-->	Minos` (~Minos@2a01:e34:ef0d:8ae0:201:c0ff:fe06:8ba9) a rejoint #bepo
+2014-09-17 16:07:35	simpleuser	Quelqu’un utilise le plugin command-t sous vim ?
+2014-09-17 16:07:44	simpleuser	Ça doit être bien marrant de tout remapper…
+2014-09-17 16:08:12	simpleuser	Du coup, je me dis, si quelqu’un a déjà fait le boulot… Autant que je perde pas mon temps :-°
+2014-09-17 16:25:03	Minos`	Y a une page dédiée à vim sur le wiki
+2014-09-17 16:25:45	Minos`	avec quelques exemples de vimrc
+2014-09-17 16:29:20	<--	Iiiak (~Iiiak@central.fricouv.eu) a quitté (Quit: host upgrade)
+2014-09-17 16:31:04	simpleuser	Minos`: Je me cite : « Quelqu’un utilise le plugin command-t sous vim ? »
+2014-09-17 16:31:19	simpleuser	Tu as vu quelque chose sur ce plugin précis dans la doc ?
+2014-09-17 16:31:24	simpleuser	Moi non.
+2014-09-17 16:32:48	Minos`	ah, pour ce plugin
+2014-09-17 16:32:52	Minos`	ça a l’air pas mal, faudra que je teste
+2014-09-17 16:33:46	Minos`	Sinon, du coup, j’avais juste pas lu que tu parlais de ce plugin. Pas la peine de s’énerver.
+2014-09-17 16:36:11	simpleuser	Je m’énerve pas Minos`. C’est juste que ça arrive au moins 2 fois par jour que je pose une question sur un chan, et qu’on me réponde à côté. Donc maintenant je me quote :).
+2014-09-17 16:54:25	<--	Hydraze (~no@pdpc/supporter/student/hydraze) a quitté (Ping timeout: 240 seconds)
+2014-09-17 17:01:49	-->	Hydraze (~no@sd-42600.ip-ns.net) a rejoint #bepo
+2014-09-17 17:02:13	--	Hydraze est maintenant connu sous le nom Guest47467
+2014-09-17 17:08:23	<--	ThArGos (~user@162.48.7.109.rev.sfr.net) a quitté (Remote host closed the connection)
+2014-09-17 17:23:58	-->	yekcim (~yekcim@lif35-1-78-232-186-80.fbx.proxad.net) a rejoint #bepo
+2014-09-17 17:28:59	@Zluglu	Minos` : euh, si…
+2014-09-17 17:29:11	@Zluglu	sinon tu confonds avec visqueux :)
+2014-09-17 17:30:13	@Zluglu	simpleuser : je confirme que c’est particulièrement pénible
+2014-09-17 17:30:24	-->	spider-mario (~spidermar@37.162.165.123) a rejoint #bepo
+2014-09-17 19:40:08	--	irc : déconnecté du serveur
+2014-09-17 19:40:31	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-17 19:40:31	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-17 19:40:31	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-17 19:40:31	--	Canal #bepo : 38 pseudos (8 ops, 5 voices, 25 normaux)
+2014-09-17 19:40:31	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-17 19:40:31	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-17 19:40:32	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-17 20:31:46	-->	Ishido (~Ishido@105.216.97.84.rev.sfr.net) a rejoint #bepo
+2014-09-23 22:53:46	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-23 22:53:46	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-23 22:53:46	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-23 22:53:46	--	Canal #bepo : 37 pseudos (7 ops, 4 voices, 26 normaux)
+2014-09-23 22:53:46	--	Notice(tepper.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2014-09-23 22:53:46	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-23 22:53:46	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-23 22:53:46	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-23 23:24:02	<--	Fauve_Blanca (~quassel@41.141.148.197) a quitté (Ping timeout: 245 seconds)
+2014-09-23 23:41:48	-->	Fauve_Blanca (~quassel@41.141.148.197) a rejoint #bepo
+2014-09-23 23:49:41	<--	LordPhoenix (~LordPhoen@2001:41d0:fe37:6a00:4d23:2e49:a854:dec4) a quitté (Quit: Ex-Chat)
+2014-09-24 00:24:33	-->	Fauve_Blanca_ (~quassel@41.141.122.156) a rejoint #bepo
+2014-09-24 00:27:21	<--	Fauve_Blanca (~quassel@41.141.148.197) a quitté (Ping timeout: 250 seconds)
+2014-09-24 00:38:03	-->	Fauve_Blanca (~quassel@41.251.31.232) a rejoint #bepo
+2014-09-30 21:03:43	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-09-30 21:03:43	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-09-30 21:03:43	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-09-30 21:03:43	--	Canal #bepo : 38 pseudos (7 ops, 4 voices, 27 normaux)
+2014-09-30 21:03:43	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-09-30 21:03:43	--	URL pour #bepo : http://www.bepo.fr/
+2014-09-30 21:03:44	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-09-30 21:18:11	<--	spider-mario (~spidermar@37.160.3.62) a quitté (Ping timeout: 246 seconds)
+2014-09-30 21:20:25	-->	spider-mario (~spidermar@37.160.198.164) a rejoint #bepo
+2014-09-30 21:36:51	<--	yekcim (~yekcim@lif35-1-78-232-186-80.fbx.proxad.net) a quitté (Quit: Ex-Chat)
+2014-09-30 21:59:30	-->	yekcim (~yekcim@lif35-1-78-232-186-80.fbx.proxad.net) a rejoint #bepo
+2014-09-30 22:01:45	<--	floreal (~bip@2a02-8429-8047-4e00-0000-0000-0000-1337.rev.sfr.net) a quitté (Ping timeout: 260 seconds)
+2014-09-30 22:04:34	yekcim	http://yeknan.free.fr/dc2/public/ergobepo/sage0.png environ 1 mois et j’aurais un an de bépo
+2014-09-30 22:04:41	yekcim	mazette ça passe vite…
+2014-09-30 22:05:24	<--	spider-mario (~spidermar@37.160.198.164) a quitté (Remote host closed the connection)
+2014-09-30 22:07:34	@Zluglu	yekcim : m’en parle pas
+2014-09-30 22:09:10	@Zluglu	yekcim : dans 3 mois j’aurais DIX ans de bépo
+2014-09-30 22:43:19	yekcim	ça aurait été sympa d’avoir ta courbe de progression :) Zluglu
+2014-09-30 22:44:30	+Fauve	http://indicescibles.blogspot.fr/2014/09/ce-sans-abri-ete-completement-ignore.html
+2014-09-30 22:55:36	-->	sinma (~sinma@2a01:e35:8a26:6480:6a17:29ff:fe51:ff86) a rejoint #bepo
+2014-09-30 22:55:36	--	Mode #bepo [+o sinma] par ChanServ
+2014-09-30 22:56:06	<--	yekcim (~yekcim@lif35-1-78-232-186-80.fbx.proxad.net) a quitté (Quit: Ex-Chat)
+2014-09-30 23:56:25	<--	sinma (~sinma@2a01:e35:8a26:6480:6a17:29ff:fe51:ff86) a quitté (Quit: return to offline world…)
+2014-10-01 00:22:10	<--	pierreghz (~pierre@ratni.v4v.be) a quitté (Read error: Connection reset by peer)
+2014-10-01 00:22:48	-->	pierreghz (~pierre@ratni.v4v.be) a rejoint #bepo
+2014-10-01 01:05:30	-->	Jafura (~Jean-Fran@2a02:2788:114:11ce:b965:6014:8271:cfdd) a rejoint #bepo
+2014-10-01 01:05:31	--	Mode #bepo [+o Jafura] par ChanServ
+2014-10-01 02:24:21	--	irc : déconnecté du serveur
+2014-10-01 02:24:44	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-01 02:24:44	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-01 02:24:44	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-01 02:24:44	--	Canal #bepo : 36 pseudos (8 ops, 4 voices, 24 normaux)
+2014-10-01 02:24:44	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-01 02:24:44	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-01 02:24:44	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-01 03:35:40	-->	hopp` (~supybot@62.113.251.95) a rejoint #bepo
+2014-10-01 03:35:40	<--	hopp (~supybot@62.113.251.95) a quitté (Disconnected by services)
+2014-10-01 03:37:34	--	hopp` est maintenant connu sous le nom hopp
+2014-10-01 03:37:34	--	Mode #bepo [+v hopp] par ChanServ
+2014-10-01 07:49:44	<--	Zboonet (~nuptse@fr141-1-82-237-217-117.fbx.proxad.net) a quitté (Remote host closed the connection)
+2014-10-01 08:02:00	-->	c4software (~vbrosseau@46.255.52.118) a rejoint #bepo
+2014-10-01 08:34:24	--	irc : déconnecté du serveur
+2014-10-01 16:54:42	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-01 16:54:42	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-01 16:54:42	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-01 16:54:42	--	Canal #bepo : 39 pseudos (9 ops, 4 voices, 26 normaux)
+2014-10-01 16:54:42	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-01 16:54:42	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-01 16:54:42	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-01 17:15:30	<--	ThArGos (~user@162.48.7.109.rev.sfr.net) a quitté (Remote host closed the connection)
+2014-10-01 17:33:33	<--	Jafura (~Jean-Fran@2a02:2788:114:11ce:b965:6014:8271:cfdd) a quitté (Ping timeout: 260 seconds)
+2014-10-01 18:15:48	-->	asr`_ (~ASR@greedo.ryckeboer.org) a rejoint #bepo
+2014-10-01 18:17:51	<--	asr` (~ASR@greedo.ryckeboer.org) a quitté (Ping timeout: 244 seconds)
+2014-10-01 18:17:51	<--	Meriem (~Meriem@hhgtt.ga) a quitté (Ping timeout: 244 seconds)
+2014-10-01 18:17:51	<--	cooltrane (~thomas@195-154-236-62.rev.poneytelecom.eu) a quitté (Ping timeout: 244 seconds)
+2014-10-01 18:17:52	<--	spider-mario (~spidermar@37.160.139.184) a quitté (Ping timeout: 244 seconds)
+2014-10-01 18:17:56	<--	Fauve (~Fauve@unaffiliated/fauve) a quitté (Ping timeout: 258 seconds)
+2014-10-01 20:29:55	--	irc : déconnecté du serveur
+2014-10-01 20:30:18	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-01 20:30:18	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-01 20:30:18	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-01 20:30:18	--	Canal #bepo : 40 pseudos (8 ops, 4 voices, 28 normaux)
+2014-10-01 20:30:18	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-01 20:30:18	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-01 20:30:18	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-01 20:55:07	<--	Jafura (~Jean-Fran@85.234.199.20) a quitté (Ping timeout: 272 seconds)
+2014-10-01 21:20:43	<--	kookiemonster (~kookiemon@bob75-h01-31-33-63-93.dsl.sta.abo.bbox.fr) a quitté (Read error: Connection reset by peer)
+2014-10-01 21:21:12	-->	Jafura (~Jean-Fran@2a02:2788:114:11ce:b965:6014:8271:cfdd) a rejoint #bepo
+2014-10-01 21:21:12	--	Mode #bepo [+o Jafura] par ChanServ
+2014-10-01 21:25:23	-->	kookiemonster (~kookiemon@bob75-h01-31-33-63-93.dsl.sta.abo.bbox.fr) a rejoint #bepo
+2014-10-01 22:25:42	-->	Fauve_Blanca (~quassel@41.141.187.47) a rejoint #bepo
+2014-10-01 22:25:48	<--	Fauve_Blanca (~quassel@41.141.187.47) a quitté (Client Quit)
+2014-10-01 22:27:13	-->	Fauve_Blanca (~quassel@41.141.187.47) a rejoint #bepo
+2014-10-01 22:27:58	Fauve_Blanca	Miaou les patachoux.
+2014-10-01 22:29:07	-->	Rastus_Vernon (uid15187@wikimedia/Rastus-Vernon) a rejoint #bepo
+2014-10-01 22:35:16	robin_m	oucou Fauve_Blanca 
+2014-10-01 22:35:22	robin_m	c*
+2014-10-01 22:35:35	Fauve_Blanca	Miaou le codeur frangipané o/
+2014-10-01 22:35:38	Fauve_Blanca	Ça bounce ?
+2014-10-01 22:38:42	Fauve_Blanca	Tiens, une amante me vouvoie O.ô
+2014-10-01 22:38:48	Fauve_Blanca	« Vous êtes très gentil ».
+2014-10-01 22:39:02	Fauve_Blanca	Ça fait zarb.
+2014-10-01 22:39:24	Fauve_Blanca	C’est comme les colons bréziliens qui donnaient du « Monsieur mon époux, voudriez-vous bien […] ».
+2014-10-01 22:39:28	Fauve_Blanca	Ça heurte.
+2014-10-01 23:06:14	<--	Fauve_Blanca (~quassel@41.141.187.47) a quitté (Read error: Connection reset by peer)
+2014-10-01 23:06:42	-->	Fauve_Blanca (~quassel@41.141.187.47) a rejoint #bepo
+2014-10-01 23:26:10	<--	spider-mario (~spidermar@37.160.139.184) a quitté (Remote host closed the connection)
+2014-10-02 08:02:19	--	irc : déconnecté du serveur
+2014-10-02 08:03:01	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-02 08:03:01	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-02 08:03:01	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-02 08:03:01	--	Canal #bepo : 34 pseudos (8 ops, 3 voices, 23 normaux)
+2014-10-02 08:03:01	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-02 08:03:01	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-02 08:03:02	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-02 08:03:35	-->	c4software (~vbrosseau@46.255.52.118) a rejoint #bepo
+2014-10-02 10:06:01	--	irc : déconnecté du serveur
+2014-10-02 13:44:37	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-02 13:44:37	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-02 13:44:37	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-02 13:44:37	--	Canal #bepo : 35 pseudos (8 ops, 3 voices, 24 normaux)
+2014-10-02 13:44:37	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-02 13:44:37	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-02 13:44:37	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-02 21:19:01	--	irc : déconnecté du serveur
+2014-10-02 21:19:30	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-02 21:19:30	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-02 21:19:30	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-02 21:19:30	--	Canal #bepo : 38 pseudos (9 ops, 4 voices, 25 normaux)
+2014-10-02 21:19:31	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-02 21:19:31	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-02 21:19:31	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-02 21:37:04	--	irc : déconnecté du serveur
+2014-10-02 22:19:49	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-02 22:19:49	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-02 22:19:49	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-02 22:19:49	--	Canal #bepo : 40 pseudos (9 ops, 4 voices, 27 normaux)
+2014-10-02 22:19:49	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-02 22:19:49	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-02 22:19:50	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-02 22:22:23	<--	spider-mario (~spidermar@37.163.44.4) a quitté (Read error: Connection reset by peer)
+2014-10-03 07:20:51	--	irc : déconnecté du serveur
+2014-10-03 07:21:14	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-03 07:21:14	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-03 07:21:14	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-03 07:21:14	--	Canal #bepo : 35 pseudos (9 ops, 4 voices, 22 normaux)
+2014-10-03 07:21:14	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-03 07:21:14	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-03 07:21:15	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-03 10:05:12	--	irc : déconnecté du serveur
+2014-10-03 13:36:26	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-03 13:36:26	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-03 13:36:26	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-03 13:36:26	--	Canal #bepo : 40 pseudos (8 ops, 4 voices, 28 normaux)
+2014-10-03 13:36:26	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-03 13:36:26	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-03 13:36:26	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-03 13:38:11	PhM_Norma_	Bonjour- AFNOR cherche à documenter l'existant -et à préparer des normes- sur les claviers français. Vers qui puis-je me tourner dans votre communauté ? Merci - Ph Magnabosco
+2014-10-03 13:39:53	-->	Fauve_Blanca (~quassel@41.251.50.190) a rejoint #bepo
+2014-10-03 13:41:00	-->	Fauve_Blanca_ (~quassel@41.251.50.190) a rejoint #bepo
+2014-10-03 13:44:41	@Jafura	Bonjour PhM_Norma_ . Qu’est-ce qu’AFNOR souhaite normaliser ? La forme des claviers ou la disposition des touches ? Dans toute la Francophonie ou seulement sur le territoire français ? Serait-ce seulement à titre documentaire ou serait-ce une norme obligatoire qui empêcherait l’innovation ?
+2014-10-03 13:45:05	<--	Fauve_Blanca (~quassel@41.251.50.190) a quitté (Ping timeout: 260 seconds)
+2014-10-03 13:45:40	@Arathor	Jafura: si c’est un effort pour proposer des alternatives à cette horreur d’azerty, je vois pas en quoi ça empêcherait l’innovation
+2014-10-03 13:52:25	@Jafura	Arathor⚞ Depuis qu’on a voté pour figer le bépo, chaque fois que quelqu’un propose une amélioration, on dit que le bépo est figé. J’ai un peu peur qu’une normalisation ait un effet similaire, que ce soit un frein à toute tentative d’amélioration.
+2014-10-03 21:53:16	--	irc : déconnecté du serveur
+2014-10-03 21:53:41	-->	robin_m (~robin@89-156-197-177.rev.numericable.fr) a rejoint #bepo
+2014-10-03 21:53:41	--	Le titre pour #bepo est "Canal de discussion (en UTF-8) sur la disposition bépo (http://bépo.fr) | Inscrivez-vous sur la ML pour suivre le projet | Canal de l’asso : #ergodis | Conférence de Slowbrain : http://youtu.be/FXUe4lxYRJ8"
+2014-10-03 21:53:41	--	Titre défini par Jafura (~Jean-Fran@2a02:2788:114:11ce:645f:2bef:db0f:c815) le jeu., 14 août 2014 09:40:36
+2014-10-03 21:53:41	--	Canal #bepo : 40 pseudos (9 ops, 4 voices, 27 normaux)
+2014-10-03 21:53:41	--	PvNotice(ChanServ): http://bépo.fr la disposition de clavier francophone, ergonomique et libre. Canal en UTF-8.
+2014-10-03 21:53:41	--	URL pour #bepo : http://www.bepo.fr/
+2014-10-03 21:53:41	--	Canal créé le mar., 11 août 2009 15:03:30
+2014-10-03 22:28:43	<--	Fauve_Blanca (~quassel@41.251.50.190) a quitté (Read error: Connection reset by peer)
+2014-10-03 22:29:29	-->	Fauve_Blanca (~quassel@41.251.50.190) a rejoint #bepo
+2014-10-03 23:15:32	<--	spider-mario (~spidermar@mtg95-10-78-219-27-149.fbx.proxad.net) a quitté (Read error: Connection reset by peer)
+2014-10-03 23:44:44	-->	Fauve_Blanca_ (~quassel@41.251.50.190) a rejoint #bepo
+2014-10-03 23:47:16	<--	Fauve_Blanca (~quassel@41.251.50.190) a quitté (Ping timeout: 244 seconds)
+2014-10-03 23:48:58	<--	Fauve_Blanca_ (~quassel@41.251.50.190) a quitté (Remote host closed the connection)

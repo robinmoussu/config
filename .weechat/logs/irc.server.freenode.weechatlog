@@ -571,4 +571,1862 @@
 2014-06-25 18:51:28	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
 2014-06-25 18:51:28	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
 2014-06-25 18:51:28	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
-2014-06-25 18:51:28	--	There are 204 users and 95712 invisible on
+2014-06-25 18:51:28	--	There are 204 users and 95712 invisible on2014-09-16 18:46:43	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 18:47:43	=!=	irc : délai d'attente dépassé
+2014-09-16 18:47:43	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-16 18:47:53	--	irc : reconnexion au serveur...
+2014-09-16 18:47:53	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 18:48:53	=!=	irc : délai d'attente dépassé
+2014-09-16 18:48:53	--	irc : reconnexion au serveur dans 20 secondes
+2014-09-16 18:49:13	--	irc : reconnexion au serveur...
+2014-09-16 18:49:13	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 18:50:13	=!=	irc : délai d'attente dépassé
+2014-09-16 18:50:13	--	irc : reconnexion au serveur dans 40 secondes
+2014-09-16 18:50:53	--	irc : reconnexion au serveur...
+2014-09-16 18:50:53	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 18:51:53	=!=	irc : délai d'attente dépassé
+2014-09-16 18:51:53	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-09-16 18:53:13	--	irc : reconnexion au serveur...
+2014-09-16 18:53:13	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 18:54:13	=!=	irc : délai d'attente dépassé
+2014-09-16 18:54:13	--	irc : reconnexion au serveur dans 2 minutes, 40 secondes
+2014-09-16 18:56:53	--	irc : reconnexion au serveur...
+2014-09-16 18:56:53	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 18:57:53	=!=	irc : délai d'attente dépassé
+2014-09-16 18:57:53	--	irc : reconnexion au serveur dans 5 minutes, 20 secondes
+2014-09-16 19:03:13	--	irc : reconnexion au serveur...
+2014-09-16 19:03:13	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 19:04:07	=!=	irc : connexion refusée
+2014-09-16 19:04:07	--	irc : reconnexion au serveur dans 10 minutes, 40 secondes
+2014-09-16 20:12:26	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 20:12:26	--	irc : connecté à chat.freenode.net/6667 (64.32.24.176)
+2014-09-16 20:12:26	--	morgan.freenode.net: *** Looking up your hostname...
+2014-09-16 20:12:26	--	morgan.freenode.net: *** Checking Ident
+2014-09-16 20:12:27	--	morgan.freenode.net: *** Found your hostname
+2014-09-16 20:12:32	--	morgan.freenode.net: *** No Ident response
+2014-09-16 20:12:32	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-16 20:12:32	--	Your host is morgan.freenode.net[64.32.24.176/6667], running version ircd-seven-1.1.3
+2014-09-16 20:12:32	--	This server was created Thu Jul 31 2014 at 17:07:15 UTC
+2014-09-16 20:12:32	--	morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-16 20:12:32	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-16 20:12:32	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-16 20:12:32	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-16 20:12:32	--	There are 183 users and 93986 invisible on 29 servers
+2014-09-16 20:12:32	--	30 :IRC Operators online
+2014-09-16 20:12:32	--	24 :unknown connection(s)
+2014-09-16 20:12:32	--	55688 :channels formed
+2014-09-16 20:12:32	--	I have 4754 clients and 1 servers
+2014-09-16 20:12:32	--	4754 4773 :Current local users 4754, max 4773
+2014-09-16 20:12:32	--	94169 94172 :Current global users 94169, max 94172
+2014-09-16 20:12:32	--	Highest connection count: 4774 (4773 clients) (64345 connections received)
+2014-09-16 20:12:32	--	- morgan.freenode.net Message of the Day -
+2014-09-16 20:12:32	--	- Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+2014-09-16 20:12:32	--	- you to psyprus for sponsoring this server!
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- MORGAN, RICHARD K. (1965-) is an English science fiction
+2014-09-16 20:12:32	--	- author. Morgan's books are generally set in a dystopian world.
+2014-09-16 20:12:32	--	- His breakout novel Altered Carbon won the Philip K. Dick Award,
+2014-09-16 20:12:32	--	- and he has written many successful and amazing works to follow.
+2014-09-16 20:12:32	--	- His more recent writings explore the theme of autonomy
+2014-09-16 20:12:32	--	- in science fiction and escapism in fantasy.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- Welcome to freenode - supporting the free and open source
+2014-09-16 20:12:32	--	- software communities since 1998.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- **************************************************************
+2014-09-16 20:12:32	--	-                       SECURITY ALERT
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-16 20:12:32	--	- some compromised binaries present on a number of servers.
+2014-09-16 20:12:32	--	- The servers in question have been removed from the network and
+2014-09-16 20:12:32	--	- shut down.  However, it's possible that network traffic  -
+2014-09-16 20:12:32	--	- including SSL traffic - has been sniffed and passwords
+2014-09-16 20:12:32	--	- exposed.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- We therefore recommend that all users change their nickserv
+2014-09-16 20:12:32	--	- password(s) to a new value which is not shared with any
+2014-09-16 20:12:32	--	- other service.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- Please note that investigation is ongoing to discover the root
+2014-09-16 20:12:32	--	- cause of the attack, and until this investigation is complete
+2014-09-16 20:12:32	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-16 20:12:32	--	- have been removed. We may have to ask you to change your
+2014-09-16 20:12:32	--	- passwords again after analysis has completed.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- Further details will appear on https://blog.freenode.net/
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- **************************************************************
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- By connecting to freenode you indicate that you have read and
+2014-09-16 20:12:32	--	- accept our policies as set out on http://www.freenode.net
+2014-09-16 20:12:32	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-16 20:12:32	--	- any network-related questions or queries, where a number of
+2014-09-16 20:12:32	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-16 20:12:32	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-16 20:12:32	--	- real-life collaboration.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- We would like to thank Private Internet Access
+2014-09-16 20:12:32	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-16 20:12:32	--	- organisations that help keep freenode and our other projects
+2014-09-16 20:12:32	--	- running for their sustained support.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	- In particular we would like to thank the sponsor
+2014-09-16 20:12:32	--	- of this server, details of which can be found above.
+2014-09-16 20:12:32	--	-
+2014-09-16 20:12:32	--	End of /MOTD command.
+2014-09-16 20:12:32	--	Mode utilisateur [+i] par robin_m
+2014-09-16 20:12:33	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-16 21:44:26	=!=	irc : lecture de données sur le socket : erreur 110 Connexion terminée par expiration du délai d'attente
+2014-09-16 21:44:26	--	irc : déconnexion du serveur...
+2014-09-16 21:44:26	--	irc : déconnecté du serveur
+2014-09-16 21:44:26	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-16 21:44:36	--	irc : reconnexion au serveur...
+2014-09-16 21:44:36	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-16 21:44:36	--	irc : connecté à chat.freenode.net/6667 (91.217.189.42)
+2014-09-16 21:44:36	--	sinisalo.freenode.net: *** Looking up your hostname...
+2014-09-16 21:44:36	--	sinisalo.freenode.net: *** Checking Ident
+2014-09-16 21:44:36	--	sinisalo.freenode.net: *** Found your hostname
+2014-09-16 21:44:44	--	sinisalo.freenode.net: *** No Ident response
+2014-09-16 21:44:44	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-16 21:44:44	--	Your host is sinisalo.freenode.net[91.217.189.42/6667], running version ircd-seven-1.1.3
+2014-09-16 21:44:44	--	This server was created Tue Jul 1 2014 at 14:17:05 CEST
+2014-09-16 21:44:44	--	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-16 21:44:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-16 21:44:44	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-16 21:44:44	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-16 21:44:44	--	There are 185 users and 94230 invisible on 29 servers
+2014-09-16 21:44:44	--	30 :IRC Operators online
+2014-09-16 21:44:44	--	14 :unknown connection(s)
+2014-09-16 21:44:44	--	55653 :channels formed
+2014-09-16 21:44:44	--	I have 8567 clients and 1 servers
+2014-09-16 21:44:44	--	8567 12000 :Current local users 8567, max 12000
+2014-09-16 21:44:44	--	94415 102229 :Current global users 94415, max 102229
+2014-09-16 21:44:44	--	Highest connection count: 12001 (12000 clients) (684827 connections received)
+2014-09-16 21:44:44	--	- sinisalo.freenode.net Message of the Day -
+2014-09-16 21:44:44	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2014-09-16 21:44:44	--	- Thanks to http://www.portlane.com/ for sponsoring
+2014-09-16 21:44:44	--	- this server!
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2014-09-16 21:44:44	--	- and fantasy novelist and a script writer. Her novel 'Not
+2014-09-16 21:44:44	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2014-09-16 21:44:44	--	- published in Finnish in 2000, when it also won the biggest
+2014-09-16 21:44:44	--	- literature award of Finland) was awarded The James Tiptree
+2014-09-16 21:44:44	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2014-09-16 21:44:44	--	- 2009 for her short story Baby Doll.  Their most recent work
+2014-09-16 21:44:44	--	- includes screenwriting for the film 'Iron Sky'.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- Welcome to freenode - supporting the free and open source
+2014-09-16 21:44:44	--	- software communities since 1998.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- **************************************************************
+2014-09-16 21:44:44	--	-                       SECURITY ALERT
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-16 21:44:44	--	- some compromised binaries present on a number of servers.
+2014-09-16 21:44:44	--	- The servers in question have been removed from the network and
+2014-09-16 21:44:44	--	- shut down.  However, it's possible that network traffic  -
+2014-09-16 21:44:44	--	- including SSL traffic - has been sniffed and passwords
+2014-09-16 21:44:44	--	- exposed.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- We therefore recommend that all users change their nickserv
+2014-09-16 21:44:44	--	- password(s) to a new value which is not shared with any
+2014-09-16 21:44:44	--	- other service.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- Please note that investigation is ongoing to discover the root
+2014-09-16 21:44:44	--	- cause of the attack, and until this investigation is complete
+2014-09-16 21:44:44	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-16 21:44:44	--	- have been removed. We may have to ask you to change your
+2014-09-16 21:44:44	--	- passwords again after analysis has completed.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- Further details will appear on https://blog.freenode.net/
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- **************************************************************
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- By connecting to freenode you indicate that you have read and
+2014-09-16 21:44:44	--	- accept our policies as set out on http://www.freenode.net
+2014-09-16 21:44:44	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-16 21:44:44	--	- any network-related questions or queries, where a number of
+2014-09-16 21:44:44	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-16 21:44:44	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-16 21:44:44	--	- real-life collaboration.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- We would like to thank Private Internet Access
+2014-09-16 21:44:44	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-16 21:44:44	--	- organisations that help keep freenode and our other projects
+2014-09-16 21:44:44	--	- running for their sustained support.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	- In particular we would like to thank the sponsor
+2014-09-16 21:44:44	--	- of this server, details of which can be found above.
+2014-09-16 21:44:44	--	-
+2014-09-16 21:44:44	--	End of /MOTD command.
+2014-09-16 21:44:44	--	Mode utilisateur [+i] par robin_m
+2014-09-16 21:44:44	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-17 07:16:17	=!=	irc : lecture de données sur le socket : erreur 110 Connexion terminée par expiration du délai d'attente
+2014-09-17 07:16:17	--	irc : déconnexion du serveur...
+2014-09-17 07:16:17	--	irc : déconnecté du serveur
+2014-09-17 07:16:17	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-17 07:16:27	--	irc : reconnexion au serveur...
+2014-09-17 07:16:27	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 07:16:28	--	irc : connecté à chat.freenode.net/6667 (91.217.189.44)
+2014-09-17 07:16:28	--	wolfe.freenode.net: *** Looking up your hostname...
+2014-09-17 07:16:28	--	wolfe.freenode.net: *** Checking Ident
+2014-09-17 07:16:28	--	wolfe.freenode.net: *** Found your hostname
+2014-09-17 07:16:34	--	wolfe.freenode.net: *** No Ident response
+2014-09-17 07:16:34	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-17 07:16:34	--	Your host is wolfe.freenode.net[91.217.189.44/6667], running version ircd-seven-1.1.3
+2014-09-17 07:16:34	--	This server was created Mon Sep 15 2014 at 10:05:03 UTC
+2014-09-17 07:16:34	--	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-17 07:16:34	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-17 07:16:34	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-17 07:16:34	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-17 07:16:34	--	There are 173 users and 81685 invisible on 28 servers
+2014-09-17 07:16:34	--	30 :IRC Operators online
+2014-09-17 07:16:34	--	14 :unknown connection(s)
+2014-09-17 07:16:34	--	54483 :channels formed
+2014-09-17 07:16:34	--	I have 2128 clients and 1 servers
+2014-09-17 07:16:34	--	2128 2900 :Current local users 2128, max 2900
+2014-09-17 07:16:34	--	81858 94581 :Current global users 81858, max 94581
+2014-09-17 07:16:34	--	Highest connection count: 2901 (2900 clients) (31193 connections received)
+2014-09-17 07:16:34	--	- wolfe.freenode.net Message of the Day -
+2014-09-17 07:16:34	--	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2014-09-17 07:16:34	--	- Thanks to http://www.portlane.com/ for sponsoring
+2014-09-17 07:16:34	--	- this server!
+2014-09-17 07:16:34	--	-
+2014-09-17 07:16:34	--	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2014-09-17 07:16:34	--	- novels. His best-known work is the multi-volume novel The
+2014-09-17 07:16:34	--	- Book of the New Sun. He has won multiple awards including
+2014-09-17 07:16:34	--	- the Nebula Award, the World Fantasy Award, The Campell
+2014-09-17 07:16:34	--	- Memorial Award and the Locus Award. He was awarded the World
+2014-09-17 07:16:34	--	- Fantasy Award for lifetime achievement in 1996.
+2014-09-17 07:16:34	--	-
+2014-09-17 07:16:34	--	- Welcome to freenode - supporting the free and open source
+2014-09-17 07:16:34	--	- software communities since 1998.
+2014-09-17 07:16:34	--	-
+2014-09-17 07:16:34	--	- **************************************************************
+2014-09-17 07:16:34	--	-                       SECURITY ALERT
+2014-09-17 07:16:34	--	-
+2014-09-17 07:16:34	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-17 07:16:34	--	- some compromised binaries present on a number of servers.
+2014-09-17 07:16:34	--	- The servers in question have been removed from the network and
+2014-09-17 07:16:34	--	- shut down.  However, it's possible that network traffic  -
+2014-09-17 07:16:34	--	- including SSL traffic - has been sniffed and passwords
+2014-09-17 07:16:34	--	- exposed.
+2014-09-17 07:16:34	--	-
+2014-09-17 07:16:34	--	- We therefore recommend that all users change their nickserv
+2014-09-17 07:16:34	--	- password(s) to a new value which is not shared with any
+2014-09-17 07:16:34	--	- other service.
+2014-09-17 07:16:34	--	-
+2014-09-17 07:16:35	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- Please note that investigation is ongoing to discover the root
+2014-09-17 07:16:35	--	- cause of the attack, and until this investigation is complete
+2014-09-17 07:16:35	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-17 07:16:35	--	- have been removed. We may have to ask you to change your
+2014-09-17 07:16:35	--	- passwords again after analysis has completed.
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- Further details will appear on https://blog.freenode.net/
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- **************************************************************
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- By connecting to freenode you indicate that you have read and
+2014-09-17 07:16:35	--	- accept our policies as set out on http://www.freenode.net
+2014-09-17 07:16:35	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-17 07:16:35	--	- any network-related questions or queries, where a number of
+2014-09-17 07:16:35	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-17 07:16:35	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-17 07:16:35	--	- real-life collaboration.
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- We would like to thank Private Internet Access
+2014-09-17 07:16:35	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-17 07:16:35	--	- organisations that help keep freenode and our other projects
+2014-09-17 07:16:35	--	- running for their sustained support.
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	- In particular we would like to thank the sponsor
+2014-09-17 07:16:35	--	- of this server, details of which can be found above.
+2014-09-17 07:16:35	--	-
+2014-09-17 07:16:35	--	End of /MOTD command.
+2014-09-17 07:16:35	--	Mode utilisateur [+i] par robin_m
+2014-09-17 07:16:35	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-17 09:51:07	=!=	irc : lecture de données sur le socket : erreur 110 Connexion terminée par expiration du délai d'attente
+2014-09-17 09:51:07	--	irc : déconnexion du serveur...
+2014-09-17 09:51:07	--	irc : déconnecté du serveur
+2014-09-17 09:51:07	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-17 09:51:17	--	irc : reconnexion au serveur...
+2014-09-17 09:51:17	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 09:52:17	=!=	irc : délai d'attente dépassé
+2014-09-17 09:52:17	--	irc : reconnexion au serveur dans 20 secondes
+2014-09-17 09:52:37	--	irc : reconnexion au serveur...
+2014-09-17 09:52:37	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 09:53:37	=!=	irc : délai d'attente dépassé
+2014-09-17 09:53:37	--	irc : reconnexion au serveur dans 40 secondes
+2014-09-17 09:54:17	--	irc : reconnexion au serveur...
+2014-09-17 09:54:17	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 09:55:17	=!=	irc : délai d'attente dépassé
+2014-09-17 09:55:17	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-09-17 09:56:37	--	irc : reconnexion au serveur...
+2014-09-17 09:56:37	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 09:57:37	=!=	irc : délai d'attente dépassé
+2014-09-17 09:57:37	--	irc : reconnexion au serveur dans 2 minutes, 40 secondes
+2014-09-17 10:00:17	--	irc : reconnexion au serveur...
+2014-09-17 10:00:17	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 10:01:17	=!=	irc : délai d'attente dépassé
+2014-09-17 10:01:17	--	irc : reconnexion au serveur dans 5 minutes, 20 secondes
+2014-09-17 10:06:37	--	irc : reconnexion au serveur...
+2014-09-17 10:06:37	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 10:07:37	=!=	irc : délai d'attente dépassé
+2014-09-17 10:07:37	--	irc : reconnexion au serveur dans 10 minutes, 40 secondes
+2014-09-17 11:08:39	--	irc : reconnexion au serveur...
+2014-09-17 11:08:39	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 11:08:39	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-17 11:08:39	=!=	irc : erreur : Nom ou service inconnu
+2014-09-17 11:08:39	--	irc : reconnexion au serveur dans 21 minutes, 20 secondes
+2014-09-17 11:31:22	--	irc : reconnexion au serveur...
+2014-09-17 11:31:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 11:31:22	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-17 11:31:22	=!=	irc : erreur : Nom ou service inconnu
+2014-09-17 11:31:22	--	irc : reconnexion au serveur dans 30 minutes
+2014-09-17 12:01:22	--	irc : reconnexion au serveur...
+2014-09-17 12:01:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 12:02:22	=!=	irc : délai d'attente dépassé
+2014-09-17 12:02:22	--	irc : reconnexion au serveur dans 30 minutes
+2014-09-17 12:41:51	--	irc : reconnexion au serveur...
+2014-09-17 12:41:51	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 12:41:51	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-17 12:41:51	=!=	irc : erreur : Nom ou service inconnu
+2014-09-17 12:41:51	--	irc : reconnexion au serveur dans 30 minutes
+2014-09-17 13:51:22	--	irc : reconnexion au serveur...
+2014-09-17 13:51:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 13:51:22	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-17 13:51:22	=!=	irc : erreur : Nom ou service inconnu
+2014-09-17 13:51:22	--	irc : reconnexion au serveur dans 30 minutes
+2014-09-17 14:21:22	--	irc : reconnexion au serveur...
+2014-09-17 14:21:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 14:21:22	--	irc : connecté à chat.freenode.net/6667 (91.217.189.44)
+2014-09-17 14:21:22	--	wolfe.freenode.net: *** Looking up your hostname...
+2014-09-17 14:21:22	--	wolfe.freenode.net: *** Checking Ident
+2014-09-17 14:21:22	--	wolfe.freenode.net: *** Found your hostname
+2014-09-17 14:21:31	--	wolfe.freenode.net: *** No Ident response
+2014-09-17 14:21:31	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-17 14:21:31	--	Your host is wolfe.freenode.net[91.217.189.44/6667], running version ircd-seven-1.1.3
+2014-09-17 14:21:31	--	This server was created Mon Sep 15 2014 at 10:05:03 UTC
+2014-09-17 14:21:31	--	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-17 14:21:31	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-17 14:21:31	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-17 14:21:31	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-17 14:21:31	--	There are 181 users and 90251 invisible on 28 servers
+2014-09-17 14:21:31	--	30 :IRC Operators online
+2014-09-17 14:21:31	--	9 :unknown connection(s)
+2014-09-17 14:21:31	--	55234 :channels formed
+2014-09-17 14:21:31	--	I have 2954 clients and 1 servers
+2014-09-17 14:21:31	--	2954 2954 :Current local users 2954, max 2954
+2014-09-17 14:21:31	--	90432 94581 :Current global users 90432, max 94581
+2014-09-17 14:21:31	--	Highest connection count: 2955 (2954 clients) (36949 connections received)
+2014-09-17 14:21:31	--	- wolfe.freenode.net Message of the Day -
+2014-09-17 14:21:31	--	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2014-09-17 14:21:31	--	- Thanks to http://www.portlane.com/ for sponsoring
+2014-09-17 14:21:31	--	- this server!
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2014-09-17 14:21:31	--	- novels. His best-known work is the multi-volume novel The
+2014-09-17 14:21:31	--	- Book of the New Sun. He has won multiple awards including
+2014-09-17 14:21:31	--	- the Nebula Award, the World Fantasy Award, The Campell
+2014-09-17 14:21:31	--	- Memorial Award and the Locus Award. He was awarded the World
+2014-09-17 14:21:31	--	- Fantasy Award for lifetime achievement in 1996.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- Welcome to freenode - supporting the free and open source
+2014-09-17 14:21:31	--	- software communities since 1998.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- **************************************************************
+2014-09-17 14:21:31	--	-                       SECURITY ALERT
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-17 14:21:31	--	- some compromised binaries present on a number of servers.
+2014-09-17 14:21:31	--	- The servers in question have been removed from the network and
+2014-09-17 14:21:31	--	- shut down.  However, it's possible that network traffic  -
+2014-09-17 14:21:31	--	- including SSL traffic - has been sniffed and passwords
+2014-09-17 14:21:31	--	- exposed.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- We therefore recommend that all users change their nickserv
+2014-09-17 14:21:31	--	- password(s) to a new value which is not shared with any
+2014-09-17 14:21:31	--	- other service.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- Please note that investigation is ongoing to discover the root
+2014-09-17 14:21:31	--	- cause of the attack, and until this investigation is complete
+2014-09-17 14:21:31	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-17 14:21:31	--	- have been removed. We may have to ask you to change your
+2014-09-17 14:21:31	--	- passwords again after analysis has completed.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- Further details will appear on https://blog.freenode.net/
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- **************************************************************
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- By connecting to freenode you indicate that you have read and
+2014-09-17 14:21:31	--	- accept our policies as set out on http://www.freenode.net
+2014-09-17 14:21:31	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-17 14:21:31	--	- any network-related questions or queries, where a number of
+2014-09-17 14:21:31	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-17 14:21:31	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-17 14:21:31	--	- real-life collaboration.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- We would like to thank Private Internet Access
+2014-09-17 14:21:31	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-17 14:21:31	--	- organisations that help keep freenode and our other projects
+2014-09-17 14:21:31	--	- running for their sustained support.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	- In particular we would like to thank the sponsor
+2014-09-17 14:21:31	--	- of this server, details of which can be found above.
+2014-09-17 14:21:31	--	-
+2014-09-17 14:21:31	--	End of /MOTD command.
+2014-09-17 14:21:31	--	Mode utilisateur [+i] par robin_m
+2014-09-17 14:21:31	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-17 15:46:28	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-09-17 15:46:28	--	irc : déconnexion du serveur...
+2014-09-17 15:46:28	--	irc : déconnecté du serveur
+2014-09-17 15:46:28	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-17 15:46:38	--	irc : reconnexion au serveur...
+2014-09-17 15:46:38	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 15:46:38	--	irc : connecté à chat.freenode.net/6667 (162.213.39.42)
+2014-09-17 15:46:38	--	weber.freenode.net: *** Looking up your hostname...
+2014-09-17 15:46:38	--	weber.freenode.net: *** Checking Ident
+2014-09-17 15:46:39	--	weber.freenode.net: *** Found your hostname
+2014-09-17 15:46:47	--	weber.freenode.net: *** No Ident response
+2014-09-17 15:46:47	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-17 15:46:47	--	Your host is weber.freenode.net[162.213.39.42/6667], running version ircd-seven-1.1.3
+2014-09-17 15:46:47	--	This server was created Sun Jul 6 2014 at 19:37:14 BST
+2014-09-17 15:46:47	--	weber.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-17 15:46:47	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-17 15:46:47	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-17 15:46:47	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-17 15:46:47	--	There are 183 users and 93074 invisible on 28 servers
+2014-09-17 15:46:47	--	30 :IRC Operators online
+2014-09-17 15:46:47	--	14 :unknown connection(s)
+2014-09-17 15:46:47	--	55510 :channels formed
+2014-09-17 15:46:47	--	I have 4882 clients and 1 servers
+2014-09-17 15:46:47	--	4882 9709 :Current local users 4882, max 9709
+2014-09-17 15:46:47	--	93257 104047 :Current global users 93257, max 104047
+2014-09-17 15:46:47	--	Highest connection count: 9710 (9709 clients) (1337121 connections received)
+2014-09-17 15:46:47	--	- weber.freenode.net Message of the Day -
+2014-09-17 15:46:47	--	- Welcome to weber.freenode.net in California, USA.
+2014-09-17 15:46:47	--	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2014-09-17 15:46:47	--	- this server!
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2014-09-17 15:46:47	--	- author. Best known for his 'Honor Harrington' series, his
+2014-09-17 15:46:47	--	- works span several genres, including alternate history,
+2014-09-17 15:46:47	--	- epic fantasy, military scifi and space opera. He's also
+2014-09-17 15:46:47	--	- done wargame design mainly for the StarFire tabletop
+2014-09-17 15:46:47	--	- boardgame series, a job which later evolved into the novel,
+2014-09-17 15:46:47	--	- 'Insurrection' (collaboration with Steve White, published
+2014-09-17 15:46:47	--	- in 1990).
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- Welcome to freenode - supporting the free and open source
+2014-09-17 15:46:47	--	- software communities since 1998.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- **************************************************************
+2014-09-17 15:46:47	--	-                       SECURITY ALERT
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-17 15:46:47	--	- some compromised binaries present on a number of servers.
+2014-09-17 15:46:47	--	- The servers in question have been removed from the network and
+2014-09-17 15:46:47	--	- shut down.  However, it's possible that network traffic  -
+2014-09-17 15:46:47	--	- including SSL traffic - has been sniffed and passwords
+2014-09-17 15:46:47	--	- exposed.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- We therefore recommend that all users change their nickserv
+2014-09-17 15:46:47	--	- password(s) to a new value which is not shared with any
+2014-09-17 15:46:47	--	- other service.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- Please note that investigation is ongoing to discover the root
+2014-09-17 15:46:47	--	- cause of the attack, and until this investigation is complete
+2014-09-17 15:46:47	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-17 15:46:47	--	- have been removed. We may have to ask you to change your
+2014-09-17 15:46:47	--	- passwords again after analysis has completed.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- Further details will appear on https://blog.freenode.net/
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- **************************************************************
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- By connecting to freenode you indicate that you have read and
+2014-09-17 15:46:47	--	- accept our policies as set out on http://www.freenode.net
+2014-09-17 15:46:47	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-17 15:46:47	--	- any network-related questions or queries, where a number of
+2014-09-17 15:46:47	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-17 15:46:47	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-17 15:46:47	--	- real-life collaboration.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- We would like to thank Private Internet Access
+2014-09-17 15:46:47	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-17 15:46:47	--	- organisations that help keep freenode and our other projects
+2014-09-17 15:46:47	--	- running for their sustained support.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	- In particular we would like to thank the sponsor
+2014-09-17 15:46:47	--	- of this server, details of which can be found above.
+2014-09-17 15:46:47	--	-
+2014-09-17 15:46:47	--	End of /MOTD command.
+2014-09-17 15:46:47	--	Mode utilisateur [+i] par robin_m
+2014-09-17 15:46:48	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-17 19:40:08	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-09-17 19:40:08	--	irc : déconnexion du serveur...
+2014-09-17 19:40:08	--	irc : déconnecté du serveur
+2014-09-17 19:40:08	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-17 19:40:18	--	irc : reconnexion au serveur...
+2014-09-17 19:40:18	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-17 19:40:18	--	irc : connecté à chat.freenode.net/6667 (91.217.189.42)
+2014-09-17 19:40:18	--	sinisalo.freenode.net: *** Looking up your hostname...
+2014-09-17 19:40:18	--	sinisalo.freenode.net: *** Checking Ident
+2014-09-17 19:40:19	--	sinisalo.freenode.net: *** Found your hostname
+2014-09-17 19:40:26	--	sinisalo.freenode.net: *** No Ident response
+2014-09-17 19:40:26	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-17 19:40:26	--	Your host is sinisalo.freenode.net[91.217.189.42/6667], running version ircd-seven-1.1.3
+2014-09-17 19:40:26	--	This server was created Tue Jul 1 2014 at 14:17:05 CEST
+2014-09-17 19:40:26	--	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-17 19:40:26	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-17 19:40:26	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-17 19:40:26	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-17 19:40:26	--	There are 185 users and 94158 invisible on 27 servers
+2014-09-17 19:40:26	--	30 :IRC Operators online
+2014-09-17 19:40:26	--	13 :unknown connection(s)
+2014-09-17 19:40:26	--	55622 :channels formed
+2014-09-17 19:40:26	--	I have 8884 clients and 1 servers
+2014-09-17 19:40:26	--	8884 12000 :Current local users 8884, max 12000
+2014-09-17 19:40:26	--	94343 102229 :Current global users 94343, max 102229
+2014-09-17 19:40:26	--	Highest connection count: 12001 (12000 clients) (707389 connections received)
+2014-09-17 19:40:26	--	- sinisalo.freenode.net Message of the Day -
+2014-09-17 19:40:26	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2014-09-17 19:40:26	--	- Thanks to http://www.portlane.com/ for sponsoring
+2014-09-17 19:40:26	--	- this server!
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2014-09-17 19:40:26	--	- and fantasy novelist and a script writer. Her novel 'Not
+2014-09-17 19:40:26	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2014-09-17 19:40:26	--	- published in Finnish in 2000, when it also won the biggest
+2014-09-17 19:40:26	--	- literature award of Finland) was awarded The James Tiptree
+2014-09-17 19:40:26	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2014-09-17 19:40:26	--	- 2009 for her short story Baby Doll.  Their most recent work
+2014-09-17 19:40:26	--	- includes screenwriting for the film 'Iron Sky'.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- Welcome to freenode - supporting the free and open source
+2014-09-17 19:40:26	--	- software communities since 1998.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- **************************************************************
+2014-09-17 19:40:26	--	-                       SECURITY ALERT
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-17 19:40:26	--	- some compromised binaries present on a number of servers.
+2014-09-17 19:40:26	--	- The servers in question have been removed from the network and
+2014-09-17 19:40:26	--	- shut down.  However, it's possible that network traffic  -
+2014-09-17 19:40:26	--	- including SSL traffic - has been sniffed and passwords
+2014-09-17 19:40:26	--	- exposed.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- We therefore recommend that all users change their nickserv
+2014-09-17 19:40:26	--	- password(s) to a new value which is not shared with any
+2014-09-17 19:40:26	--	- other service.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- Please note that investigation is ongoing to discover the root
+2014-09-17 19:40:26	--	- cause of the attack, and until this investigation is complete
+2014-09-17 19:40:26	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-17 19:40:26	--	- have been removed. We may have to ask you to change your
+2014-09-17 19:40:26	--	- passwords again after analysis has completed.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- Further details will appear on https://blog.freenode.net/
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- **************************************************************
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- By connecting to freenode you indicate that you have read and
+2014-09-17 19:40:26	--	- accept our policies as set out on http://www.freenode.net
+2014-09-17 19:40:26	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-17 19:40:26	--	- any network-related questions or queries, where a number of
+2014-09-17 19:40:26	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-17 19:40:26	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-17 19:40:26	--	- real-life collaboration.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- We would like to thank Private Internet Access
+2014-09-17 19:40:26	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-17 19:40:26	--	- organisations that help keep freenode and our other projects
+2014-09-17 19:40:26	--	- running for their sustained support.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	- In particular we would like to thank the sponsor
+2014-09-17 19:40:26	--	- of this server, details of which can be found above.
+2014-09-17 19:40:26	--	-
+2014-09-17 19:40:26	--	End of /MOTD command.
+2014-09-17 19:40:26	--	Mode utilisateur [+i] par robin_m
+2014-09-17 19:40:26	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-23 21:31:36	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-23 21:31:37	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-23 21:31:37	=!=	irc : erreur : Nom ou service inconnu
+2014-09-23 21:31:37	--	irc : reconnexion au serveur dans 10 secondes
+2014-09-23 21:31:47	--	irc : reconnexion au serveur...
+2014-09-23 21:31:47	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-23 21:31:47	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-23 21:31:47	=!=	irc : erreur : Nom ou service inconnu
+2014-09-23 21:31:47	--	irc : reconnexion au serveur dans 20 secondes
+2014-09-23 21:32:07	--	irc : reconnexion au serveur...
+2014-09-23 21:32:07	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-23 21:32:07	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-23 21:32:07	=!=	irc : erreur : Nom ou service inconnu
+2014-09-23 21:32:07	--	irc : reconnexion au serveur dans 40 secondes
+2014-09-23 22:52:10	--	irc : reconnexion au serveur...
+2014-09-23 22:52:10	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-23 22:52:10	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-09-23 22:52:10	=!=	irc : erreur : Nom ou service inconnu
+2014-09-23 22:52:16	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-09-23 22:53:30	--	irc : reconnexion au serveur...
+2014-09-23 22:53:30	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-23 22:53:30	--	irc : connecté à chat.freenode.net/6667 (192.186.157.43)
+2014-09-23 22:53:30	--	tepper.freenode.net: *** Looking up your hostname...
+2014-09-23 22:53:30	--	tepper.freenode.net: *** Checking Ident
+2014-09-23 22:53:31	--	tepper.freenode.net: *** Found your hostname
+2014-09-23 22:53:40	--	tepper.freenode.net: *** No Ident response
+2014-09-23 22:53:40	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-23 22:53:40	--	Your host is tepper.freenode.net[192.186.157.43/6667], running version ircd-seven-1.1.3
+2014-09-23 22:53:40	--	This server was created Sun Jul 20 2014 at 01:18:10 UTC
+2014-09-23 22:53:40	--	tepper.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-23 22:53:40	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-23 22:53:40	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-23 22:53:40	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-23 22:53:40	--	There are 194 users and 94018 invisible on 28 servers
+2014-09-23 22:53:40	--	28 :IRC Operators online
+2014-09-23 22:53:40	--	10 :unknown connection(s)
+2014-09-23 22:53:40	--	56014 :channels formed
+2014-09-23 22:53:40	--	I have 6456 clients and 1 servers
+2014-09-23 22:53:40	--	6456 9738 :Current local users 6456, max 9738
+2014-09-23 22:53:40	--	94212 104047 :Current global users 94212, max 104047
+2014-09-23 22:53:40	--	Highest connection count: 9739 (9738 clients) (1007785 connections received)
+2014-09-23 22:53:40	--	- tepper.freenode.net Message of the Day -
+2014-09-23 22:53:40	--	- Welcome to tepper.freenode.net in Buffalo, NY.
+2014-09-23 22:53:40	--	- Thanks to http://www.servermania.com/ for sponsoring
+2014-09-23 22:53:40	--	- this server!
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- TEPPER, SHERI S. (1929-), an American science fiction,
+2014-09-23 22:53:40	--	- horror and mystery novel author, behind more than thirty
+2014-09-23 22:53:40	--	- books, many themed unapologetically eco-feminist. Her
+2014-09-23 22:53:40	--	- writing career started composing children's stories, but
+2014-09-23 22:53:40	--	- moved to adult fiction in 1982. With the 1991 novel
+2014-09-23 22:53:40	--	- 'Beauty' she won the Locus award for Best Fantasy Novel.
+2014-09-23 22:53:40	--	- Her other well-known works include 'Grass' (1989, nominated
+2014-09-23 22:53:40	--	- for Hugo and Locus Awards in 1990) and 'Gate to Women's
+2014-09-23 22:53:40	--	- Country' (1988).
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- Welcome to freenode - supporting the free and open source
+2014-09-23 22:53:40	--	- software communities since 1998.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- **************************************************************
+2014-09-23 22:53:40	--	-                       SECURITY ALERT
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-23 22:53:40	--	- some compromised binaries present on a number of servers.
+2014-09-23 22:53:40	--	- The servers in question have been removed from the network and
+2014-09-23 22:53:40	--	- shut down.  However, it's possible that network traffic  -
+2014-09-23 22:53:40	--	- including SSL traffic - has been sniffed and passwords
+2014-09-23 22:53:40	--	- exposed.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- We therefore recommend that all users change their nickserv
+2014-09-23 22:53:40	--	- password(s) to a new value which is not shared with any
+2014-09-23 22:53:40	--	- other service.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- Please note that investigation is ongoing to discover the root
+2014-09-23 22:53:40	--	- cause of the attack, and until this investigation is complete
+2014-09-23 22:53:40	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-23 22:53:40	--	- have been removed. We may have to ask you to change your
+2014-09-23 22:53:40	--	- passwords again after analysis has completed.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- Further details will appear on https://blog.freenode.net/
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- **************************************************************
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- By connecting to freenode you indicate that you have read and
+2014-09-23 22:53:40	--	- accept our policies as set out on http://www.freenode.net
+2014-09-23 22:53:40	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-23 22:53:40	--	- any network-related questions or queries, where a number of
+2014-09-23 22:53:40	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-23 22:53:40	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-23 22:53:40	--	- real-life collaboration.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- We would like to thank Private Internet Access
+2014-09-23 22:53:40	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-23 22:53:40	--	- organisations that help keep freenode and our other projects
+2014-09-23 22:53:40	--	- running for their sustained support.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	- In particular we would like to thank the sponsor
+2014-09-23 22:53:40	--	- of this server, details of which can be found above.
+2014-09-23 22:53:40	--	-
+2014-09-23 22:53:40	--	End of /MOTD command.
+2014-09-23 22:53:40	--	Mode utilisateur [+i] par robin_m
+2014-09-23 22:53:40	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-09-30 21:03:31	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-09-30 21:03:31	--	irc : connecté à chat.freenode.net/6667 (38.229.70.22)
+2014-09-30 21:03:31	--	card.freenode.net: *** Looking up your hostname...
+2014-09-30 21:03:31	--	card.freenode.net: *** Checking Ident
+2014-09-30 21:03:32	--	card.freenode.net: *** Found your hostname
+2014-09-30 21:03:38	--	card.freenode.net: *** No Ident response
+2014-09-30 21:03:38	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-09-30 21:03:38	--	Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.3
+2014-09-30 21:03:38	--	This server was created Thu Sep 18 2014 at 18:48:25 UTC
+2014-09-30 21:03:38	--	card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-09-30 21:03:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-09-30 21:03:38	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-09-30 21:03:38	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-09-30 21:03:38	--	There are 189 users and 94655 invisible on 29 servers
+2014-09-30 21:03:38	--	30 :IRC Operators online
+2014-09-30 21:03:38	--	13 :unknown connection(s)
+2014-09-30 21:03:38	--	56295 :channels formed
+2014-09-30 21:03:38	--	I have 6336 clients and 1 servers
+2014-09-30 21:03:38	--	6336 6347 :Current local users 6336, max 6347
+2014-09-30 21:03:38	--	94844 96285 :Current global users 94844, max 96285
+2014-09-30 21:03:38	--	Highest connection count: 6348 (6347 clients) (243609 connections received)
+2014-09-30 21:03:38	--	- card.freenode.net Message of the Day -
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2014-09-30 21:03:38	--	- Team Cymru (http://www.team-cymru.org).
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+2014-09-30 21:03:38	--	- California, Arizona, and Utah.  He lived in Brazil for two years as an
+2014-09-30 21:03:38	--	- unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+2014-09-30 21:03:38	--	- Maker books, Card's science fiction and fantasy work is strongly influenced
+2014-09-30 21:03:38	--	- by his Mormon cultural background.  The first author to win the Hugo and
+2014-09-30 21:03:38	--	- Nebula novel awards two years in a row, Card currently lives in Greensboro,
+2014-09-30 21:03:38	--	- North Carolina, US.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- Welcome to freenode - supporting the free and open source
+2014-09-30 21:03:38	--	- software communities since 1998.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- **************************************************************
+2014-09-30 21:03:38	--	-                       SECURITY ALERT
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-09-30 21:03:38	--	- some compromised binaries present on a number of servers.
+2014-09-30 21:03:38	--	- The servers in question have been removed from the network and
+2014-09-30 21:03:38	--	- shut down.  However, it's possible that network traffic  -
+2014-09-30 21:03:38	--	- including SSL traffic - has been sniffed and passwords
+2014-09-30 21:03:38	--	- exposed.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- We therefore recommend that all users change their nickserv
+2014-09-30 21:03:38	--	- password(s) to a new value which is not shared with any
+2014-09-30 21:03:38	--	- other service.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- You can do this with /msg nickserv set password newpasshere
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- Please note that investigation is ongoing to discover the root
+2014-09-30 21:03:38	--	- cause of the attack, and until this investigation is complete
+2014-09-30 21:03:38	--	- we cannot be 100% certain that all traces of the compromises
+2014-09-30 21:03:38	--	- have been removed. We may have to ask you to change your
+2014-09-30 21:03:38	--	- passwords again after analysis has completed.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- Further details will appear on https://blog.freenode.net/
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- **************************************************************
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- By connecting to freenode you indicate that you have read and
+2014-09-30 21:03:38	--	- accept our policies as set out on http://www.freenode.net
+2014-09-30 21:03:38	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-09-30 21:03:38	--	- any network-related questions or queries, where a number of
+2014-09-30 21:03:38	--	- volunteer staff and helpful users will be happy to assist you.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-09-30 21:03:38	--	- together with like-minded FOSS enthusiasts for talks and
+2014-09-30 21:03:38	--	- real-life collaboration.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- We would like to thank Private Internet Access
+2014-09-30 21:03:38	--	- (https://www.privateinternetaccess.com/) and the other
+2014-09-30 21:03:38	--	- organisations that help keep freenode and our other projects
+2014-09-30 21:03:38	--	- running for their sustained support.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	- In particular we would like to thank the sponsor
+2014-09-30 21:03:38	--	- of this server, details of which can be found above.
+2014-09-30 21:03:38	--	-
+2014-09-30 21:03:38	--	End of /MOTD command.
+2014-09-30 21:03:38	--	Mode utilisateur [+i] par robin_m
+2014-09-30 21:03:38	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-01 02:24:21	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-10-01 02:24:21	--	irc : déconnexion du serveur...
+2014-10-01 02:24:21	--	irc : déconnecté du serveur
+2014-10-01 02:24:21	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-01 02:24:31	--	irc : reconnexion au serveur...
+2014-10-01 02:24:31	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 02:24:31	--	irc : connecté à chat.freenode.net/6667 (185.30.166.35)
+2014-10-01 02:24:31	--	verne.freenode.net: *** Looking up your hostname...
+2014-10-01 02:24:31	--	verne.freenode.net: *** Checking Ident
+2014-10-01 02:24:31	--	verne.freenode.net: *** Found your hostname
+2014-10-01 02:24:38	--	verne.freenode.net: *** No Ident response
+2014-10-01 02:24:38	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-01 02:24:38	--	Your host is verne.freenode.net[185.30.166.35/6667], running version ircd-seven-1.1.3
+2014-10-01 02:24:38	--	This server was created Sat Mar 22 2014 at 14:55:42 EDT
+2014-10-01 02:24:38	--	verne.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-01 02:24:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-01 02:24:38	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-01 02:24:38	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-01 02:24:38	--	There are 173 users and 84603 invisible on 29 servers
+2014-10-01 02:24:38	--	31 :IRC Operators online
+2014-10-01 02:24:38	--	9 :unknown connection(s)
+2014-10-01 02:24:38	--	55416 :channels formed
+2014-10-01 02:24:38	--	I have 8542 clients and 1 servers
+2014-10-01 02:24:38	--	8542 15001 :Current local users 8542, max 15001
+2014-10-01 02:24:38	--	84776 104047 :Current global users 84776, max 104047
+2014-10-01 02:24:38	--	Highest connection count: 15002 (15001 clients) (1388569 connections received)
+2014-10-01 02:24:38	--	- verne.freenode.net Message of the Day -
+2014-10-01 02:24:38	--	- Welcome to verne.freenode.net in Amsterdam, NL.
+2014-10-01 02:24:38	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2014-10-01 02:24:38	--	- this server!
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2014-10-01 02:24:38	--	- a pioneering french author known for novels such as Twenty
+2014-10-01 02:24:38	--	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2014-10-01 02:24:38	--	- Earth, and Around the World in Eighty Days. Often lauded as the
+2014-10-01 02:24:38	--	- Father of science fiction, Verne wrote about concepts such as
+2014-10-01 02:24:38	--	- space travel, skyscrapers, and worldwide communications
+2014-10-01 02:24:38	--	- networks long before these ideas became popularised or realised.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- Welcome to freenode - supporting the free and open source
+2014-10-01 02:24:38	--	- software communities since 1998.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- **************************************************************
+2014-10-01 02:24:38	--	-                       SECURITY ALERT
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-01 02:24:38	--	- some compromised binaries present on a number of servers.
+2014-10-01 02:24:38	--	- The servers in question have been removed from the network and
+2014-10-01 02:24:38	--	- shut down.  However, it's possible that network traffic  -
+2014-10-01 02:24:38	--	- including SSL traffic - has been sniffed and passwords
+2014-10-01 02:24:38	--	- exposed.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- We therefore recommend that all users change their nickserv
+2014-10-01 02:24:38	--	- password(s) to a new value which is not shared with any
+2014-10-01 02:24:38	--	- other service.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- Please note that investigation is ongoing to discover the root
+2014-10-01 02:24:38	--	- cause of the attack, and until this investigation is complete
+2014-10-01 02:24:38	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-01 02:24:38	--	- have been removed. We may have to ask you to change your
+2014-10-01 02:24:38	--	- passwords again after analysis has completed.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- Further details will appear on https://blog.freenode.net/
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- **************************************************************
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- By connecting to freenode you indicate that you have read and
+2014-10-01 02:24:38	--	- accept our policies as set out on http://www.freenode.net
+2014-10-01 02:24:38	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-01 02:24:38	--	- any network-related questions or queries, where a number of
+2014-10-01 02:24:38	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-01 02:24:38	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-01 02:24:38	--	- real-life collaboration.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- We would like to thank Private Internet Access
+2014-10-01 02:24:38	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-01 02:24:38	--	- organisations that help keep freenode and our other projects
+2014-10-01 02:24:38	--	- running for their sustained support.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	- In particular we would like to thank the sponsor
+2014-10-01 02:24:38	--	- of this server, details of which can be found above.
+2014-10-01 02:24:38	--	-
+2014-10-01 02:24:38	--	End of /MOTD command.
+2014-10-01 02:24:38	--	Mode utilisateur [+i] par robin_m
+2014-10-01 02:24:38	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-01 08:34:24	=!=	irc : lecture de données sur le socket : erreur 110 Connexion terminée par expiration du délai d'attente
+2014-10-01 08:34:24	--	irc : déconnexion du serveur...
+2014-10-01 08:34:24	--	irc : déconnecté du serveur
+2014-10-01 08:34:24	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-01 08:34:34	--	irc : reconnexion au serveur...
+2014-10-01 08:34:34	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 08:35:30	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-01 08:35:30	=!=	irc : erreur : Nom ou service inconnu
+2014-10-01 08:35:30	--	irc : reconnexion au serveur dans 20 secondes
+2014-10-01 08:35:50	--	irc : reconnexion au serveur...
+2014-10-01 08:35:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 08:36:50	=!=	irc : délai d'attente dépassé
+2014-10-01 08:36:50	--	irc : reconnexion au serveur dans 40 secondes
+2014-10-01 08:37:30	--	irc : reconnexion au serveur...
+2014-10-01 08:37:30	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 08:38:30	=!=	irc : délai d'attente dépassé
+2014-10-01 08:38:30	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-10-01 08:39:50	--	irc : reconnexion au serveur...
+2014-10-01 08:39:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 08:40:50	=!=	irc : délai d'attente dépassé
+2014-10-01 08:40:50	--	irc : reconnexion au serveur dans 2 minutes, 40 secondes
+2014-10-01 08:43:30	--	irc : reconnexion au serveur...
+2014-10-01 08:43:30	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 08:44:30	=!=	irc : délai d'attente dépassé
+2014-10-01 08:44:30	--	irc : reconnexion au serveur dans 5 minutes, 20 secondes
+2014-10-01 08:49:50	--	irc : reconnexion au serveur...
+2014-10-01 08:49:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 08:50:50	=!=	irc : délai d'attente dépassé
+2014-10-01 08:50:50	--	irc : reconnexion au serveur dans 10 minutes, 40 secondes
+2014-10-01 09:01:30	--	irc : reconnexion au serveur...
+2014-10-01 09:01:30	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 09:02:30	=!=	irc : délai d'attente dépassé
+2014-10-01 09:02:30	--	irc : reconnexion au serveur dans 21 minutes, 20 secondes
+2014-10-01 09:23:50	--	irc : reconnexion au serveur...
+2014-10-01 09:23:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 09:24:50	=!=	irc : délai d'attente dépassé
+2014-10-01 09:24:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 09:54:50	--	irc : reconnexion au serveur...
+2014-10-01 09:54:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 09:55:50	=!=	irc : délai d'attente dépassé
+2014-10-01 09:55:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 10:25:50	--	irc : reconnexion au serveur...
+2014-10-01 10:25:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 10:26:50	=!=	irc : délai d'attente dépassé
+2014-10-01 10:26:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 10:56:50	--	irc : reconnexion au serveur...
+2014-10-01 10:56:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 10:57:50	=!=	irc : délai d'attente dépassé
+2014-10-01 10:57:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 11:27:50	--	irc : reconnexion au serveur...
+2014-10-01 11:27:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 11:28:50	=!=	irc : délai d'attente dépassé
+2014-10-01 11:28:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 11:58:50	--	irc : reconnexion au serveur...
+2014-10-01 11:58:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 11:59:50	=!=	irc : délai d'attente dépassé
+2014-10-01 11:59:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 12:29:50	--	irc : reconnexion au serveur...
+2014-10-01 12:29:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 12:30:50	=!=	irc : délai d'attente dépassé
+2014-10-01 12:30:50	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 13:37:50	--	irc : reconnexion au serveur...
+2014-10-01 13:37:50	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 13:37:55	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-01 13:37:55	=!=	irc : erreur : Nom ou service inconnu
+2014-10-01 13:37:55	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 16:24:27	--	irc : reconnexion au serveur...
+2014-10-01 16:24:27	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 16:24:27	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-01 16:24:27	=!=	irc : erreur : Nom ou service inconnu
+2014-10-01 16:24:27	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-01 16:54:27	--	irc : reconnexion au serveur...
+2014-10-01 16:54:27	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 16:54:27	--	irc : connecté à chat.freenode.net/6667 (37.48.83.75)
+2014-10-01 16:54:27	--	wilhelm.freenode.net: *** Looking up your hostname...
+2014-10-01 16:54:27	--	wilhelm.freenode.net: *** Checking Ident
+2014-10-01 16:54:27	--	wilhelm.freenode.net: *** Found your hostname
+2014-10-01 16:54:36	--	wilhelm.freenode.net: *** No Ident response
+2014-10-01 16:54:36	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-01 16:54:36	--	Your host is wilhelm.freenode.net[37.48.83.75/6667], running version ircd-seven-1.1.3
+2014-10-01 16:54:36	--	This server was created Sat Mar 8 2014 at 15:57:41 CET
+2014-10-01 16:54:36	--	wilhelm.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-01 16:54:36	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-01 16:54:36	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-01 16:54:36	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-01 16:54:36	--	There are 233 users and 94141 invisible on 29 servers
+2014-10-01 16:54:36	--	31 :IRC Operators online
+2014-10-01 16:54:36	--	19 :unknown connection(s)
+2014-10-01 16:54:36	--	56274 :channels formed
+2014-10-01 16:54:36	--	I have 6696 clients and 1 servers
+2014-10-01 16:54:36	--	6696 12000 :Current local users 6696, max 12000
+2014-10-01 16:54:36	--	94374 104047 :Current global users 94374, max 104047
+2014-10-01 16:54:36	--	Highest connection count: 12001 (12000 clients) (1877201 connections received)
+2014-10-01 16:54:36	--	- wilhelm.freenode.net Message of the Day -
+2014-10-01 16:54:36	--	- Welcome to wilhelm.freenode.net in Netherlands, EU.
+2014-10-01 16:54:36	--	- Thanks to https://www.cubecraftgames.net for sponsoring
+2014-10-01 16:54:36	--	- this server!
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- Welcome to freenode - supporting the free and open source
+2014-10-01 16:54:36	--	- software communities since 1998.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- **************************************************************
+2014-10-01 16:54:36	--	-                       SECURITY ALERT
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-01 16:54:36	--	- some compromised binaries present on a number of servers.
+2014-10-01 16:54:36	--	- The servers in question have been removed from the network and
+2014-10-01 16:54:36	--	- shut down.  However, it's possible that network traffic  -
+2014-10-01 16:54:36	--	- including SSL traffic - has been sniffed and passwords
+2014-10-01 16:54:36	--	- exposed.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- We therefore recommend that all users change their nickserv
+2014-10-01 16:54:36	--	- password(s) to a new value which is not shared with any
+2014-10-01 16:54:36	--	- other service.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- Please note that investigation is ongoing to discover the root
+2014-10-01 16:54:36	--	- cause of the attack, and until this investigation is complete
+2014-10-01 16:54:36	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-01 16:54:36	--	- have been removed. We may have to ask you to change your
+2014-10-01 16:54:36	--	- passwords again after analysis has completed.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- Further details will appear on https://blog.freenode.net/
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- **************************************************************
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- By connecting to freenode you indicate that you have read and
+2014-10-01 16:54:36	--	- accept our policies as set out on http://www.freenode.net
+2014-10-01 16:54:36	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-01 16:54:36	--	- any network-related questions or queries, where a number of
+2014-10-01 16:54:36	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-01 16:54:36	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-01 16:54:36	--	- real-life collaboration.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- We would like to thank Private Internet Access
+2014-10-01 16:54:36	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-01 16:54:36	--	- organisations that help keep freenode and our other projects
+2014-10-01 16:54:36	--	- running for their sustained support.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	- In particular we would like to thank the sponsor
+2014-10-01 16:54:36	--	- of this server, details of which can be found above.
+2014-10-01 16:54:36	--	-
+2014-10-01 16:54:36	--	End of /MOTD command.
+2014-10-01 16:54:36	--	Mode utilisateur [+i] par robin_m
+2014-10-01 16:54:36	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-01 20:29:55	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-10-01 20:29:55	--	irc : déconnexion du serveur...
+2014-10-01 20:29:55	--	irc : déconnecté du serveur
+2014-10-01 20:29:55	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-01 20:30:05	--	irc : reconnexion au serveur...
+2014-10-01 20:30:05	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-01 20:30:05	--	irc : connecté à chat.freenode.net/6667 (37.48.83.75)
+2014-10-01 20:30:05	--	wilhelm.freenode.net: *** Looking up your hostname...
+2014-10-01 20:30:05	--	wilhelm.freenode.net: *** Checking Ident
+2014-10-01 20:30:05	--	wilhelm.freenode.net: *** Found your hostname
+2014-10-01 20:30:12	--	wilhelm.freenode.net: *** No Ident response
+2014-10-01 20:30:12	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-01 20:30:12	--	Your host is wilhelm.freenode.net[37.48.83.75/6667], running version ircd-seven-1.1.3
+2014-10-01 20:30:12	--	This server was created Sat Mar 8 2014 at 15:57:41 CET
+2014-10-01 20:30:12	--	wilhelm.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-01 20:30:12	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-01 20:30:12	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-01 20:30:12	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-01 20:30:12	--	There are 219 users and 94378 invisible on 29 servers
+2014-10-01 20:30:12	--	30 :IRC Operators online
+2014-10-01 20:30:12	--	16 :unknown connection(s)
+2014-10-01 20:30:12	--	56327 :channels formed
+2014-10-01 20:30:12	--	I have 7127 clients and 1 servers
+2014-10-01 20:30:12	--	7127 12000 :Current local users 7127, max 12000
+2014-10-01 20:30:12	--	94597 104047 :Current global users 94597, max 104047
+2014-10-01 20:30:12	--	Highest connection count: 12001 (12000 clients) (1881363 connections received)
+2014-10-01 20:30:12	--	- wilhelm.freenode.net Message of the Day -
+2014-10-01 20:30:12	--	- Welcome to wilhelm.freenode.net in Netherlands, EU.
+2014-10-01 20:30:12	--	- Thanks to https://www.cubecraftgames.net for sponsoring
+2014-10-01 20:30:12	--	- this server!
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- Welcome to freenode - supporting the free and open source
+2014-10-01 20:30:12	--	- software communities since 1998.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- **************************************************************
+2014-10-01 20:30:12	--	-                       SECURITY ALERT
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-01 20:30:12	--	- some compromised binaries present on a number of servers.
+2014-10-01 20:30:12	--	- The servers in question have been removed from the network and
+2014-10-01 20:30:12	--	- shut down.  However, it's possible that network traffic  -
+2014-10-01 20:30:12	--	- including SSL traffic - has been sniffed and passwords
+2014-10-01 20:30:12	--	- exposed.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- We therefore recommend that all users change their nickserv
+2014-10-01 20:30:12	--	- password(s) to a new value which is not shared with any
+2014-10-01 20:30:12	--	- other service.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- Please note that investigation is ongoing to discover the root
+2014-10-01 20:30:12	--	- cause of the attack, and until this investigation is complete
+2014-10-01 20:30:12	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-01 20:30:12	--	- have been removed. We may have to ask you to change your
+2014-10-01 20:30:12	--	- passwords again after analysis has completed.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- Further details will appear on https://blog.freenode.net/
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- **************************************************************
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- By connecting to freenode you indicate that you have read and
+2014-10-01 20:30:12	--	- accept our policies as set out on http://www.freenode.net
+2014-10-01 20:30:12	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-01 20:30:12	--	- any network-related questions or queries, where a number of
+2014-10-01 20:30:12	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-01 20:30:12	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-01 20:30:12	--	- real-life collaboration.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- We would like to thank Private Internet Access
+2014-10-01 20:30:12	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-01 20:30:12	--	- organisations that help keep freenode and our other projects
+2014-10-01 20:30:12	--	- running for their sustained support.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	- In particular we would like to thank the sponsor
+2014-10-01 20:30:12	--	- of this server, details of which can be found above.
+2014-10-01 20:30:12	--	-
+2014-10-01 20:30:12	--	End of /MOTD command.
+2014-10-01 20:30:12	--	Mode utilisateur [+i] par robin_m
+2014-10-01 20:30:12	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-02 08:02:19	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-10-02 08:02:19	--	irc : déconnexion du serveur...
+2014-10-02 08:02:19	--	irc : déconnecté du serveur
+2014-10-02 08:02:19	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-02 08:02:29	--	irc : reconnexion au serveur...
+2014-10-02 08:02:29	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 08:02:29	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 08:02:29	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 08:02:29	--	irc : reconnexion au serveur dans 20 secondes
+2014-10-02 08:02:49	--	irc : reconnexion au serveur...
+2014-10-02 08:02:49	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 08:02:49	--	irc : connecté à chat.freenode.net/6667 (193.219.128.49)
+2014-10-02 08:02:49	--	sendak.freenode.net: *** Looking up your hostname...
+2014-10-02 08:02:49	--	sendak.freenode.net: *** Checking Ident
+2014-10-02 08:02:49	--	sendak.freenode.net: *** Found your hostname
+2014-10-02 08:02:56	--	sendak.freenode.net: *** No Ident response
+2014-10-02 08:02:56	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-02 08:02:56	--	Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+2014-10-02 08:02:56	--	This server was created Tue Apr 8 2014 at 17:59:15 EEST
+2014-10-02 08:02:56	--	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-02 08:02:56	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-02 08:02:56	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-02 08:02:56	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-02 08:02:56	--	There are 186 users and 82074 invisible on 29 servers
+2014-10-02 08:02:56	--	31 :IRC Operators online
+2014-10-02 08:02:56	--	7 :unknown connection(s)
+2014-10-02 08:02:56	--	55253 :channels formed
+2014-10-02 08:02:56	--	I have 7018 clients and 1 servers
+2014-10-02 08:02:56	--	7018 11466 :Current local users 7018, max 11466
+2014-10-02 08:02:56	--	82260 104047 :Current global users 82260, max 104047
+2014-10-02 08:02:56	--	Highest connection count: 11467 (11466 clients) (718740 connections received)
+2014-10-02 08:02:56	--	- sendak.freenode.net Message of the Day -
+2014-10-02 08:02:56	--	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2014-10-02 08:02:56	--	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2014-10-02 08:02:56	--	- server!
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2014-10-02 08:02:56	--	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2014-10-02 08:02:56	--	- born in Brooklyn, NY, US, to a family of poor Polish
+2014-10-02 08:02:56	--	- immigrants who moved to the US before World War II.  He
+2014-10-02 08:02:56	--	- became an illustrator while in high school.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- Welcome to freenode - supporting the free and open source
+2014-10-02 08:02:56	--	- software communities since 1998.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- **************************************************************
+2014-10-02 08:02:56	--	-                       SECURITY ALERT
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-02 08:02:56	--	- some compromised binaries present on a number of servers.
+2014-10-02 08:02:56	--	- The servers in question have been removed from the network and
+2014-10-02 08:02:56	--	- shut down.  However, it's possible that network traffic  -
+2014-10-02 08:02:56	--	- including SSL traffic - has been sniffed and passwords
+2014-10-02 08:02:56	--	- exposed.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- We therefore recommend that all users change their nickserv
+2014-10-02 08:02:56	--	- password(s) to a new value which is not shared with any
+2014-10-02 08:02:56	--	- other service.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- Please note that investigation is ongoing to discover the root
+2014-10-02 08:02:56	--	- cause of the attack, and until this investigation is complete
+2014-10-02 08:02:56	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-02 08:02:56	--	- have been removed. We may have to ask you to change your
+2014-10-02 08:02:56	--	- passwords again after analysis has completed.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- Further details will appear on https://blog.freenode.net/
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- **************************************************************
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- By connecting to freenode you indicate that you have read and
+2014-10-02 08:02:56	--	- accept our policies as set out on http://www.freenode.net
+2014-10-02 08:02:56	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-02 08:02:56	--	- any network-related questions or queries, where a number of
+2014-10-02 08:02:56	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-02 08:02:56	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-02 08:02:56	--	- real-life collaboration.
+2014-10-02 08:02:56	--	-
+2014-10-02 08:02:56	--	- We would like to thank Private Internet Access
+2014-10-02 08:02:56	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-02 08:02:57	--	- organisations that help keep freenode and our other projects
+2014-10-02 08:02:57	--	- running for their sustained support.
+2014-10-02 08:02:57	--	-
+2014-10-02 08:02:57	--	- In particular we would like to thank the sponsor
+2014-10-02 08:02:57	--	- of this server, details of which can be found above.
+2014-10-02 08:02:57	--	-
+2014-10-02 08:02:57	--	End of /MOTD command.
+2014-10-02 08:02:57	--	Mode utilisateur [+i] par robin_m
+2014-10-02 08:02:57	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-02 10:06:01	=!=	irc : lecture de données sur le socket : erreur 110 Connexion terminée par expiration du délai d'attente
+2014-10-02 10:06:01	--	irc : déconnexion du serveur...
+2014-10-02 10:06:01	--	irc : déconnecté du serveur
+2014-10-02 10:06:01	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-02 10:06:11	--	irc : reconnexion au serveur...
+2014-10-02 10:06:11	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:07:11	=!=	irc : délai d'attente dépassé
+2014-10-02 10:07:11	--	irc : reconnexion au serveur dans 20 secondes
+2014-10-02 10:07:31	--	irc : reconnexion au serveur...
+2014-10-02 10:07:31	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:08:31	=!=	irc : délai d'attente dépassé
+2014-10-02 10:08:31	--	irc : reconnexion au serveur dans 40 secondes
+2014-10-02 10:09:11	--	irc : reconnexion au serveur...
+2014-10-02 10:09:11	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:10:11	=!=	irc : délai d'attente dépassé
+2014-10-02 10:10:11	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-10-02 10:11:31	--	irc : reconnexion au serveur...
+2014-10-02 10:11:31	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:12:31	=!=	irc : délai d'attente dépassé
+2014-10-02 10:12:31	--	irc : reconnexion au serveur dans 2 minutes, 40 secondes
+2014-10-02 10:15:11	--	irc : reconnexion au serveur...
+2014-10-02 10:15:11	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:16:11	=!=	irc : délai d'attente dépassé
+2014-10-02 10:16:11	--	irc : reconnexion au serveur dans 5 minutes, 20 secondes
+2014-10-02 10:21:31	--	irc : reconnexion au serveur...
+2014-10-02 10:21:31	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:22:31	=!=	irc : délai d'attente dépassé
+2014-10-02 10:22:31	--	irc : reconnexion au serveur dans 10 minutes, 40 secondes
+2014-10-02 10:33:11	--	irc : reconnexion au serveur...
+2014-10-02 10:33:11	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 10:34:11	=!=	irc : délai d'attente dépassé
+2014-10-02 10:34:11	--	irc : reconnexion au serveur dans 21 minutes, 20 secondes
+2014-10-02 11:56:01	--	irc : reconnexion au serveur...
+2014-10-02 11:56:01	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 11:56:01	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 11:56:01	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 11:56:01	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-02 13:14:21	--	irc : reconnexion au serveur...
+2014-10-02 13:14:21	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 13:14:21	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 13:14:21	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 13:14:21	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-02 13:44:21	--	irc : reconnexion au serveur...
+2014-10-02 13:44:21	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 13:44:21	--	irc : connecté à chat.freenode.net/6667 (193.219.128.49)
+2014-10-02 13:44:21	--	sendak.freenode.net: *** Looking up your hostname...
+2014-10-02 13:44:22	--	sendak.freenode.net: *** Checking Ident
+2014-10-02 13:44:22	--	sendak.freenode.net: *** Found your hostname
+2014-10-02 13:44:30	--	sendak.freenode.net: *** No Ident response
+2014-10-02 13:44:30	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-02 13:44:30	--	Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+2014-10-02 13:44:30	--	This server was created Tue Apr 8 2014 at 17:59:15 EEST
+2014-10-02 13:44:30	--	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-02 13:44:30	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-02 13:44:30	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-02 13:44:30	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-02 13:44:30	--	There are 189 users and 89047 invisible on 29 servers
+2014-10-02 13:44:30	--	31 :IRC Operators online
+2014-10-02 13:44:30	--	11 :unknown connection(s)
+2014-10-02 13:44:30	--	55937 :channels formed
+2014-10-02 13:44:30	--	I have 7597 clients and 1 servers
+2014-10-02 13:44:30	--	7597 11466 :Current local users 7597, max 11466
+2014-10-02 13:44:30	--	89236 104047 :Current global users 89236, max 104047
+2014-10-02 13:44:30	--	Highest connection count: 11467 (11466 clients) (723561 connections received)
+2014-10-02 13:44:30	--	- sendak.freenode.net Message of the Day -
+2014-10-02 13:44:30	--	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2014-10-02 13:44:30	--	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2014-10-02 13:44:30	--	- server!
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2014-10-02 13:44:30	--	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2014-10-02 13:44:30	--	- born in Brooklyn, NY, US, to a family of poor Polish
+2014-10-02 13:44:30	--	- immigrants who moved to the US before World War II.  He
+2014-10-02 13:44:30	--	- became an illustrator while in high school.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- Welcome to freenode - supporting the free and open source
+2014-10-02 13:44:30	--	- software communities since 1998.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- **************************************************************
+2014-10-02 13:44:30	--	-                       SECURITY ALERT
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-02 13:44:30	--	- some compromised binaries present on a number of servers.
+2014-10-02 13:44:30	--	- The servers in question have been removed from the network and
+2014-10-02 13:44:30	--	- shut down.  However, it's possible that network traffic  -
+2014-10-02 13:44:30	--	- including SSL traffic - has been sniffed and passwords
+2014-10-02 13:44:30	--	- exposed.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- We therefore recommend that all users change their nickserv
+2014-10-02 13:44:30	--	- password(s) to a new value which is not shared with any
+2014-10-02 13:44:30	--	- other service.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- Please note that investigation is ongoing to discover the root
+2014-10-02 13:44:30	--	- cause of the attack, and until this investigation is complete
+2014-10-02 13:44:30	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-02 13:44:30	--	- have been removed. We may have to ask you to change your
+2014-10-02 13:44:30	--	- passwords again after analysis has completed.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- Further details will appear on https://blog.freenode.net/
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- **************************************************************
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- By connecting to freenode you indicate that you have read and
+2014-10-02 13:44:30	--	- accept our policies as set out on http://www.freenode.net
+2014-10-02 13:44:30	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-02 13:44:30	--	- any network-related questions or queries, where a number of
+2014-10-02 13:44:30	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-02 13:44:30	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-02 13:44:30	--	- real-life collaboration.
+2014-10-02 13:44:30	--	-
+2014-10-02 13:44:30	--	- We would like to thank Private Internet Access
+2014-10-02 13:44:30	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-02 13:44:31	--	- organisations that help keep freenode and our other projects
+2014-10-02 13:44:31	--	- running for their sustained support.
+2014-10-02 13:44:31	--	-
+2014-10-02 13:44:31	--	- In particular we would like to thank the sponsor
+2014-10-02 13:44:31	--	- of this server, details of which can be found above.
+2014-10-02 13:44:31	--	-
+2014-10-02 13:44:31	--	End of /MOTD command.
+2014-10-02 13:44:31	--	Mode utilisateur [+i] par robin_m
+2014-10-02 13:44:31	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-02 21:19:01	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-10-02 21:19:01	--	irc : déconnexion du serveur...
+2014-10-02 21:19:01	--	irc : déconnecté du serveur
+2014-10-02 21:19:01	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-02 21:19:11	--	irc : reconnexion au serveur...
+2014-10-02 21:19:11	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:19:14	--	irc : connecté à chat.freenode.net/6667 (38.229.70.22)
+2014-10-02 21:19:15	--	card.freenode.net: *** Looking up your hostname...
+2014-10-02 21:19:15	--	card.freenode.net: *** Checking Ident
+2014-10-02 21:19:15	--	card.freenode.net: *** Found your hostname
+2014-10-02 21:19:25	--	card.freenode.net: *** No Ident response
+2014-10-02 21:19:25	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-02 21:19:25	--	Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.3
+2014-10-02 21:19:25	--	This server was created Thu Sep 18 2014 at 18:48:25 UTC
+2014-10-02 21:19:25	--	card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-02 21:19:25	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-02 21:19:25	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-02 21:19:25	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-02 21:19:25	--	There are 187 users and 94515 invisible on 29 servers
+2014-10-02 21:19:25	--	32 :IRC Operators online
+2014-10-02 21:19:25	--	12 :unknown connection(s)
+2014-10-02 21:19:25	--	56482 :channels formed
+2014-10-02 21:19:25	--	I have 2863 clients and 1 servers
+2014-10-02 21:19:25	--	2863 6347 :Current local users 2863, max 6347
+2014-10-02 21:19:25	--	94702 96285 :Current global users 94702, max 96285
+2014-10-02 21:19:25	--	Highest connection count: 6348 (6347 clients) (285877 connections received)
+2014-10-02 21:19:25	--	- card.freenode.net Message of the Day -
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2014-10-02 21:19:25	--	- Team Cymru (http://www.team-cymru.org).
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+2014-10-02 21:19:25	--	- California, Arizona, and Utah.  He lived in Brazil for two years as an
+2014-10-02 21:19:25	--	- unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+2014-10-02 21:19:25	--	- Maker books, Card's science fiction and fantasy work is strongly influenced
+2014-10-02 21:19:25	--	- by his Mormon cultural background.  The first author to win the Hugo and
+2014-10-02 21:19:25	--	- Nebula novel awards two years in a row, Card currently lives in Greensboro,
+2014-10-02 21:19:25	--	- North Carolina, US.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- Welcome to freenode - supporting the free and open source
+2014-10-02 21:19:25	--	- software communities since 1998.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- **************************************************************
+2014-10-02 21:19:25	--	-                       SECURITY ALERT
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-02 21:19:25	--	- some compromised binaries present on a number of servers.
+2014-10-02 21:19:25	--	- The servers in question have been removed from the network and
+2014-10-02 21:19:25	--	- shut down.  However, it's possible that network traffic  -
+2014-10-02 21:19:25	--	- including SSL traffic - has been sniffed and passwords
+2014-10-02 21:19:25	--	- exposed.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- We therefore recommend that all users change their nickserv
+2014-10-02 21:19:25	--	- password(s) to a new value which is not shared with any
+2014-10-02 21:19:25	--	- other service.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- Please note that investigation is ongoing to discover the root
+2014-10-02 21:19:25	--	- cause of the attack, and until this investigation is complete
+2014-10-02 21:19:25	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-02 21:19:25	--	- have been removed. We may have to ask you to change your
+2014-10-02 21:19:25	--	- passwords again after analysis has completed.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- Further details will appear on https://blog.freenode.net/
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- **************************************************************
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- By connecting to freenode you indicate that you have read and
+2014-10-02 21:19:25	--	- accept our policies as set out on http://www.freenode.net
+2014-10-02 21:19:25	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-02 21:19:25	--	- any network-related questions or queries, where a number of
+2014-10-02 21:19:25	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-02 21:19:25	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-02 21:19:25	--	- real-life collaboration.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- We would like to thank Private Internet Access
+2014-10-02 21:19:25	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-02 21:19:25	--	- organisations that help keep freenode and our other projects
+2014-10-02 21:19:25	--	- running for their sustained support.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	- In particular we would like to thank the sponsor
+2014-10-02 21:19:25	--	- of this server, details of which can be found above.
+2014-10-02 21:19:25	--	-
+2014-10-02 21:19:25	--	End of /MOTD command.
+2014-10-02 21:19:25	--	Mode utilisateur [+i] par robin_m
+2014-10-02 21:19:25	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-02 21:37:04	=!=	irc : lecture de données sur le socket : erreur 22 Argument invalide
+2014-10-02 21:37:04	--	irc : déconnexion du serveur...
+2014-10-02 21:37:04	--	irc : déconnecté du serveur
+2014-10-02 21:37:04	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-02 21:37:14	--	irc : reconnexion au serveur...
+2014-10-02 21:37:14	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:37:14	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:37:14	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:37:14	--	irc : reconnexion au serveur dans 20 secondes
+2014-10-02 21:37:34	--	irc : reconnexion au serveur...
+2014-10-02 21:37:34	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:37:34	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:37:34	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:37:34	--	irc : reconnexion au serveur dans 40 secondes
+2014-10-02 21:38:14	--	irc : reconnexion au serveur...
+2014-10-02 21:38:14	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:38:14	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:38:14	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:38:14	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-10-02 21:39:34	--	irc : reconnexion au serveur...
+2014-10-02 21:39:34	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:39:34	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:39:34	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:39:34	--	irc : reconnexion au serveur dans 2 minutes, 40 secondes
+2014-10-02 21:42:14	--	irc : reconnexion au serveur...
+2014-10-02 21:42:14	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:42:14	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:42:14	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:42:14	--	irc : reconnexion au serveur dans 5 minutes, 20 secondes
+2014-10-02 21:47:34	--	irc : reconnexion au serveur...
+2014-10-02 21:47:34	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:47:34	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:47:34	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:47:34	--	irc : reconnexion au serveur dans 10 minutes, 40 secondes
+2014-10-02 21:58:14	--	irc : reconnexion au serveur...
+2014-10-02 21:58:14	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 21:58:14	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-02 21:58:14	=!=	irc : erreur : Nom ou service inconnu
+2014-10-02 21:58:14	--	irc : reconnexion au serveur dans 21 minutes, 20 secondes
+2014-10-02 22:19:34	--	irc : reconnexion au serveur...
+2014-10-02 22:19:34	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-02 22:19:36	--	irc : connecté à chat.freenode.net/6667 (64.32.24.176)
+2014-10-02 22:19:37	--	morgan.freenode.net: *** Looking up your hostname...
+2014-10-02 22:19:37	--	morgan.freenode.net: *** Checking Ident
+2014-10-02 22:19:38	--	morgan.freenode.net: *** Found your hostname
+2014-10-02 22:19:43	--	morgan.freenode.net: *** No Ident response
+2014-10-02 22:19:43	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-02 22:19:43	--	Your host is morgan.freenode.net[64.32.24.176/6667], running version ircd-seven-1.1.3
+2014-10-02 22:19:43	--	This server was created Thu Jul 31 2014 at 17:07:15 UTC
+2014-10-02 22:19:43	--	morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-02 22:19:43	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-02 22:19:43	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-02 22:19:43	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-02 22:19:43	--	There are 189 users and 94027 invisible on 29 servers
+2014-10-02 22:19:43	--	32 :IRC Operators online
+2014-10-02 22:19:43	--	11 :unknown connection(s)
+2014-10-02 22:19:43	--	56443 :channels formed
+2014-10-02 22:19:43	--	I have 6882 clients and 2 servers
+2014-10-02 22:19:43	--	6882 7215 :Current local users 6882, max 7215
+2014-10-02 22:19:43	--	94216 98073 :Current global users 94216, max 98073
+2014-10-02 22:19:43	--	Highest connection count: 7217 (7215 clients) (406855 connections received)
+2014-10-02 22:19:43	--	- morgan.freenode.net Message of the Day -
+2014-10-02 22:19:43	--	- Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+2014-10-02 22:19:43	--	- you to psyprus for sponsoring this server!
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- MORGAN, RICHARD K. (1965-) is an English science fiction
+2014-10-02 22:19:43	--	- author. Morgan's books are generally set in a dystopian world.
+2014-10-02 22:19:43	--	- His breakout novel Altered Carbon won the Philip K. Dick Award,
+2014-10-02 22:19:43	--	- and he has written many successful and amazing works to follow.
+2014-10-02 22:19:43	--	- His more recent writings explore the theme of autonomy
+2014-10-02 22:19:43	--	- in science fiction and escapism in fantasy.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- Welcome to freenode - supporting the free and open source
+2014-10-02 22:19:43	--	- software communities since 1998.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- **************************************************************
+2014-10-02 22:19:43	--	-                       SECURITY ALERT
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-02 22:19:43	--	- some compromised binaries present on a number of servers.
+2014-10-02 22:19:43	--	- The servers in question have been removed from the network and
+2014-10-02 22:19:43	--	- shut down.  However, it's possible that network traffic  -
+2014-10-02 22:19:43	--	- including SSL traffic - has been sniffed and passwords
+2014-10-02 22:19:43	--	- exposed.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- We therefore recommend that all users change their nickserv
+2014-10-02 22:19:43	--	- password(s) to a new value which is not shared with any
+2014-10-02 22:19:43	--	- other service.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- Please note that investigation is ongoing to discover the root
+2014-10-02 22:19:43	--	- cause of the attack, and until this investigation is complete
+2014-10-02 22:19:43	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-02 22:19:43	--	- have been removed. We may have to ask you to change your
+2014-10-02 22:19:43	--	- passwords again after analysis has completed.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- Further details will appear on https://blog.freenode.net/
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- **************************************************************
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- By connecting to freenode you indicate that you have read and
+2014-10-02 22:19:43	--	- accept our policies as set out on http://www.freenode.net
+2014-10-02 22:19:43	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-02 22:19:43	--	- any network-related questions or queries, where a number of
+2014-10-02 22:19:43	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-02 22:19:43	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-02 22:19:43	--	- real-life collaboration.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- We would like to thank Private Internet Access
+2014-10-02 22:19:43	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-02 22:19:43	--	- organisations that help keep freenode and our other projects
+2014-10-02 22:19:43	--	- running for their sustained support.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	- In particular we would like to thank the sponsor
+2014-10-02 22:19:43	--	- of this server, details of which can be found above.
+2014-10-02 22:19:43	--	-
+2014-10-02 22:19:43	--	End of /MOTD command.
+2014-10-02 22:19:43	--	Mode utilisateur [+i] par robin_m
+2014-10-02 22:19:43	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-03 07:20:51	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-10-03 07:20:51	--	irc : déconnexion du serveur...
+2014-10-03 07:20:51	--	irc : déconnecté du serveur
+2014-10-03 07:20:51	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-03 07:21:01	--	irc : reconnexion au serveur...
+2014-10-03 07:21:01	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 07:21:01	--	irc : connecté à chat.freenode.net/6667 (83.170.73.249)
+2014-10-03 07:21:01	--	holmes.freenode.net: *** Looking up your hostname...
+2014-10-03 07:21:01	--	holmes.freenode.net: *** Checking Ident
+2014-10-03 07:21:01	--	holmes.freenode.net: *** Found your hostname
+2014-10-03 07:21:08	--	holmes.freenode.net: *** No Ident response
+2014-10-03 07:21:08	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-03 07:21:08	--	Your host is holmes.freenode.net[83.170.73.249/6667], running version ircd-seven-1.1.3
+2014-10-03 07:21:08	--	This server was created Wed Sep 17 2014 at 17:57:00 UTC
+2014-10-03 07:21:08	--	holmes.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-03 07:21:08	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-03 07:21:08	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-03 07:21:08	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-03 07:21:08	--	There are 174 users and 81701 invisible on 29 servers
+2014-10-03 07:21:08	--	32 :IRC Operators online
+2014-10-03 07:21:08	--	12 :unknown connection(s)
+2014-10-03 07:21:08	--	55279 :channels formed
+2014-10-03 07:21:08	--	I have 3378 clients and 1 servers
+2014-10-03 07:21:08	--	3378 4675 :Current local users 3378, max 4675
+2014-10-03 07:21:08	--	81875 98074 :Current global users 81875, max 98074
+2014-10-03 07:21:08	--	Highest connection count: 4676 (4675 clients) (297314 connections received)
+2014-10-03 07:21:08	--	- holmes.freenode.net Message of the Day -
+2014-10-03 07:21:08	--	- Welcome to holmes.freenode.net in London, UK! Massive thanks to
+2014-10-03 07:21:08	--	- UK2 (http://www.uk2.net) for sponsoring this server.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- HOLMES, ROBERT (1928-1986). An English television scriptwriter,
+2014-10-03 07:21:08	--	- most notably remembered for his work on the sci-fi series;
+2014-10-03 07:21:08	--	- Doctor Who.
+2014-10-03 07:21:08	--	- Welcome to freenode - supporting the free and open source
+2014-10-03 07:21:08	--	- software communities since 1998.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- **************************************************************
+2014-10-03 07:21:08	--	-                       SECURITY ALERT
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-03 07:21:08	--	- some compromised binaries present on a number of servers.
+2014-10-03 07:21:08	--	- The servers in question have been removed from the network and
+2014-10-03 07:21:08	--	- shut down.  However, it's possible that network traffic  -
+2014-10-03 07:21:08	--	- including SSL traffic - has been sniffed and passwords
+2014-10-03 07:21:08	--	- exposed.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- We therefore recommend that all users change their nickserv
+2014-10-03 07:21:08	--	- password(s) to a new value which is not shared with any
+2014-10-03 07:21:08	--	- other service.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- Please note that investigation is ongoing to discover the root
+2014-10-03 07:21:08	--	- cause of the attack, and until this investigation is complete
+2014-10-03 07:21:08	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-03 07:21:08	--	- have been removed. We may have to ask you to change your
+2014-10-03 07:21:08	--	- passwords again after analysis has completed.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- Further details will appear on https://blog.freenode.net/
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- **************************************************************
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- By connecting to freenode you indicate that you have read and
+2014-10-03 07:21:08	--	- accept our policies as set out on http://www.freenode.net
+2014-10-03 07:21:08	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-03 07:21:08	--	- any network-related questions or queries, where a number of
+2014-10-03 07:21:08	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-03 07:21:08	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-03 07:21:08	--	- real-life collaboration.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- We would like to thank Private Internet Access
+2014-10-03 07:21:08	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-03 07:21:08	--	- organisations that help keep freenode and our other projects
+2014-10-03 07:21:08	--	- running for their sustained support.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	- In particular we would like to thank the sponsor
+2014-10-03 07:21:08	--	- of this server, details of which can be found above.
+2014-10-03 07:21:08	--	-
+2014-10-03 07:21:08	--	End of /MOTD command.
+2014-10-03 07:21:08	--	Mode utilisateur [+i] par robin_m
+2014-10-03 07:21:08	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-03 10:05:12	=!=	irc : lecture de données sur le socket : erreur 110 Connexion terminée par expiration du délai d'attente
+2014-10-03 10:05:12	--	irc : déconnexion du serveur...
+2014-10-03 10:05:12	--	irc : déconnecté du serveur
+2014-10-03 10:05:12	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-03 10:05:22	--	irc : reconnexion au serveur...
+2014-10-03 10:05:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:06:22	=!=	irc : délai d'attente dépassé
+2014-10-03 10:06:22	--	irc : reconnexion au serveur dans 20 secondes
+2014-10-03 10:06:42	--	irc : reconnexion au serveur...
+2014-10-03 10:06:42	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:06:42	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-03 10:06:42	=!=	irc : erreur : Nom ou service inconnu
+2014-10-03 10:06:42	--	irc : reconnexion au serveur dans 40 secondes
+2014-10-03 10:07:22	--	irc : reconnexion au serveur...
+2014-10-03 10:07:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:08:22	=!=	irc : délai d'attente dépassé
+2014-10-03 10:08:22	--	irc : reconnexion au serveur dans 1 minute, 20 secondes
+2014-10-03 10:09:42	--	irc : reconnexion au serveur...
+2014-10-03 10:09:42	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:10:42	=!=	irc : délai d'attente dépassé
+2014-10-03 10:10:42	--	irc : reconnexion au serveur dans 2 minutes, 40 secondes
+2014-10-03 10:13:22	--	irc : reconnexion au serveur...
+2014-10-03 10:13:22	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:14:22	=!=	irc : délai d'attente dépassé
+2014-10-03 10:14:22	--	irc : reconnexion au serveur dans 5 minutes, 20 secondes
+2014-10-03 10:19:42	--	irc : reconnexion au serveur...
+2014-10-03 10:19:42	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:20:38	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-03 10:20:38	=!=	irc : erreur : Nom ou service inconnu
+2014-10-03 10:20:38	--	irc : reconnexion au serveur dans 10 minutes, 40 secondes
+2014-10-03 10:31:18	--	irc : reconnexion au serveur...
+2014-10-03 10:31:18	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:32:18	=!=	irc : délai d'attente dépassé
+2014-10-03 10:32:18	--	irc : reconnexion au serveur dans 21 minutes, 20 secondes
+2014-10-03 10:53:38	--	irc : reconnexion au serveur...
+2014-10-03 10:53:38	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 10:54:38	=!=	irc : délai d'attente dépassé
+2014-10-03 10:54:38	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-03 11:24:38	--	irc : reconnexion au serveur...
+2014-10-03 11:24:38	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 11:25:38	=!=	irc : délai d'attente dépassé
+2014-10-03 11:25:38	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-03 11:55:38	--	irc : reconnexion au serveur...
+2014-10-03 11:55:38	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 11:56:38	=!=	irc : délai d'attente dépassé
+2014-10-03 11:56:38	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-03 12:26:38	--	irc : reconnexion au serveur...
+2014-10-03 12:26:38	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 12:27:38	=!=	irc : délai d'attente dépassé
+2014-10-03 12:27:38	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-03 13:06:14	--	irc : reconnexion au serveur...
+2014-10-03 13:06:14	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 13:06:14	=!=	irc : adresse "chat.freenode.net" non trouvée
+2014-10-03 13:06:14	=!=	irc : erreur : Nom ou service inconnu
+2014-10-03 13:06:14	--	irc : reconnexion au serveur dans 30 minutes
+2014-10-03 13:36:14	--	irc : reconnexion au serveur...
+2014-10-03 13:36:14	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 13:36:14	--	irc : connecté à chat.freenode.net/6667 (91.217.189.42)
+2014-10-03 13:36:14	--	sinisalo.freenode.net: *** Looking up your hostname...
+2014-10-03 13:36:14	--	sinisalo.freenode.net: *** Checking Ident
+2014-10-03 13:36:14	--	sinisalo.freenode.net: *** Found your hostname
+2014-10-03 13:36:20	--	sinisalo.freenode.net: *** No Ident response
+2014-10-03 13:36:20	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-03 13:36:20	--	Your host is sinisalo.freenode.net[91.217.189.42/6667], running version ircd-seven-1.1.3
+2014-10-03 13:36:20	--	This server was created Tue Jul 1 2014 at 14:17:05 CEST
+2014-10-03 13:36:20	--	sinisalo.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-03 13:36:20	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-03 13:36:20	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-03 13:36:20	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-03 13:36:20	--	There are 179 users and 87962 invisible on 29 servers
+2014-10-03 13:36:20	--	31 :IRC Operators online
+2014-10-03 13:36:20	--	10 :unknown connection(s)
+2014-10-03 13:36:20	--	55917 :channels formed
+2014-10-03 13:36:20	--	I have 8963 clients and 1 servers
+2014-10-03 13:36:20	--	8963 12000 :Current local users 8963, max 12000
+2014-10-03 13:36:20	--	88141 102229 :Current global users 88141, max 102229
+2014-10-03 13:36:20	--	Highest connection count: 12001 (12000 clients) (1039736 connections received)
+2014-10-03 13:36:20	--	- sinisalo.freenode.net Message of the Day -
+2014-10-03 13:36:20	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2014-10-03 13:36:20	--	- Thanks to http://www.portlane.com/ for sponsoring
+2014-10-03 13:36:20	--	- this server!
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2014-10-03 13:36:20	--	- and fantasy novelist and a script writer. Her novel 'Not
+2014-10-03 13:36:20	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2014-10-03 13:36:20	--	- published in Finnish in 2000, when it also won the biggest
+2014-10-03 13:36:20	--	- literature award of Finland) was awarded The James Tiptree
+2014-10-03 13:36:20	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2014-10-03 13:36:20	--	- 2009 for her short story Baby Doll.  Their most recent work
+2014-10-03 13:36:20	--	- includes screenwriting for the film 'Iron Sky'.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- Welcome to freenode - supporting the free and open source
+2014-10-03 13:36:20	--	- software communities since 1998.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- **************************************************************
+2014-10-03 13:36:20	--	-                       SECURITY ALERT
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-03 13:36:20	--	- some compromised binaries present on a number of servers.
+2014-10-03 13:36:20	--	- The servers in question have been removed from the network and
+2014-10-03 13:36:20	--	- shut down.  However, it's possible that network traffic  -
+2014-10-03 13:36:20	--	- including SSL traffic - has been sniffed and passwords
+2014-10-03 13:36:20	--	- exposed.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- We therefore recommend that all users change their nickserv
+2014-10-03 13:36:20	--	- password(s) to a new value which is not shared with any
+2014-10-03 13:36:20	--	- other service.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- Please note that investigation is ongoing to discover the root
+2014-10-03 13:36:20	--	- cause of the attack, and until this investigation is complete
+2014-10-03 13:36:20	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-03 13:36:20	--	- have been removed. We may have to ask you to change your
+2014-10-03 13:36:20	--	- passwords again after analysis has completed.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- Further details will appear on https://blog.freenode.net/
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- **************************************************************
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- By connecting to freenode you indicate that you have read and
+2014-10-03 13:36:20	--	- accept our policies as set out on http://www.freenode.net
+2014-10-03 13:36:20	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-03 13:36:20	--	- any network-related questions or queries, where a number of
+2014-10-03 13:36:20	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-03 13:36:20	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-03 13:36:20	--	- real-life collaboration.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- We would like to thank Private Internet Access
+2014-10-03 13:36:20	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-03 13:36:20	--	- organisations that help keep freenode and our other projects
+2014-10-03 13:36:20	--	- running for their sustained support.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	- In particular we would like to thank the sponsor
+2014-10-03 13:36:20	--	- of this server, details of which can be found above.
+2014-10-03 13:36:20	--	-
+2014-10-03 13:36:20	--	End of /MOTD command.
+2014-10-03 13:36:20	--	Mode utilisateur [+i] par robin_m
+2014-10-03 13:36:20	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-10-03 21:53:16	=!=	irc : lecture de données sur le socket : erreur 104 Connexion ré-initialisée par le correspondant
+2014-10-03 21:53:16	--	irc : déconnexion du serveur...
+2014-10-03 21:53:16	--	irc : déconnecté du serveur
+2014-10-03 21:53:16	--	irc : reconnexion au serveur dans 10 secondes
+2014-10-03 21:53:26	--	irc : reconnexion au serveur...
+2014-10-03 21:53:26	--	irc : connexion au serveur chat.freenode.net/6667...
+2014-10-03 21:53:26	--	irc : connecté à chat.freenode.net/6667 (193.219.128.49)
+2014-10-03 21:53:26	--	sendak.freenode.net: *** Looking up your hostname...
+2014-10-03 21:53:26	--	sendak.freenode.net: *** Checking Ident
+2014-10-03 21:53:26	--	sendak.freenode.net: *** Found your hostname
+2014-10-03 21:53:34	--	sendak.freenode.net: *** No Ident response
+2014-10-03 21:53:34	--	Welcome to the freenode Internet Relay Chat Network robin_m
+2014-10-03 21:53:34	--	Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+2014-10-03 21:53:34	--	This server was created Tue Apr 8 2014 at 17:59:15 EEST
+2014-10-03 21:53:34	--	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-10-03 21:53:34	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-10-03 21:53:34	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-10-03 21:53:34	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-10-03 21:53:34	--	There are 189 users and 92490 invisible on 29 servers
+2014-10-03 21:53:34	--	30 :IRC Operators online
+2014-10-03 21:53:34	--	20 :unknown connection(s)
+2014-10-03 21:53:34	--	56430 :channels formed
+2014-10-03 21:53:34	--	I have 8016 clients and 1 servers
+2014-10-03 21:53:34	--	8016 11466 :Current local users 8016, max 11466
+2014-10-03 21:53:34	--	92679 104047 :Current global users 92679, max 104047
+2014-10-03 21:53:34	--	Highest connection count: 11467 (11466 clients) (753362 connections received)
+2014-10-03 21:53:34	--	- sendak.freenode.net Message of the Day -
+2014-10-03 21:53:34	--	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2014-10-03 21:53:34	--	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2014-10-03 21:53:34	--	- server!
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2014-10-03 21:53:34	--	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2014-10-03 21:53:34	--	- born in Brooklyn, NY, US, to a family of poor Polish
+2014-10-03 21:53:34	--	- immigrants who moved to the US before World War II.  He
+2014-10-03 21:53:34	--	- became an illustrator while in high school.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- Welcome to freenode - supporting the free and open source
+2014-10-03 21:53:34	--	- software communities since 1998.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- **************************************************************
+2014-10-03 21:53:34	--	-                       SECURITY ALERT
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- Over the weekend of 13th-14th September freenode staff noticed
+2014-10-03 21:53:34	--	- some compromised binaries present on a number of servers.
+2014-10-03 21:53:34	--	- The servers in question have been removed from the network and
+2014-10-03 21:53:34	--	- shut down.  However, it's possible that network traffic  -
+2014-10-03 21:53:34	--	- including SSL traffic - has been sniffed and passwords
+2014-10-03 21:53:34	--	- exposed.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- We therefore recommend that all users change their nickserv
+2014-10-03 21:53:34	--	- password(s) to a new value which is not shared with any
+2014-10-03 21:53:34	--	- other service.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- You can do this with /msg nickserv set password newpasshere
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- Please note that investigation is ongoing to discover the root
+2014-10-03 21:53:34	--	- cause of the attack, and until this investigation is complete
+2014-10-03 21:53:34	--	- we cannot be 100% certain that all traces of the compromises
+2014-10-03 21:53:34	--	- have been removed. We may have to ask you to change your
+2014-10-03 21:53:34	--	- passwords again after analysis has completed.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- Further details will appear on https://blog.freenode.net/
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- **************************************************************
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- By connecting to freenode you indicate that you have read and
+2014-10-03 21:53:34	--	- accept our policies as set out on http://www.freenode.net
+2014-10-03 21:53:34	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-10-03 21:53:34	--	- any network-related questions or queries, where a number of
+2014-10-03 21:53:34	--	- volunteer staff and helpful users will be happy to assist you.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-10-03 21:53:34	--	- together with like-minded FOSS enthusiasts for talks and
+2014-10-03 21:53:34	--	- real-life collaboration.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- We would like to thank Private Internet Access
+2014-10-03 21:53:34	--	- (https://www.privateinternetaccess.com/) and the other
+2014-10-03 21:53:34	--	- organisations that help keep freenode and our other projects
+2014-10-03 21:53:34	--	- running for their sustained support.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	- In particular we would like to thank the sponsor
+2014-10-03 21:53:34	--	- of this server, details of which can be found above.
+2014-10-03 21:53:34	--	-
+2014-10-03 21:53:34	--	End of /MOTD command.
+2014-10-03 21:53:34	--	Mode utilisateur [+i] par robin_m
+2014-10-03 21:53:34	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.

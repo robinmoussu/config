@@ -1,0 +1,98 @@
+xterm*font: terminus-12
+xterm*saveLines: 2000
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm-color
+xterm*foreground: rgb:a8/a8/a8
+xterm*background: rgb:00/00/00
+
+xterm*color0: rgb:00/00/00
+xterm*color1: rgb:a8/00/00
+xterm*color2: rgb:00/a8/00
+xterm*color3: rgb:a8/54/00
+xterm*color4: rgb:00/00/a8
+xterm*color5: rgb:a8/00/a8
+xterm*color6: rgb:00/a8/a8
+xterm*color7: rgb:a8/a8/a8
+xterm*color8: rgb:54/54/54
+xterm*color9: rgb:fc/54/54
+xterm*color10: rgb:54/fc/54
+xterm*color11: rgb:fc/fc/54
+xterm*color12: rgb:54/54/fc
+xterm*color13: rgb:fc/54/fc
+xterm*color14: rgb:54/fc/fc
+xterm*color15: rgb:fc/fc/fc
+
+xterm*boldMode: false
+
+xterm*colorBDMode: true
+xterm*colorBD: rgb:fc/fc/fc
+
+!####################################
+
+!transparency - true or false (default)
+URxvt*transparent:true
+
+! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+!   some nice listings are at:
+!     http://www.nisrv.com/modules.php?name=Hex_Colors
+!     http://www.htmlgoodies.com/tutorials/colors/article.php/3478921
+URxvt*tintColor:white
+
+! shading - 0 to 99 darkens, 101 to 200 lightens.
+!   Don’t use with tintColor; use a darker or lighter color instead.
+!URxvt*shading:60
+
+! scrollback buffer lines - 65535 is max (64 is default)
+URxvt*saveLines:12000
+
+! font color (default is black)
+URxvt*foreground:white
+
+! background color (prior to tinting) (default is white)
+URxvt*background:black
+
+! xft fonts - anti-aliased xft font setup is nice, but can be choppy
+URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=12
+
+! traditional fonts - a more traditional font setup in lieu of xft
+!URxvt*font:-*-courier-medium-r-normal-*-*-140-*-*-*-*-iso8859-1
+!URxvt*boldFont:-*-courier-bold-r-normal-*-*-140-*-*-*-*-iso8859-1
+
+! Replace blue folder colors with a lighter shade for clarity. To
+! set colored folders and files within urxvt, xterm, and aterm, add
+! the following line to your ~/.bashrc ($HOME/.bashrc) file under
+! the heading "# User specific aliases and functions":
+!   alias ls="ls -h --color=auto"
+!URxvt*color4:     wh
+!urxvt*color8:     !006400
+!urxvt*color9:     !330000
+!urxvt*color10:    red
+!urxvt*color11:    !4B0082
+!URxvt*color12:    !00009C
+!urxvt*color13:    !FF6103
+!urxvt*color14:    !5E2605
+!urxvt*color15:    black
+
+! scrollbar - true (default) or false
+URxvt*scrollBar:false
+
+! scrollbar position - left=false (default) or right=true
+URxvt*scrollBar_right:true
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle:plain
+
+! scrollbar color
+!URxvt*scrollColor:pink
+
+URxvt.visualBell:false
+URxvt.cursorColor:lightblue
+URxvt.cursorColor2:black
+!URxvt.cursorBlink: 1
+!URxvt.cursorRectangular: 1
+
+! added for irssi
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:  default,matcher
+urxvt*matcher.button:   1
+urxvt*urlLauncher:      /usr/bin/firefox

@@ -188,6 +188,7 @@
 
     set cursorline                  " Highlight current line
     set showcmd                     " Show partial commands in status line
+    set laststatus=2                " Always show statusline
 
     syntax on                       " use syntax highlight
     set background=dark             " Assume a dark background

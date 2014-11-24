@@ -19,8 +19,6 @@ noremap h r
 noremap H R
 noremap k s
 noremap [k [s
-noremap gs gt
-noremap gt gT
 noremap <PageDown> gt
 noremap <PageUp> gT
 noremap gJ :exe<Space>"silent!<Space>tabfirst"<Return>

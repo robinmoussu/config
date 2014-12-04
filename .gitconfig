@@ -8,4 +8,4 @@
 [alias]
 	webui = !/home/robin_arch/.git-webui/release/libexec/git-core/git-webui
     st = status
-    graph =  !git log --graph --oneline --color=always | tac | sed -e 's-/-–-g' -e 's-\\\\-/-g' -e 's-–-\\\\-g'
+    graph =  !git log --graph --oneline --color=always --decorate | tac | sed -e 's-/-–-g' -e 's-\\\\-/-g' -e 's-–-\\\\-g'

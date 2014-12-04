@@ -260,7 +260,7 @@ precmd function prompt() {
 PS1=$(prompt)
 
 function ccd() {
-    cd $(cat ~/.ccd) && clear
+    cd "$(cat ~/.ccd)" && clear
 }
 
 function x() {

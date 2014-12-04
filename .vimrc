@@ -264,9 +264,6 @@
     " make
     nmap ê :!clear:make
 
-    " save
-    cmap : wa
-
     " ctags
     nmap <Leader>] 
 
@@ -721,3 +718,5 @@
     " }
 " }
 
+" to fix
+"unmap ;bc

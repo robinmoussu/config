@@ -26,7 +26,7 @@ focus_follows_mouse no
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh
-bindsym $mod+Return exec urxvt -bg black -fg green
+bindsym $mod+Return exec terminology
 bindsym $mod+Shift+Return exec urxvt -e ranger
 
 # kill focused window
@@ -58,7 +58,6 @@ mode "split_h" {
    bindsym $mod+t focus down ; move up   ; mode "default"
    bindsym $mod+s focus up   ; move down ; mode "default"
    bindsym $mod+r focus right; move left ; mode "default"
-   bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh; mode "default"
 
 # back to normal: Enter or Escape
    bindsym b mode "default"
@@ -78,7 +77,6 @@ mode "split_v" {
    bindsym $mod+t focus down ; move up   ; mode "default"
    bindsym $mod+s focus up   ; move down ; mode "default"
    bindsym $mod+r focus right; move left ; mode "default"
-   bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh; mode "default"
 
 # back to normal: Enter or Escape
    bindsym a mode "default"
@@ -160,12 +158,12 @@ bindsym $mod+Shift+V restart
 # exit
 set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (Shift+s)
 mode "$mode_system" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
-    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+    bindsym l exec --no-startup-id ~/.i3/exit.sh lock, mode "default"
+    bindsym e exec --no-startup-id ~/.i3/exit.sh logout, mode "default"
+    bindsym s exec --no-startup-id ~/.i3/exit.sh suspend, mode "default"
+    bindsym h exec --no-startup-id ~/.i3/exit.sh hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/.i3/exit.sh reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id ~/.i3/exit.sh shutdown, mode "default"
 
     # back to normal: Enter or Escape
     bindsym Return mode "default"

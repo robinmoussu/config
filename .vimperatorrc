@@ -34,8 +34,6 @@ noremap <Space> :split<Return>
 noremap <Return> :vsplit<Return>
 noremap <F2> <C-/>
 noremap a a<Space>-tags<Space>
-noremap v <C-k>
-noremap V T<Space><Space><Space><Space><Space><Space><Space><Space>
 noremap T <C-d><Space><Space><Space><Space>
 noremap S <C-u><Space><Space><Space><Space>
 noremap j :bmarks!<Space>-tags=
@@ -52,11 +50,43 @@ set hintchars=auietsrn
 set hintmatching=contains
 set followhints=0
 set defsearch=duckduckgo
+set gui=tabs,nonavigation
 source! /home/robin_arch/.vimperatorrc.local
 
 noremap §r :source ~/.vimperatorrc<Return>
 noremap gq <C-^>
 noremap k HyLtp
 
+"javascript to hide statusbar
+noremap <silent> <F8> :js toggle_bottombar()<CR>
+noremap : :js toggle_bottombar('on')<CR>:
+noremap o :js toggle_bottombar('on')<CR>o
+noremap O :js toggle_bottombar('on')<CR>O
+noremap t :js toggle_bottombar('on')<CR>j
+noremap T :js toggle_bottombar('on')<CR>j
+noremap / :js toggle_bottombar('on')<CR>/
+cnoremap <CR> <CR>:js toggle_bottombar('off')<CR>
+cnoremap <Esc> <Esc>:js toggle_bottombar('off')<CR>
+
+:js << EOF
+function toggle_bottombar(p) {
+    var bb = document.getElementById('liberator-bottombar');
+    if (!bb)
+        return;
+    if (p == 'on'){
+        bb.style.height = '';
+        bb.style.overflow = '';
+        return;
+    }
+    if (p == 'off'){
+        bb.style.height = '0px';
+        bb.style.overflow = 'hidden';
+        return;
+    }
+    bb.style.height = (bb.style.height == '') ? '0px' : '';
+    bb.style.overflow = (bb.style.height == '') ? '' : 'hidden';
+}
+toggle_bottombar();
+EOF
 
 " vim: set ft=vimperator:

@@ -156,11 +156,18 @@ if [ $USER = "robin" ] ;  then
     alias frfr="cpfr ; compfr && rmfr ; setxkbmap -layout \"fr(jeop_actual)\"  "
     alias Xfr="vim ~/.XCompose && cp ~/.XCompose /home/robin/bépo/svg_fr/XCompose_\`date +%d-%m-%y-%Hh%M\`"
 
-    #if ps -u robin | grep xcape > /dev/null  ; then 
-    #else
-        #xcape -e 'Shift_L=space;ISO_Level3_Shift=Escape;ISO_Level5_Shift=comma'
-        ##xcape -e 'ISO_Level5_Latch=r'
-    #fi
+    if ps -u robin | grep xcape > /dev/null  ; then 
+    else
+        # utilisation d'espace comme maj
+        spare_modifier="Hyper_L"
+        xmodmap -e "keycode  65 = $spare_modifier"
+        xmodmap -e "remove mod4 = $spare_modifier"
+        xmodmap -e "add   Shift = $spare_modifier"
+        xmodmap -e "keycode 152 = space"
+
+        xcape -e 'Hyper_L=space;ISO_Level3_Shift=Escape'
+        ##xcape -e 'ISO_Level5_Latch=r;ISO_Level5_Shift=comma'
+    fi
 
     [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 
@@ -210,7 +217,17 @@ function prompt_left() {
 }
 
 function prompt_center() {
-    echo -E "${Separator_Left}${Text_color}$(git rev-parse --abbrev-ref HEAD 2> /dev/null | sed -e "/master/b; s/.*/$(echo -en ${Red})\0$(echo -en ${Text_color})/" || echo '✘')${Separator_Right}"
+
+    git_color=${Green}
+    if [[ ! "$(LANG=C; git status)" =~ "working directory clean" ]]; then
+        git_color=${Orange}
+    fi
+    if [[ -n "$(git diff)" ]]; then
+        git_color=${Red}
+    fi
+    git_msg=$(git rev-parse --abbrev-ref HEAD 2> /dev/null || echo '✘')
+
+    echo -E "${Separator_Left}${git_color}${git_msg}${Separator_Right}"
 }
 
 function prompt_right() {

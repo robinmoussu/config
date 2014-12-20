@@ -219,10 +219,10 @@ function prompt_left() {
 function prompt_center() {
 
     git_color=${Green}
-    if [[ ! "$(LANG=C; git status)" =~ "working directory clean" ]]; then
+    if [[ ! "$(LANG=C; git status 2> /dev/null)" =~ "working directory clean" ]]; then
         git_color=${Orange}
     fi
-    if [[ -n "$(git diff)" ]]; then
+    if [[ -n "$(git diff 2> /dev/null)" ]]; then
         git_color=${Red}
     fi
     git_msg=$(git rev-parse --abbrev-ref HEAD 2> /dev/null || echo '✘')

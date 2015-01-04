@@ -30,6 +30,9 @@ zstyle ':completion:*:*:kill:*:processes' list-colors "=(#b) #([0-9]#)*=36=31"
 # Correction des commandes
 setopt correctall
 
+#coloration syntaxique
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Les alias marchent comme sous bash
 alias ls='ls --color=auto'
 alias la='ls -a'
@@ -156,18 +159,18 @@ if [ $USER = "robin" ] ;  then
     alias frfr="cpfr ; compfr && rmfr ; setxkbmap -layout \"fr(jeop_actual)\"  "
     alias Xfr="vim ~/.XCompose && cp ~/.XCompose /home/robin/bépo/svg_fr/XCompose_\`date +%d-%m-%y-%Hh%M\`"
 
-    if ps -u robin | grep xcape > /dev/null  ; then 
-    else
+    #if ps -u robin | grep xcape > /dev/null  ; then 
+    #else
         # utilisation d'espace comme maj
-        spare_modifier="Hyper_L"
-        xmodmap -e "keycode  65 = $spare_modifier"
-        xmodmap -e "remove mod4 = $spare_modifier"
-        xmodmap -e "add   Shift = $spare_modifier"
-        xmodmap -e "keycode 152 = space"
+        #spare_modifier="Hyper_L"
+        #xmodmap -e "keycode  65 = $spare_modifier"
+        #xmodmap -e "remove mod4 = $spare_modifier"
+        #xmodmap -e "add   Shift = $spare_modifier"
+        #xmodmap -e "keycode 152 = space"
 
-        xcape -e 'Hyper_L=space;ISO_Level3_Shift=Escape'
+        #xcape -e 'Hyper_L=space;ISO_Level3_Shift=Escape'
         ##xcape -e 'ISO_Level5_Latch=r;ISO_Level5_Shift=comma'
-    fi
+    #fi
 
     [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 

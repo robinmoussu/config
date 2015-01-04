@@ -227,7 +227,7 @@ mode "$screen" {
     bindsym s exec xbacklight -set $( echo "$(xbacklight)  / 0.7" | bc | awk '{if($1 <= 2) {print 3} else {print $1}}')
     bindsym r exec xbacklight -set $( echo "$(xbacklight)  / 0.8" | bc | awk '{if($1 <= 2) {print 5} else {print $1}}')
 
-    bindsym m exec xbacklight -set 0; mode "default"
+    bindsym m exec xset dpms force off; mode "default"
 
     bindsym a exec arandr; mode "default"
     bindsym $mod+a exec arandr; mode "default"
@@ -283,7 +283,7 @@ client.urgent           #2f343a #900000 #ffffff #900000
 #for_window [class="Firefox"] hide_edge_borders both
 font pango:DejaVu Sans Mono 0
 
-exec setxkbmap fr bepo
+exec setxkbmap fr bepo_number
 #exec-always xcape -e 'Shift_L=space'
 
 
@@ -293,3 +293,4 @@ exec synclient TapButton1=0
 exec synclient TapButton2=0
 exec synclient HorizTwoFingerScroll=1
 exec xrdb -merge ~/.Xresources
+exec redshift &

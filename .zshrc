@@ -83,53 +83,48 @@ export HISTSIZE=5000
 export SAVEHIST=5000
 
 # Un petit prompt sympa
-autoload -U promptinit
-promptinit
-
-## les commandes spécifiques à root et aux users
-if [ $UID = 0 ]; then
-   #prompt fire
-
-   # pour arduino serial usb
-   [ ! -f "/dev/ttyUSB0" ] ||  ln -s /dev/ttyACM0 /dev/ttyUSB0
-   chmod 777 /run/lock
-
-   alias netmina="netctl stop-all && netctl start wlp3s0-MinaGuest"
-   alias netjedi="netctl stop-all && netctl start wlp3s0-le_retour_du_jedi"
-
-   alias àà=wifi-menu
-else
-   #prompt fade
-   alias pacman='sudo pacman'
-   alias vpnc='sudo vpnc'
-fi
-
-# alias temporaire
-if [ -f "/home/common/tmp_alias.sh" ]; then 
-   source /home/common/tmp_alias.sh
-fi
+#autoload -U promptinit
+#promptinit
 
 #ponysay $(fortune)
 
-
 alias :q="exit"
 alias :wq="exit"
-alias mountusb="sudo mkdir /media/robin/usb && sudo mount /dev/sdb1 /media/robin/usb && cd /media/robin/usb"
 
 #programmes divers
 alias o="xdg-open"
 alias m="mplayer"
 alias calcurse="LC_ALL=utf8 calcurse"
 alias i3-error="less /run/user/robin/i3/errorlog.5959 "
-alias xte='nohup xterm &' # xte lancera un xterm qui ne se fvermera pas si on ferme le terminal
 [[ -x /bin/vimx ]] && alias vim='vimx'
 alias view='vim +"set ro" +"setlocal nomodifiable"'
 
+#mapping clavier
 alias auie="setxkbmap -layout \"fr\""
 alias qsdf="setxkbmap -layout \"fr(bepo)\""
 alias asdf="setxkbmap -layout \"fr(bepo)\""
 alias bepo="setxkbmap -layout \"fr(bepo)\""
 alias azer="setxkbmap -layout \"fr(bepo)\""
+
+#micelanous
+alias java="java -cp . "
+alias javac="javac -cp . "
+alias gcc="gcc  -fdiagnostics-color "
+export LANG=fr_FR.UTF-8
+
+# les commandes spécifiques à root et aux users
+if [ $UID = 0 ]; then
+   #prompt fire
+
+   # pour arduino serial usb
+   #[ ! -f "/dev/ttyUSB0" ] ||  ln -s /dev/ttyACM0 /dev/ttyUSB0
+   #chmod 777 /run/lock
+
+else
+   #prompt fade
+   alias pacman='sudo pacman'
+   alias vpnc='sudo vpnc'
+fi
 
 if [ $USER = "robin" ] ;  then
 
@@ -174,10 +169,6 @@ if [ $USER = "robin" ] ;  then
 
     [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 
-elif [ $HOST = "alarmpi" ];  then
-    prompt adam1
-elif [ $HOST = "minos" ];  then
-    alias -g wk='/work1/rmoussu/tools/machine/registers/'
 fi
 
 #screen -x -R
@@ -287,9 +278,5 @@ function x() {
     pwd > ~/.ccd
 }
 
-alias java="java -cp . "
-alias javac="javac -cp . "
-
-alias gcc="gcc  -fdiagnostics-color "
-
-export LANG=fr_FR.UTF-8
+## Projet GL
+export PATH=$HOME/doc/cour/gl/4MMPGL/bin:$PATH

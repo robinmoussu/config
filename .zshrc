@@ -101,8 +101,8 @@ alias view='vim +"set ro" +"setlocal nomodifiable"'
 
 #mapping clavier
 alias auie="setxkbmap -layout \"fr\""
-alias qsdf="setxkbmap -layout \"fr(bepo)\""
-alias asdf="setxkbmap -layout \"fr(bepo)\""
+alias qsdf="setxkbmap -layout \"fr(bepo_number)\""
+alias asdf="setxkbmap -layout \"fr(bepo_number)\""
 alias bepo="setxkbmap -layout \"fr(bepo)\""
 alias azer="setxkbmap -layout \"fr(bepo)\""
 
@@ -279,4 +279,5 @@ function x() {
 }
 
 ## Projet GL
-export PATH=$HOME/doc/cour/gl/4MMPGL/bin:$PATH
+PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH
+export PATH

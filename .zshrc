@@ -48,6 +48,8 @@ alias mplayerfb='mplayer -vo fbdev -vf scale=1024:768'
 export GREP_COLOR=31
 alias grep='grep --color=auto'
 
+alias -s pdf=zathura
+
 # Pareil pour les variables d'environement :
 #export http_proxy="http://hostname:8080/"
 #export HTTP_PROXY=$http_proxy
@@ -82,6 +84,9 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=5000
 export SAVEHIST=5000
 
+#less
+export LESS=-r
+
 # Un petit prompt sympa
 #autoload -U promptinit
 #promptinit
@@ -107,8 +112,8 @@ alias bepo="setxkbmap -layout \"fr(bepo)\""
 alias azer="setxkbmap -layout \"fr(bepo)\""
 
 #micelanous
-alias java="java -cp . "
-alias javac="javac -cp . "
+#alias java="java -cp . "
+#alias javac="javac -cp . "
 alias gcc="gcc  -fdiagnostics-color "
 export LANG=fr_FR.UTF-8
 
@@ -271,11 +276,11 @@ precmd function prompt() {
 PS1=$(prompt)
 
 function ccd() {
-    cd "$(cat ~/.ccd)" && clear
+    cd "$(cat ~/.ccd/save$1)" && clear
 }
 
 function x() {
-    pwd > ~/.ccd
+    pwd > ~/.ccd/save$1
 }
 
 ## Projet GL

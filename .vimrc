@@ -720,3 +720,6 @@
 
 " to fix
 "unmap ;bc
+
+"projet gl
+set noexpandtab

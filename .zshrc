@@ -276,13 +276,18 @@ precmd function prompt() {
 PS1=$(prompt)
 
 function ccd() {
-    cd "$(cat ~/.ccd/save$1)" && clear
+    [ -r ~/.signet/save$1 ] && cd "$(cat ~/.signet/save$1)" || echo >&2 "Le signet $1 n'existe pas"
 }
 
 function x() {
-    pwd > ~/.ccd/save$1
+    pwd > ~/.signet/save$1 > ~/.signet/save
 }
+
+source .zsh/completion/_ccd
 
 ## Projet GL
 PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH
+PATH=$PATH:/home/robin/.gem/ruby/**/bin
+PATH=$PATH:/home/robin/doc/cour/gl/Projet_GL/src/test/deca/context/invalid/provided
 export PATH
+source /usr/share/cdargs/cdargs-bash.sh 2>/dev/null 1>/dev/null

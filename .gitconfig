@@ -9,6 +9,7 @@
 	webui = !/home/robin_arch/.git-webui/release/libexec/git-core/git-webui
     st = status
     graph-rev =  !git log --all --graph --oneline --color=always --decorate | tac | sed -e 's-/-–-g' -e 's-\\\\-/-g' -e 's-–-\\\\-g'
-    graph =  log --graph --oneline --color=always --decorate
+    graph =  log --graph --oneline --decorate
 
     st = status
+    ci = commit -v

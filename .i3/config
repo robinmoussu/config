@@ -170,7 +170,7 @@ mode "$mode_system" {
     bindsym Escape mode "default"
     bindsym space mode "default"
 }
-bindsym $mod+Shift+J mode "$mode_system"
+bindsym $mod+Escape mode "$mode_system"
 
 # resize window (you can also use the mouse for that)
 set $resize RESIZE : shrink (c/s), grow (t/r)

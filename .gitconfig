@@ -13,3 +13,6 @@
 
     st = status
     ci = commit -v
+    co = checkout
+
+    integrate = "!f() { git merge --no-ff $1~ -m \"$(git log -n1 --pretty=format:%B $1)\"; }; f"

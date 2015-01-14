@@ -3,3 +3,8 @@
 .vimbackup
 *~
 /doc/cour/java/collections/nbproject/private/
+/doc/test/java/nbproject/private/
+/doc/test/java/dist/
+/doc/test/java/build/
+/doc/test/JavaApplication3/nbproject/private/
+/doc/test/JavaApplication3/build/

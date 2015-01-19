@@ -287,7 +287,21 @@ source .zsh/completion/_ccd
 
 ## Projet GL
 PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH
+PATH=$PATH:$HOME/doc/cour/gl/Projet_GL/src/main/bin:$PATH
 PATH=$PATH:/home/robin/.gem/ruby/**/bin
 PATH=$PATH:/home/robin/doc/cour/gl/Projet_GL/src/test/deca/context/invalid/provided
 export PATH
 source /usr/share/cdargs/cdargs-bash.sh 2>/dev/null 1>/dev/null
+
+function exec_test() {
+
+    function success() {
+        mpv ~/Music/bruitage/cowbell_sf.mp3 ~/Music/bruitage/cowbell_sf.mp3 2>/dev/null 1>/dev/null
+    }
+
+    function faillure() {
+        mpv ~/Music/bruitage/SF-dive.mp3 ~/Music/bruitage/SF-dive.mp3 2>/dev/null 1>/dev/null
+    }
+
+    mvn test && success || faillure
+}

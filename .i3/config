@@ -150,10 +150,14 @@ bindsym $mod+Shift+X move container to workspace 8; workspace 8
 bindsym $mod+Shift+Y move container to workspace 9; workspace 9
 bindsym $mod+Shift+Agrave move container to workspace 10; workspace 10
 
+#scratchpad
+bindsym $mod+v move scratchpad
+bindsym $mod+Shift+V scratchpad show
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+o restart
 # reload the configuration file
 bindsym $mod+Shift+O reload
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+V restart
 
 # exit
 set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (Shift+s)

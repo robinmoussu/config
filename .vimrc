@@ -160,8 +160,8 @@
     "" }
 
     " Latex {
-        Bundle 'bccalc.vim'
-        Bundle 'jcf/vim-latex'
+        "Bundle 'bccalc.vim'
+        "Bundle 'jcf/vim-latex'
     " }
 
 " }

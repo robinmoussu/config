@@ -151,8 +151,8 @@ bindsym $mod+Shift+Y move container to workspace 9; workspace 9
 bindsym $mod+Shift+Agrave move container to workspace 10; workspace 10
 
 #scratchpad
-bindsym $mod+v move scratchpad
-bindsym $mod+Shift+V scratchpad show
+bindsym $mod+v scratchpad show
+bindsym $mod+Shift+V move scratchpad
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+o restart

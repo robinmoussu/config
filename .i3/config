@@ -34,7 +34,7 @@ bindsym $mod+d kill
 
 # start dmenu (a program launcher)
 bindsym $mod+Shift+D exec dmenu_run
-bindsym $mod+l exec synapse
+#bindsym $mod+l exec synapse
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -287,7 +287,7 @@ client.urgent           #2f343a #900000 #ffffff #900000
 #for_window [class="Firefox"] hide_edge_borders both
 font pango:DejaVu Sans Mono 0
 
-exec setxkbmap fr bepo_number
+exec setxkbmap perso bepo_perso
 #exec-always xcape -e 'Shift_L=space'
 
 
@@ -298,3 +298,4 @@ exec synclient TapButton2=0
 exec synclient HorizTwoFingerScroll=1
 exec xrdb -merge ~/.Xresources
 exec redshift &
+exec touchegg &

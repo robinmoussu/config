@@ -91,6 +91,10 @@
         Bundle 'honza/vim-snippets'
     " }
 
+    " cpp {
+        Plugin 'octol/vim-cpp-enhanced-highlight'
+    " }
+
     "" PHP {
         Bundle 'spf13/PIV'
         Bundle 'arnaud-lb/vim-php-namespace'
@@ -164,34 +168,14 @@
         "Bundle 'jcf/vim-latex'
     " }
 
+    " Arduino {
+        Bundle 'jplaut/vim-arduino-ino'
+    " }
+
 " }
 
 " General {
-    set mouse=a                 " Automatically enable mouse usage
-    scriptencoding utf-8
-    set clipboard=unnamedplus
-
-    set autowrite                       " Automatically write a file when leaving a modified buffer
-    set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
-    set virtualedit=onemore             " Allow for cursor beyond last character
-    set history=10000                   " Store a ton of history (default is 20)
-    set hidden                          " Allow buffer switching without saving
-
-    set backup                  " Backups are nice ...
-    set undofile                " So is persistent undo ...
-    set undolevels=1000         " Maximum number of changes that can be undone
-    set undoreload=10000        " Maximum number lines to save for undo on a buffer reload
-
-" }
-
-" UI {
-
-    set cursorline                  " Highlight current line
-    set showcmd                     " Show partial commands in status line
-    set laststatus=2                " Always show statusline
-
-    syntax on                       " use syntax highlight
-    set background=dark             " Assume a dark background
+    source ~/.vimrc.general
 
     colorscheme darkblack
     highlight Visual       ctermfg=red       ctermbg=black
@@ -204,27 +188,8 @@
     highlight WildMenu     ctermfg=Lightgray ctermbg=black
     highlight TabLineSel   ctermfg=Lightgray ctermbg=black
     highlight Normal       ctermfg=252 ctermbg=none
-
-    set backspace=indent,eol,start  " Backspace for dummies
-    set linespace=0                 " No extra spaces between rows
-    set number                      " use line number
-    set norelativenumber            " use normal line number
-    set showmatch                   " Show matching brackets/parenthesis
-    set incsearch                   " Find as you type search
-    set hlsearch                    " Highlight search terms
-    set winminheight=0              " Windows can be 0 line high
-    set ignorecase                  " Case insensitive search
-    set smartcase                   " Case sensitive when uc present
-    set wildmenu                    " Show list instead of just completing
-    set wildmode=list:longest,full  " Command <Tab> completion, list matches, then longest common part, then all.
-    set whichwrap=b,s,h,l,<,>,[,]   " Backspace and cursor keys wrap too
-    set scrolljump=5                " Lines to scroll when cursor leaves screen
-    set scrolloff=3                 " Minimum lines to keep above and below cursor
-    set foldenable                  " Auto fold code
-    set list
-    set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
-
 " }
+
 
 " Formatting {
     set showbreak=>\ \ \            " Long line wrap beginning of new line
@@ -244,6 +209,8 @@
 " }
 
 " Key (re)Mappings {
+    
+    source ~/.vimrc.bepo
 
     let mapleader = '_'
     nnoremap <Leader>rr :w<CR> :wa\|source ~/.vimrc <CR>
@@ -271,59 +238,8 @@
     nmap <Leader>: :OverCommandLine
     nmap <Leader>… :OverCommandLine
 
-    " invert v and ctrl+v {
-        function! Invert_v() "{
-            if exists('no_invert_v')
-                unlet no_invert_v
-            endif
-
-            noremap <C-V> v
-            noremap  v <C-V>
-        endfunction " }
-
-        function! Invert_v_off() " {
-            let no_invert_v = 1
-
-            unmap v
-            unmap <C-V>
-        endfunction " }
-
-        if !exists('no_invert_v')
-            call Invert_v()
-        endif
-
-    " }
 
     " Sneak {
-        " 1-character enhanced 'f'
-        nmap f <Plug>Sneak_f
-        nmap F <Plug>Sneak_F
-        " visual-mode
-        xmap f <Plug>Sneak_f
-        xmap F <Plug>Sneak_F
-        " operator-pending-mode
-        omap f <Plug>Sneak_f
-        omap F <Plug>Sneak_F
-
-        " 1-character enhanced 't'
-        nmap t <Plug>Sneak_t
-        nmap T <Plug>Sneak_T
-        " visual-mode
-        xmap t <Plug>Sneak_t
-        xmap T <Plug>Sneak_T
-        " operator-pending-mode
-        omap t <Plug>Sneak_t
-        omap T <Plug>Sneak_T
-    " }
-
-    " Bépo {
-    function! Bepo_on() " {
-        if exists('bepo_off')
-            unlet s:bepo_off
-        endif
-
-        noremap t gj
-        noremap T J
         " 1-character enhanced 't'
         nmap j <Plug>Sneak_t
         nmap J <Plug>Sneak_T
@@ -334,82 +250,25 @@
         omap j <Plug>Sneak_t
         omap J <Plug>Sneak_T
 
-        noremap s gk
-        noremap S K
-        noremap k s
-        noremap K S
-
-        "shift+espace = espace insécable correspond à "l"
-        noremap   L
-
-        " Corollaire : delete ligne
-        noremap dt dj
-        noremap ds dk
-
-        " Corollaire copy
-        noremap yt yj
-
-        "Easier access
-        "w
-        noremap é w
-        noremap É W
-        noremap à 
-        noremap àc h
-        noremap àt j
-        noremap às k
-        noremap àr l
-        noremap àh c
-        noremap àj t
-        noremap àk s
-        noremap àl r
-    endfunction " }
-
-    function! Bepo_off() " {
-        let s:bepo_off=1
-
-        unmap t
-        unmap T
-        unmap j
-        unmap J
-
-        unmap s
-        unmap S
-        unmap k
-        unmap K
-
-        unmap  
-
-        unmap dt
-        unmap ds
-
-        unmap yt
-        unmap é
-        unmap É
-        unmap à
-        unmap àc
-        unmap àt
-        unmap às
-        unmap àr
-        unmap àh
-        unmap àj
-        unmap àk
-        unmap àl
-    endfunction " }
-
-    if !exists('bepo_off')
-        call Bepo_on()
-    endif
+        " 1-character enhanced 'f'
+        nmap f <Plug>Sneak_f
+        nmap F <Plug>Sneak_F
+        " visual-mode
+        xmap f <Plug>Sneak_f
+        xmap F <Plug>Sneak_F
+        " operator-pending-mode
+        omap f <Plug>Sneak_f
+        omap F <Plug>Sneak_F
     " }
 
-    " remove custom key {
-    function! Remove_custom_key()
-        call Invert_v_off()
-        call Bepo_off()
-    endfunction
-    " }
 " }
 
 " Plugins configuration {
+    " vim-cpp-enhanced-highlight
+        let g:cpp_class_scope_highlight = 1
+        let g:cpp_experimental_template_highlight = 1
+    " }
+
     " UndoTree {
         nnoremap <Leader>u :UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
@@ -721,5 +580,4 @@
 " to fix
 "unmap ;bc
 
-"projet gl
-set noexpandtab
+call Custom_key_on()

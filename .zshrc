@@ -106,8 +106,8 @@ alias view='vim +"set ro" +"setlocal nomodifiable"'
 
 #mapping clavier
 alias auie="setxkbmap -layout \"fr\""
-alias qsdf="setxkbmap -layout \"fr(bepo_number)\""
-alias asdf="setxkbmap -layout \"fr(bepo_number)\""
+alias qsdf="setxkbmap -layout \"perso(bepo_perso)\""
+alias asdf="setxkbmap -layout \"perso(bepo_perso)\""
 alias bepo="setxkbmap -layout \"fr(bepo)\""
 alias azer="setxkbmap -layout \"fr(bepo)\""
 
@@ -150,7 +150,7 @@ if [ $USER = "robin" ] ;  then
 
     #clavier
     alias rmfr="sudo rm /var/lib/xkb/*"
-    alias vimfr="sudo vim /usr/share/X11/xkb/symbols/fr"
+    alias vimfr="sudo vim /usr/share/X11/xkb/symbols/perso"
     alias cpfr="sudo cp /usr/share/X11/xkb/symbols/fr /home/robin/bépo/svg_fr/xkb_\`date +%d-%m-%y-%Hh%M\`"
     alias lessfr=" less /usr/include/X11/keysymdef.h "
     alias compfr="xkbcomp /usr/share/X11/xkb/symbols/fr"
@@ -287,7 +287,8 @@ source .zsh/completion/_ccd
 
 ## Projet GL
 PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH
-PATH=$PATH:$HOME/doc/cour/gl/Projet_GL/src/main/bin:$PATH
+#PATH=$PATH:$HOME/doc/cour/gl/Projet_GL/src/main/bin:$PATH
+PATH=$PATH:$HOME/doc/cour/gl/integration/src/main/bin:$PATH
 PATH=$PATH:/home/robin/.gem/ruby/**/bin
 PATH=$PATH:/home/robin/doc/cour/gl/Projet_GL/src/test/deca/context/invalid/provided
 export PATH
@@ -303,5 +304,21 @@ function exec_test() {
         mpv ~/Music/bruitage/SF-dive.mp3 ~/Music/bruitage/SF-dive.mp3 2>/dev/null 1>/dev/null
     }
 
-    mvn test && success || faillure
+    mvn clean
+    mvn test -Dmaven.test.failure.ignore && success || faillure
 }
+
+ponysay << EOF
+Coucou,
+           ___     ___   ____   o
+           ¶  \   /   \  |   \     |\  |      |
+           ¶__/   |   |  |___/  §  | \ |      |
+           ¶  \   |   |  |   \  §  |  \|      |
+           ¶   \  \___/  |___/  §  |   |      o
+EOF
+
+
+#estrell
+
+export LUSTRE_INSTALL=~/doc/cour/modèle_du_temps_et_du_parallélisme/lustre-v4-III-c-linux64
+source $LUSTRE_INSTALL/setenv.sh

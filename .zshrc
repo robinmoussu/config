@@ -47,6 +47,7 @@ alias mplayerfb='mplayer -vo fbdev -vf scale=1024:768'
 # Un grep avec des couleurs :
 export GREP_COLOR=31
 alias grep='grep --color=auto'
+alias gitdate='git commit -am "$(date)"; git push'
 
 alias -s pdf=zathura
 

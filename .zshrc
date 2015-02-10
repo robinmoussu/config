@@ -131,22 +131,9 @@ else
    alias vpnc='sudo vpnc'
 fi
 
+alias -g ¿='| xclip -selection clipboard'
+
 if [ $USER = "robin" ] ;  then
-
-    #raccourcis
-    alias -g _win=/mnt/win/
-    alias -g _doc=/home/robin/Document
-    alias -g _git=/home/robin/Document/git/
-    alias -g _svn=/home/robin/svn/
-    alias -g _music=/home/robin/Musique/
-    alias -g _videos=/mnt/documents/Videos/
-    alias -g _img=/home/robin/Images/
-    alias -g _cour=/home/robin/cour/1ere_annee_phelma/
-    alias -g _robotronik=/home/robin_arch/svn/robotronik/
-
-    alias get_ip="wget http://ipecho.net/plain -O - -q  >>! ~/.last_ip.txt && echo '' >>! ~/.last_ip.txt;tail -n 1 ~/.last_ip.txt"
-    alias sshpi='ssh robin@`tail -n 1 ~/.last_ip.txt`'
-
 
     #clavier
     alias rmfr="sudo rm /var/lib/xkb/*"
@@ -285,28 +272,28 @@ function x() {
 
 source .zsh/completion/_ccd
 
-## Projet GL
-PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH
-#PATH=$PATH:$HOME/doc/cour/gl/Projet_GL/src/main/bin:$PATH
-PATH=$PATH:$HOME/doc/cour/gl/integration/src/main/bin:$PATH
-PATH=$PATH:/home/robin/.gem/ruby/**/bin
-PATH=$PATH:/home/robin/doc/cour/gl/Projet_GL/src/test/deca/context/invalid/provided
-export PATH
-source /usr/share/cdargs/cdargs-bash.sh 2>/dev/null 1>/dev/null
-
-function exec_test() {
-
-    function success() {
-        mpv ~/Music/bruitage/cowbell_sf.mp3 ~/Music/bruitage/cowbell_sf.mp3 2>/dev/null 1>/dev/null
-    }
-
-    function faillure() {
-        mpv ~/Music/bruitage/SF-dive.mp3 ~/Music/bruitage/SF-dive.mp3 2>/dev/null 1>/dev/null
-    }
-
-    mvn clean
-    mvn test -Dmaven.test.failure.ignore && success || faillure
-}
+### Projet GL
+#PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH
+##PATH=$PATH:$HOME/doc/cour/gl/Projet_GL/src/main/bin:$PATH
+#PATH=$PATH:$HOME/doc/cour/gl/integration/src/main/bin:$PATH
+#PATH=$PATH:/home/robin/.gem/ruby/**/bin
+#PATH=$PATH:/home/robin/doc/cour/gl/Projet_GL/src/test/deca/context/invalid/provided
+#export PATH
+#source /usr/share/cdargs/cdargs-bash.sh 2>/dev/null 1>/dev/null
+#
+#function exec_test() {
+#
+#    function success() {
+#        mpv ~/Music/bruitage/cowbell_sf.mp3 ~/Music/bruitage/cowbell_sf.mp3 2>/dev/null 1>/dev/null
+#    }
+#
+#    function faillure() {
+#        mpv ~/Music/bruitage/SF-dive.mp3 ~/Music/bruitage/SF-dive.mp3 2>/dev/null 1>/dev/null
+#    }
+#
+#    mvn clean
+#    mvn test -Dmaven.test.failure.ignore && success || faillure
+#}
 
 ponysay << EOF
 Coucou,

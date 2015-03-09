@@ -23,6 +23,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 focus_follows_mouse no
+workspace_auto_back_and_forth yes
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh
@@ -160,13 +161,18 @@ bindsym $mod+o restart
 bindsym $mod+Shift+O reload
 
 # exit
-set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (Shift+s)
+set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (Shift+s) - bepo(b), perso(p), azerty(a)
 mode "$mode_system" {
-    bindsym l exec --no-startup-id ~/.i3/exit.sh lock, mode "default"
-    bindsym e exec --no-startup-id ~/.i3/exit.sh logout, mode "default"
-    bindsym s exec --no-startup-id ~/.i3/exit.sh suspend, mode "default"
-    bindsym h exec --no-startup-id ~/.i3/exit.sh hibernate, mode "default"
-    bindsym r exec --no-startup-id ~/.i3/exit.sh reboot, mode "default"
+    bindsym l exec --no-startup-id ~/.i3/exit.sh lock; mode "default"
+    bindsym e exec --no-startup-id ~/.i3/exit.sh logout; mode "default"
+    bindsym s exec --no-startup-id ~/.i3/exit.sh suspend; mode "default"
+    bindsym h exec --no-startup-id ~/.i3/exit.sh hibernate; mode "default"
+    bindsym r exec --no-startup-id ~/.i3/exit.sh reboot; mode "default"
+
+    bindsym a exec setxkbmap fr; mode "default"
+    bindsym b exec setxkbmap fr bepo; mode "default"
+    bindsym p exec setxkbmap perso bepo_perso; mode "default"
+
     bindsym Shift+s exec --no-startup-id ~/.i3/exit.sh shutdown, mode "default"
 
     # back to normal: Enter or Escape
@@ -205,10 +211,10 @@ bindsym $mod+z mode "$resize"
 
 set $sound VOLUME : volume down (c and t), volume up(s and r), mute (m), pacmixer (p)
 mode "$sound" {
-   bindsym c exec pulseaudio-ctl down 1
-   bindsym t exec pulseaudio-ctl down 50
-   bindsym s exec pulseaudio-ctl up   50
-   bindsym r exec pulseaudio-ctl up   1
+   bindsym c exec pulseaudio-ctl down 10
+   bindsym t exec pulseaudio-ctl down 1
+   bindsym s exec pulseaudio-ctl up   1
+   bindsym r exec pulseaudio-ctl up   10
    bindsym m exec pulseaudio-ctl mute
 
    bindsym p exec i3-sensible-terminal -e pacmixer; mode "default"
@@ -224,12 +230,17 @@ bindsym $mod+j mode "$sound"
 bindsym XF86MonBrightnessUp   exec xbacklight -set $( echo "$(xbacklight)  / 0.7" | bc )
 bindsym XF86MonBrightnessDown exec xbacklight -set $( echo "$(xbacklight)  * 0.7" | bc )
 
-set $screen SCREEN : osd down (c and t), osd up(s and r), arandr (a), TapButton1 on (u) / off (i)
+set $screen SCREEN : osd down (c and t), osd up(s and r), arandr (a), TapButton1 on (u) / off (i), int(n), ext(é), ext+int(è), presentation(p)
 mode "$screen" {
     bindsym c exec xbacklight -set $( echo "$(xbacklight)  * 0.7" | bc)
     bindsym t exec xbacklight -set $( echo "$(xbacklight)  * 0.8" | bc)
     bindsym s exec xbacklight -set $( echo "$(xbacklight)  / 0.7" | bc | awk '{if($1 <= 2) {print 3} else {print $1}}')
     bindsym r exec xbacklight -set $( echo "$(xbacklight)  / 0.8" | bc | awk '{if($1 <= 2) {print 5} else {print $1}}')
+
+    bindsym n exec ~/.screenlayout/normal.sh; mode "default"
+    bindsym 0xe9 exec ~/.screenlayout/ext.sh; mode "default"
+    bindsym 0xe8 exec ~/.screenlayout/top_ext.sh; mode "default"
+    bindsym p exec ~/.screenlayout/presentation.sh; mode "default"
 
     bindsym m exec xset dpms force off; mode "default"
 

@@ -61,11 +61,11 @@
         "Bundle 'vim-scripts/header.vim'
         Bundle 'xolox/vim-reload'
         Bundle 'xolox/vim-misc'
-        "Bundle 'drmikehenry/vim-headerguard'
+        Bundle 'drmikehenry/vim-headerguard'
         if executable('ctags')
             set tags=./tags;/
             Bundle 'majutsushi/tagbar'
-            Bundle 'xolox/vim-easytags'
+            "Bundle 'xolox/vim-easytags'
         endif
 
         "if executable("cscope")
@@ -264,10 +264,10 @@
 " }
 
 " Plugins configuration {
-    " vim-cpp-enhanced-highlight
+    " vim-cpp-enhanced-highlight"{
         let g:cpp_class_scope_highlight = 1
         let g:cpp_experimental_template_highlight = 1
-    " }
+    " "}
 
     " UndoTree {
         nnoremap <Leader>u :UndotreeToggle<CR>
@@ -277,6 +277,10 @@
 
     " LanguageTool {
         let g:languagetool_jar = "~/documents/LanguageTool-2.7/languagetool.jar"
+    " }
+
+    " vim-headerguard {
+        autocmd BufNewFile *h,*.hpp HeaderguardAdd
     " }
 
     " SnipMate {

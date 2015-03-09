@@ -49,6 +49,7 @@ export GREP_COLOR=31
 alias grep='grep --color=auto'
 alias gitdate='git commit -am "$(date)"; git push'
 
+
 alias -s pdf=zathura
 
 # Pareil pour les variables d'environement :

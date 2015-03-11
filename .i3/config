@@ -132,12 +132,9 @@ bindsym $mod+h workspace 2
 bindsym $mod+g workspace 3
 bindsym $mod+q workspace 4
 bindsym $mod+rightsinglequotemark workspace 5
-bindsym $mod+apostrophe workspace 5
-bindsym $mod+k workspace 6
-bindsym $mod+period workspace 7
-bindsym $mod+x workspace 8
-bindsym $mod+y workspace 9
-bindsym $mod+agrave workspace 10
+
+bindsym $mod+equal workspace prev
+bindsym $mod+percent workspace next
 
 # move focused container to workspace
 bindsym $mod+Shift+F move container to workspace 1; workspace 1
@@ -145,11 +142,32 @@ bindsym $mod+Shift+H move container to workspace 2; workspace 2
 bindsym $mod+Shift+G move container to workspace 3; workspace 3
 bindsym $mod+Shift+Q move container to workspace 4; workspace 4
 bindsym $mod+Shift+question move container to workspace 5; workspace 5
-bindsym $mod+Shift+K move container to workspace 6; workspace 6
-bindsym $mod+Shift+colon move container to workspace 7; workspace 7
-bindsym $mod+Shift+X move container to workspace 8; workspace 8
-bindsym $mod+Shift+Y move container to workspace 9; workspace 9
-bindsym $mod+Shift+Agrave move container to workspace 10; workspace 10
+
+# get selected workspace to current workspace
+bindsym $mod+1 workspace 11; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+2 workspace 12; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+3 workspace 13; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+4 workspace 14; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+5 workspace 15; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+6 workspace 16; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+7 workspace 17; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+8 workspace 18; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+9 workspace 19; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+bindsym $mod+0 workspace 20; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
+
+# send workspace to elsewhere !
+bindsym $mod+Shift+quotedbl move container toworkspace 11
+bindsym $mod+Shift+guillemotleft move container toworkspace 12
+bindsym $mod+Shift+guillemotright move container toworspace 13
+bindsym $mod+Shift+parenleft move container toworkspace 14
+bindsym $mod+Shift+parenright move container toworkspace 15
+bindsym $mod+Shift+at move container toworkspace 16
+bindsym $mod+Shift+plus move cointaner toworkspace 17
+bindsym $mod+Shift+minus move container toworkspace 18
+bindsym $mod+Shift+slash move container toworkspace 19
+bindsym $mod+Shift+asterisk move container to workspace 20
+
+bindsym $mod+BackSpace exec sh ~/.i3/to_elsewhere.sh && i3-msg workspace back_and_forth
 
 #scratchpad
 bindsym $mod+v scratchpad show
@@ -299,11 +317,12 @@ client.urgent           #2f343a #900000 #ffffff #900000
 font pango:DejaVu Sans Mono 0
 
 exec setxkbmap perso bepo_perso
+exec i3-msg restart
 #exec-always xcape -e 'Shift_L=space'
 
 
 #exec-always candybar
-exec feh --bg-center ~/Images/wallpaper/Best-Dark-Wallpapers-in-HD-Black-1920x1080-3.jpg
+exec feh --bg-center ~/Images/wallpaper/steampunk-clock.jpg
 exec synclient TapButton1=0
 exec synclient TapButton2=0
 exec synclient HorizTwoFingerScroll=1

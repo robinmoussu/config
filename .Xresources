@@ -47,6 +47,8 @@ URxvt*saveLines:12000
 
 ! font color (default is black)
 URxvt*foreground:white
+URxvt*depth: 32
+URxvt*background: [50]#000000
 
 ! background color (prior to tinting) (default is white)
 URxvt*background:black

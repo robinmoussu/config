@@ -23,6 +23,7 @@
     Bundle 'tomtom/tlib_vim'
 
     " General {
+        Bundle 'tpope/vim-vividchalk'
         Bundle 'scrooloose/nerdtree'
         Bundle 'tpope/vim-surround'
         "Bundle 'Raimondi/delimitMate'
@@ -128,7 +129,7 @@
         Bundle 'lukerandall/haskellmode-vim'
         Bundle 'eagletmt/neco-ghc'
         Bundle 'eagletmt/ghcmod-vim'
-        Bundle 'Shougo/vimproc'
+        "Bundle 'Shougo/vimproc'
         Bundle 'adinapoli/cumino'
         Bundle 'bitc/vim-hdevtools'
     " }
@@ -187,9 +188,19 @@
     highlight StatusLineNC ctermfg=37        ctermbg=black
     highlight WildMenu     ctermfg=Lightgray ctermbg=black
     highlight TabLineSel   ctermfg=Lightgray ctermbg=black
-    highlight Normal       ctermfg=252 ctermbg=none
+    highlight Normal       ctermfg=94     ctermbg=none
 " }
 
+" Autocomand {
+    autocmd FileType c   map <buffer> ê :exec ':wa\|!clear && echo "--------------------------------------------------" && make \|\| (clear && echo "--------------------------------------------------" && gcc -std=c99   -fdiagnostics-color=always ' . expand('%:h:h'). '/*.c && ' . expand('%:h:h') . '/a.out)'
+    autocmd FileType c++ map <buffer> ê :wa\|!clear && echo "--------------------------------------------------" && make \|\| (clear && echo "--------------------------------------------------" &&     g++ -std=gnu11 -fdiagnostics-color=always *.c *.cpp && ./a.out)
+    autocmd FileType make map <buffer> ê :wa\|!clear && echo "--------------------------------------------------" && make
+    autocmd BufEnter *.lus map <buffer> ê :exec ':wa\|!luciole % ' . expand('%:r')
+    autocmd BufEnter *.dot map <buffer> ê :exec ':wa\|!dot -Tpng % > ' . expand('%:r') . '.png && eog ' . expand('%:r') . '.png'
+    autocmd FileType ruby map <buffer> ê :exec ':wa\|!ruby %'
+    autocmd BufEnter *.rst map <buffer> ê :exec ':wa\|!hovercraft % ' . expand('%:r')
+    autocmd BufEnter *.css map <buffer> ê :exec ':wa\|!hovercraft ' . expand('%:r'). '.rst ' . expand('%:r')
+" }
 
 " Formatting {
     set showbreak=>\ \ \            " Long line wrap beginning of new line
@@ -227,9 +238,6 @@
     cmap w!! w !sudo tee % >/dev/null
 
     """""""""""""""
-
-    " make
-    nmap ê :!clear:make
 
     " ctags
     nmap <Leader>] 

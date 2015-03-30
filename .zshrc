@@ -39,6 +39,7 @@ alias la='ls -a'
 alias lla='ls -la'
 alias ll='ls --color=auto -lh'
 alias lll='ls --color=auto -lh | less'
+alias tyls='tyls -m'
 # marre de se faire corriger par zsh ;)
 alias xs='cd'
 alias sl='ls'
@@ -129,7 +130,6 @@ if [ $UID = 0 ]; then
 
 else
    #prompt fade
-   alias pacman='sudo pacman'
    alias vpnc='sudo vpnc'
 fi
 
@@ -311,3 +311,9 @@ EOF
 
 export LUSTRE_INSTALL=~/doc/cour/modèle_du_temps_et_du_parallélisme/lustre-v4-III-c-linux64
 source $LUSTRE_INSTALL/setenv.sh
+
+mkdir() {
+    /bin/mkdir $1
+    cd $1
+}
+

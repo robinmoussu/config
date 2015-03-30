@@ -131,7 +131,7 @@ bindsym $mod+f workspace 1
 bindsym $mod+h workspace 2
 bindsym $mod+g workspace 3
 bindsym $mod+q workspace 4
-bindsym $mod+rightsinglequotemark workspace 5
+bindsym $mod+apostrophe workspace 5
 
 bindsym $mod+equal workspace prev
 bindsym $mod+percent workspace next
@@ -322,9 +322,13 @@ exec i3-msg restart
 
 
 #exec-always candybar
-exec feh --bg-center ~/Images/wallpaper/steampunk-clock.jpg
-exec synclient TapButton1=0
-exec synclient TapButton2=0
+exec feh --bg-center ~/Images/wallpaper/magic-wallpaper-1.jpg
+
+exec touchegg &
+exec synclient TapButton1=1
+exec synclient TapButton2=3
+exec synclient TapButton3=2
+exec syndaemon -i 0.5 -K -R -t&
 exec synclient HorizTwoFingerScroll=1
 exec xrdb -merge ~/.Xresources
 exec redshift &

@@ -194,17 +194,20 @@ function init_color() {
         Separator_Color="${PBlack}"
         Text_color=${PYellow}
     fi
-    Separator_Left="${Separator_Color}("
-    Separator_Right="${Separator_Color})"
-    Separator_Center="${Separator_Color}–"
-    Prompt="${Separator_Color}┤"
+    Separator_Left="${Separator_Color}(${Text_color}"
+    Separator_Right="${Separator_Color})${Text_color}"
+    Separator_Center="${Separator_Color}–${Text_color}"
 }
 
-function prompt_left() {
-    echo -E "${Separator_Left}${Text_color}$(pwd | sed -e "s-${HOME}-~-" -e "s-~/documents/cour-cour-" )${Separator_Right}"
+function ps1_elem() {
+    echo -E "${Separator_Left}${Text_color}$1${Separator_Right}"
 }
 
-function prompt_center() {
+function ps1_pwd() {
+    pwd | sed -e "s-${HOME}-~-" -e "s-~/documents/cour-cour-"
+}
+
+function ps1_git_branch() {
 
     git_color=${Green}
     if [[ ! "$(LANG=C; git status 2> /dev/null)" =~ "working directory clean" ]]; then
@@ -215,50 +218,29 @@ function prompt_center() {
     fi
     git_msg=$(git rev-parse --abbrev-ref HEAD 2> /dev/null || echo '✘')
 
-    echo -E "${Separator_Left}${git_color}${git_msg}${Separator_Right}"
+    echo -E "${git_msg}"
 }
 
-function prompt_right() {
-    echo -E "${Separator_Left}${Text_color}${HOST}${Separator_Right}"
+function ps1_host() {
+    echo -E "${HOST}"
 }
 
-function prompt_second_line() {
-    echo -E "${Prompt}"
-}
-
-function text_color() {
+function ps1_text_color() {
     echo -E "${Color_Off}"
 }
 
-function lenght_visible() {
-    echo -E $(${1}) | sed -e 's-\\e\[[0-9];[0-9]\{2\}m--g' -e 's/%{//g' -e 's/%}//g' | wc -m
-}
-
-function center() {
-
-    size="0"
-    size+=" + $(lenght_visible 'prompt_left'  )"
-    size+=" + $(lenght_visible 'prompt_center')"
-    size+=" + $(lenght_visible 'prompt_right' )"
-
-    size="($(tput cols) - (${size})) /2"
-    size+=" +1"
-
-    space=""
-    for ((i=0;i<${size};i++)); do
-        space+="{Separator_Center}"
-    done
-    echo "${space}"
+function ps1_git_home() {
+    (git rev-parse --show-toplevel | sed -e "s-$(pwd)-✔-g" | rev | cut -d / -f 1 | rev) 2>/dev/null
 }
 
 precmd function prompt() {
     init_color
     PS1=$(echo -e $(printf "%s%s%s%s%s" \
-        "${Separator_Color}┌$(prompt_left)" \
-        "${Separator_Center}$(prompt_center)" \
-        "${Separator_Center}$(prompt_right)" \
-        "\n${Separator_Color}└$(prompt_second_line)" \
-        "$(text_color)" \
+        "${Separator_Color}┌$(ps1_elem $(ps1_pwd))" \
+        "${Separator_Center}$(ps1_elem $(ps1_git_home)${Separator_Color}:${Text_color}$(ps1_git_branch))" \
+        "${Separator_Center}$(ps1_elem $(ps1_host))" \
+        "\n${Separator_Color}└┤" \
+        "$(ps1_text_color)" \
         ) )
 }
 
@@ -312,8 +294,8 @@ EOF
 export LUSTRE_INSTALL=~/doc/cour/modèle_du_temps_et_du_parallélisme/lustre-v4-III-c-linux64
 source $LUSTRE_INSTALL/setenv.sh
 
-mkdir() {
-    /bin/mkdir $1
+mkcd() {
+    mkdir $1
     cd $1
 }
 

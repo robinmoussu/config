@@ -325,7 +325,7 @@ exec i3-msg restart
 exec feh --bg-center ~/Images/wallpaper/magic-wallpaper-1.jpg
 
 exec touchegg &
-exec synclient TapButton1=1
+exec synclient TapButton1=0
 exec synclient TapButton2=3
 exec synclient TapButton3=2
 exec syndaemon -i 0.5 -K -R -t&

@@ -204,7 +204,7 @@
 
 " Formatting {
     set showbreak=>\ \ \            " Long line wrap beginning of new line
-    set wrap                        " Wrap long lines
+    set nowrap                      " Don't wrap long lines
     set smartindent                 " Indent at the same level of the previous line
     set shiftwidth=4                " Use indents of 4 spaces
     set expandtab                   " Tabs are spaces, not tabs
@@ -217,6 +217,12 @@
     set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 
     set spelllang=en_us,fr
+
+    set columns=80
+    set textwidth=80
+    set wrapmargin=2
+    "set colorcolumn=+1
+    "highlight ColorColumn ctermbg=darkgray
 " }
 
 " Key (re)Mappings {

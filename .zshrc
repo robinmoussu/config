@@ -186,21 +186,19 @@ fi
 
 source ~/.color.sh
 
-function init_color() {
-    if [ $UID = 0 ]; then
-        Separator_Color="${BGreen}"
-        Text_color=${URed}
-    else
-        Separator_Color="${PBlack}"
-        Text_color=${PYellow}
-    fi
-    Separator_Left="${Separator_Color}(${Text_color}"
-    Separator_Right="${Separator_Color})${Text_color}"
-    Separator_Center="${Separator_Color}–${Text_color}"
-}
+if [ $UID = 0 ]; then
+    Separator_Color="${BGreen}"
+    Text_color=${URed}
+else
+    Separator_Color="${PBlack}"
+    Text_color=${PYellow}
+fi
+Separator_Left="${Separator_Color}(${Text_color}"
+Separator_Right="${Separator_Color})${Text_color}"
+Separator_Center="${Separator_Color}–${Text_color}"
 
 function ps1_elem() {
-    echo -E "${Separator_Left}${Text_color}$1${Separator_Right}"
+    echo -E "${Separator_Left}${Text_color}$*${Separator_Right}"
 }
 
 function ps1_pwd() {
@@ -211,14 +209,14 @@ function ps1_git_branch() {
 
     git_color=${Green}
     if [[ ! "$(LANG=C; git status 2> /dev/null)" =~ "working directory clean" ]]; then
-        git_color=${Orange}
+        git_color=${Purple}
     fi
     if [[ -n "$(git diff 2> /dev/null)" ]]; then
         git_color=${Red}
     fi
     git_msg=$(git rev-parse --abbrev-ref HEAD 2> /dev/null || echo '✘')
 
-    echo -E "${git_msg}"
+    echo -E "${git_color}${git_msg}${Text_color}"
 }
 
 function ps1_host() {
@@ -234,7 +232,6 @@ function ps1_git_home() {
 }
 
 precmd function prompt() {
-    init_color
     PS1=$(echo -e $(printf "%s%s%s%s%s" \
         "${Separator_Color}┌$(ps1_elem $(ps1_pwd))" \
         "${Separator_Center}$(ps1_elem $(ps1_git_home)${Separator_Color}:${Text_color}$(ps1_git_branch))" \

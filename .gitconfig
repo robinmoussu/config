@@ -8,11 +8,13 @@
 [alias]
 	webui = !/home/robin_arch/.git-webui/release/libexec/git-core/git-webui
     st = status
-    graph-rev =  !git log --all --graph --oneline --color=always --decorate | tac | sed -e 's-/-–-g' -e 's-\\\\-/-g' -e 's-–-\\\\-g'
-    graph =  log --graph --oneline --decorate
+    graph-rev =  !git log --all --graph --pretty=short --color=always --decorate | tac | sed -e 's-/-–-g' -e 's-\\\\-/-g' -e 's-–-\\\\-g'
+    graph =  log --graph --pretty=format:'%C(auto)%h %aN%d %B%N'
 
     st = status
     ci = commit -v
     co = checkout
 
     integrate = "!f() { git merge --no-ff $1~ -m \"$(git log -n1 --pretty=format:%B $1)\"; }; f"
+[core]
+	pager = less -RFX

@@ -1,0 +1,14 @@
+map global normal t j
+map global normal j t
+map global normal k s
+map global normal s k
+map global normal T J
+map global normal J T
+map global normal K S
+map global normal S K
+map global normal <space> l
+
+map global goto t j
+map global goto j t
+map global goto k s
+map global goto s k

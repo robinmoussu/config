@@ -1,0 +1,49 @@
+
+body {
+  margin: 8px;
+}
+
+li {
+  line-height: 18px;
+}
+
+.dropdown-menu {
+  position: inherit;
+  float: inherit;
+  display: block;
+  padding: 4px 0;
+  margin: 0;
+  font-size: 13px;
+  min-width: 150px;
+}
+
+.dropdown-menu .divider {
+  margin: 8px 1px;
+}
+
+.dropdown-menu li > a,
+#state {
+  padding: 3px 15px;
+  line-height: 18px;
+}
+
+.dropdown-menu .switch-light {
+  margin: 0;
+  height: 24px;
+  font-size: 13px;
+}
+
+.dropdown-menu .switch-light label,
+.dropdown-menu .switch-light > span {
+  line-height: 24px;
+}
+
+.dropdown-menu .switch-light.no-transition a {
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.switch-light span {
+    cursor: pointer;
+}

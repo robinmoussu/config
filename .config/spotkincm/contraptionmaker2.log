@@ -1,0 +1,955 @@
+Start time: 2015-04-10 22:11:22
+
+[loom.application] Initializing services...
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[asset.core] Current working directory ='.'
+[cocos] Entering CMSteamWorkshop
+[cocos] Steam Successfully Initialized!
+[cocos] Leaving CMSteamWorkshop
+[cocos] Get data from file(/home/robin/.config/spotkincm//contraptionmaker/data/layout.data) failed!
+[cocos] GLFWError #65540 Happen, Fullscreen windows cannot be positioned
+
+[cocos] Ready for GLSL
+[cocos] Ready for OpenGL 2.0
+[cocos] 
+{
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_PVRTC: false
+	gl.supports_ATITC: false
+	cocos2d.x.version: cocos2d-x 3.4beta0
+	gl.vendor: Intel Open Source Technology Center
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.supports_S3TC: true
+	cocos2d.x.build_type: DEBUG
+	cocos2d.x.compiled_with_profiler: false
+	gl.renderer: Mesa DRI Intel(R) Haswell Mobile 
+	gl.version: 3.0 Mesa 10.5.2
+	gl.supports_vertex_array_object: true
+	gl.max_texture_size: 8192
+	gl.max_texture_units: 96
+	gl.supports_ETC1: false
+}
+
+
+[cocos] Contraption Maker Version: 1.1.4.11
+[cocos] -------------------------------------
+[cocos] hash:85b0c04bc93b3112b3d62e342ad615c9
+[cocos] date:2015-04-08 16:26:19
+[cocos] version:1.1.4.11
+[cocos] workshop:Steam
+[cocos] -------------------------------------
+[cocos] Looking for proxy file at path: /home/robin/.config/spotkincm/contraptionmaker/data/proxy.data
+[cocos] No proxy file at path: /home/robin/.config/spotkincm/contraptionmaker/data/proxy.data
+[cocos] Not using proxy server
+[cocos] Entering CMSpotkinWorkshop
+[cocos] Run with scene called: 0x356d2f0
+[cocos] Setting running scene to: (nil)
+[cocos] Calling onEnter for scene: 0x356d2f0
+[cocos] CMRootNode::onEnter
+[cocos] CMLaunchState::onEnter
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] Loading level: /home/robin/.local/share/Steam/steamapps/common/ContraptionMaker/./assets/levels/demo/demo2.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/blimp2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toolmanTim2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/laser2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/laser2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/bomb2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/timHouse2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/lawnMowerMotor2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/solarPanel2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toaster2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/conveyorBelt2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/antiGravityPad2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/electricFan2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/hamsterCage2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/generator2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/mouse2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/cat3.plist. Possible missing file.
+[cocos] Fade complete
+[cocos] CMLaunchState::onExit
+[cocos.CCBMFontConfiguration] loading assets/gui/skins/default/fonts/titlebar.fnt
+[asset.core] Loading asset: /home/robin/.config/spotkincm/contraptionmaker/cache/22da62e19ba9b80b4f6f5a8e9828039d92036a872186552296b8a8a18835c04b.jpg
+[asset.core] Loading asset: assets/gui/skins/default/fonts/titlebar.fnt
+[cocos.CCBMFontConfiguration] notification assets/gui/skins/default/fonts/titlebar.fnt
+[cocos] News url: http://news.contraptionmaker.net/cmnews.json
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] Found a puzzle pack: assets/levels/official/game
+[cocos] cocos2d: padding: 5,5,5,5
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] Loading level: assets/levels/official/game/The Little Hamster That Could.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/The Little Hamster That Could.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/recyclingBox2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/jackBox2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/blender2.plist. Possible missing file.
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: padding: 5,5,5,5
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: 
+[CMContraptionWindow] Close
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] Loading level: assets/levels/official/game/Sibling Rivalry.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Sibling Rivalry.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: padding: 0,0,0,0
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Sibling Rivarly 2.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Sibling Rivarly 2.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/conveyorBelt2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/clipart/markup/signOvalPost.png. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Sibling Harmony.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Sibling Harmony.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/candle2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/eggTimer2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/bottleRocket2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/The Sky is Falling.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/The Sky is Falling.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Guard Dog Duty.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Guard Dog Duty.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toolmanTimItems2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/dog2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/dogHouse2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Sewer Survey.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Sewer Survey.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toolmanTimItems2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/paperLantern2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toolmanTimItems2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Bowling Blender.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Bowling Blender.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Advanced Gears.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Advanced Gears.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/electricMotor2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: assets/levels/official/game/Advanced Gears.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Advanced Gears.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: assets/levels/official/game/Advanced Gears.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Advanced Gears.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Dinnertime Downhill.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Dinnertime Downhill.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toolmanTimItems2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/toolmanTimItems2.plist. Possible missing file.
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Cat Trap.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Cat Trap.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/bellows2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/TastyTreat 5000.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/TastyTreat 5000.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/laser2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/laser2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/laser2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/partCreator2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/airBurst2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/ratchetClicker2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/poolBall2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/dogBone2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Blast Off.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Blast Off.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/cannon2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/flashLight2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Happy Birthday to Steve.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Happy Birthday to Steve.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/crocodile2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/doubleLighter2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/teaKettle2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Canyon Crossing.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Canyon Crossing.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/dogFood2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Light in the Night.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Light in the Night.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/remoteBombPlunger2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/remoteBomb2.plist. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Break the Bowl.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Break the Bowl.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/balls2.plist. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/parts/skin1/fishbowl2.plist. Possible missing file.
+[CMContraptionWindow] Close
+[cocos] News url: http://news.contraptionmaker.net/cmnews.json
+[cocos] Loading level: /home/robin/.local/share/Steam/steamapps/common/ContraptionMaker/./assets/levels/demo/demo2.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Loading level: assets/levels/official/game/the pretty good escape.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/the pretty good escape.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: assets/levels/official/game/the pretty good escape.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/the pretty good escape.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: assets/levels/official/game/the pretty good escape.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/the pretty good escape.bak. Possible missing file.
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: /home/robin/.local/share/Steam/steamapps/common/ContraptionMaker/./assets/help/Balloon.cml
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: /home/robin/.local/share/Steam/steamapps/common/ContraptionMaker/./assets/help/Balloon.cml
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Close
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Loading level: /home/robin/.local/share/Steam/steamapps/common/ContraptionMaker/./assets/help/PaperLantern.cml
+[CMContraptionWindow] Close
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: PartWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[cocos] Window processing onTouchBegan: ContraptionWindow
+[CMContraptionWindow] Redo
+[cocos] Video track number: 98
+[cocos] Audio track number: 99
+[cocos] Finalizing
+[cocos] Missing message for key: Getting device code...
+[cocos] Missing Message: Getting device code...
+[cocos] Success! Got response: {
+  "device_code" : "NNCM-RHZD4/-EvXyf_ncucI2YXXUcw_wIBfKSYEkCyrpsVYDjxsKfI",
+  "user_code" : "NNCM-RHZD",
+  "verification_url" : "https://www.google.com/device",
+  "expires_in" : 1800,
+  "interval" : 5
+}
+[cocos] Click yes to open your browser to enter the device code. Click no to cancel. The code will also be copied to the clipboard so you can paste it into the browser.
+
+https://www.google.com/device
+Code: NNCM-RHZD
+[cocos] Window processing onTouchBegan: 
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] Access token: ya29.UQF1_1p4cPBRNPO-45YGDRv19dRp1oDIpNFKOAHJBIX7ETDuNt0Wkq-4ZeP_zsLlgrsdd-6d96btwA
+[cocos] Refresh token: 1/IgRNbBPh_NkSQ9Iqju1LHXjqJlLTiA8ieoR1QAJHkbY
+[cocos] Success! Uploading video
+[cocos] Uploading URL: https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet%2Cstatus&upload_id=AEnB2UpPYcb1Wvbq4ZXLfDzveRSxUeRo807pol7dCllhJNCFE2LP0NHy78qlK1_RsXSLPpmlj8eumlm0JZej17OA_njPMXh0Tg
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] Upload success!
+[cocos] URL: http://youtu.be/pNP3XcpykN8
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[cocos] Loading level: assets/levels/official/game/the pretty good escape.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/the pretty good escape.bak. Possible missing file.
+[CMContraptionWindow] Close
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[CMContraptionWindow] Close
+[cocos] Loading level: assets/levels/official/game/Blizzard!!.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/levels/official/game/Blizzard!!.bak. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] onGLFWKeyCallback
+[cocos] onGLFWKeyCallback
+[CMContraptionWindow] Close
+[cocos] News url: http://news.contraptionmaker.net/cmnews.json
+[cocos] Loading level: /home/robin/.local/share/Steam/steamapps/common/ContraptionMaker/./assets/levels/demo/demo2.cml
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] cocos2d: fullPathForFilename: No file found at assets/sounds/parts/skin1/TrapDoorOpen.ogg. Possible missing file.
+[cocos] Sound file not found: parts/skin1/TrapDoorOpen.ogg
+[cocos] Shutting Down
+[cocos] Get data from file(/home/robin/.config/spotkincm//contraptionmaker/data/layout.data) failed!

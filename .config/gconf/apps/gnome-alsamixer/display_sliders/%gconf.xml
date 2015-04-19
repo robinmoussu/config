@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="Conexant_CX20751_2-Internal_Mic_Boost" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-Capture" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-Beep" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-Mic_Boost" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-PCM" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-Speaker" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-Headphone" mtime="1417025413" type="bool" value="true"/>
+	<entry name="Conexant_CX20751_2-Master" mtime="1417025413" type="bool" value="true"/>
+</gconf>

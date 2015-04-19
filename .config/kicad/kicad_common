@@ -1,0 +1,5 @@
+WorkingDir=/home/robin/doc/robotronik/carte_lipo
+[EnvironmentVariables]
+KIGITHUB=https://github.com/KiCad
+KISYS3DMOD=/usr/share/kicad/modules/packages3d
+KISYSMOD=/usr/share/kicad/modules

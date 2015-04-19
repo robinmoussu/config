@@ -1,0 +1,22 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="Screenmanager Is Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">900</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1600</pref>
+	<pref name="UnityGraphicsQuality" type="int">3</pref>
+	<pref name="__Input Key Alt NegFire2" type="string"></pref>
+	<pref name="__Input Key Alt NegFire3" type="string"></pref>
+	<pref name="__Input Key Alt NegHorizontal" type="string">YQ==</pref>
+	<pref name="__Input Key Alt NegVertical" type="string">dQ==</pref>
+	<pref name="__Input Key Alt PosFire2" type="string">am95c3RpY2sgYnV0dG9uIDE=</pref>
+	<pref name="__Input Key Alt PosFire3" type="string">am95c3RpY2sgYnV0dG9uIDI=</pref>
+	<pref name="__Input Key Alt PosHorizontal" type="string">aQ==</pref>
+	<pref name="__Input Key Alt PosVertical" type="string"></pref>
+	<pref name="__Input Key NegFire2" type="string"></pref>
+	<pref name="__Input Key NegFire3" type="string"></pref>
+	<pref name="__Input Key NegHorizontal" type="string">bGVmdA==</pref>
+	<pref name="__Input Key NegVertical" type="string">ZG93bg==</pref>
+	<pref name="__Input Key PosFire2" type="string">bGVmdCBhbHQ=</pref>
+	<pref name="__Input Key PosFire3" type="string">bGVmdCBjbWQ=</pref>
+	<pref name="__Input Key PosHorizontal" type="string">cmlnaHQ=</pref>
+	<pref name="__Input Key PosVertical" type="string">dXA=</pref>
+</unity_prefs>

@@ -1,0 +1,20 @@
+{
+    "windowbg.end.alpha": 255,
+    "windowbg.end.green": 237,
+    "webm.high.deadlineMicros": 0,
+    "windowbg.start.red": 213,
+    "makerDialog1Enabled": false,
+    "defaultScale": 1.2,
+    "windowbg.start.blue": 226,
+    "maxScale": 2.0,
+    "windowbg.start.alpha": 255,
+    "windowbg.end.red": 237,
+    "windowbg.end.blue": 243,
+    "youtubeRefreshToken": "ekcwBD5+N3AHMTABIDQ/aS0jAT5ZNSs0WiR4OxU7JgpfBzULAFoaKTMrB1IM",
+    "twitterDialog1Enabled": false,
+    "minScale": 0.1,
+    "makerDialog2Enabled": false,
+    "twitterDialog2Enabled": false,
+    "webm.high.bitrate": 1000000,
+    "youtubeToken": "MglLWkJlBHRmBl4/fwQ+EjYcOwRFTVY1dxFgIWhWKxkXXz8gGxsFLjIsLXgfcB4BWAofIxseEGI8IBlUVzZVBW0tKiMjLBUdNAB/XS9RTwEYRxQ="
+}

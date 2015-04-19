@@ -1,0 +1,13 @@
+VirtualBox GUI VM Selector Window 4.3.26_OSE r98988 linux.amd64 (Mar 21 2015 15:18:11) release log
+00:00:00.231580 Log opened 2015-04-08T21:19:18.484829000Z
+00:00:00.231582 Build Type: release
+00:00:00.231585 OS Product: Linux
+00:00:00.231586 OS Release: 3.19.3-1-ARCH
+00:00:00.231587 OS Version: #1 SMP PREEMPT Thu Mar 26 14:56:16 CET 2015
+00:00:00.231608 DMI Product Name: 20AY006EFR
+00:00:00.231615 DMI Product Version: ThinkPad S3-S440
+00:00:00.231759 Host RAM: 3668MB total, 1670MB available
+00:00:00.231762 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.231763 Process ID: 13818
+00:00:00.231764 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.232960 UIMediumEnumerator: Medium-enumeration started...

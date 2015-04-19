@@ -1,0 +1,14 @@
+{
+ "communityLink": "http://steamcommunity.com/app/241240/discussions/1/",
+ "bugLink": "http://steamcommunity.com/app/241240/discussions/2/",
+ "docLink" : "http://steamcommunity.com/sharedfiles/filedetails/?id=167800821",
+ "newsLink": "http://news.contraptionmaker.net/cmnews.json",
+ "multiplayerServer" : "multiplayerserver.contraptionmaker.net",
+ "multiplayerScreenServer" : "multiplayerscreens.contraptionmaker.com.s3.amazonaws.com",
+ "errorURL" : "http://errors.contraptionmaker.net",
+ "twitterURL" : "https://twitter.com/intent/user?screen_name=spotkin",
+ "followUsMessage1Trigger" : 5,
+ "followUsMessage2Trigger" : 50,
+ "followUsMessage1" : "Thanks for buying Contraption Maker! Follow us on Twitter to find out about new features, updates, and contests!",
+ "followUsMessage2" : "Lots of cool new stuff is coming to Contraption Maker. Follow us on Twitter to get the scoop on the latest updates and contests!"
+} 

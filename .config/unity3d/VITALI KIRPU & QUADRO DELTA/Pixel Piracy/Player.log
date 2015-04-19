@@ -1,0 +1,520 @@
+
+Selecting FBConfig
+GLX_FBCONFIG_ID=119
+GLX_BUFFER_SIZE=32
+GLX_DOUBLEBUFFER=1
+GLX_RED_SIZE=8
+GLX_GREEN_SIZE=8
+GLX_BLUE_SIZE=8
+GLX_ALPHA_SIZE=8
+GLX_DEPTH_SIZE=24
+GLX_STENCIL_SIZE=8
+GLX_SAMPLES_ARB=0
+GLX_SAMPLE_BUFFERS_ARB=0
+GLX_CONFIG_CAVEAT=NONE
+
+Desktop is 1600 x 900 @ 60 Hz
+OpenGL:
+    Version:  OpenGL 3.0 [3.0 Mesa 10.5.2]
+    Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+    Vendor:   Intel Open Source Technology Center
+    VRAM:     256 MB
+    Extensions: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXTERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+Setting breakpad minidump AppID = 264140
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198055758262 [API loaded no]
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174441_2.dmp[7134]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174441_2.dmp
+pid 7131 != 7102, skipping destruction (fork without exec?)
+assert_20150402174441_2.dmp[7134]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174441_2.dmp[7134]: response: CrashID=bp-fe461a78-1705-4251-a35d-099152150402
+assert_20150402174441_2.dmp[7134]: file ''/tmp/dumps/assert_20150402174441_2.dmp'', upload yes: ''CrashID=bp-fe461a78-1705-4251-a35d-099152150402''
+pid 7134 != 7133, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174444_2.dmp[7141]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174444_2.dmp
+pid 7138 != 7102, skipping destruction (fork without exec?)
+assert_20150402174444_2.dmp[7141]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174444_2.dmp[7141]: response: CrashID=bp-93255979-a6bc-4d51-86e2-bbbac2150402
+assert_20150402174444_2.dmp[7141]: file ''/tmp/dumps/assert_20150402174444_2.dmp'', upload yes: ''CrashID=bp-93255979-a6bc-4d51-86e2-bbbac2150402''
+pid 7141 != 7140, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174455_2.dmp[7151]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174455_2.dmp
+pid 7148 != 7102, skipping destruction (fork without exec?)
+assert_20150402174455_2.dmp[7151]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174455_2.dmp[7151]: response: CrashID=bp-207a962e-1d93-49a9-afb3-f5bcd2150402
+assert_20150402174455_2.dmp[7151]: file ''/tmp/dumps/assert_20150402174455_2.dmp'', upload yes: ''CrashID=bp-207a962e-1d93-49a9-afb3-f5bcd2150402''
+pid 7151 != 7150, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+crash_20150402174459_2.dmp[7160]: Uploading dump (out-of-process)
+/tmp/dumps/crash_20150402174459_2.dmp
+pid 7157 != 7102, skipping destruction (fork without exec?)
+crash_20150402174459_2.dmp[7160]: Finished uploading minidump (out-of-process): success = yes
+crash_20150402174459_2.dmp[7160]: response: CrashID=bp-1af0892c-9a38-4d48-aab0-991a32150402
+crash_20150402174459_2.dmp[7160]: file ''/tmp/dumps/crash_20150402174459_2.dmp'', upload yes: ''CrashID=bp-1af0892c-9a38-4d48-aab0-991a32150402''
+pid 7160 != 7159, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+crash_20150402174717_2.dmp[7261]: Uploading dump (out-of-process)
+/tmp/dumps/crash_20150402174717_2.dmp
+pid 7258 != 7102, skipping destruction (fork without exec?)
+crash_20150402174717_2.dmp[7261]: Finished uploading minidump (out-of-process): success = no
+crash_20150402174717_2.dmp[7261]: error: HTTP response code said error
+crash_20150402174717_2.dmp[7261]: file ''/tmp/dumps/crash_20150402174717_2.dmp'', upload no: ''HTTP response code said error''
+pid 7261 != 7260, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+crash_20150402174720_2.dmp[7268]: Uploading dump (out-of-process)
+/tmp/dumps/crash_20150402174720_2.dmp
+pid 7265 != 7102, skipping destruction (fork without exec?)
+crash_20150402174720_2.dmp[7268]: Finished uploading minidump (out-of-process): success = no
+crash_20150402174720_2.dmp[7268]: error: HTTP response code said error
+crash_20150402174720_2.dmp[7268]: file ''/tmp/dumps/crash_20150402174720_2.dmp'', upload no: ''HTTP response code said error''
+pid 7268 != 7267, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174722_2.dmp[7272]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174722_2.dmp
+pid 7269 != 7102, skipping destruction (fork without exec?)
+assert_20150402174722_2.dmp[7272]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174722_2.dmp[7272]: response: CrashID=bp-80565c94-7256-4d66-b536-c27572150402
+assert_20150402174722_2.dmp[7272]: file ''/tmp/dumps/assert_20150402174722_2.dmp'', upload yes: ''CrashID=bp-80565c94-7256-4d66-b536-c27572150402''
+pid 7272 != 7271, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174739_2.dmp[7290]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174739_2.dmp
+pid 7287 != 7102, skipping destruction (fork without exec?)
+assert_20150402174739_2.dmp[7290]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174739_2.dmp[7290]: response: CrashID=bp-45f54dc2-2728-4bfe-87b5-763902150402
+assert_20150402174739_2.dmp[7290]: file ''/tmp/dumps/assert_20150402174739_2.dmp'', upload yes: ''CrashID=bp-45f54dc2-2728-4bfe-87b5-763902150402''
+pid 7290 != 7289, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+crash_20150402174742_2.dmp[7302]: Uploading dump (out-of-process)
+/tmp/dumps/crash_20150402174742_2.dmp
+pid 7299 != 7102, skipping destruction (fork without exec?)
+crash_20150402174742_2.dmp[7302]: Finished uploading minidump (out-of-process): success = yes
+crash_20150402174742_2.dmp[7302]: response: CrashID=bp-5d1ddf3d-acc0-4ae4-a91c-ce92d2150402
+crash_20150402174742_2.dmp[7302]: file ''/tmp/dumps/crash_20150402174742_2.dmp'', upload yes: ''CrashID=bp-5d1ddf3d-acc0-4ae4-a91c-ce92d2150402''
+pid 7302 != 7301, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174745_2.dmp[7310]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174745_2.dmp
+pid 7307 != 7102, skipping destruction (fork without exec?)
+assert_20150402174745_2.dmp[7310]: Finished uploading minidump (out-of-process): success = no
+assert_20150402174745_2.dmp[7310]: error: HTTP response code said error
+assert_20150402174745_2.dmp[7310]: file ''/tmp/dumps/assert_20150402174745_2.dmp'', upload no: ''HTTP response code said error''
+pid 7310 != 7309, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174747_2.dmp[7317]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174747_2.dmp
+pid 7314 != 7102, skipping destruction (fork without exec?)
+assert_20150402174747_2.dmp[7317]: Finished uploading minidump (out-of-process): success = no
+assert_20150402174747_2.dmp[7317]: error: HTTP response code said error
+assert_20150402174747_2.dmp[7317]: file ''/tmp/dumps/assert_20150402174747_2.dmp'', upload no: ''HTTP response code said error''
+pid 7317 != 7316, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174750_2.dmp[7324]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174750_2.dmp
+pid 7321 != 7102, skipping destruction (fork without exec?)
+assert_20150402174750_2.dmp[7324]: Finished uploading minidump (out-of-process): success = no
+assert_20150402174750_2.dmp[7324]: error: HTTP response code said error
+assert_20150402174750_2.dmp[7324]: file ''/tmp/dumps/assert_20150402174750_2.dmp'', upload no: ''HTTP response code said error''
+pid 7324 != 7323, skipping destruction (fork without exec?)
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174753_2.dmp[7331]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174753_2.dmp
+pid 7328 != 7102, skipping destruction (fork without exec?)
+assert_20150402174753_2.dmp[7331]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174753_2.dmp[7331]: response: CrashID=bp-2a614e18-5433-488c-9e4c-0ad042150402
+assert_20150402174753_2.dmp[7331]: file ''/tmp/dumps/assert_20150402174753_2.dmp'', upload yes: ''CrashID=bp-2a614e18-5433-488c-9e4c-0ad042150402''
+pid 7331 != 7330, skipping destruction (fork without exec?)
+linux.x86: Fatal IO error 0 (Succès) on X server :0.
+Assert( Assertion Failed: m_nNumRegisteredWriters == 0 ):/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp:4002
+
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+assert_20150402174757_2.dmp[7338]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20150402174757_2.dmp
+Preloaded type GtkListStore
+Preloaded type GtkWindow
+Preloaded type GtkVBox
+Preloaded type GtkImage
+Preloaded type GtkNotebook
+Preloaded type GtkHBox
+Preloaded type GtkFrame
+Preloaded type GtkAlignment
+Preloaded type GtkTreeView
+Preloaded type GtkLabel
+Preloaded type GtkCheckButton
+Preloaded type GtkScrolledWindow
+Couldn't find OnScreenSelectorQuit in main module; checking child
+Couldn't find OnScreenSelectorOK in main module; checking child
+Couldn't find OnScreenSelectorQuit in main module; checking child
+Couldn't find OnInputListRowActivated in main module; checking child
+/home/buildbot/buildslave/steam_rel_client_linux/build/src/tier1/../tier1/fileio.cpp (4002) : Assertion Failed: m_nNumRegisteredWriters == 0
+process_set_termination_details: error looking up process handle 0x903
+assert_20150402174757_2.dmp[7338]: Finished uploading minidump (out-of-process): success = yes
+assert_20150402174757_2.dmp[7338]: response: CrashID=bp-35952483-a38a-40ee-be5c-0e8e92150402
+assert_20150402174757_2.dmp[7338]: file ''/tmp/dumps/assert_20150402174757_2.dmp'', upload yes: ''CrashID=bp-35952483-a38a-40ee-be5c-0e8e92150402''
+pid 7338 != 7337, skipping destruction (fork without exec?)
+Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at QDUtilities.FromXmlElement (System.Object obj, System.Xml.XmlElement element) [0x00000] in <filename unknown>:0 
+  at ResourceManager.LoadMeleeWeaponResource (System.Xml.XmlDocument doc) [0x00000] in <filename unknown>:0 
+  at ResourceManager.LoadInternalResourceFiles () [0x00000] in <filename unknown>:0 
+  at Engine.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IslandGenerator.cs -> GenerateShowcase()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IslandGenerator.cs -> GenerateIsland()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[Island Generator] - Generating fresh map
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IslandGenerator.cs -> GenerateIslandTrunk()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Generating New Island (0)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Before island has been generated
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Refreshing Cached pos before spawning
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+"UI/Camera/CenterAnochor/FlagEditor/Panel/ClearButton" has nothing for UIButtonColor to color
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+"UI/Camera/CenterAnochor/FlagEditor/Panel/ResetToDefaultButton" has nothing for UIButtonColor to color
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Ingame settings init things
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music volume slider value from playerprefs: 0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music Volume Chaged Event!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music volume changed! 0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music Volume Chaged Event!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+nope
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Received stats and achievements from Steam
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Initialize Logo
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+The image effect Main Camera (DepthOfField34) has been disabled as it's not supported on the current platform.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Game Slot 1 Selected
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+start
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+done
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Load Game 100% -> Elapsed time: 74ms
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+ShipData.cs -> RefreshCachedPositions()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Engine.cs -> OnGameLoaded()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Current island is null, disabling island grid
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+PlaySound() -> Playing looping sound 'ship'
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Re-scanning pathfinding graphs!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Creating grid of ship blocks from Ship
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Map dimensions: 32, 32
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+125
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Tavern
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+WeaponsShop
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+FoodShop
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Mayor
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[WeaponTemplate].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at Equips.GenerateWeapon (Boolean melee, Int32 rarity, Int32 unit_type, Int32 randomizer) [0x00000] in <filename unknown>:0 
+  at PirateData.Randomize (PirateTypes type, Int32 team, Int32 level) [0x00000] in <filename unknown>:0 
+  at PirateData..ctor (PirateTypes type, System.String name, Int32 team, Int32 level) [0x00000] in <filename unknown>:0 
+  at IslandGenerator.GenerateIslandPirates (.IslandData island) [0x00000] in <filename unknown>:0 
+  at IslandGenerator.GenerateCharacters (.IslandData island) [0x00000] in <filename unknown>:0 
+  at IslandGenerator.GenerateIsland (IslandTypes type, Int32 _x, Int32 _y, Boolean FullGenerate, Int32 difficulty) [0x00000] in <filename unknown>:0 
+  at STATE+<GenerateWorldEnhanced>c__Iterator40.MoveNext () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+PlaySound() -> Playing looping sound 'gulls'
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+PlaySound() -> Playing looping sound 'ship'
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+OnGameOver()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Captain died!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+StoreStats - success
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+GAME OVER EXIT
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+Could not terminate pathfinding thread[0] in 50ms, trying Thread.Abort
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 2686,597168 ms
+Total system RAM: 3668 MiB
+Destroying dublicate GA_SystemTracker - only one is allowed per scene!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 15323.
+Total: 17,705000 ms (FindLiveObjects: 0,723000 ms CreateObjectMapping: 0,535000 ms MarkObjects: 15,276000 ms  DeleteObjects: 1,056000 ms)
+
+Error parsing xml string file Default: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.String].Add (System.String key, System.String value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error parsing xml string file English: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]].Add (System.String key, System.Collections.Generic.Dictionary`2 value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error parsing xml string file Finnish: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]].Add (System.String key, System.Collections.Generic.Dictionary`2 value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error parsing xml string file French: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]].Add (System.String key, System.Collections.Generic.Dictionary`2 value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error parsing xml string file German: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]].Add (System.String key, System.Collections.Generic.Dictionary`2 value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error parsing xml string file Italian: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]].Add (System.String key, System.Collections.Generic.Dictionary`2 value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Error parsing xml string file Spanish: 'An element with the same key already exists in the dictionary.'   at System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]].Add (System.String key, System.Collections.Generic.Dictionary`2 value) [0x00000] in <filename unknown>:0 
+  at Language.LoadStringFiles () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Attempting to load external translation files
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Executable directory resolves to '/home/robin/.local/share/Steam/steamapps/common/Pixel Piracy'
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Skipping external string file loading; folder not found
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+FormatException: Unknown char: .
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at QDUtilities.FromXmlElement (System.Object obj, System.Xml.XmlElement element) [0x00000] in <filename unknown>:0 
+  at ResourceManager.LoadMeleeWeaponResource (System.Xml.XmlDocument doc) [0x00000] in <filename unknown>:0 
+  at ResourceManager.LoadInternalResourceFiles () [0x00000] in <filename unknown>:0 
+  at Engine.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IslandGenerator.cs -> GenerateShowcase()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IslandGenerator.cs -> GenerateIsland()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[Island Generator] - Generating fresh map
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IslandGenerator.cs -> GenerateIslandTrunk()
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Generating New Island (0)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Before island has been generated
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Refreshing Cached pos before spawning
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+"UI/Camera/CenterAnochor/FlagEditor/Panel/ClearButton" has nothing for UIButtonColor to color
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+"UI/Camera/CenterAnochor/FlagEditor/Panel/ResetToDefaultButton" has nothing for UIButtonColor to color
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Ingame settings init things
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music volume slider value from playerprefs: 0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music Volume Chaged Event!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music volume changed! 0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Music Volume Chaged Event!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+nope
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/LinuxStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+

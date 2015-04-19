@@ -1,0 +1,15 @@
+[Removed Associations]
+image/png=wine-extension-png.desktop;
+image/jpeg=wine-extension-jfif.desktop;wine-extension-jpe.desktop;
+
+[Added Associations]
+image/png=eog.desktop;
+image/jpeg=eog.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-J466TX.desktop;
+message/rfc822=userapp-Thunderbird-J466TX.desktop;
+application/x-extension-eml=userapp-Thunderbird-J466TX.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-J466TX.desktop
+message/rfc822=userapp-Thunderbird-J466TX.desktop
+application/x-extension-eml=userapp-Thunderbird-J466TX.desktop

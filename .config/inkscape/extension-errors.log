@@ -1,0 +1,26 @@
+L'extension « LaTeX » n'a pas été chargée, car une dépendance est manquante.
+Dépendance :
+  type : executable
+  emplacement : chemin
+  chaîne : pstoedit
+
+L'extension « Win32 Vector Print » n'a pas été chargée, car l'extension ne fonctionne qu'avec Windows. C'est le résultat d'un fichier .inx incorrect pour cette extension. Un fichier .inx incorrect peut être du à un problème d'installation d'Inkscape.
+L'extension « Sketch Input » n'a pas été chargée, car une dépendance est manquante.
+Dépendance :
+  type : executable
+  emplacement : chemin
+  chaîne : skconvert
+
+L'extension « DXF Output » n'a pas été chargée, car une dépendance est manquante.
+Dépendance :
+  type : executable
+  emplacement : chemin
+  chaîne : pstoedit
+  description : pstoedit doit être installé pour être exécuté; consultez le site http://www.pstoedit.net/pstoedit
+
+L'extension « XFIG Input » n'a pas été chargée, car une dépendance est manquante.
+Dépendance :
+  type : executable
+  emplacement : chemin
+  chaîne : fig2dev
+

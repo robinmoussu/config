@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<subtitles>
+  <subtitle id="0">
+    <StartTime>1</StartTime>
+    <Text>So, Christmas Duck. Christmas Duck is a fan favorite.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>5</StartTime>
+    <Text>He's kind of a mascot, I guess, and I think that's partly 'cause it's a weird concept, a Christmas Duck, and partly because it's the first unique thing you that encounter in the game.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>20</StartTime>
+    <Text>It kind of personifies, a little character. But the thing is, Christmas Duck was not planned.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>26</StartTime>
+    <Text>When we were starting the project we didn't have a 3D modeler, because Kate came on a couple of months after we started, and we needed a bunch of 3D models, so I was going through the Unity Asset Store.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>40</StartTime>
+    <Text>I was going through the list, and I saw this "Christmas Duck". And I was like "What is this...? OK."</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>45.5</StartTime>
+    <Text>And I grabbed it and we used it as a test object to set up the system where you can grab stuff and carry it around.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>52.5</StartTime>
+    <Text>And then I ended up saying "All right, we've got this Christmas Duck, I'll hide the key under it."</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>57</StartTime>
+    <Text>And instead of replacing the free model with a totally different thing, we just made a real version of it.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>63.5</StartTime>
+    <Text>Karla modeled it and Kate textured it, and we kept it in the game.</Text>
+  </subtitle>
+    <subtitle id="0">
+    <StartTime>69.5</StartTime>
+    <Text>And we're glad, 'cause he's everybody's little friend. Good ol' Christmas Duck.</Text>
+  </subtitle>
+</subtitles>

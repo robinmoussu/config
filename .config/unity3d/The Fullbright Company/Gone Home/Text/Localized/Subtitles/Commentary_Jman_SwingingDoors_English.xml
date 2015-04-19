@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<subtitles>
+  <subtitle id="0">
+    <StartTime>1</StartTime>
+    <Text>The doors are actually one of the hardest things in the game to get working correctly, and I know there’s still some bugs existing with the doors actually, but it’s a surprisingly hard problem,</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>12</StartTime>
+    <Text>which is why most video games just have doors that kind of slide away into nothingness or open in strange ways or don’t, you know, let you interact fully with doors, but of course in a house like in Gone Home,</Text>
+  </subtitle>
+   <subtitle id="0">
+    <StartTime>24</StartTime>
+    <Text>a realistic house, it’s important that everything be as natural as possible. The one concession we made to video gaminess is that the doors all swing both ways</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>34</StartTime>
+    <Text>which never happens in a real house, but it’s necessary to prevent the player trapping themselves in some strange state</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>43</StartTime>
+    <Text></Text>
+  </subtitle>
+</subtitles>

@@ -1,0 +1,14 @@
+2015/04/16-01:36:07.951 18018 Reusing MANIFEST /home/robin/.config/chromium/Default/Session Storage/MANIFEST-000091
+2015/04/16-01:36:07.951 18018 Recovering log #142
+2015/04/16-01:36:07.953 18018 Level-0 table #144: started
+2015/04/16-01:36:07.971 18018 Level-0 table #144: 93063 bytes OK
+2015/04/16-01:36:07.989 18018 Delete type=0 #142
+2015/04/16-01:36:07.990 18042 Compacting 4@0 + 1@1 files
+2015/04/16-01:36:08.012 18042 Generated table #146: 2 keys, 145 bytes
+2015/04/16-01:36:08.012 18042 Compacted 4@0 + 1@1 files => 145 bytes
+2015/04/16-01:36:08.031 18042 compacted to: files[ 0 1 0 0 0 0 0 ]
+2015/04/16-01:36:08.031 18042 Delete type=2 #135
+2015/04/16-01:36:08.031 18042 Delete type=2 #138
+2015/04/16-01:36:08.032 18042 Delete type=2 #133
+2015/04/16-01:36:08.032 18042 Delete type=2 #141
+2015/04/16-01:36:08.032 18042 Delete type=2 #144

@@ -1,0 +1,38 @@
+40m0(Build:3)
+Element does not exist and cannot be created: "layout-cache"
+Rethrow
+Element does not exist and cannot be created: "documentsignatures.xml"
+Rethrow
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "sc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1123: Begin
+
+Rethrow
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1325: SaveAs/Export
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1338: Locking
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1391: Storing in own format.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1442: Save as own format.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1459: Thumbnail creation.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1473: Preserve versions.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1672: Medium commit.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1683: Storing is successful.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/sfxbasemodel.cxx:3105: Storing succeeded!
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/sfxbasemodel.cxx:1529: storeSelf
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1123: Begin
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1210: Save
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1255: Save: Own to Own
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:1338: Locking
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/docfile.cxx:1169: 
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objstor.cxx:2552: 
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/objmisc.cxx:260: Resetting Error.
+/build/libreoffice-fresh/src/libreoffice-4.4.0.3/sfx2/source/doc/sfxbasemodel.cxx:1623: Storing failed!

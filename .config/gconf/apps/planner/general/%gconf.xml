@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="last_dir" mtime="1417773499" type="string">
+		<stringvalue>/home/robin/doc/cour/gestion_projet</stringvalue>
+	</entry>
+</gconf>

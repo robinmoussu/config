@@ -1,0 +1,829 @@
+pid 10558 != 10548, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/robin/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+process_set_termination_details: error looking up process handle 0x903
+ OpenGL 3.0 [3.0 Mesa 10.3.5]
+    Renderer: Mesa DRI Intel(R) Haswell Mobile 
+    Vendor:   Intel Open Source Technology Center
+    VRAM:     256 MB
+    Extensions: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_APPLE_packed_pixels GL_APPLE_vertex_array_object GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shader_atomic_counters GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_clear_buffer_object GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_invalidate_subdata GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_KHR_debug GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_multi_bind GL_ARB_seamless_cubemap_per_texture GL_ARB_texture_mirror_clamp_to_edge GL_ARB_vertex_type_10f_11f_11f_rev GL_EXT_shader_integer_mix GL_ARB_conditional_render_inverted GL_ARB_derivative_control 
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_framebuffer_sRGB GLX_EXT_create_context_es2_profile GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap GLX_INTEL_swap_event 
+Setting maxVSyncInterval to 4
+GL: disabling shadows on Intel 9xx (buggy)
+GL: disabling framebuffer blit, antialiasing, SRGB on Intel
+Total system RAM: 3668 MiB
+Initialize engine version: 4.2.1f4 (4d30acc925c2)
+Total system RAM: 3668 MiB
+AudioManager: Using PulseAudio: Default Output Device
+Begin MonoManager ReloadAssembly
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-UnityScript.dll (this message is harmless)
+Loading /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/uScriptRuntime.dll (this message is harmless)
+Loading /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/uScriptRuntime.dll into Unity Child Domain
+- Completed reload, in  0.066 seconds
+Default vsync count 0
+requesting resize 1600 x 900
+requesting fullscreen 1600 x 900 at 0 Hz
+Desktop is 1600 x 900 @ 60 Hz
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/System.dll (this message is harmless)
+Unsupported: Hidden/CameraMotionBlurDX11
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/steam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./steam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/steam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./libsteam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/steam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./steam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/steam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./libsteam_api
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/./libsteam_api.so
+Fallback handler could not load library /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Mono/x86_64/libsteam_api
+Changing real window size to 798 x 898
+Event Type Ignored: MapNotify
+Event Type Ignored: VisibilityNotify
+Changing real window size to 798 x 898
+Event Type Ignored: EnterNotify
+Changing real window size to 1600 x 900
+Setting up downscaled viewport at 798 x 898
+Changing real window size to 1600 x 900
+Event Type Ignored: FocusIn
+Changing real window size to 1600 x 900
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/Boo.Lang.dll (this message is harmless)
+No OptionsRefresher present!
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Detected settings: Fillrate: -1 ShaderLevel: 30 VideoMemory: 256 CPUCount: 4 SupportsShadows: False Fill need: 25
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Tried to push the same context MainMenuInputContext (InputContext) twice in a row. This probably wasn't intended, so it didn't happen. If it is intended, Johnnemann needs to fix this.
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Event Type Ignored: FocusIn
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1657)
+
+UnloadTime: 12.000000 ms
+Another save manager already exists, destroying SaveManager (UnityEngine.GameObject)
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Warning: The 'Default' state cannot be disabled.
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Another map already exists
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Another Game Options Manager already exists (GameOptionsObject (UnityEngine.GameObject)), destroying GameOptionsObject (UnityEngine.GameObject)
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 276 unused Assets to reduce memory usage. Loaded Objects now: 73605.
+Total: 31.702002 ms (FindLiveObjects: 7.847000 ms CreateObjectMapping: 1.384000 ms MarkObjects: 21.438002 ms  DeleteObjects: 0.914000 ms)
+
+No OptionsRefresher present!
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Event Type Ignored: FocusOut
+Event Type Ignored: ClientMessage
+Script tried to get bool value AtticOpen but it wasn't found
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Script tried to get bool value EastWingDoorOpen but it wasn't found
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Script tried to get bool value SamRoomTapePlayerOpen but it wasn't found
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Script tried to get bool value SamsRoomTV_On but it wasn't found
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Event Type Ignored: FocusIn
+uScript: [Detox.ScriptEditor.LogicNode] Subtitle start/stop
+
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Platform assembly: /home/robin/.local/share/Steam/steamapps/common/Gone Home/GoneHome_Data/Managed/System.Xml.dll (this message is harmless)
+Could not load resource /home/robin/.config/unity3d/The Fullbright Company/Gone Home/Text/Localized/Subtitles/Intro_English.xml using Resources.Load, trying filesystem for user file
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+FormatException: Unknown char: .
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at System.Convert.ToDouble (System.String value) [0x00000] in <filename unknown>:0 
+  at SubtitleManager.StartSubtitlePlayback (System.String Filename) [0x00000] in <filename unknown>:0 
+  at SubtitleManager.PlaySubtitleFromFile (System.String Filename) [0x00000] in <filename unknown>:0 
+  at uScriptAct_DisplaySubtitle.StartSubtitles (System.String Filename) [0x00000] in <filename unknown>:0 
+  at IntroOutro.Relay_StartSubtitles_217 () [0x00000] in <filename unknown>:0 
+  at IntroOutro.Relay_DrivenDelay_90 () [0x00000] in <filename unknown>:0 
+  at IntroOutro.Update () [0x00000] in <filename unknown>:0 
+  at IntroOutro_Component.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: 4294967295)
+
+uScript: [Detox.ScriptEditor.LogicNode] Subtitle start/stop
+
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Event Type Ignored: Expose
+Event Type Ignored: EnterNotify
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 10) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 11) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 12) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 13) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 14) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 17) Illegal value: '0.25, 0.5, 0, 0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 18) Illegal value: '0.5, 0.5, 0, 0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 22) Illegal value: '0.5, 0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 23) Illegal value: '0.5, 0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomControllerPreset (at 6) Illegal value: '0.03'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomControllerPreset (at 7) Illegal value: '0.49'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 10) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 11) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 12) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 13) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 14) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 17) Illegal value: '0.25, 0.5, 0, 0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 18) Illegal value: '0.5, 0.5, 0, 0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 22) Illegal value: '0.5, 0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 23) Illegal value: '0.5, 0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomControllerPreset (at 6) Illegal value: '0.03'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomControllerPreset (at 7) Illegal value: '0.49'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 10) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 11) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 12) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 13) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 14) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 17) Illegal value: '0.25, 0.5, 0, 0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 18) Illegal value: '0.5, 0.5, 0, 0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 22) Illegal value: '0.5, 0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomCameraPreset (at 23) Illegal value: '0.5, 0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomControllerPreset (at 6) Illegal value: '0.03'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/ZoomControllerPreset (at 7) Illegal value: '0.49'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 9) Illegal value: '0.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 11) Illegal value: '0.1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 13) Illegal value: '1.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 16) Illegal value: '0.0175'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 17) Illegal value: '0.5'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 18) Illegal value: '0.95'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 19) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 20) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 23) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 24) Illegal value: '0.25'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 25) Illegal value: '0.025'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 26) Illegal value: '0.01'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 27) Illegal value: '0.0'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 34) Illegal value: '1.5, 1'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultCameraPreset (at 35) Illegal value: '1.0, 0.75'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 6) Illegal value: '0.18'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 7) Illegal value: '0.42'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 10) Illegal value: '2.2'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Preset Error: UltimatePresets/DefaultControllerPreset (at 11) Illegal value: '0.465'
+ 
+(Filename: /BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/LinuxStandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Event Type Ignored: FocusOut
+Event Type Ignored: Expose
+Event Type Ignored: EnterNotify
+Event Type Ignored: FocusIn

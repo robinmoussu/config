@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<subtitles>
+  <subtitle id="0">
+    <StartTime>1</StartTime>
+    <Text>Put back is the feature that I’m happiest with in the game. It actually came about as a little bit of an accident. Playtesters told us they didn’t want to feel like some kind of</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>14</StartTime>
+    <Text>horrible person rummaging around this house and tossing everything on the floor. There wasn’t really any other option initially, that’s all you could do,</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>22</StartTime>
+    <Text> was sort of try and lob things back into place. So, you know, I had done some code before for placing turrets and things in other games where it will,</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>32</StartTime>
+    <Text>you know, arbitrarily orient an object to be perpendicular to a surface and all that sort of stuff. I told Steve that we’d have a lot of edge cases with that and it would take some time to implement, and uh,</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>45</StartTime>
+    <Text>temporarily I would just give him the ability to put objects that these things would kind of stick to in the game and we tried that, and it worked so well that we decided to keep that. And that’s where put back came from.</Text>
+  </subtitle>
+  <subtitle id="0">
+    <StartTime>66</StartTime>
+    <Text></Text>
+  </subtitle>
+</subtitles>

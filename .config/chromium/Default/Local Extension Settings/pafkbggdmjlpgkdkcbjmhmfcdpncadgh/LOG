@@ -1,0 +1,12 @@
+2015/04/18-11:37:37.245 29841 Reusing MANIFEST /home/robin/.config/chromium/Default/Local Extension Settings/pafkbggdmjlpgkdkcbjmhmfcdpncadgh/MANIFEST-000059
+2015/04/18-11:37:37.246 29841 Recovering log #109
+2015/04/18-11:37:37.247 29841 Level-0 table #111: started
+2015/04/18-11:37:37.259 29841 Level-0 table #111: 172 bytes OK
+2015/04/18-11:37:37.310 29841 Delete type=0 #109
+2015/04/18-11:37:37.318 29911 Compacting 4@0 + 0@1 files
+2015/04/18-11:37:37.318 29911 Compacted 4@0 + 0@1 files => 0 bytes
+2015/04/18-11:37:37.329 29911 compacted to: files[ 0 1 0 0 0 0 0 ]
+2015/04/18-11:37:37.329 29911 Delete type=2 #111
+2015/04/18-11:37:37.332 29911 Delete type=2 #105
+2015/04/18-11:37:37.332 29911 Delete type=2 #108
+2015/04/18-11:37:37.332 29911 Delete type=2 #102

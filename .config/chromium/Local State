@@ -1,0 +1,108 @@
+{
+   "app_list": {
+      "app_launch_count": 0,
+      "last_app_launch_ping": "13073788800000000",
+      "last_launch_ping": "13073788800000000",
+      "launch_count": 0
+   },
+   "browser": {
+      "enabled_labs_experiments": [  ],
+      "last_redirect_origin": ""
+   },
+   "gl_renderer_string": "Mesa DRI Intel(R) Haswell Mobile ",
+   "gl_vendor_string": "Intel Open Source Technology Center",
+   "gl_version_string": "3.0 Mesa 10.5.2",
+   "hardware_acceleration_mode_previous": true,
+   "local_state": {
+      "multiple_profile_prefs_version": 7
+   },
+   "ntp": {
+      "promo_resource_cache_update": "1429349861.371558"
+   },
+   "policy": {
+      "last_statistics_update": "13073823456369253"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1429350254.367292,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "name": "Premier utilisateur",
+            "user_name": ""
+         }
+      },
+      "last_active_profiles": [  ],
+      "last_used": "Default"
+   },
+   "protocol_handler": {
+      "excluded_schemes": {
+         "afp": true,
+         "data": true,
+         "disk": true,
+         "disks": true,
+         "file": true,
+         "hcp": true,
+         "javascript": true,
+         "mailto": false,
+         "ms-help": true,
+         "news": false,
+         "nntp": true,
+         "shell": true,
+         "snews": false,
+         "vbscript": true,
+         "view-source": true,
+         "vnd": {
+            "ms": {
+               "radio": true
+            }
+         }
+      }
+   },
+   "rappor": {
+      "cohort_seed": 51,
+      "secret": "ysTEhG4N59dknt2UMQfV33yxXCNs4RjBFFnGvVvAzjDqNtZi3IrxMtPCvnmk5rZk"
+   },
+   "show-first-run-bubble-option": 0,
+   "shutdown": {
+      "num_processes": 2,
+      "num_processes_slow": 1,
+      "type": 1
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1417162905",
+      "launch_count": "46"
+   },
+   "user_experience_metrics": {
+      "low_entropy_source2": 420,
+      "session_id": 45,
+      "stability": {
+         "breakpad_registration_fail": 46,
+         "child_process_crash_count": 0,
+         "crash_count": 1,
+         "debugger_not_present": 46,
+         "execution_phase": 700,
+         "exited_cleanly": true,
+         "extension_renderer_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1429350398",
+         "launch_count": 7,
+         "launch_time_sec": "1429349856",
+         "page_load_count": 0,
+         "plugin_stats2": [  ],
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1220371200",
+         "stats_version": "41.0.2272.118-64-devel"
+      }
+   },
+   "was": {
+      "restarted": false
+   }
+}

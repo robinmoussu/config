@@ -88,7 +88,7 @@ export HISTSIZE=5000
 export SAVEHIST=5000
 
 #less
-export LESS=-r
+export LESS=-R
 
 # Un petit prompt sympa
 #autoload -U promptinit
@@ -109,6 +109,7 @@ alias view='vim +"set ro" +"setlocal nomodifiable"'
 
 #mapping clavier
 alias auie="setxkbmap -layout \"fr\""
+alias te="setxkbmap -layout \"perso(bepo_te)\""
 alias qsdf="setxkbmap -layout \"perso(bepo_perso)\""
 alias asdf="setxkbmap -layout \"perso(bepo_perso)\""
 alias bepo="setxkbmap -layout \"fr(bepo)\""
@@ -251,7 +252,7 @@ function x() {
     pwd > ~/.signet/save$1 > ~/.signet/save
 }
 
-source .zsh/completion/_ccd
+source ~/.zsh/completion/_ccd
 
 ### Projet GL
 #PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH

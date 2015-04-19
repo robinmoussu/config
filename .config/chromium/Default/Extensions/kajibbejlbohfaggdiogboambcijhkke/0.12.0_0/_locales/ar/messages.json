@@ -1,0 +1,746 @@
+{
+   "alert_header_error": {
+      "description": "Alert header of category error.",
+      "message": "خطأ !"
+   },
+   "alert_header_success": {
+      "description": "Alert header of category success.",
+      "message": "نجَح !"
+   },
+   "alert_header_warning": {
+      "description": "Alert header of category warning.",
+      "message": "تحذير !"
+   },
+   "alert_invalid_domainmatchpattern_warning": {
+      "description": "Alert header of category warning.",
+      "message": "يجب أن يبتدأ نمط تطابق النطاق بـ *."
+   },
+   "alert_no_domainmatchpattern_warning": {
+      "description": "Alert header of category warning.",
+      "message": "يجب أن يتوفر نمط تطابق نطاق واحد على الأقل,"
+   },
+   "clear_localstorage_confirm_message": {
+      "description": "The message of the confirmation dialog.",
+      "message": "هل تريد حذف جميع مفاتيح PGP التي تملك من تشكيلة هذا المتصفح ؟"
+   },
+   "clear_localstorage_confirm_title": {
+      "description": "The title of the confirmation dialog.",
+      "message": "تأكيد"
+   },
+   "cleartext_read_error": {
+      "description": "Cleartext message read error message: $1: error message.",
+      "message": "لم يتمكن من قراءة هذا النص الصِّرف للرسالة : $1"
+   },
+   "decrypt_popup_copy": {
+      "description": "Copy decrypted message to clipboard.",
+      "message": "نسخ في الحافظة"
+   },
+   "decrypt_popup_header": {
+      "description": "Header of decrypt popup.",
+      "message": "الرسالة"
+   },
+   "decrypt_popup_title": {
+      "description": "Title of decrypt popup.",
+      "message": "الرسالة التي فُكَّت تعميتها"
+   },
+   "dialog_keyid_label": {
+      "description": "Label for key ID.",
+      "message": "مُعرِّف المفتاح :"
+   },
+   "dialog_popup_close": {
+      "description": "Close decrypt popup.",
+      "message": "أَغلِق"
+   },
+   "editor_blur_warn": {
+      "description": "Warning for lost focus.",
+      "message": "تحذير. فُقد التركيز على مُحرِّر النصوص."
+   },
+   "editor_encrypt_button": {
+      "description": "Encrypt button.",
+      "message": "عَمِّ"
+   },
+   "editor_header": {
+      "description": "Header of editor popup.",
+      "message": "كتابة الرسالة"
+   },
+   "editor_sign_button": {
+      "description": "Sign button.",
+      "message": "وَقِّع"
+   },
+   "editor_transfer": {
+      "description": "Transfer button of editor popup.",
+      "message": "نقل"
+   },
+   "editor_transfer_unencrypted": {
+      "description": "Warning for unencrypted content.",
+      "message": "إنك تحاول نقل محتوى غير مُعمَّى إلى مزود خدمة البريد الإلكتروني."
+   },
+   "encrypt_dialog_add": {
+      "description": "Max 6 character.",
+      "message": "إضافة"
+   },
+   "encrypt_dialog_header": {
+      "description": "Header of encrypt dialog.",
+      "message": "عَمِّ ل :"
+   },
+   "encrypt_dialog_no_recipient": {
+      "description": "Error message if no recipient selected.",
+      "message": "يُرجى إضافة مُستلِم."
+   },
+   "encrypt_error": {
+      "description": "Error during encryption process.",
+      "message": "لم يتمكن من تعمية هذه الرسالة : $1"
+   },
+   "ext_description": {
+      "description": "Description of the extension.",
+      "message": "عَزِّز مزود بريدك الإلكتروني عبر الشبكة العنكبوتية بالتعمية من طرف لطرف. أَمِّن اتصالاتك بالبريد الإلكتروني وفق معيار OpenPGP."
+   },
+   "ext_name": {
+      "description": "Name of the extension.",
+      "message": "Mailvelope"
+   },
+   "form_busy": {
+      "description": "Form in busy state.",
+      "message": "مشغول"
+   },
+   "form_cancel": {
+      "description": "Cancel form button.",
+      "message": "إلغاء"
+   },
+   "form_clear": {
+      "description": "Clear form button.",
+      "message": "محو"
+   },
+   "form_continue": {
+      "description": "Continue form button.",
+      "message": "استمرار"
+   },
+   "form_ok": {
+      "description": "Ok form button.",
+      "message": "موافق"
+   },
+   "form_save": {
+      "description": "Save form button.",
+      "message": "حفظ"
+   },
+   "form_submit": {
+      "description": "Submit form button.",
+      "message": "إرسال"
+   },
+   "form_undo": {
+      "description": "Undo form button.",
+      "message": "تراجع"
+   },
+   "general_editor_plain": {
+      "description": "Editor option: plain text.",
+      "message": "النص الصِّرف"
+   },
+   "general_editor_rich": {
+      "description": "Editor option: rich text.",
+      "message": "مُحرِّر وافر للنصوص"
+   },
+   "general_editor_type": {
+      "description": "Label for editor options.",
+      "message": "اختيار مُحرِّر البريد الإلكتروني"
+   },
+   "general_primary_key_always": {
+      "description": "Label for primary private key option.",
+      "message": "أَضِف دائما المفتاح الأوَّلي إلى لائحة المُستلِمين. (اسمح بفك تعمية الرسائل المُرسلَة)"
+   },
+   "general_primary_key_label": {
+      "description": "Label for primary private key option.",
+      "message": "المفتاح السري الأوَّلي"
+   },
+   "header_warning": {
+      "description": "Header warning.",
+      "message": "تحذير !"
+   },
+   "key_details_title": {
+      "description": "The title of the key details dialog.",
+      "message": "تفاصيل المفتاح"
+   },
+   "key_export_clipboard": {
+      "description": "Copy to clipboard button.",
+      "message": "نسخ في الحافظة"
+   },
+   "key_export_create_file": {
+      "description": "Download file button.",
+      "message": "تنزيل"
+   },
+   "key_export_download": {
+      "description": "Download key link.",
+      "message": "تنزيل المفتاح"
+   },
+   "key_export_header": {
+      "description": "Export key dialog header.",
+      "message": "تصدير المفاتيح"
+   },
+   "key_export_too_large": {
+      "description": "Key export warning message.",
+      "message": "إن المفتاح أطول من أن يسَعَه المسار، استخدم بدل ذلك النسخ ثم اللصق."
+   },
+   "key_export_warning_private": {
+      "description": "Key export warning.",
+      "message": "إن هذا الملف يحوي أيضا مفاتيح سرية."
+   },
+   "key_gen_advanced_btn": {
+      "description": "Advanced key generation settings.",
+      "message": "متقدم"
+   },
+   "key_gen_another": {
+      "description": "Key import button",
+      "message": "وَلِّد أخرى..."
+   },
+   "key_gen_days": {
+      "description": "Key expires after time range",
+      "message": "الأيام"
+   },
+   "key_gen_error": {
+      "description": "Key generation error message",
+      "message": "حدث خطأ خلال توليد المفتاح."
+   },
+   "key_gen_expiration": {
+      "description": "Key expires after time range",
+      "message": "الصلاحية"
+   },
+   "key_gen_invalid_email": {
+      "description": "Error message.",
+      "message": "عنوان البريد الإلكتروني غير صالح"
+   },
+   "key_gen_key_size": {
+      "description": "Advanced key generation settings: Key size",
+      "message": "طول المفتاح"
+   },
+   "key_gen_months": {
+      "description": "Key expires after time range",
+      "message": "الشهور"
+   },
+   "key_gen_name_help": {
+      "description": "Help text for name field.",
+      "message": "الإسم الكامل لمالك المفتاح"
+   },
+   "key_gen_never": {
+      "description": "Key expires after time range",
+      "message": "أبدا"
+   },
+   "key_gen_pwd": {
+      "description": "Label for passphrase input field",
+      "message": "أَدخِل كلمة السر"
+   },
+   "key_gen_pwd_empty": {
+      "description": "Passphrase input field status",
+      "message": "كلمة السر فارغة"
+   },
+   "key_gen_pwd_match": {
+      "description": "Passphrase input field status",
+      "message": "كلمتا السر متطابقتان"
+   },
+   "key_gen_pwd_reenter": {
+      "description": "Label for passphrase input field",
+      "message": "أَعِد إدخال كلمة السر"
+   },
+   "key_gen_pwd_unequal": {
+      "description": "Passphrase input field status",
+      "message": "كلمتا السر غير متطابقتين"
+   },
+   "key_gen_success": {
+      "description": "Key generation success message",
+      "message": "وَلَّد المفتاح الجديد ثم استورده نحو مستودع المفاتيح"
+   },
+   "key_gen_wait_header": {
+      "description": "Wait dialog header",
+      "message": "يجري توليد المفاتيح..."
+   },
+   "key_gen_wait_info": {
+      "description": "Wait dialog info message",
+      "message": "يٌرجى الانتظار، قد يستلزم توليد المفتاحين عدة دقائق، وذلك حسب عدة عوامل كطول المفتاح مثلا."
+   },
+   "key_gen_years": {
+      "description": "Key expires after time range",
+      "message": "السنوات"
+   },
+   "key_import_another": {
+      "description": "Import another key button.",
+      "message": "استورد آخراً..."
+   },
+   "key_import_error": {
+      "description": "Import error alert.",
+      "message": "حدث خطأ في الاستيراد."
+   },
+   "key_import_exception": {
+      "description": "Import error alert.",
+      "message": "حدث استثناء خلال معالجة المفاتيح"
+   },
+   "key_import_file_select": {
+      "description": "File selection button label.",
+      "message": "حدِّد نص المفتاح الذي تريد استيراده"
+   },
+   "key_import_invalid_text": {
+      "description": "Import error alert.",
+      "message": "لم يعثر على نص صحيح للمفتاح"
+   },
+   "key_import_multiple_keys": {
+      "description": "Info message.",
+      "message": "لاستيراد عدة مفاتيح، ألصقها كلها هنا. سيتجاهل النصوص زائدة المحيطة بالمفاتيح."
+   },
+   "key_import_private_exists": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "تم استيراد الأجزاء السرية للمفتاح العلني المُسبَق $1 للمستخدم $2 نحو مستودع المفاتيح"
+   },
+   "key_import_private_read": {
+      "description": "Import error message. $1: error message",
+      "message": "تعذَّرت قراءة المفتاح السري : $1"
+   },
+   "key_import_private_success": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "تم استيراد المفتاح السري $1 للمستخدم $2 نحو مستودع المفاتيح"
+   },
+   "key_import_private_update": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "حُدِّث المفتاح السري $1 للمستخدم $2"
+   },
+   "key_import_public_read": {
+      "description": "Import error message. $1: error message",
+      "message": "تعذَّرت قراءة مفتاح علني : $1"
+   },
+   "key_import_public_success": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "تم استيراد المفتاح العلني $1 للمستخدم $2 نحو مستودع المفاتيح"
+   },
+   "key_import_public_update": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "حُدِّث المفتاح العلني $1 للمستخدم $2"
+   },
+   "key_import_textarea": {
+      "description": "Key import box.",
+      "message": "ألصق نص المفتاح هنا :"
+   },
+   "key_import_unable": {
+      "description": "Import error message: $1: error message.",
+      "message": "تعذَّر استيراد المفتاح بسبب الاستثناء : $1"
+   },
+   "keygrid_algorithm": {
+      "description": "Public-key algorithm of a PGP key.",
+      "message": "الخوارزمية"
+   },
+   "keygrid_all_keys": {
+      "description": "Selection of key type.",
+      "message": "كل"
+   },
+   "keygrid_creation_date": {
+      "description": "Creation date of a PGP key.",
+      "message": "تاريخ الإنشاء"
+   },
+   "keygrid_creation_date_short": {
+      "description": "Short creation date of a PGP key. Max. width: 90px",
+      "message": "أٌنشِيء"
+   },
+   "keygrid_delete": {
+      "description": "Max. 6 characters.",
+      "message": "حذف"
+   },
+   "keygrid_delete_confirmation": {
+      "description": "Delete confirmation dialog.",
+      "message": "هل تريد حقا حذف هذا المفتاح ؟"
+   },
+   "keygrid_display_all_keys": {
+      "description": "Export key menu.",
+      "message": "عرض جميع المفاتيح"
+   },
+   "keygrid_display_key_pair": {
+      "description": "Export key menu.",
+      "message": "عرض المفتاحين"
+   },
+   "keygrid_display_priv_key": {
+      "description": "Export key menu.",
+      "message": "عرض المفتاح السري"
+   },
+   "keygrid_display_pub_key": {
+      "description": "Export key menu.",
+      "message": "عرض المفتاح العلني"
+   },
+   "keygrid_expiration_date": {
+      "description": "Expiration date of a PGP key.",
+      "message": "تاريخ الانتهاء"
+   },
+   "keygrid_export": {
+      "description": "Export key.",
+      "message": "تصدير"
+   },
+   "keygrid_key_fingerprint": {
+      "description": "Unique string identifier for a PGP key.",
+      "message": "البصمة"
+   },
+   "keygrid_key_length": {
+      "description": "Key length of a PGP key.",
+      "message": "الطول"
+   },
+   "keygrid_key_not_expire": {
+      "description": "Expiration date of a PGP key not set.",
+      "message": "إن صلاحية المفتاح لا تنتهي"
+   },
+   "keygrid_key_type": {
+      "description": "The type of the key.",
+      "message": "النوع"
+   },
+   "keygrid_keyid": {
+      "description": "Key ID of a PGP key.",
+      "message": "مُعرِّف المفتاح"
+   },
+   "keygrid_no_subkeys": {
+      "description": "No subkeys of a PGP key found.",
+      "message": "المفاتيح التابعة غير متاحة"
+   },
+   "keygrid_primary_key": {
+      "description": "Primary key of a PGP key.",
+      "message": "المفتاح الأوَّلي"
+   },
+   "keygrid_private_keys": {
+      "description": "Selection of key type.",
+      "message": "المفاتيح السرية"
+   },
+   "keygrid_public_keys": {
+      "description": "Selection of key type.",
+      "message": "المفاتيح العلنية"
+   },
+   "keygrid_send_pub_key": {
+      "description": "Export key menu.",
+      "message": "إرسال المفتاح العلني بالبريد الإلكتروني"
+   },
+   "keygrid_signer_name": {
+      "description": "User ID of signer.",
+      "message": "المُوقِّع"
+   },
+   "keygrid_signer_unknown": {
+      "description": "Key of signer not available.",
+      "message": "مُوقِّع مجهول"
+   },
+   "keygrid_sort_type": {
+      "description": "Key grid sort selector.",
+      "message": "إظهار المفاتيح حسب النوع"
+   },
+   "keygrid_status_invalid": {
+      "description": "Validity status of a PGP key.",
+      "message": "غير صالح"
+   },
+   "keygrid_status_valid": {
+      "description": "Validity status of a PGP key.",
+      "message": "صالح"
+   },
+   "keygrid_subkeyid": {
+      "description": "Subkey ID of a PGP key.",
+      "message": "المُعرِّف"
+   },
+   "keygrid_subkeys": {
+      "description": "Subkeys of a PGP key.",
+      "message": "المفاتيح التابعة"
+   },
+   "keygrid_user_email": {
+      "description": "Email address in User ID of a PGP key.",
+      "message": "البريد الإلكتروني"
+   },
+   "keygrid_user_ids": {
+      "description": "User IDs of a PGP key.",
+      "message": "مُعرِّفات المستخدمين"
+   },
+   "keygrid_user_name": {
+      "description": "Name in User ID of a PGP key.",
+      "message": "الإسم"
+   },
+   "keygrid_userid": {
+      "description": "User ID of a PGP key.",
+      "message": "المُعرِّف"
+   },
+   "keygrid_userid_signatures": {
+      "description": "Signatures on User ID of a PGP key.",
+      "message": "التوقيعات"
+   },
+   "keygrid_validity_status": {
+      "description": "Validity status of a PGP key.",
+      "message": "الحالة"
+   },
+   "keyring_display_keys": {
+      "description": "Tab of keyring to display keys.",
+      "message": "عرض المفاتيح"
+   },
+   "keyring_export_keys": {
+      "description": "Tab of keyring to export keys.",
+      "message": "تصدير المفاتيح"
+   },
+   "keyring_generate_key": {
+      "description": "Tab of keyring to generate key.",
+      "message": "توليد المفاتيح"
+   },
+   "keyring_header": {
+      "description": "Header of the key ring.",
+      "message": "مستودع المفاتيح"
+   },
+   "keyring_import_keys": {
+      "description": "Tab of keyring to import keys.",
+      "message": "استيراد المفاتيح"
+   },
+   "keyring_migration_error": {
+      "description": "Tab of keyring to display migration errors.",
+      "message": "حدث خطأ خلال ترحيل المفاتيح"
+   },
+   "keyring_private": {
+      "description": "private key type",
+      "message": "خاص"
+   },
+   "keyring_public": {
+      "description": "public key type",
+      "message": "عمومي"
+   },
+   "keyring_public_private": {
+      "description": "public and private key types",
+      "message": "زوج المفتاحين العمومي والخاص"
+   },
+   "message_no_keys": {
+      "description": "Decrypt error message.",
+      "message": "لم يجد المفتاح السري في هذه الرسالة. مُعرِّفات المفاتيح السرية المطلوبة : $1"
+   },
+   "message_read_error": {
+      "description": "Message read error message: $1: error message.",
+      "message": "لم يتمكن من قراءة هذه الرسالة المُعمَّاة : $1"
+   },
+   "options_about": {
+      "description": "Options navigation: About.",
+      "message": "حول البرنامج"
+   },
+   "options_docu": {
+      "description": "Options navigation: Documentation.",
+      "message": "الدليل"
+   },
+   "options_home": {
+      "description": "Options navigation: Home.",
+      "message": "خيارات"
+   },
+   "options_settings": {
+      "description": "Options header: Settings.",
+      "message": "الإعدادات"
+   },
+   "options_title": {
+      "description": "Title of options page.",
+      "message": "خيارات Mailvelope"
+   },
+   "popup_active_off": {
+      "description": "Activity status of the extension.",
+      "message": "غير مُشغَّل"
+   },
+   "popup_active_on": {
+      "description": "Activity status of the extension.",
+      "message": "مُشغَّل"
+   },
+   "popup_add_page": {
+      "description": "Add page to watchlist.",
+      "message": "إضافة صفحة"
+   },
+   "popup_help": {
+      "description": "Open help dialog.",
+      "message": "مساعدة"
+   },
+   "popup_options": {
+      "description": "Open options dialog.",
+      "message": "خيارات"
+   },
+   "popup_reload": {
+      "description": "Reload all Mailvelope UI elements on page.",
+      "message": "إعادة التحميل"
+   },
+   "popup_remove_page": {
+      "description": "Remove page from watchlist.",
+      "message": "إزالة صفحة"
+   },
+   "pwd_dialog_cache_pwd": {
+      "description": "Checkbox label.",
+      "message": "تذكَّر كلمات السر لهذه الجلسة."
+   },
+   "pwd_dialog_header": {
+      "description": "Header of the password dialog.",
+      "message": "فك قفل المفتاح"
+   },
+   "pwd_dialog_password": {
+      "description": "Label for password.",
+      "message": "كلمة السر :"
+   },
+   "pwd_dialog_pwd_please": {
+      "description": "Placeholder for password.",
+      "message": "يُرجى إدخال..."
+   },
+   "pwd_dialog_title": {
+      "description": "Title of the password dialog.",
+      "message": "مدخلة كلمة السر | Mailvelope"
+   },
+   "pwd_dialog_userid": {
+      "description": "Label for user ID.",
+      "message": "مُعرِّف المستخدم :"
+   },
+   "pwd_dialog_wrong_pwd": {
+      "description": "Password error message.",
+      "message": "كلمة السر غير صحيحة"
+   },
+   "reload_webmail_tab": {
+      "description": "Info message.",
+      "message": "يُرجى إنعاش لسان مزود خدمة البريد الإلكتروني (F5) لتفعيل هذه الإعدادات."
+   },
+   "save_attachment_as_message": {
+      "description": "Message in the attachment save dialog",
+      "message": "اختر المجلد الذي تريد أن تحفظ فيه المرفق."
+   },
+   "security_cache_header": {
+      "description": "Password cache header",
+      "message": "هل أتذكَّر كلمات السر خلال جلسات المتصفح ؟"
+   },
+   "security_cache_help": {
+      "description": "Help text for cache time.",
+      "message": "يجب أن يكون العدد ضمن نطاق 1-999"
+   },
+   "security_cache_off": {
+      "description": "Don't store password.",
+      "message": "لا."
+   },
+   "security_cache_on": {
+      "description": "Store password in memory for $1 minutes.",
+      "message": "نعم، احفظ في الذاكرة لمدة"
+   },
+   "security_cache_time": {
+      "description": "Store password in memory for $1 minutes.",
+      "message": "دقائق"
+   },
+   "security_char_code": {
+      "description": "Char code for security token",
+      "message": "رمز الحرف"
+   },
+   "security_char_help": {
+      "description": "Char code help",
+      "message": "يجب أن يكون الطول بمقدار 3 حروف."
+   },
+   "security_compose_external": {
+      "description": "Mail compose option",
+      "message": "في نافذة أخرى منفصلة لمُحرِّر النصوص والمنتمية إلى Mailvelope."
+   },
+   "security_compose_mail": {
+      "description": "Label for compose options",
+      "message": "أين تريد كتابة رسالتك ؟"
+   },
+   "security_compose_warn": {
+      "description": "Mail compose options warning",
+      "message": "إن هذا الإعداد يدهوِر مستوى أمان Mailvelope. قد يتمكن مزود خدمة البريد الإلكتروني من الوصول إلى رسالتك."
+   },
+   "security_compose_webmail": {
+      "description": "Mail compose option",
+      "message": "داخل مُحرِّر نصوص مزود خدمة البريد الإلكتروني."
+   },
+   "security_custom_color": {
+      "description": "Custom color for security token",
+      "message": "تخصيص اللون"
+   },
+   "security_display_decrypted": {
+      "description": "Label for display options",
+      "message": "أين تُعرَض الرسائل التي فُكَّت تعميتها ؟"
+   },
+   "security_display_inline": {
+      "description": "Decrypted message display option",
+      "message": "في صفحة مزود خدمة البريد الإلكتروني."
+   },
+   "security_display_popup": {
+      "description": "Decrypted message display option",
+      "message": "في نافذة منبثقة ومنفصلة عن Mailvelope."
+   },
+   "security_token_header": {
+      "description": "Security token header",
+      "message": "شارة الأمان"
+   },
+   "security_token_info": {
+      "description": "Security token help message",
+      "message": "إن شارة الأمان آلية لتحديد الهوية : كل مربعات حوار Mailvelope تعرض هذا الرمز المحدَّد من طرف المستخدم، أي أنها تكشف عن نفسها وأصولها."
+   },
+   "security_token_title": {
+      "description": "Security token title",
+      "message": "شارة تحديد الهوية"
+   },
+   "settings_general": {
+      "description": "Tab of options to display general settings.",
+      "message": "عام"
+   },
+   "settings_security": {
+      "description": "Tab of options to display security settings.",
+      "message": "الأمان"
+   },
+   "settings_watchlist": {
+      "description": "Tab of options to display list of supported mail providers.",
+      "message": "لائحة مزودي خدمة البريد الإلكتروني"
+   },
+   "sign_dialog_header": {
+      "description": "Header of sign dialog.",
+      "message": "وقِّع الرسالة بالمفتاح :"
+   },
+   "upload_attachment": {
+      "description": "Text in the upload attachment button of the message editor dialog",
+      "message": "إضافة مرفقات"
+   },
+   "verify_error": {
+      "description": "Error during verification process.",
+      "message": "لم يتمكن من التحقق من هذه الرسالة : $1"
+   },
+   "verify_result_error": {
+      "description": "Verfiy signature error. Wrong signature of [userid].",
+      "message": "توقيع غير صحيح ل"
+   },
+   "verify_result_success": {
+      "description": "Verfiy signature succeeded.",
+      "message": "مُوقَّع من طرف"
+   },
+   "verify_result_warning": {
+      "description": "Verfiy signature warning.",
+      "message": "وُقِّع بواسطة مفتاح مجهول"
+   },
+   "watchlist_command_cancel": {
+      "description": "Cancel changes in watchlist.",
+      "message": "إلغاء التغييرات"
+   },
+   "watchlist_command_create": {
+      "description": "Create entry in watchlist.",
+      "message": "إضافة تسجيلة جديدة"
+   },
+   "watchlist_command_edit": {
+      "description": "Edit entry in watchlist.",
+      "message": "تحرير"
+   },
+   "watchlist_command_save": {
+      "description": "Save changes in watchlist.",
+      "message": "حفظ التغييرات"
+   },
+   "watchlist_delete_confirmation": {
+      "description": "Mesage in the watchlist delete confirmation dialog.",
+      "message": "هل تريد حقا حذف الموقع التالي من لائحة المشاهدات ؟"
+   },
+   "watchlist_expose_api": {
+      "description": "Expose API to Webmailer.",
+      "message": "API"
+   },
+   "watchlist_record_title": {
+      "description": "Title of the watchlist editor dialog.",
+      "message": "تسجيل لائحة المشاهدات"
+   },
+   "watchlist_title_active": {
+      "description": "Entry in watchlist is active.",
+      "message": "نشيط"
+   },
+   "watchlist_title_frame": {
+      "description": "Web domain URL match pattern of site in watchlist.",
+      "message": "نمط تطابق النطاق"
+   },
+   "watchlist_title_scan": {
+      "description": "Scan status of site in watchlist.",
+      "message": "الحالة"
+   },
+   "watchlist_title_site": {
+      "description": "Site in watchlist.",
+      "message": "الموقع"
+   },
+   "word_or": {
+      "description": "Separate list of elements.",
+      "message": "أو"
+   }
+}

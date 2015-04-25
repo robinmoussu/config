@@ -322,7 +322,7 @@ exec i3-msg restart
 
 
 #exec-always candybar
-exec feh --bg-center ~/Images/wallpaper/magic-wallpaper-1.jpg
+exec feh --bg-center ~/Images/wallpaper/magic-wallpaper-1.png
 
 exec touchegg &
 exec synclient TapButton1=0
@@ -333,3 +333,4 @@ exec synclient HorizTwoFingerScroll=1
 exec xrdb -merge ~/.Xresources
 exec redshift &
 exec touchegg &
+exec xcompmgr -c -f -n

@@ -49,6 +49,8 @@ alias mplayerfb='mplayer -vo fbdev -vf scale=1024:768'
 export GREP_COLOR=31
 alias grep='grep --color=auto'
 alias gitdate='git commit -am "$(date)"; git push'
+# vim
+alias nv='nvim'
 
 
 alias -s pdf=zathura
@@ -229,7 +231,7 @@ function ps1_text_color() {
 }
 
 function ps1_git_home() {
-    (git rev-parse --show-toplevel | sed -e "s-$(pwd)-✔-g" | rev | cut -d / -f 1 | rev) 2>/dev/null
+    (git rev-parse --show-toplevel | sed -e "s-$(pwd)-✔-g" -e "s-${HOME}-~-" | rev | cut -d / -f 1 | rev) 2>/dev/null
 }
 
 precmd function prompt() {

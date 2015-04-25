@@ -41,6 +41,7 @@
         Bundle 'osyo-manga/vim-over'
         Bundle 'justinmk/vim-sneak'
         "Bundle 'FredKSchott/covim'
+        Bundle 'vim/textformat'
 
         " Added
         Bundle 'nelstrom/vim-visual-star-search'
@@ -170,7 +171,7 @@
     " }
 
     " Arduino {
-        Bundle 'jplaut/vim-arduino-ino'
+        "Bundle 'jplaut/vim-arduino-ino'
     " }
 
 " }
@@ -290,7 +291,8 @@
     " }
 
     " LanguageTool {
-        let g:languagetool_jar = "~/documents/LanguageTool-2.7/languagetool.jar"
+        let g:languagetool_jar  = "~/documents/LanguageTool-2.7/languagetool.jar"
+        let g:languagetool_lang = 'fr'
     " }
 
     " vim-headerguard {

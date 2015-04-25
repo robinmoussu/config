@@ -6,7 +6,7 @@
 [webui]
 	autoupdate = true
 [alias]
-    graph =  log --graph --pretty=format:'%C(auto)%h %aN:%d %s+%+b%+N'
+    graph =  log --graph --pretty=format:'%C(auto)%h %aN:%d %s%+b%+N'
     integrate = "!f() { git merge --no-ff $1~ -m \"$(git log -n1 --pretty=format:%B $1)\"; }; f"
 
     st = status

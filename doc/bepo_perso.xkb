@@ -16,16 +16,16 @@ partial alphanumeric_keys
 xkb_symbols "bepo_invert_number" {
 
     // First row
-    key <AE01> { [         1,        quotedbl ] };
-    key <AE02> { [         2,   guillemotleft ] };
-    key <AE03> { [         3,  guillemotright ] };
-    key <AE04> { [         4,       parenleft ] };
-    key <AE05> { [         5,      parenright ] };
-    key <AE06> { [         6,              at ] };
-    key <AE07> { [         7,            plus ] };
-    key <AE08> { [         8,           minus ] };
-    key <AE09> { [         9,           slash ] };
-    key <AE10> { [         0,        asterisk ] };
+    key <AE01> { type[group1] = "FOUR_LEVEL", [         1,        quotedbl ] };
+    key <AE02> { type[group1] = "FOUR_LEVEL", [         2,   guillemotleft ] };
+    key <AE03> { type[group1] = "FOUR_LEVEL", [         3,  guillemotright ] };
+    key <AE04> { type[group1] = "FOUR_LEVEL", [         4,       parenleft ] };
+    key <AE05> { type[group1] = "FOUR_LEVEL", [         5,      parenright ] };
+    key <AE06> { type[group1] = "FOUR_LEVEL", [         6,              at ] };
+    key <AE07> { type[group1] = "FOUR_LEVEL", [         7,            plus ] };
+    key <AE08> { type[group1] = "FOUR_LEVEL", [         8,           minus ] };
+    key <AE09> { type[group1] = "FOUR_LEVEL", [         9,           slash ] };
+    key <AE10> { type[group1] = "FOUR_LEVEL", [         0,        asterisk ] };
 
 };
 

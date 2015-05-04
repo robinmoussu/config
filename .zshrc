@@ -246,15 +246,26 @@ precmd function prompt() {
 
 PS1=$(prompt)
 
-function ccd() {
+function :e() {
     [ -r ~/.signet/save$1 ] && cd "$(cat ~/.signet/save$1)" || echo >&2 "Le signet $1 n'existe pas"
 }
 
-function x() {
+function :w() {
     pwd > ~/.signet/save$1 > ~/.signet/save
 }
 
-source ~/.zsh/completion/_ccd
+function :q() {
+    exit
+}
+
+function :wq() {
+    :w
+    :q
+}
+
+:e
+
+source ~/.zsh/completion/_:e
 
 ### Projet GL
 #PATH=$PATH:$HOME/doc/cour/gl/4MMPGL/bin:$PATH

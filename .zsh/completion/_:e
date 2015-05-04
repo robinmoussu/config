@@ -1,0 +1,13 @@
+if [[ -n ${ZSH_VERSION-} ]]; then
+    autoload -U +X bashcompinit && bashcompinit
+fi
+
+function _:e() {
+    local cur
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    COMPREPLY=( $HOME/.signet/save${cur}* )
+    COMPREPLY=( a ${COMPREPLY[@]#$HOME/.signet/save} )
+    return 0
+}
+
+complete -F _:e :e

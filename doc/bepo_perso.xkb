@@ -1,0 +1,101 @@
+partial alphanumeric_keys
+xkb_symbols "overlay" {
+
+    key <PRSC> { type[group1] = "ONE_LEVEL", [ VoidSymbol ], actions = [ SetControls(controls=Overlay1) ] };
+
+    key <AC02> {overlay1=<LEFT>};
+    key <AC03> {overlay1=<DOWN>};
+    key <AD03> {overlay1=<UP>  };
+    key <AC04> {overlay1=<RGHT>};
+    key <AD02> {overlay1=<HOME>};
+    key <AD04> {overlay1=<END> };
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "bepo_invert_number" {
+
+    // First row
+    key <AE01> { [         1,        quotedbl ] };
+    key <AE02> { [         2,   guillemotleft ] };
+    key <AE03> { [         3,  guillemotright ] };
+    key <AE04> { [         4,       parenleft ] };
+    key <AE05> { [         5,      parenright ] };
+    key <AE06> { [         6,              at ] };
+    key <AE07> { [         7,            plus ] };
+    key <AE08> { [         8,           minus ] };
+    key <AE09> { [         9,           slash ] };
+    key <AE10> { [         0,        asterisk ] };
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "deplace_modificateur" {
+
+    include "keypad(oss)"
+
+    key <CAPS> { type[group1] = "FOUR_LEVEL", [ ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Lock, ISO_Level3_Lock ] };
+    key <BKSL> { type[group1] = "FOUR_LEVEL", [ ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Lock, ISO_Level3_Lock ] };
+    key <LALT> { type[group1] = "TWO_LEVEL", [ Shift_L, Caps_Lock ] };
+    key <RALT> { type[group1] = "TWO_LEVEL", [ Shift_R, Caps_Lock ] };
+
+    key <LFSH> { type[group1] = "ONE_LEVEL", [ Alt_L ] };
+    key <RTSH> { [        ccedilla,     Ccedilla,   dead_cedilla, dead_belowcomma ] }; // ç Ç ¸ ,
+
+    key <LWIN> { [ Meta_L ] };
+    key <PRSC> { [ Meta_R ] };
+
+    modifier_map Mod4 { <META>, Meta_L, Meta_R };
+    modifier_map Shift   { Shift_L, Shift_R };
+    modifier_map Lock    { Caps_Lock }; // caps lock
+    modifier_map Control { Control_L, Control_R };
+    modifier_map Mod5    { ISO_Level3_Shift }; // altgr
+    modifier_map Mod3    { ISO_Level5_Shift }; // Level5
+};
+
+partial alphanumeric_keys
+xkb_symbols "right_hand_sign" {
+    // duplication des signes utiles en altgr main-droite
+    key <AD07> { [               v,            V,      parenleft                 ] }; // v V ˇ
+    key <AD08> { [               d,            D,     parenright,            ETH ] }; // d D ð Ð
+    key <AD09> { [               l,            L,    bracketleft                 ] }; // l L /
+    key <AD10> { [               j,            J,   bracketright,          U0132 ] }; // j J ĳ Ĳ
+
+    key <AC07> { [               t,            T,           plus,           less ] }; // t T þ Þ
+    key <AC08> { [               s,            S,          minus,        greater ] }; // s S ß ẞ
+    key <AC09> { [               r,            R,          slash,      trademark ] }; // r R ® ™
+    key <AC10> { [               n,            N,       asterisk                 ] }; // n N ~
+};
+
+partial alphanumeric_keys
+xkb_symbols "bepo_perso" {
+
+    include "keypad(oss)"
+    include "fr(bepo)"
+    // include "perso(overlay)"
+    include "perso(bepo_invert_number)"
+    include "perso(deplace_modificateur)"
+    include "perso(right_hand_sign)"
+
+    name[Group1]= "French (Bepo, ergonomic, Dvorak way, number with direct access)";
+};
+
+partial alphanumeric_keys
+xkb_symbols "bepo_te" {
+
+    include "keypad(oss)"
+    include "fr(bepo)"
+    // include "perso(overlay)"
+    // include "perso(bepo_invert_number)"
+    // include "perso(deplace_modificateur)"
+
+    name[Group1]= "French (Bepo, ergonomic, Dvorak way, number with direct access)";
+
+    key <RTSH> { [               m,            M,    dead_macron,      masculine ] }; // m M ̄ º
+    key <AC11> { [               f,            F,    dead_ogonek,    ordfeminine ] }; // f F ̨ ª
+    key <LSGT> { type[group1] = "ONE_LEVEL", [ Escape ] };
+    key <TAB>  { type[group1] = "TWO_LEVEL", [ Tab,  ISO_Left_Tab ] };
+    key <BKSP> { type[group1] = "ONE_LEVEL", [ BackSpace ] };
+};
+
+

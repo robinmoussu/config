@@ -333,4 +333,3 @@ exec synclient HorizTwoFingerScroll=1
 exec xrdb -merge ~/.Xresources
 exec redshift &
 exec touchegg &
-exec xcompmgr -c -f -n

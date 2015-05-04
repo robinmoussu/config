@@ -179,17 +179,18 @@
 " General {
     source ~/.vimrc.general
 
-    colorscheme darkblack
-    highlight Visual       ctermfg=red       ctermbg=black
-    highlight VisualNOS    ctermfg=red       ctermbg=grey
-    highlight Search       ctermfg=blue      ctermbg=black
-    highlight IncSearch    ctermfg=blue      ctermbg=black
-    highlight ErrorMsg     ctermfg=black     ctermbg=Red guifg=White guibg=Red
-    highlight StatusLine   ctermfg=37        ctermbg=black
-    highlight StatusLineNC ctermfg=37        ctermbg=black
-    highlight WildMenu     ctermfg=Lightgray ctermbg=black
-    highlight TabLineSel   ctermfg=Lightgray ctermbg=black
-    highlight Normal       ctermfg=94     ctermbg=none
+    colorscheme molokai
+    "colorscheme darkblack
+    "highlight Visual       ctermfg=red       ctermbg=black
+    "highlight VisualNOS    ctermfg=red       ctermbg=grey
+    "highlight Search       ctermfg=blue      ctermbg=black
+    "highlight IncSearch    ctermfg=blue      ctermbg=black
+    "highlight ErrorMsg     ctermfg=black     ctermbg=Red guifg=White guibg=Red
+    "highlight StatusLine   ctermfg=37        ctermbg=black
+    "highlight StatusLineNC ctermfg=37        ctermbg=black
+    "highlight WildMenu     ctermfg=Lightgray ctermbg=black
+    "highlight TabLineSel   ctermfg=Lightgray ctermbg=black
+    "highlight Normal       ctermfg=94     ctermbg=none
 " }
 
 " Autocomand {

@@ -14,3 +14,7 @@
     co = checkout
 [core]
 	pager = less -RFX
+[help]
+    autocorrect = 1
+[color]
+	ui = auto

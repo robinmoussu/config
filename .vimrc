@@ -39,7 +39,7 @@
         Bundle 'mhinz/vim-signify'
         "Bundle 'tpope/vim-abolish.git'
         Bundle 'osyo-manga/vim-over'
-        Bundle 'justinmk/vim-sneak'
+        "Bundle 'justinmk/vim-sneak'
         "Bundle 'FredKSchott/covim'
         Bundle 'vim/textformat'
 
@@ -229,7 +229,7 @@
 
 " Key (re)Mappings {
     
-    source ~/.vimrc.bepo
+    "source ~/.vimrc.bepo
 
     let mapleader = '_'
     nnoremap <Leader>rr :w<CR> :wa\|source ~/.vimrc <CR>
@@ -257,24 +257,24 @@
 
     " Sneak {
         " 1-character enhanced 't'
-        nmap j <Plug>Sneak_t
-        nmap J <Plug>Sneak_T
+        "nmap j <Plug>Sneak_t
+        "nmap J <Plug>Sneak_T
         " visual-mode
-        xmap j <Plug>Sneak_t
-        xmap J <Plug>Sneak_T
+        "xmap j <Plug>Sneak_t
+        "xmap J <Plug>Sneak_T
         " operator-pending-mode
-        omap j <Plug>Sneak_t
-        omap J <Plug>Sneak_T
+        "omap j <Plug>Sneak_t
+        "omap J <Plug>Sneak_T
 
         " 1-character enhanced 'f'
-        nmap f <Plug>Sneak_f
-        nmap F <Plug>Sneak_F
+        "nmap f <Plug>Sneak_f
+        "nmap F <Plug>Sneak_F
         " visual-mode
-        xmap f <Plug>Sneak_f
-        xmap F <Plug>Sneak_F
+        "xmap f <Plug>Sneak_f
+        "xmap F <Plug>Sneak_F
         " operator-pending-mode
-        omap f <Plug>Sneak_f
-        omap F <Plug>Sneak_F
+        "omap f <Plug>Sneak_f
+        "omap F <Plug>Sneak_F
     " }
 
 " }
@@ -601,4 +601,4 @@
 " to fix
 "unmap ;bc
 
-call Custom_key_on()
+"call Custom_key_on()

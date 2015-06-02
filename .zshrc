@@ -52,6 +52,28 @@ alias gitdate='git commit -am "$(date)"; git push'
 # vim
 alias nv='nvim'
 
+function lless() {
+    unalias less
+    if test -t 1; then
+        pygmentize 2>/dev/null -g "$@" | \less
+    else
+        less "$@"
+    fi
+    alias less='lless'
+}
+alias less='lless'
+
+function ccat() {
+    if test -t 1; then
+        pygmentize 2>/dev/null -g "$@"
+    else
+        unalias cat
+        cat "$@"
+        alias cat='ccat'
+    fi
+}
+alias cat='ccat'
+
 
 alias -s pdf=zathura
 
@@ -263,8 +285,6 @@ function :wq() {
     :q
 }
 
-:e
-
 source ~/.zsh/completion/_:e
 
 ### Projet GL
@@ -302,8 +322,8 @@ EOF
 
 #estrell
 
-export LUSTRE_INSTALL=~/doc/cour/modèle_du_temps_et_du_parallélisme/lustre-v4-III-c-linux64
-source $LUSTRE_INSTALL/setenv.sh
+#export LUSTRE_INSTALL=~/doc/cour/modèle_du_temps_et_du_parallélisme/lustre-v4-III-c-linux64
+#source $LUSTRE_INSTALL/setenv.sh
 
 mkcd() {
     mkdir $1

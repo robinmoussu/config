@@ -1,17 +1,17 @@
 #!/bin/sh
 lock() {
-    i3lock -c 000000
+    i3lock -i ~/Images/wallpaper/lock.png && xset dpms force off
 }
 
 case "$1" in
     lock)
-        lock && systemctl suspend
+        lock
         ;;
     logout)
         i3-msg exit
         ;;
     suspend)
-        systemctl suspend
+        systemctl suspend && lock
         ;;
     hibernate)
         lock && systemctl hibernate

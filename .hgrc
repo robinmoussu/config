@@ -1,6 +1,16 @@
+[ui]
+username = Robin Moussu <robin.moussu+git@gmail.com>
+
 [extensions]
 color =
 histedit =
 mq =
 progress =
 rebase =
+purge =
+pager =
+
+[pager]
+pager = LESS='FRSXQ' less
+quiet = True
+attend = outgoing,incoming,diff,status,log,qdiff,blame,annotate,pdiff,glog

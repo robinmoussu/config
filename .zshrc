@@ -310,14 +310,14 @@ source ~/.zsh/completion/_:e
 #    mvn test -Dmaven.test.failure.ignore && success || faillure
 #}
 
-ponysay << EOF
-Coucou,
-           ___     ___   ____   o
-           ¶  \   /   \  |   \     |\  |      |
-           ¶__/   |   |  |___/  §  | \ |      |
-           ¶  \   |   |  |   \  §  |  \|      |
-           ¶   \  \___/  |___/  §  |   |      o
-EOF
+#ponysay << EOF
+#Coucou,
+           #___     ___   ____   o
+           #¶  \   /   \  |   \     |\  |      |
+           #¶__/   |   |  |___/  §  | \ |      |
+           #¶  \   |   |  |   \  §  |  \|      |
+           #¶   \  \___/  |___/  §  |   |      o
+#EOF
 
 
 #estrell
@@ -330,3 +330,4 @@ mkcd() {
     cd $1
 }
 
+export PATH="$PATH:/home/robin/.gem/ruby/2.2.0/bin"

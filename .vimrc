@@ -14,6 +14,7 @@
     " Setup Bundle Support {
         " The next three lines ensure that the ~/.vim/bundle/ system works
         filetype off
+        " #set rtp+=~/.vim/bundle/Vundle.vim
         set rtp+=~/.vim/bundle/vundle
         call vundle#rc()
     " }
@@ -64,6 +65,7 @@
         Bundle 'xolox/vim-reload'
         Bundle 'xolox/vim-misc'
         Bundle 'drmikehenry/vim-headerguard'
+        Plugin 'airblade/vim-gitgutter'
         if executable('ctags')
             set tags=./tags;/
             Bundle 'majutsushi/tagbar'
@@ -177,8 +179,6 @@
 " }
 
 " General {
-    source ~/.vimrc.general
-
     colorscheme molokai
     "colorscheme darkblack
     "highlight Visual       ctermfg=red       ctermbg=black

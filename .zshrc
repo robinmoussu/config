@@ -310,14 +310,14 @@ source ~/.zsh/completion/_:e
 #    mvn test -Dmaven.test.failure.ignore && success || faillure
 #}
 
-ponysay << EOF
-Coucou,
-           ___     ___   ____   o
-           ¶  \   /   \  |   \     |\  |      |
-           ¶__/   |   |  |___/  §  | \ |      |
-           ¶  \   |   |  |   \  §  |  \|      |
-           ¶   \  \___/  |___/  §  |   |      o
-EOF
+#ponysay << EOF
+#Coucou,
+           #___     ___   ____   o
+           #¶  \   /   \  |   \     |\  |      |
+           #¶__/   |   |  |___/  §  | \ |      |
+           #¶  \   |   |  |   \  §  |  \|      |
+           #¶   \  \___/  |___/  §  |   |      o
+#EOF
 
 
 #estrell
@@ -329,6 +329,8 @@ mkcd() {
     mkdir $1
     cd $1
 }
+
+export PATH="$PATH:/home/robin/.gem/ruby/2.2.0/bin"
 
 export SYSTEMCROOT=/home/robin/doc/cour/tlm/installation/systemc-2.3.1
 export PATH=/home/robin/doc/cour/tlm/installation/microblaze/bin/:"$PATH"

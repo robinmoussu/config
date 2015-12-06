@@ -27,15 +27,16 @@ workspace_auto_back_and_forth yes
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec terminology #xterm
 bindsym $mod+Shift+Return exec urxvt -e ranger
 
 # kill focused window
 bindsym $mod+d kill
 
 # start dmenu (a program launcher)
-bindsym $mod+Shift+D exec dmenu_run
-bindsym $mod+l exec synapse
+#bindsym $mod+Shift+D exec dmenu_run
+#bindsym $mod+l exec synapse
+bindsym $mod+l exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -173,19 +174,20 @@ bindsym $mod+BackSpace exec sh ~/.i3/to_elsewhere.sh && i3-msg workspace back_an
 bindsym $mod+v scratchpad show
 bindsym $mod+Shift+V move scratchpad
 
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+o restart
-# reload the configuration file
-bindsym $mod+Shift+O reload
 
 # exit
-set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (Shift+s) - bepo(b), perso(p), azerty(a)
+set $mode_system SYSTEM : lock (l), logout (e), suspend (s), hibernate (h), reboot (r), shutdown (S) - in-place (o), reload (O) - bepo(b), perso(p), azerty(a)
 mode "$mode_system" {
     bindsym l exec --no-startup-id ~/.i3/exit.sh lock; mode "default"
     bindsym e exec --no-startup-id ~/.i3/exit.sh logout; mode "default"
     bindsym s exec --no-startup-id ~/.i3/exit.sh suspend; mode "default"
     bindsym h exec --no-startup-id ~/.i3/exit.sh hibernate; mode "default"
     bindsym r exec --no-startup-id ~/.i3/exit.sh reboot; mode "default"
+
+    # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+    bindsym o restart; mode "default"
+    # reload the configuration file
+    bindsym Shift+O reload; mode "default"
 
     bindsym a exec setxkbmap fr; mode "default"
     bindsym b exec setxkbmap fr bepo; mode "default"
@@ -245,8 +247,12 @@ mode "$sound" {
 }
 bindsym $mod+j mode "$sound"
 
+# multimedia keys
 bindsym XF86MonBrightnessUp   exec xbacklight -set $( echo "$(xbacklight)  / 0.7" | bc )
 bindsym XF86MonBrightnessDown exec xbacklight -set $( echo "$(xbacklight)  * 0.7" | bc )
+bindsym XF86AudioLowerVolume   exec pulseaudio-ctl down 10
+bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up   10
+bindsym XF86AudioMute exec pulseaudio-ctl mute
 
 set $screen SCREEN : osd down (c and t), osd up(s and r), arandr (a), TapButton1 on (u) / off (i), int(n), ext(é), ext+int(è), presentation(p)
 mode "$screen" {
@@ -299,9 +305,9 @@ bar {
     status_command i3status
     #status_command i3status | dzen2 -fg white -bg black -ta r -y 1065 -w 1366 -fn "-*-terminus-*-*-*-*-13-*-*-*-*-*-*-*" -dock
     #status_command candybar
-    mode hide
     #mode invisible
-    hidden_state hide
+    mode hide
+    #hidden_state hide
     #position top
     #workspace_buttons no
 }

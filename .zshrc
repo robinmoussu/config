@@ -330,3 +330,6 @@ mkcd() {
     cd $1
 }
 
+export SYSTEMCROOT=/home/robin/doc/cour/tlm/installation/systemc-2.3.1
+export PATH=/home/robin/doc/cour/tlm/installation/microblaze/bin/:"$PATH"
+export CROSS_COMPILE=microblaze-unknown-linux-gnu-

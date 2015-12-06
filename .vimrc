@@ -179,6 +179,8 @@
 " }
 
 " General {
+    source ~/.vimrc.general
+
     colorscheme molokai
     "colorscheme darkblack
     "highlight Visual       ctermfg=red       ctermbg=black

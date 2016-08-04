@@ -14,7 +14,12 @@
     co = checkout
 [core]
 	pager = less -RFX
+	editor = vim
 [help]
     autocorrect = 1
 [color]
 	ui = auto
+[merge]
+	conflictstyle = diff3
+[rerere]
+	enabled = true

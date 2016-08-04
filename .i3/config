@@ -9,13 +9,26 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# in case of emmergency
+# abcdefghijklmnopqrstuvwxyz-_?!$@()[]{}'"\
+# i3-msg restart
+
 #win key = Mod4, alt=Mod1
+set $alt Mod1
+set $win Mod4
+
 set $mod Mod4
 
 # Usual alt keymap
-bindsym Mod1+F2 exec synapse
-bindsym Mod1+Tab workspace next
-bindsym Mod1+Shift+Tab workspace prev
+bindsym $alt+F2 exec dmenu_run
+bindsym $alt+F4 kill
+
+bindsym $alt+Tab exec ~/.i3/focus_next.bash
+bindsym $alt+Shift+ISO_Left_Tab exec ~/.i3/focus_prev.bash
+
+bindsym $mod+Tab workspace next_on_output
+bindsym $mod+Shift+Tab workspace prev_on_output
+bindsym $mod+BackSpace workspace back_and_forth
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
@@ -29,7 +42,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 focus_follows_mouse no
-workspace_auto_back_and_forth yes
+workspace_auto_back_and_forth no
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal -e tmux new zsh
@@ -37,15 +50,15 @@ bindsym $mod+Return exec terminology #xterm
 bindsym $mod+Shift+Return exec urxvt -e ranger
 
 # kill focused window
-bindsym $mod+d kill
+bindsym $mod+Shift+Q kill
 
 #bindsym $mod+l exec synapse
 # start dmenu (a program launcher)
-bindsym $mod+Shift+L exec dmenu_run
+bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+l exec --no-startup-id i3-dmenu-desktop
+# bindsym $mod+l exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+c focus left
@@ -104,6 +117,17 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+# move worspace to another output
+bindsym $mod+Ctrl+C move workspace to output left
+bindsym $mod+Ctrl+T move workspace to output down
+bindsym $mod+Ctrl+S move workspace to output up
+bindsym $mod+Ctrl+R move workspace to output right
+bindsym $mod+Ctrl+Left  move workspace to output left
+bindsym $mod+Ctrl+Down  move workspace to output down
+bindsym $mod+Ctrl+Up    move workspace to output up
+bindsym $mod+Ctrl+Right move workspace to output right
+
+
 # move focused window
 bindsym $mod+Shift+C move left
 bindsym $mod+Shift+T move down
@@ -117,7 +141,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # enter fullscreen mode for the focused container
-bindsym $mod+e fullscreen
+bindsym $mod+f fullscreen
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+u layout stacking
@@ -137,47 +161,31 @@ bindsym $mod+p focus parent
 bindsym $mod+Shift+P focus child
 
 # switch to workspace
-bindsym $mod+f workspace 1
-bindsym $mod+h workspace 2
-bindsym $mod+g workspace 3
-bindsym $mod+q workspace 4
-bindsym $mod+apostrophe workspace 5
+bindsym $mod+quotedbl workspace 1
+bindsym $mod+guillemotleft workspace 2
+bindsym $mod+guillemotright workspace 3
+bindsym $mod+parenleft workspace 4
+bindsym $mod+parenright workspace 5
+bindsym $mod+at workspace 6
+bindsym $mod+plus workspace 7
+bindsym $mod+minus workspace 8
+bindsym $mod+slash workspace 9
+bindsym $mod+asterisk exec xdotool mousemove 960 1185; workspace 10
 
 bindsym $mod+equal workspace prev
 bindsym $mod+percent workspace next
 
 # move focused container to workspace
-bindsym $mod+Shift+F move container to workspace 1; workspace 1
-bindsym $mod+Shift+H move container to workspace 2; workspace 2
-bindsym $mod+Shift+G move container to workspace 3; workspace 3
-bindsym $mod+Shift+Q move container to workspace 4; workspace 4
-bindsym $mod+Shift+question move container to workspace 5; workspace 5
-
-# get selected workspace to current workspace
-bindsym $mod+1 workspace 11; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+2 workspace 12; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+3 workspace 13; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+4 workspace 14; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+5 workspace 15; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+6 workspace 16; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+7 workspace 17; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+8 workspace 18; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+9 workspace 19; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-bindsym $mod+0 workspace 20; focus parent; focus parent; focus parent; focus parent; focus parent; focus parent; move container to workspace back_and_forth; workspace back_and_forth
-
-# send workspace to elsewhere !
-bindsym $mod+Shift+quotedbl move container toworkspace 11
-bindsym $mod+Shift+guillemotleft move container toworkspace 12
-bindsym $mod+Shift+guillemotright move container toworspace 13
-bindsym $mod+Shift+parenleft move container toworkspace 14
-bindsym $mod+Shift+parenright move container toworkspace 15
-bindsym $mod+Shift+at move container toworkspace 16
-bindsym $mod+Shift+plus move cointaner toworkspace 17
-bindsym $mod+Shift+minus move container toworkspace 18
-bindsym $mod+Shift+slash move container toworkspace 19
-bindsym $mod+Shift+asterisk move container to workspace 20
-
-bindsym $mod+BackSpace exec sh ~/.i3/to_elsewhere.sh && i3-msg workspace back_and_forth
+bindsym $mod+Shift+1 move container to workspace 1; workspace 1
+bindsym $mod+Shift+2 move container to workspace 2; workspace 2
+bindsym $mod+Shift+3 move container to workspace 3; workspace 3
+bindsym $mod+Shift+4 move container to workspace 4; workspace 4
+bindsym $mod+Shift+5 move container to workspace 5; workspace 5
+bindsym $mod+Shift+6 move container to workspace 6; workspace 6
+bindsym $mod+Shift+7 move container to workspace 7; workspace 7
+bindsym $mod+Shift+8 move container to workspace 8; workspace 8
+bindsym $mod+Shift+9 move container to workspace 9; workspace 9
+bindsym $mod+Shift+0 move container to workspace 10; exec xdotool mousemove 960 1550; workspace 10
 
 #scratchpad
 bindsym $mod+v scratchpad show
@@ -198,8 +206,8 @@ mode "$mode_system" {
     # reload the configuration file
     bindsym Shift+O reload; mode "default"
 
-    bindsym a exec setxkbmap fr; mode "default"
-    bindsym b exec setxkbmap fr bepo; mode "default"
+    bindsym b exec setxkbmap fr; mode "default"
+    bindsym a exec setxkbmap fr bepo; mode "default"
     bindsym p exec setxkbmap perso bepo_perso; mode "default"
 
     bindsym Shift+s exec --no-startup-id ~/.i3/exit.sh shutdown, mode "default"
@@ -335,28 +343,34 @@ new_window 1pixel
 #smart_borders on
 
 # class                 border  backgr. text    indicator
-client.focused          #000000 #0000ff #111111 #000000
+client.focused          #000000 #0000ff #ffffff #000000
 client.focused_inactive #333333 #5f676a #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
 #for_window [class="Firefox"] hide_edge_borders both
 font pango:DejaVu Sans Mono 0
 
-exec setxkbmap perso bepo_perso
+exec setxkbmap fr bepo
 exec i3-msg restart
 #exec-always xcape -e 'Shift_L=space'
 
 
+bindsym $mod+w exec xdotool mousemove 960 1185; workspace 10; exec gnome-terminal -e "xfreerdp -d mathworks -o -u rmoussu -g 1920x1200 -x 80 --plugin cliprdr GNB-RMOUSSU"
+exec xautolock -time 3 -locker '~/.i3/exit.sh lock'
+workspace 10 output DP-1
+
 #exec-always candybar
 #exec feh --bg-center ~/Images/wallpaper/darkwood-plank.jpg
-exec feh --bg-center ~/Images/wallpaper/neon-lights-1z500.jpg
+#exec feh --bg-center ~/Images/wallpaper/neon-lights-1z500.jpg
 
-exec touchegg &
-exec synclient TapButton1=0
-exec synclient TapButton2=3
-exec synclient TapButton3=2
-exec syndaemon -i 0.5 -K -R -t&
-exec synclient HorizTwoFingerScroll=1
+#exec touchegg &
+#exec synclient TapButton1=0
+#exec synclient TapButton2=3
+#exec synclient TapButton3=2
+#exec syndaemon -i 0.5 -K -R -t&
+#exec synclient HorizTwoFingerScroll=1
 exec xrdb -merge ~/.Xresources
-exec redshift &
-exec touchegg &
+#exec redshift &
+#exec touchegg &
+exec xset -b
+exec ~/.screenlayout/default.sh

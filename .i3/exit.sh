@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    i3lock -i ~/Images/wallpaper/lock.png && xset dpms force off
+    setxkbmap fr bepo; xset dpms force off && i3lock -i ~/Pictures/wallpaper/lock_clone.png
 }
 
 case "$1" in

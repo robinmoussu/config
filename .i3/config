@@ -170,7 +170,7 @@ bindsym $mod+at workspace 6
 bindsym $mod+plus workspace 7
 bindsym $mod+minus workspace 8
 bindsym $mod+slash workspace 9
-bindsym $mod+asterisk exec xdotool mousemove 960 1185; workspace 10
+bindsym $mod+asterisk exec workspace 10
 
 bindsym $mod+equal workspace prev
 bindsym $mod+percent workspace next
@@ -185,7 +185,7 @@ bindsym $mod+Shift+6 move container to workspace 6; workspace 6
 bindsym $mod+Shift+7 move container to workspace 7; workspace 7
 bindsym $mod+Shift+8 move container to workspace 8; workspace 8
 bindsym $mod+Shift+9 move container to workspace 9; workspace 9
-bindsym $mod+Shift+0 move container to workspace 10; exec xdotool mousemove 960 1550; workspace 10
+bindsym $mod+Shift+0 move container to workspace 10; exec workspace 10
 
 #scratchpad
 bindsym $mod+v scratchpad show

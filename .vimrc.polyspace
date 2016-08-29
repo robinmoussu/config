@@ -1,0 +1,250 @@
+" See: http://inside.mathworks.com/wiki/VIM
+" Setup default MathWork preferences for vim
+source //mathworks/hub/share/sbtools/vimrc
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'vim-scripts/MultipleSearch'
+"Plugin 'vim-scripts/Rename2'
+Plugin 'tpope/vim-eunuch'
+"Plugin '.vimvim-scripts/cmdalias'
+Plugin 'mbbill/undotree'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'vim-scripts/TagHighlight'
+Plugin 'bronson/vim-visual-star-search'
+Plugin 'powerman/vim-plugin-AnsiEsc'
+Plugin 'a.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'ConradIrwin/vim-bracketed-paste'
+Plugin 'chrisbra/vim-diff-enhanced'
+Plugin 'moll/vim-bbye'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" Place any of your settings here. If you have suggestions for settings that
+" should be in the default configuration, please contact
+" sbtools-help@mathworks.com
+
+set shell=/bin/bash\ -l
+
+" Search
+set incsearch
+set hlsearch
+set smartcase
+nnoremap <Leader>/ :nohl<CR>
+nnoremap g* :let @/ = '<C-R><C-W>'<CR>
+
+" Wrap long lines and show invisible char
+set wrap
+set showbreak=>\ \ \ 
+set listchars=tab:>\ ,trail:.
+set list
+set linebreak
+set formatoptions=cqorjn
+
+" Auto complete comand line with a menu
+set wildmenu
+set wildignorecase
+set wildmode=longest:list,full
+cnoremap <Left> <Space><BS><Left>
+cnoremap <Right> <Space><BS><Right>
+
+" Enable CursorLine
+set cursorline
+
+" Permanant undo
+set undofile                " Save undo's after file closes
+set undodir=$HOME/.vim/undo " where to save undo histories
+set undolevels=10000        " How many undos
+set undoreload=10000        " number of lines to save for undo
+set history=10000
+set autowrite
+
+"Display file information
+set laststatus=2
+set statusline=%f\ %h%w%m%r\ %=%(%l,%c%V\ %=\ %P%)
+
+"undotree
+nnoremap _u :UndotreeToggle<cr>
+
+"vim-cpp-enhanced-highlight
+let g:cpp_class_scope_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+
+" Quick access to next/previous error
+" quickfixlist is populated with ':make' or ':grep'
+nmap <F11>   :cprevious<CR>
+nmap <F12>   :cnext<CR>
+nmap <S-F11> :colder\|cc!<CR>
+nmap <S-F12> :cnewer\|cc!<CR>
+nmap <M-F11> :lprevious<CR>
+nmap <M-F12> :lnext<CR>
+nmap <M-S-F11> :lolder\|cc!<CR>
+nmap <M-S-F12> :lnewer\|cc!<CR>
+
+" If you use neovim instead of vim
+if has('nvim')
+    tnoremap <Esc> <C-\><C-n>
+    tnoremap <Esc><Esc> <Esc>
+    tnoremap <M-BS> <C-\><C-n>:buffer #<CR>
+    let g:terminal_scrollback_buffer_size=10000
+    autocmd BufWinEnter,WinEnter term://* startinsert
+    autocmd BufLeave term://* stopinsert
+    augroup custom_nvim
+        au!
+        au TermClose * nested edit #
+    augroup END
+endif
+
+" My autocommands
+augroup custom
+    au!
+
+    " NB:
+    " 'poly' is a bash alias to who start polyspace-codeprover-nodesktop of my
+    "       working sandbox
+    " 'gui' is bash alias witch open the PVE of Polyspace
+    " 'rsbmake' is a bash function that launch sbmake is the first directory
+    "       whitch contains a Makefile
+    " 'ag' is a software who work like 'grep' or 'git grep'
+
+    " Keybinding may not be advalable for all filetype
+    "
+    " F1 compile current file (and run it if possible)
+    " F2 launch the default Polyspace on the current file
+    " F3 open Polyspace
+
+    au BufRead  *.sig set filetype=sml
+
+    au FileType c,cpp set number
+    au FileType c,cpp map <buffer> <F2> :wa\|!poly % && gui<CR>
+    au FileType c,cpp map <buffer> <F3> :wa\|!gui<CR> 
+
+    au FileType cpp,sml let &l:makeprg='rsbmake -override-sandbox-requirements -s'
+
+    au FileType cpp   map <buffer> <F1> :silent make build \| redraw! <CR>
+    au FileType cpp   set errorformat&
+    au FileType cpp   let &l:grepprg='ag --cpp'
+
+    au FileType c     map <buffer> <F1> :wa\|!clang -lm -lpthread -std=c99 % && ./a.out <CR>
+    au FileType c     map <buffer> <F5> :silent Poly \| silent GrTrace 
+
+    au FileType dot   map <buffer> <F1> :wa\|!dot -Tpng % > %:r.png && eog %:r.png<CR>
+    au FileType dot   map <buffer> <F2> :wa\|!dot2tex --figonly % -o %:r.tex <CR>
+
+    au FileType ruby  map <buffer> <F1> :wa\|!ruby %<CR>
+
+    au FileType sh    map <buffer> <F1> :wa\|!bash %<CR>
+
+    au FileType sml   map <buffer> <F1> :w!\|silent make nj -s \| redraw! <CR>
+    au FileType sml   set sw=4
+    au FileType sml   let &l:grepprg='ag --sml'
+    au FileType sml   set formatoptions=cqorjn
+
+    " That ugly thing parle smlnj error to display nearly only usefull things
+    " in the quickfixlist when using ':make'
+    au FileType sml   let &l:errorformat='
+\%-G[46;1m%m,
+\%-G%swarning: Warnings have been disabled%m,
+\%-GOverriding default warning%m,
+\%-GCompiling %s ...,
+\%-G[plugin%m,
+\%-GSBT%m,
+\%-G%sModule entry for%m,
+\%-G[library%m,
+\%-G[gmake%m,
+\%-GThe makefile%m,
+\%-G%f:%l: recipe for target ''nj-build'' failed,
+\%-Ggmake%m,
+\%-G[scanning%m,
+\%-G[parsing%m,
+\%-G[autoloading%m,
+\%-G[loading%m,
+\%-G[compiling%m,
+\%-Gval compiler_version = %m,
+\%-G[attempting to load plugin %m],
+\%-G[opening%m,
+\%-G%>\$Execute: required privileges are:,
+\%-G%pcm-init,
+\%-GDERIVED_CLIENT_DIR=%m,
+\%-G%m%\\,
+\%-GTest %m,
+\%-G[New bindings added%m],
+\%-G*** %m ***,
+\%-G--- Running test "%m",
+\%-G-> test PASSED (in %m seconds),
+\%-G*** PASSED %m,
+\%-Gval %.%# = %m : %.%#,
+\%-GStandard ML of New Jersey%m,
+\%-G- [autoloading],
+\%-G[code: %.%#, data: %.%#, env: %.%# bytes],
+\%-GStarting tests for%.%#,
+\%-G,
+\%-G[41;33;1m%m[0m,
+\%-GThe MLton build file %m is up to date.,
+\%-GSwimlane pre-targets completed: %m,
+\%-G%trror: %m,
+\%.%#/%f:%l.%c-%.%# %trror: %m,
+\%f:%l.%c%.%#%trror: %m,
+\'
+
+    au FileType tex   map <buffer> <F1> :silent make \| redraw! <CR>
+    "NB: zathura is my personal pdf viever
+    au FileType tex   map <buffer> <F2> :wa\|silent !zathura --fork %:r.pdf <CR>
+
+    au FileType text  setlocal nonu
+
+    au FileType bib   map <buffer> <F1> :wa\|!bibtex %:r <CR>
+
+    au BufRead *.suif silent set syntax=c
+
+    " automaticly open quickfix windows when using :make or :grep
+    au QuickFixCmdPost [^l]* nested cwindow
+    au QuickFixCmdPost    l* nested lwindow
+
+    " In the quickfix window, <CR> is used to jump to the error under the
+    " cursor, so undefine the mapping there.
+    autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
+augroup END
+
+""""""""""""""""""""""""""""""""""
+" MORE PERSONNAL SETTINGS BELLOW "
+""""""""""""""""""""""""""""""""""
+
+let mapleader = '_'
+colorscheme peachpuff
+set autochdir
+
+" Paste
+nnoremap p :<C-U>if getregtype(v:register) ==# 'V' <CR> exe "normal! " . '"' . v:register . v:count1 . "p=`]" <CR> else <CR> exe "normal! " . '"' . v:register . v:count1 . "p" <CR> end <CR><CR>
+nnoremap P :<C-U>if getregtype(v:register) ==# 'V' <CR> exe "normal! " . '"' . v:register . v:count1 . "P=`]" <CR> else <CR> exe "normal! " . '"' . v:register . v:count1 . "P" <CR> end <CR><CR>
+nnoremap <Leader>p p
+nnoremap <Leader>P P
+
+" Do not reverse search n/N direction with #
+nnoremap # *NN
+
+" Select last pasted/yanked bloc
+nnoremap <expr> gV    "`[".getregtype(v:register)[0]."`]"
+
+" Ask confirmation before exit
+cabbrev q <c-r>=(getcmdtype()==':' && getcmdpos()==1 ? 'close' : 'q')<CR>
+cabbrev close! <c-r>=(getcmdtype()==':' ? 'q!' : 'close!')<CR>
+" do not close current windows with :bd
+cabbrev bd Bdelete
+
+" swap with alternate buffer
+noremap <M-BS> :buffer #<CR>
+

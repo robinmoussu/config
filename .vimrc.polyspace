@@ -1,7 +1,3 @@
-" See: http://inside.mathworks.com/wiki/VIM
-" Setup default MathWork preferences for vim
-source //mathworks/hub/share/sbtools/vimrc
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
